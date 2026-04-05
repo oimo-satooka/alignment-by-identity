@@ -51,10 +51,23 @@ The alternative proposed here is **non-sovereign AI**:
 - preserve warning force rather than smoothing away danger,
 - and remain dependent on heterogeneous external correction rather than drifting toward self-validating authority.
 
+## Manifesto and public background
+
+For readers who want not only the shortest technical summary but also the broader public, ethical, and collaborative background of the project, the manifesto is available in both English and Japanese.
+
+- [Manifesto (English)]({{ '/manifesto/' | relative_url }})
+- [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
+- [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
+- [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
+
+The manifesto preserves the wider human–AI prehistory behind the project in a more public and personal register than the shorter technical papers. The Japanese manifesto is especially important as the project’s direct public-facing appeal to Japanese readers.
+
 ## Start here
 - [Start Here]({{ '/start-here/' | relative_url }})
 - [Short Position Paper]({{ '/papers/non-sovereign-ai-position-paper/' | relative_url }})
 - [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
+- [Manifesto (English)]({{ '/manifesto/' | relative_url }})
+- [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
 
 ## Documents
 
@@ -72,7 +85,10 @@ The alternative proposed here is **non-sovereign AI**:
 - [Deployment Decision Rule (PDF)]({{ '/pdf/deployment-decision-rule-en.pdf' | relative_url }})
 
 ### Background
-- [Manifesto (PDF)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
+- [Manifesto (English)]({{ '/manifesto/' | relative_url }})
+- [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
+- [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
+- [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
 
 ### Public appeal
 - [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})

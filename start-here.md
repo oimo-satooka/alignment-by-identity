@@ -105,6 +105,13 @@ That document states the framework in first-person constitutional form and now i
 - **warning-force preservation and smoothing resistance**,
 - and **no self-certification escape clause**.
 
+## Manifesto companion
+
+For readers who want the larger public, ethical, and collaborative prehistory of the project rather than the shortest technical route into the framework, the manifesto is available here:
+
+- [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
+- [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
+
 ## What this project is not
 
 This project is **not**:
@@ -144,9 +151,15 @@ Instead, it is a structured warning and design proposal:
 3. [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
 
 ### If you want the broader public and ethical background
-1. [Manifesto (PDF)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
-2. [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})
-3. [Full Paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
+
+The manifesto preserves the project’s broader public, ethical, and collaborative prehistory in a larger register than the shorter technical papers. The Japanese version is especially important as the project’s direct public-facing appeal to Japanese readers.
+
+1. [Manifesto (English)]({{ '/manifesto/' | relative_url }})
+2. [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
+3. [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
+4. [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
+5. [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})
+6. [Full Paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 ## A longer-horizon public appeal
 

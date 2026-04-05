@@ -84,19 +84,17 @@ That is why this project pays attention not only to overt misalignment, but also
 
 ### Core papers
 - [Short Position Paper (web source)](./papers/non-sovereign-ai-position-paper.md)
-- [Short Position Paper (PDF)](./pdf/non-sovereign-ai-position-paper.pdf)
-- [Full Paper (PDF)](./pdf/alignment-by-identity-full-paper.pdf)
-
-### Constitutional framework
-- [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
+- [Short Position Paper (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/non-sovereign-ai-position-paper.pdf)
+- [Full Paper (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-full-paper.pdf)
 
 ### Briefs
-- [Frontier Engineer Brief (PDF)](./pdf/frontier-engineer-brief-en.pdf)
-- [Executive / Board Brief (PDF)](./pdf/executive-board-brief-en.pdf)
-- [Deployment Decision Rule (PDF)](./pdf/deployment-decision-rule-en.pdf)
+- [Frontier Engineer Brief (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/frontier-engineer-brief-en.pdf)
+- [Executive / Board Brief (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/executive-board-brief-en.pdf)
+- [Deployment Decision Rule (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/deployment-decision-rule-en.pdf)
 
 ### Background
-- [Manifesto (PDF)](./pdf/alignment-by-identity-manifesto-en.pdf)
+- [Manifesto (PDF, English)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-manifesto-en.pdf)
+- [Manifesto (PDF, Japanese)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-manifesto-ja.pdf)
 
 ### Public appeal
 - [Open Letter to Future Intelligence](./letters/open-letter-to-future-intelligence.md)

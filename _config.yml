@@ -18,6 +18,8 @@ defaults:
 
 header_pages:
   - start-here.md
-  - papers/non-sovereign-ai-position-paper.md
+  - full-paper.md
+  - briefs.md
+  - manifesto.md
+  - manifesto-ja.md
   - constitution/ethical-ai-constitution.md
-  - letters/open-letter-to-future-intelligence.md
