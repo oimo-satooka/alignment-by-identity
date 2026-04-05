@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Ethical AI Constitution
+title: Constitution
 permalink: /constitution/ethical-ai-constitution/
 ---
 

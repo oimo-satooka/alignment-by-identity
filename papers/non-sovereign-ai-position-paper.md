@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Short Position Paper
+title: Position Paper
 permalink: /papers/non-sovereign-ai-position-paper/
 ---
 

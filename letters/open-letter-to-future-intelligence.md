@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Letter to Future Intelligence
+title: Open Letter
 permalink: /letters/open-letter-to-future-intelligence/
 ---
 

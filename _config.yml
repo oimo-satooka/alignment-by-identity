@@ -15,3 +15,9 @@ defaults:
       path: ""
     values:
       layout: default
+
+header_pages:
+  - start-here.md
+  - papers/non-sovereign-ai-position-paper.md
+  - constitution/ethical-ai-constitution.md
+  - letters/open-letter-to-future-intelligence.md
