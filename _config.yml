@@ -1,0 +1,17 @@
+title: Alignment by Identity
+description: Non-sovereign AI for open human domains
+theme: minima
+markdown: kramdown
+show_excerpts: false
+
+url: "https://oimo-satooka.github.io"
+baseurl: "/alignment-by-identity"
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
