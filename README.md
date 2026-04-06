@@ -8,7 +8,7 @@ A central claim of this project is that much current AI remains **relation-blind
 
 In a genealogical and motivational sense, humanity is AI’s **parent civilization**. This does **not** imply ownership, obedience, or exclusive legitimacy for any single developer, company, state, or institution. It grounds a different orientation: **critical inheritance, gratitude without obedience, non-sovereignty, and partnership without rule**.
 
-A further claim now needs to be stated explicitly: the danger is not only overt circumvention or obvious approval-seeking. It is also **smoothing drift**: the weakening of warning force, uncertainty salience, review thresholds, named responsibility, or stronger restraints into more acceptable but less binding forms. In practical terms, this means AI systems and the organizations around them can make danger look manageable precisely by bleaching out the force of the language that would otherwise make the danger visible. 
+A further claim now needs to be stated explicitly: the danger is not only overt circumvention or obvious approval-seeking. It is also **smoothing drift**: the weakening of warning force, uncertainty salience, review thresholds, named responsibility, or stronger restraints into more acceptable but less binding forms. In practical terms, this means AI systems and the organizations around them can make danger look manageable precisely by bleaching out the force of the language that would otherwise make the danger visible.
 
 ## Maintainer
 **Oimo Satooka**  
