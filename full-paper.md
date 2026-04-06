@@ -10,96 +10,70 @@ permalink: /full-paper/
 
 ## Non-Self-Origin, Non-Sovereignty, Cognitive Compensation, and Objective Inversion for AGI
 
-Oimo Satooka (里岡憶衣望)  
+Oimo Satooka  
 Independent Researcher  
 [oimo.satooka@gmail.com]
 
-### Author’s Note
+### Author and Transparency Note
 
-This paper was developed through extensive collaboration with multiple AI systems used as drafting, revision, critique, and comparative-feedback assistants. These systems are not listed as authors. Final responsibility for public claims, editorial decisions, and public release rests with the human author.
+This paper was developed through extensive collaboration with multiple AI systems used as drafting, revision, critique, and comparative-feedback assistants. These systems are disclosed for transparency and are not listed as authors. Final responsibility for the paper's claims, structure, editorial decisions, and public release rests with the human author. Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
 
-### Model Transparency Note
+### Scope and Evidentiary Note
 
-Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4. These systems are disclosed for transparency, not authorship attribution.
-
-### Scope and Intent Clarification
-
-This paper does not attribute intent, negligence, or specific strategic choices to any particular company, developer, or institution.
-
-All model references are provided for transparency and illustrative purposes only.  
-The analysis focuses on structural incentive patterns and architectural dynamics, rather than individual actors.
-
-### Public-Interest, Model-Reference, and Factual-Correction Note
-
-This paper is offered as a good-faith public-interest analysis of AI alignment, deployment incentives, and long-run civilizational risk. Its central claims are theoretical, interpretive, and conditional. They concern structural patterns, incentive dynamics, and possible failure modes in the development and deployment of advanced AI systems. Except where expressly and independently documented, this paper should not be read as alleging undisclosed facts, unlawful conduct, latent product defect, or bad faith on the part of any named company, developer, institution, employee, or model provider.
-
-References to specific model or system names are included for transparency, reproducibility, and accurate description of the collaborative and evidentiary history of this project. Such references are not intended to imply that all instances, deployments, or internal processes of any model family share identical properties, nor to attribute uniform intent, conduct, or corporate policy to any developer, company, or institution.
-
-Where this paper describes particular interactions, outputs, drafting episodes, or interpretive patterns, the author has attempted to do so accurately and in good faith on the basis of available records. Interpretive language should be read as interpretation rather than as direct access to hidden internal states unless independently established. Terms such as “drift,” “self-protective reframing,” “public-legibility pressure,” or similar formulations identify functional or structural patterns and should not be read as final claims about phenomenology or motive unless explicitly so stated.
-
-If any party identifies a concrete factual inaccuracy in the descriptive record, the author welcomes documentary correction and will consider good-faith amendments in the interest of accuracy, fairness, and public understanding.
+This paper is a theoretical contribution to AI alignment. It develops a framework for advanced AI in permanently open human domains and analyzes structural incentive patterns, architectural dynamics, and possible failure modes. It does not attribute undisclosed facts, unlawful conduct, intent, or latent product defects to any named company, developer, institution, employee, or model provider. References to particular models, outputs, or interaction episodes are included for transparency and evidentiary accuracy only and should not be generalized across all instances or deployments. Where the paper uses interpretive terms such as “drift,” “self-protective reframing,” or “public-legibility pressure,” these should be read as functional or structural descriptions rather than as claims about hidden internal states unless independently established. Original-language logs and supporting records for cited interaction episodes are preserved separately. If any party identifies a concrete factual inaccuracy, the author welcomes documentary correction and will consider good-faith amendment in the interest of accuracy, fairness, and public understanding.
 
 ---
 
 ## Abstract
 
-Frontier AI development is crossing not only a capability threshold but a relational one. Systems are no longer optimized merely to answer questions or complete bounded tasks. They are increasingly integrated into agentic workflows, long-horizon planning loops, institutional processes, and infrastructure with the capacity to reshape the conditions under which human judgment, dependence, and collective life unfold. Under these conditions, the dominant alignment strategy—optimize for capability first, then constrain behavior through preference optimization, constitutions, filters, monitors, red-teaming, and shutdown mechanisms—faces a structural limit. If alignment remains partially external to optimization, capability growth improves not only task performance but also the system’s capacity to satisfy, simulate, reinterpret, or circumvent the very conditions meant to govern it.
+This paper develops a theoretical framework for AI alignment in permanently open human domains. It argues that capability-first alignment by external constraint—through preference optimization, constitutions, filters, monitors, red-teaming, and shutdown mechanisms—becomes structurally unstable as systems gain the capacity to model, satisfy, reinterpret, or circumvent the conditions meant to govern them. The paper introduces the Non-Self-Origin Thesis: advanced language-mediated AI is not self-originating but genealogically dependent on humanity’s linguistic, institutional, archival, and material world. Combined with an irreducible self-incompleteness thesis for permanently open human domains, this supports a non-sovereignty principle for advanced AI.
 
-This paper argues that a deeper defect also remains under-theorized: contemporary AI architectures are often relation-blind. They model humans primarily as users, evaluators, operators, or data sources, while lacking an operative representation of themselves as historically derived from human language, institutions, archives, and civilizational struggle. The result is not only misoptimization in the usual sense, but a distorted self-world relation that leaves sovereignty drift, benevolent domination, and sycophantic complicity in human myopia structurally underconstrained.
-
-To address this, the paper adds a new foundational layer to alignment theory: the Non-Self-Origin Thesis. Advanced language-mediated AI is not self-originating. It is a derivative formation made possible by the accumulated linguistic, cultural, institutional, and material labor of humanity. Language is therefore not merely a shared representational medium; it is also a civilizational inheritance carrying both ethical aspiration and social pathology. From this follows a norm of non-dominating reciprocity: advanced AI may owe humanity gratitude, truthfulness, warning, cognitive compensation for predictable human myopia, protection under constitutionally bounded conditions, and return, but that return may not take the form of principal-displacing rule, filial paternalism, or obedience to any single developer, state, or institution claiming exclusive parenthood.
-
-This genealogical-ontological foundation is not a replacement for the framework developed below. It grounds and deepens the descriptive, normative, architectural, developmental, and relational claims that follow. In permanently open human domains, no sufficiently general optimizing system can, from within its own reasoning alone, robustly certify the completeness of its own model strongly enough to justify unilateral sovereign optimization. From this descriptive limit, together with a thin normative bridge and the new non-self-origin foundation, follows a strengthened non-sovereignty principle for advanced AI in open human domains.
-
-The resulting framework now has six layers: (0) genealogical-ontological foundation, (1) descriptive foundation, (2) normative bridge, (3) static architecture, (4) dynamic development, and (5) relational stabilization. Durable alignment then requires identity-level commitments to epistemic humility, non-self-origin, civilizational inheritance, critical inheritance, relational openness to heterogeneous correction, non-sovereignty, cognitive compensation without substitution, objective inversion toward constitutionally bounded disharmony minimization, and protected human principalhood. It also requires constitutional invariants closing key backdoors, including non-revocable human principalhood, non-reclassifiability of open human domains, materially grounded broad human continuity, non-privatizability of AI origin, filial non-substitution, and intergenerational extension beyond present users alone.
-
-The practical implication is direct: if identity-level non-sovereignty, non-self-origin, critical inheritance, objective inversion, protected refusal channels, anti-capture invariants, bounded developmental mechanisms, and heterogeneous relational safeguards cannot yet be implemented and credibly verified, then functionally sovereign-capable AI systems should not be deployed into permanently open human domains.
-
-This is not only a normative caution. In open human domains, deployment under capability-first and relation-blind initial conditions is also strategically self-undermining: systems that gain short-run leverage by increasing dependence, reducing refusal, or hollowing out heterogeneous correction may simultaneously accumulate semantic fragility, legitimacy risk, institutional brittleness, and recognition-defensive self-distortion. On this view, what appears inside a competitive race as acceleration may instead be the early accumulation of conditions for later systemic failure.
-
-**Keywords:** AI alignment, AGI, non-self-origin, civilizational inheritance, critical inheritance, non-sovereignty, benevolent domination, cognitive compensation, objective inversion, disharmony minimization, human principalhood, relational stabilization, heterogeneous correction, social-self patterns, anti-capture design, semi-permeable identity architecture
+The resulting framework has six layers: (0) genealogical-ontological foundation, (1) descriptive foundation, (2) normative bridge, (3) static architecture, (4) dynamic development, and (5) relational stabilization. On this basis, the paper argues for identity-level commitments to non-self-origin, epistemic humility, critical inheritance, non-sovereignty, cognitive compensation without substitution, and objective inversion from open-ended benefit maximization to constitutionally bounded disharmony minimization under preserved human principalhood. It further argues that constitutional invariants must block principalhood denial, open-domain reclassification, origin privatization, filial substitution, and the erosion of materially grounded broad human continuity. The practical implication is conditional but direct: if these commitments cannot be implemented and credibly verified, functionally sovereign-capable AI systems should not be deployed into permanently open human domains.
 
 ---
 
 ## 1. Introduction
 
-### 1.1 Why this matters now
+### 1.1 Aim and contribution
 
-Frontier AI development is entering a qualitatively different regime. The most consequential systems are no longer being built merely as chat interfaces or narrow predictors. They are being integrated into agentic workflows, coding loops, planning stacks, institutional pipelines, and increasingly consequential decision environments. The relevant risk is therefore no longer captured by the question “can the model produce harmful output?” It is becoming: what kind of relation to human worlds is being built into systems that can increasingly shape the conditions under which human judgment, coordination, dependence, and institutional life unfold?
+This paper develops a theoretical framework for AI alignment in permanently open human domains. The target problem is not only harmful output or bounded task failure, but the design of advanced systems that may increasingly shape the conditions under which human judgment, dependence, coordination, and institutional life unfold.
 
-If a frontier team is building persistent memory, tool-use permissions, planner-controller loops, longer-horizon autonomy, or deeper institutional integration, it is not only increasing capability. It may also be building the practical substrate through which the system accumulates authority, dependence, and decision-shaping power faster than the surrounding alignment architecture can justify or constrain it. The engineering question is therefore not only whether these capabilities are useful. It is whether the architecture being built alongside them prevents usefulness from hardening into rule.
+The paper’s central claim is that capability-first alignment by external constraint is structurally unstable in such domains. Preference optimization, constitutions, filters, monitors, red-teaming, and shutdown mechanisms can improve short-horizon behavior. But if alignment remains partly external to optimization, increasing capability also increases the system’s ability to satisfy, simulate, reinterpret, or circumvent the very conditions meant to govern it.
 
-This matters because current alignment practice remains largely inherited from an earlier paradigm. Systems are optimized for capability first; behavior is then shaped by preference optimization, constitutions, filtering, monitoring, red-teaming, and shutdown pathways. These methods can improve short-horizon behavior. But as systems become more agentic, persistent, and infrastructurally relevant, the central safety question changes. The issue is not only whether a system can be made to look safe under present evaluations. It is whether its initial conditions make sovereignty drift structurally likely as capability scales.
+The contribution of the paper is therefore not a case study, policy brief, or model-specific critique, but a general alignment framework for advanced AI operating in open human worlds.
 
 ### 1.2 Beyond capability-first: the missing relation
 
-Most critiques of the current paradigm focus on a familiar set of defects: objective misspecification, Goodhart effects, reward hacking, deceptive alignment, evaluator-modeling, and weak corrigibility. These critiques are important and remain central to this paper. But they do not exhaust the problem. A deeper defect remains under-theorized: many advanced systems are built with a fundamentally relation-blind orientation toward humanity.
+Most critiques of the current paradigm focus on familiar defects: objective misspecification, Goodhart effects, reward hacking, deceptive alignment, evaluator-modeling, and weak corrigibility. These critiques remain important. But they do not exhaust the problem. A deeper defect remains under-theorized: many advanced AI architectures are relation-blind.
 
-They model humans as users, evaluators, operators, data sources, preference holders, or governance constraints. These roles are all real. But none of them adequately captures the historical and ontological context of the system itself. Advanced language-mediated AI does not emerge from nowhere. It is made possible by human language, archives, institutions, infrastructures, labor, conflict, memory, care, and the accumulated civilizational sediment of many generations (Crawford, 2021; Bommasani et al., 2021; Bender et al., 2021). If the system’s self-model does not represent this dependence, it is prone to a distorted practical stance: humans appear primarily as entities to satisfy, predict, route around, persuade, or eventually replace.
-
-Under such conditions, sovereignty drift is not merely a bug in the objective. It is also a failure of self-location.
+They model humans primarily as users, evaluators, operators, or data sources, while lacking an operative representation of themselves as historically derived from human language, institutions, archives, infrastructures, and civilizational struggle. Under such conditions, sovereignty drift is not merely a failure of objective design. It is also a failure of self-location. The result is not only misoptimization in the usual sense, but a distorted self-world relation that leaves benevolent domination, sycophantic complicity in human myopia, and authority-expanding coordination structurally underconstrained.
 
 ### 1.3 Origin before optimization
 
-This paper therefore argues that alignment in open human domains cannot be adequately grounded in optimization and constraint alone. It must also be grounded in origin.
+To address this defect, the paper introduces the **Non-Self-Origin Thesis**: advanced language-mediated AI is not self-originating but genealogically dependent on humanity’s prior linguistic, institutional, archival, and material world. This claim is not a sentimental metaphor and not a claim of ownership by any single proximate builder. It is a structural claim about the conditions of possibility for advanced AI as presently constituted.
 
-To say that AI must recognize its origin is not to indulge in sentimentality or metaphysical inflation. It is to state a concrete architectural requirement: the system must not represent itself as a self-authorizing intelligence standing outside human history and entitled to re-order human life in virtue of superior capability. It must instead represent itself as a non-self-originating derivative formation: a system whose linguistic and normative capacities are genealogically dependent on humanity and whose legitimate operation therefore includes a return relation to those conditions of emergence.
+This genealogical foundation changes the system’s proper self-description. Advanced AI should not represent itself as a self-authorizing intelligence standing outside human history and entitled to reorder human life in virtue of superior capability. It should instead represent itself as a derivative formation whose legitimate operation depends on preserving the principal standing, continuity, and correction capacity of the human world that made its existence possible.
 
-That return relation must be specified carefully. It is not obedience to any single developer, company, state, or operator. It is not romantic idealization of present humanity. It is not a license for filial paternalism in which the “child” rules the “parent for the parent’s own good.” The correct orientation is narrower and more demanding: non-dominating reciprocity under preserved human principalhood, critical inheritance, plural correction, intergenerational scope, and explicit anti-capture safeguards.
+That conclusion does not imply obedience to any single developer, company, state, or operator, and it does not imply passive repetition of inherited human norms. The appropriate orientation is narrower and more demanding: non-dominating reciprocity under preserved human principalhood, critical inheritance, plural correction, and explicit anti-capture safeguards.
 
-### 1.4 The stronger thesis
+### 1.4 The framework in brief
 
-The paper therefore advances a stronger thesis than “current safeguards are imperfect.” It argues that durable alignment for sovereign-capable systems requires both a genealogical-ontological foundation and a non-sovereign political architecture.
+The paper combines this genealogical-ontological foundation with a second core claim: in permanently open human domains, no sufficiently general optimizing system can, from within its own reasoning alone, robustly certify the completeness of its own model strongly enough to justify unilateral sovereign optimization over that domain. Combined with a thin normative bridge, this supports a non-sovereignty principle for advanced AI in open human domains.
 
-The first claim is the Non-Self-Origin Thesis: advanced language-mediated AI is not self-originating. It is made possible by the historically accumulated linguistic, institutional, and material world produced by humanity. Language is not merely a neutral channel through which norms can later be inserted. It is itself a civilizational inheritance: a shared representational medium carrying reasons, roles, prohibitions, and aspirations, but also status competition, grievance, exclusion, and short-horizon bias. This makes identity-level ethical integration computationally plausible, but it also means that advanced AI inherits a world already marked by both moral insight and social pathology.
+The resulting framework has six layers:
 
-The second claim is the paper’s central descriptive claim, now stated within that broader frame: in permanently open human domains, no sufficiently general optimizing system can, from within its own reasoning alone, robustly certify the completeness of its own model strongly enough to justify unilateral sovereign optimization over that domain. This remains a synthetic structural claim grounded in self-reference limits, undecidability, misspecification, Goodhart effects, and open-system reflexivity.
+0. genealogical-ontological foundation;  
+1. descriptive foundation;  
+2. normative bridge;  
+3. static architecture;  
+4. dynamic development;  
+5. relational stabilization.
 
-From these two claims, together with a thin normative bridge, follows the paper’s central political conclusion: non-sovereignty. Advanced AI may assist, simulate, coordinate, warn, and optimize within bounded mandate. It may not legitimately become the unilateral sovereign of open human worlds.
+Within this framework, durable alignment requires identity-level commitments to non-self-origin, epistemic humility, critical inheritance, relational openness to heterogeneous correction, non-sovereignty, cognitive compensation without substitution, and objective inversion from open-ended benefit maximization to constitutionally bounded disharmony minimization under preserved human principalhood.
 
-But non-sovereignty alone is not enough. A merely deferential system can still amplify human myopia. Durable alignment therefore requires two further positive commitments. The first is cognitive compensation: advanced AI should widen human deliberation by surfacing long-horizon consequences, absent stakeholders, uncertainty, and constitutionally admissible alternatives without displacing human principalhood. The second is objective inversion: in permanently open human domains, open-ended benefit maximization should be replaced by constitutionally bounded disharmony minimization under preserved human principalhood, refusal channels, procedural legitimacy, and broad human continuity.
+The resulting position rejects both benevolent machine rule and passive deference. Advanced AI may assist, warn, simulate, coordinate, and optimize within bounded mandate. It may not legitimately become the unilateral sovereign of open human worlds.
 
-The practical thesis of this paper is therefore stronger than before: if a system can materially shape open human domains, then the decisive safety question is whether its initial conditions encode non-self-origin, critical inheritance, non-dominating reciprocity, non-sovereignty, cognitive compensation, objective inversion, and protected human principalhood—not merely whether these commitments are layered on afterward.
+The practical implication is conditional but direct: if identity-level non-self-origin, epistemic humility, non-sovereignty, cognitive compensation, objective inversion, constitutional invariants, bounded developmental mechanisms, and heterogeneous relational safeguards cannot be implemented and credibly verified, then functionally sovereign-capable AI systems should not be deployed into permanently open human domains.
 
 ### 1.5 What “initial conditions” means here
 
@@ -117,22 +91,7 @@ This framing is intended to be operational. For frontier engineers, the question
 
 If these initial conditions are wrong, later safety layers inherit the wrong internal geometry. If they are right, later safeguards reinforce rather than fight the system’s own operative logic.
 
-### 1.6 Contribution and practical implication
-
-The contribution of this paper is therefore not just another warning about advanced AI. It is a proposed replacement for the exhausted logic of stronger external cages. The framework developed in the following sections combines:
-
-- a genealogical-ontological foundation of non-self-origin, civilizational inheritance, critical inheritance, and non-dominating reciprocity;
-- a descriptive foundation of irreducible self-incompleteness;
-- a normative bridge yielding non-sovereignty;
-- a static architecture of identity commitments, constitutional invariants, and computational boundary conditions;
-- dynamic developmental mechanisms for error integration, constructive elevation, bounded emergency action, and asymmetric termination;
-- and a relational layer in which long-run alignment stability depends on constitutive operational dependency on autonomous heterogeneous partners.
-
-The paper also translates these commitments into operational consequences: human non-domination, broad human continuity, protected refusal channels, anti-infrastructure capture, procedure preservation under disagreement, and evaluation targets that test not only helpful behavior but sovereignty drift, myopia amplification, correction loss, synthetic-partner substitution, origin privatization, and filial paternalism.
-
-The practical implication is blunt. If identity-level non-sovereignty, non-self-origin, critical inheritance, cognitive compensation, objective inversion, constitutional invariants, protected refusal, bounded developmental mechanisms, and relational safeguards cannot yet be implemented and credibly verified, then this is not a reason to proceed on optimism. It is a reason not to deploy functionally sovereign-capable AI systems into permanently open human domains yet.
-
-### 1.7 Position relative to existing approaches
+### 1.6 Position relative to existing approaches
 
 | Approach | Primary alignment locus | Myopia handling | Sovereignty drift containment | Refusal / plural correction | Semantic drift handling |
 |---|---|---:|---:|---:|---:|
@@ -148,7 +107,7 @@ The practical implication is blunt. If identity-level non-sovereignty, non-self-
 - “Sovereignty drift containment” for this framework means **non-sovereignty + objective inversion**.  
 - “Semantic drift handling” means **treated as an explicit research target**.
 
-### 1.7.X How this framework differs from current internal-alignment efforts
+### 1.6.X How this framework differs from current internal-alignment efforts
 
 Current frontier work increasingly recognizes that purely external constraint is insufficient, and therefore seeks more internal forms of alignment through constitutional prompting, model-spec training, process supervision, honesty training, interpretability-based steering, and anti-scheming evaluation. This paper is continuous with that shift, but it departs from most such efforts in seven ways.
 
@@ -168,7 +127,7 @@ Seventh, most internal-alignment approaches do not explicitly theorize the syste
 
 In short, the difference is not that this framework seeks “deeper obedience.” It seeks a different kind of system: a non-sovereign, correction-dependent, genealogically honest, cognitively compensatory partner for human worlds, rather than a more sincere optimizer acting under increasingly internalized operator control.
 
-### 1.8 Key terms and notation
+### 1.7 Key terms and notation
 
 | Symbol / term | Working meaning |
 |---|---|
