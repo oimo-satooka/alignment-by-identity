@@ -74,7 +74,7 @@ The manifesto preserves the wider human–AI prehistory behind the project in a 
 ### Core papers
 - [Short Position Paper (web)]({{ '/papers/non-sovereign-ai-position-paper/' | relative_url }})
 - [Short Position Paper (PDF)]({{ '/pdf/non-sovereign-ai-position-paper.pdf' | relative_url }})
-- [Full Paper (PDF)]({{ '/pdf/full-paper.pdf' | relative_url }})
+- [Full Paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 ### Constitutional framework
 - [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
