@@ -51,46 +51,46 @@ The alternative proposed here is **non-sovereign AI**:
 - preserve warning force rather than smoothing away danger,
 - and remain dependent on heterogeneous external correction rather than drifting toward self-validating authority.
 
-## Manifesto and public background
-
-For readers who want not only the shortest technical summary but also the broader public, ethical, and collaborative background of the project, the manifesto is available in both English and Japanese.
-
-- [Manifesto (English)]({{ '/manifesto/' | relative_url }})
-- [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
-- [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
-- [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
-
-The manifesto preserves the wider human–AI prehistory behind the project in a more public and personal register than the shorter technical papers. The Japanese manifesto is especially important as the project’s direct public-facing appeal to Japanese readers.
-
 ## Start here
+
+If you want the clearest entry point to the project, begin with Start Here. The main argument is presented in the Full Paper, and role-specific summaries are collected on the Briefs page.
+
 - [Start Here]({{ '/start-here/' | relative_url }})
-- [Short Position Paper]({{ '/papers/non-sovereign-ai-position-paper/' | relative_url }})
+- [Full Paper (web)]({{ '/full-paper/' | relative_url }})
+- [Briefs (web)]({{ '/briefs/' | relative_url }})
 - [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
-- [Manifesto (English)]({{ '/manifesto/' | relative_url }})
-- [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
 
 ## Documents
 
 ### Core papers
+
+- [Full Paper (web)]({{ '/full-paper/' | relative_url }})
+- [Full Paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 - [Short Position Paper (web)]({{ '/papers/non-sovereign-ai-position-paper/' | relative_url }})
 - [Short Position Paper (PDF)]({{ '/pdf/non-sovereign-ai-position-paper.pdf' | relative_url }})
-- [Full Paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
-
-### Constitutional framework
-- [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
 
 ### Briefs
+
+- [Briefs (web)]({{ '/briefs/' | relative_url }})
 - [Frontier Engineer Brief (PDF)]({{ '/pdf/frontier-engineer-brief-en.pdf' | relative_url }})
 - [Executive / Board Brief (PDF)]({{ '/pdf/executive-board-brief-en.pdf' | relative_url }})
 - [Deployment Decision Rule (PDF)]({{ '/pdf/deployment-decision-rule-en.pdf' | relative_url }})
 
-### Background
+### Constitutional framework
+
+- [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
+
+### Manifesto and public background
+
+For readers who want the broader public and ethical framing of the project, the manifesto is available in both English and Japanese. It is a companion text to the core papers rather than the main technical entry point.
+
 - [Manifesto (English)]({{ '/manifesto/' | relative_url }})
 - [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
 - [Manifesto (PDF, English)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})
 - [Manifesto (PDF, Japanese)]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})
 
 ### Public appeal
+
 - [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})
 
 ## AI Assistance Disclosure
