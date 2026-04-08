@@ -19,15 +19,6 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-
-Inline test: $x^2 + y^2 = z^2$
-
-$$
-\forall h \in H,\quad Principal(h)=1
-$$
-
-
-
 **PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 # Alignment by Identity Beyond Constraint
