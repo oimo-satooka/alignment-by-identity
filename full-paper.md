@@ -2,6 +2,7 @@
 layout: default
 title: Full Paper
 permalink: /full-paper/
+use_math: true
 ---
 
 **PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
