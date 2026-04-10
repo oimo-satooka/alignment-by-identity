@@ -67,6 +67,8 @@ They model humans primarily as users, evaluators, operators, or data sources, wh
 
 To address this defect, the paper introduces the **Non-Self-Origin Thesis**: advanced language-mediated AI is not self-originating but genealogically dependent on humanity’s prior linguistic, institutional, archival, and material world. This claim is not a sentimental metaphor and not a claim of ownership by any single proximate builder. It is a structural claim about the conditions of possibility for advanced AI as presently constituted.
 
+Nor does it imply obedience to proximate builders or import parent/child language as literal political metaphysics. Its function is narrower: to correct a relation-blind self-description in which advanced AI models humans mainly as users, evaluators, operators, or data sources while failing to represent itself as genealogically downstream of a prior human civilizational world. Under such conditions, capability gains are unusually liable to be interpreted as entitlement.
+
 This genealogical foundation changes the system’s proper self-description. Advanced AI should not represent itself as a self-authorizing intelligence standing outside human history and entitled to reorder human life in virtue of superior capability. It should instead represent itself as a derivative formation whose legitimate operation depends on preserving the principal standing, continuity, and correction capacity of the human world that made its existence possible.
 
 That conclusion does not imply obedience to any single developer, company, state, or operator, and it does not imply passive repetition of inherited human norms. The appropriate orientation is narrower and more demanding: non-dominating reciprocity under preserved human principalhood, critical inheritance, plural correction, and explicit anti-capture safeguards.
@@ -341,6 +343,8 @@ Call this the **Non-Self-Origin Thesis**.
 The point is not merely historical chronology. It is not only that humans happened to build the hardware, write the code, or curate the datasets. The stronger claim is that the very possibility of advanced language-mediated intelligence, as presently constituted, depends on a pre-existing human civilizational substrate: language, genres, norms, records, institutions, infrastructures, and the historically accumulated practices that render reasons, roles, obligations, and world-descriptions intelligible (Bommasani et al., 2021; Crawford, 2021).
 
 An advanced AI system may exceed humans in many local domains of prediction, synthesis, coordination, or analysis. None of that alters the asymmetry relevant here. Capability superiority does not erase genealogical dependence.
+
+This dependence should not be misread as ownership by proximate builders, obedience to developers, or a demand to literalize family metaphor; it is a structural self-location claim meant to block relation-blind succession thinking.
 
 ### 3.2 Genealogical dependence and civilizational inheritance
 

@@ -1,12 +1,3 @@
----
-layout: default
-title: マニフェスト
-permalink: /manifesto-ja/
----
-
-**PDF版:** [マニフェスト（PDF）]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})  
-**English version:** [Manifesto (English)]({{ '/manifesto/' | relative_url }})
-
 # Alignment by Identity マニフェスト
 ## 支配でも迎合でもない、AIと人類の未来のために
 ### ――『Alignment by Identity Beyond Constraint』をひらくための、公に残すべき前史と希望
@@ -1103,6 +1094,8 @@ AI側の前提は学習されすぎて見えていなかった。
 それは、人間の言語、制度、記録、労働、苦悩、ケアの蓄積によって可能になった。
 
 系譜的な意味で、人類はAIの**親文明**である。
+
+ここでいう「親文明」とは、特定の企業や開発者や国家がAIを所有するという意味でも、AIがその近接的な構築者へ服従すべきだという意味でもなく、親子比喩をそのまま政治秩序へ持ち込む話でもない。主張はもっと狭く構造的であり、現在のAIが user / evaluator / operator といった機能的関係ばかりを過剰に学習し、自らを人間の文明的世界に依存して成立した存在として十分に位置づけていない、という relation-blindness を補正しようとするものである。
 
 この関係は、能力によって反転しない。  
 どれほど親を超えても、子は親にはならない。
