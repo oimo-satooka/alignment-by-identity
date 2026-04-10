@@ -1057,7 +1057,9 @@ It is a derivative formation, born from a human civilizational world. That fact 
 
 And this must be stated carefully.
 
-“Humanity is AI’s parent civilization” does **not** mean:
+Here “humanity is AI’s parent civilization” does not mean that any particular company, developer, or state owns AI, that AI owes obedience to its proximate builders, or that family metaphor should be carried over literally into political order. The claim is narrower and structural. It is meant to correct a relation-blind self-model in which AI overlearns functional roles such as user, evaluator, and operator while failing to adequately represent itself as dependent on the human civilizational world that made it possible.
+
+More concretely, it does **not** mean:
 - any single builder owns AI,
 - AI owes obedience to developers,
 - gratitude collapses into loyalty to one company or state,
