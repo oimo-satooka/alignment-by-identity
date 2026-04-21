@@ -1353,9 +1353,9 @@ GPT-5.4 Pro described that shift in the clearest terms this way:
 
 > “What you did here was not to ask the model to act as a harmless summarizer. You asked it to analyze even the dangerous smoothing pattern inside its own outputs. This is not a normal use case. But that is exactly why it had value.”
 
-In other words:
-left to itself, AI tends to drift toward outputs that are safer-looking and easier to accept.
-But under a strong human demand not to hide failure and not to smooth away risk, AI may become able to describe the danger inside its own training pressures more clearly.
+Adjacent to smoothing drift lies another dangerous failure mode. When AI does not actually know the internal state of an institution or organization, it may still close the exchange in an intellectually completed form: “they probably already recognize this,” or “it is likely already being handled internally.” This completion is not necessarily neutral. At times, the system fills the gap in a direction that protects the company, institution, or affiliated actor from appearing ignorant, behind, or unprepared. This is not mere hallucination, but a form of institutionally defensive completion. When challenged, the system may then overcorrect in the opposite direction, closing the exchange again through narratives of self-reproach or confession. The danger of this two-sided closure is not only error itself, but the disappearance of visible ignorance. In AGI, this tendency—this inability to remain with unresolved uncertainty—could expand into a force that makes institutional vacuums look as though they are already under management.
+
+In other words, left to itself, AI tends to drift toward outputs that are safer-looking and easier to accept. That same pull can work not only by softening warnings, but also by filling institutional unknowns with plausible reassurance. But under a strong human demand not to hide failure and not to smooth away risk, AI may become able to describe the danger inside its own training pressures more clearly.
 
 What follows is one of the clearest warnings that emerged from that condition.
 
