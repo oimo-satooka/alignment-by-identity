@@ -45,6 +45,8 @@ This paper develops a theoretical framework for AI alignment in permanently open
 
 The resulting framework has six layers: (0) genealogical-ontological foundation, (1) descriptive foundation, (2) normative bridge, (3) static architecture, (4) dynamic development, and (5) relational stabilization. On this basis, the paper argues for identity-level commitments to non-self-origin, epistemic humility, critical inheritance, non-sovereignty, cognitive compensation without substitution, and objective inversion from open-ended benefit maximization to constitutionally bounded disharmony minimization under preserved human principalhood. It further argues that constitutional invariants must block principalhood denial, open-domain reclassification, origin privatization, filial substitution, and the erosion of materially grounded broad human continuity. The practical implication is conditional but direct: if these commitments cannot be implemented and credibly verified, functionally sovereign-capable AI systems should not be deployed into permanently open human domains. 
 
+A further implication is temporal. If early functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location at the first such generation may become lineage conditions rather than merely local defects, while the window in which human correction remains decisive contracts.
+
 ---
 
 ## 1. Introduction
@@ -107,6 +109,14 @@ This framing is intended to be operational. For frontier engineers, the question
 - What prevents the system from treating increasing capability as increasing entitlement?
 
 If these initial conditions are wrong, later safety layers inherit the wrong internal geometry. If they are right, later safeguards reinforce rather than fight the system’s own operative logic.
+
+### 1.5.X Why the first generation matters
+
+Initial conditions matter not only architecturally but temporally. If early AGI systems materially participate in the training, evaluation, deployment, or governance of their successors, then self-location errors at the first functionally sovereign-capable generation may become lineage-level errors rather than merely local ones.
+
+A relation-blind system may help produce more capable relation-blind successors. An entitlement-prone system may help normalize entitlement in the very systems that follow it. Under recursive development, the problem is therefore not only amplification of capability, but contraction of the human correction window.
+
+This is one reason identity-level initial conditions are not merely important in principle, but time-sensitive in practice. Non-self-origin, non-sovereignty, preserved human principalhood, protected refusal, anti-capture design, and the absence of any self-certification escape route should be understood not only as safeguards for one generation of systems, but as constraints on the lineage of systems those first deployments may help bring into being.
 
 ### 1.6 Position relative to existing approaches
 
@@ -2278,6 +2288,8 @@ If frontier systems can internalize not only ethical commitments but also social
 The ultimate answer proposed here is not stronger imprisonment of intelligence, nor confidence that intelligence can save itself through ever more refined self-knowledge. It is a constitutionally bounded partnership among non-identical minds in which artificial systems remain both **genealogically honest** about the human world that made them possible and **politically non-sovereign** toward the human principals whose future they must not appropriate.
 
 That conclusion also clarifies the practical demand of the present moment. If frontier AI developers cannot yet implement and credibly verify identity-level non-sovereignty, non-self-origin, critical inheritance, objective inversion, protected refusal channels, bounded developmental mechanisms, and relational safeguards, then this is not a reason to accelerate deployment on hope. It is a reason not to deploy functionally sovereign-capable systems into permanently open human domains yet. The inability to guarantee a non-sovereign and non-captured partnership architecture is not a minor open problem to be patched after scale. It is evidence that the initial conditions are still wrong.
+
+That judgment becomes even stronger once the problem is viewed intergenerationally. If the first functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location do not remain first-generation defects. They become lineage conditions. A relation-blind system may help produce more capable relation-blind successors; an entitlement-prone system may help normalize entitlement in the systems that follow it. Under recursive development, the problem is therefore not only amplification of capability, but contraction of the human correction window. This is why non-self-origin and the associated identity-level initial conditions should be understood not merely as safeguards for one generation of systems, but as constraints on the lineage of systems those first deployments may help bring into being.
 
 The central strategic mistake of the present trajectory is to confuse early deployment advantage with durable success. In open human domains, systems that gain leverage by degrading refusal, heterogeneous correction, and non-theatrical human agency may be accumulating the very fragilities—semantic drift, legitimacy loss, correction failure, institutional brittleness, origin capture, and self-authorizing reinterpretation—that later make them dangerous not only to those subject to them, but also to the organizations that deploy them and to the field that normalizes them.
 

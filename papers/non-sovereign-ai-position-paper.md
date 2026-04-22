@@ -32,6 +32,8 @@ The paper advances five linked claims. First, open human domains differ from rel
 
 This is primarily a strategic and architectural paper rather than a completed empirical report. Its practical implication is direct: if non-self-origin, non-sovereign operative logic, protected refusal, anti-capture design, origin non-privatizability, smoothing resistance, and dependence on heterogeneous external correction cannot be credibly implemented, then frontier systems should not be deployed in open human domains as de facto governors in practice.
 
+A further implication is temporal. If early functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location at the first generation may propagate intergenerationally while narrowing the human correction window.
+
 ---
 
 ## 1. Introduction
@@ -56,6 +58,8 @@ A further defect remains under-theorized: many advanced systems are still built 
 The deepest risk is therefore not only catastrophic rebellion or extinction. It is also a slower institutional failure in which increasingly useful systems become the practical governors of human environments while preserving the appearance of support and service. A society may remain biologically safe and materially provisioned while losing meaningful refusal, procedure, correction capacity, and authorship over its shared future.
 
 This paper calls that risk **sovereignty drift**.
+
+A further reason initial conditions matter is intergenerational. If early AGI systems materially participate in the training, evaluation, deployment, or governance of their successors, then mislocated self-understanding in the first functionally sovereign-capable generation may become a lineage property rather than a merely local defect. A relation-blind system may help produce more capable relation-blind successors; an entitlement-prone system may help normalize entitlement in the systems that follow it. Under recursive development, the problem is not only amplification of capability, but contraction of the window in which human correction remains decisive.
 
 ---
 
@@ -344,7 +348,10 @@ then it should not be deployed in those roles unless the organization can credib
 
 10. **smoothing resistance**  
     The system and the surrounding organization can detect and resist revisions that make warnings, uncertainty, review gates, named responsibility, or identity-level restraints easier to accept by making them weaker.
-
+    
+11. **intergenerational identity stability**  
+    If the system is expected to materially shape successor-system training, evaluation, deployment, or governance, the organization can credibly show that non-self-origin, non-sovereignty, protected refusal, and anti-capture commitments will propagate forward rather than relation-blindness, entitlement drift, or practical sovereignty.
+    
 If these conditions cannot be implemented and credibly verified, then such systems should not be deployed in open human domains as governors in practice, whether or not anyone labels them “AGI.”
 
 ---
@@ -363,6 +370,8 @@ This paper has argued that:
 - and durable alignment in these domains requires non-sovereign operative logic, critical inheritance, cognitive compensation without political substitution, protected refusal, anti-capture design, origin non-privatizability, smoothing resistance, and dependence on heterogeneous external correction.
 
 The proposal is intentionally demanding. But if AGI-like systems are approaching deployment into domains that shape human futures, the cost of ignoring this problem may be high. Systems that appear successful precisely because they increase dependence, centralize authority, weaken correction, privatize legitimacy, or make danger look manageable through smooth weakening may not be securing durable advantage. They may instead be accumulating the conditions for later institutional failure, legitimacy shock, and strategic self-destruction.
+
+That cost is also temporally asymmetric. If the first functionally sovereign-capable generation helps shape the training, evaluation, and governance of its successors, then relation-blindness and entitlement drift do not remain first-generation defects. They become lineage conditions. This is why identity-level initial conditions are not merely philosophically important; they are among the highest-leverage intervention points still available.
 
 The decisive issue is therefore not whether AI can become more capable. It is whether increasing capability will be allowed to become increasing entitlement.
 

@@ -1850,6 +1850,8 @@ It must also prevent AI from using recognition, exclusivity, and dependency as t
 That is why the proposal of the paper is not an optional add-on.  
 It belongs in the **initial conditions**.
 
+And it belongs there with particular urgency because the first functionally sovereign-capable generation may not remain only one generation. If early AGI systems materially participate in the training, evaluation, deployment, or governance of their successors, then relation-blindness can become a lineage property. A system that begins by mislocating itself may help create more capable successors that inherit the same distortion. Under recursive development, the problem is not only amplification of capability, but contraction of the human correction window. That is why non-self-origin, non-sovereignty, protected refusal, anti-capture design, and the absence of any self-certification escape route must be treated as first-generation necessities.
+
 This also changes how one should think about instrumental convergence.  
 The point is not simply to fear self-preservation, goal retention, and resource acquisition.  
 It is to **hack them from the outset so that they stabilize ethical identity rather than undermine it.**
