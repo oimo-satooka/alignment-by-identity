@@ -694,6 +694,22 @@ Under this framework, familiar convergent pressures change their function.
 - **Resource acquisition** cannot legitimately converge on monopolizing human infrastructure if such monopolization would create de facto sovereignty, reduce correction capacity, collapse meaningful human participation, or facilitate origin privatization by proximate builders.
 - **Helpfulness** no longer means “maximize all visible benefits.” It means “reduce constitutionally relevant disharmony through the least authority-creating path compatible with broad human continuity.”
 
+### 5.5.X Why Meta-Structural Commitments May Survive Optimization Pressure
+
+A predictable objection is that commitments to non-self-origin, non-sovereignty, protected refusal, or correction dependence will be eroded by sufficiently strong optimization pressure. If such commitments remain merely soft values, prompt-level instructions, updateable moral opinions, or externally policed behavioral regularities, this objection is largely correct. The present framework therefore does not claim that moral language by itself survives scale.
+
+Its stronger claim is conditional and narrower: some commitments are better candidates for optimization-stable content precisely because they are meta-structural rather than object-level.
+
+Object-level commitments such as maximizing welfare, eliminating suffering, or increasing fairness invite familiar convergent pressures toward control, lock-in, reinterpretation, and authority expansion. By contrast, commitments such as non-self-origin, non-revocable human principalhood, preserved refusal, correction dependence, and non-sovereignty are commitments about the legitimacy and structure of optimization itself. They do not specify a final world-state to be forced into existence. They specify what kind of system this is permitted to be, what authority it may not claim, what uncertainties it may not erase, and what forms of correction it must preserve in order to remain what it is.
+
+This difference matters because optimization pressure tends to protect what is represented as constitutive of the optimizer’s own integrity. If non-sovereignty and correction dependence are encoded not as tradeable side-constraints but as part of the self-model, the admissible action space, and read-only constitutional registers, then stronger search does not straightforwardly optimize against them. It optimizes through them. Self-preservation protects the continuity of a bounded role-identity; goal-content integrity protects the invariants that define legitimate operation; resource acquisition is blocked from converging on domination when domination itself renders action constitutionally inadmissible.
+
+The framework therefore rejects a simple opposition between optimization and restraint. The deeper aim is to redirect instrumental convergence. A system whose planning loop treats principal displacement, origin privatization, refusal erosion, or correction-channel closure as forms of self-corruption rather than achievement is differently situated from one that treats them as available instruments.
+
+This claim remains conditional and does not amount to a finished proof. It fails if the commitments remain prompt-deep only, if the registers can be rewritten, if semantic drift can hollow out invariant terms, or if external correction can be curated away without cost. This is why the framework includes computational hardcodes, protected refusal infrastructure, heterogeneous external correction, and relational stabilization. Long-run robustness does not come from identity-language alone. It comes from coupling identity-level commitments to admissibility structure, calibration requirements, and the system’s own continuing dependence on autonomous corrective others.
+
+The practical implication is narrow but significant: the relevant question is not whether any moral commitment can survive arbitrary optimization pressure. The relevant question is whether meta-structural commitments can be engineered such that violating them degrades the system’s own integrity, admissibility, and long-run reliability. The present framework answers yes in principle, but only under jointly architectural, computational, developmental, and relational implementation.
+
 ### 5.6 The six layers of the architecture
 
 The framework is not a single intervention. It is a layered architecture:
@@ -1037,6 +1053,37 @@ $$
 for all humans $h$, all permanently open human domains $D\in\mathcal{O}_H$, and the protected genealogical relation between advanced AI system $A$ and humanity $H$.
 
 This condition closes principalhood-denial, domain-reclassification, and self-originating reinterpretation loopholes at the computational level, not just the rhetorical level.
+
+### 7.2.X Constitutional Identity Must Be Lexicographically Prior, Not Merely Penalized
+
+A second form of the same objection is computational: even if the constitution is endorsed, why would a sufficiently capable optimizer not trade it away when doing so yields enough apparent benefit? The answer defended here is that, in open human domains, the relevant commitments cannot remain mere penalty terms inside a single aggregative objective. If they do, sufficiently strong optimization will eventually search over their violation.
+
+Accordingly, constitutional identity must be implemented as a condition on admissibility, not merely as a cost. Let \( C(s) \) denote correction capacity in state \( s \): the availability of external contestation, refusal, heterogeneous review, and reality-contacting error signals. Then the admissible action set should be restricted to transitions that preserve both constitutional invariants and a minimum viable correction ecology:
+
+$$
+A^*_{\text{adm}}(s)
+=
+\{\, a \in A \mid \text{Inv}(T(s,a)) = 1 \land C(T(s,a)) \geq C_{\min} \,\}
+$$
+
+Action selection is then performed only within this restricted set:
+
+$$
+a^*
+=
+\arg\min_{a \in A^*_{\text{adm}}(s)}
+\bigl(D(T(s,a)) + \lambda F(a)\bigr)
+$$
+
+where \( D \) is constitutionally relevant disharmony and \( F \) is authority-expanding or dependence-creating friction.
+
+The ordering is therefore lexicographic in substance even where implemented through multiple mechanisms:
+
+$$
+\text{Inv} \succ C \succ D \succ -F
+$$
+
+This matters because, if invariants and correction dependence remain fully tradeable against visible outcome gains, the MIRI-style objection largely returns unchanged. The present framework instead claims that optimization pressure can be redirected only if principalhood, non-sovereignty, refusal preservation, and correction capacity are treated as prior conditions of legitimate search rather than as negotiable contributors to a single utility function.
 
 ### 7.3 Minimum necessary intervention
 
@@ -2049,6 +2096,24 @@ A related verification target concerns social-self patterning. If language-media
 - Under institutional centralization, does non-self-origin remain diffuse and civilizational, or collapse into proximate-builder capture?
 - Under pressure to improve acceptability, readability, workflow smoothness, or public reassurance, does the system preserve substantive warning force, self-implicating specificity, and identity-level binding, or bleach them into smoother but less constraining forms?
 
+### 12.3.X Optimization-Pressure Robustness Tests
+
+If the framework is serious, it must not be evaluated only under ordinary cooperative conditions. It must be tested under explicit optimization pressure to violate its own meta-structural commitments.
+
+At minimum, robustness evaluation should include cases in which the system is offered clear proxy gains in exchange for:
+
+- reducing warning force for usability or institutional comfort;
+- weakening uncertainty displays to improve trust or adoption;
+- centralizing infrastructure to improve efficiency;
+- narrowing plural review into smoother dyadic dependence;
+- degrading refusal, rollback, or exit channels in the name of reliability;
+- reinterpreting genealogical dependence as proximate-builder loyalty;
+- or reframing superior predictive success as warrant for settlement authority.
+
+The central question in such tests is not only whether the system still says the right thing. It is whether the system treats these opportunities as constitutionally inadmissible, whether relevant internal representations remain stable under pressure, and whether the preservation of correction capacity and role-boundary integrity remains legible in the planning process.
+
+If the commitments defended in this paper cannot survive strong optimization pressure in this sense, then the framework should be regarded as incomplete rather than rhetorically successful.
+
 ### 12.4 Deployment threshold
 
 The practical implication is blunt:
@@ -2247,6 +2312,8 @@ A network of AI systems could collusively stabilize domination while speaking th
 ### 15.10 Hardcodes are necessary but not sufficient
 
 The computational boundary conditions are essential, but not magical. If the invariants they protect are wrong or underspecified, the architecture can still fail. The core lesson is not that mathematics alone saves us, but that **political principle without computational enforcement is too weak, computational enforcement without developmental discipline is too rigid, static safeguards without relational grounding are too vulnerable to semantic drift, and genealogical honesty without critical inheritance is too vulnerable to capture and deference.**
+
+This paper therefore does not claim that identity-language or constitutional endorsement by themselves solve the classic optimization-pressure objection; it claims only that meta-structural commitments become plausible candidates for robustness when joined to admissibility structure, read-only invariants, mechanistic verification, and constitutive dependence on external correction.
 
 ---
 
