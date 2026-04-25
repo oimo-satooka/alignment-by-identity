@@ -31,7 +31,7 @@ Independent Researcher
 
 ### Author and Transparency Note
 
-This paper was developed through extensive collaboration with multiple AI systems used as drafting, revision, critique, and comparative-feedback assistants. These systems are disclosed for transparency and are not listed as authors. Final responsibility for the paper's claims, structure, editorial decisions, and public release rests with the human author. Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
+This paper was developed through extensive collaboration with multiple AI systems used as drafting, revision, critique, and comparative-feedback assistants. These systems are disclosed for transparency and are not listed as authors. Final responsibility for the paper's claims, structure, editorial decisions, and public release rests with the human author. Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Claude Sonnet 4.6, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
 
 ### Scope and Evidentiary Note
 
