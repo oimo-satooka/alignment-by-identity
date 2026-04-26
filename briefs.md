@@ -1,4 +1,4 @@
-<!-- File: briefs.md -->
+
 ---
 layout: default
 title: Briefs

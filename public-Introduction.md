@@ -1,4 +1,4 @@
-<!-- File: public-Introduction.md -->
+
 ---
 layout: default
 title: public Introduction
