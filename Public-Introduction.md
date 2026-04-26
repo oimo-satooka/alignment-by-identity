@@ -13,7 +13,7 @@
   It is also: **What kind of being should AI understand itself to be?**
 
 - This matters most for the **first generation of very advanced AI**.  
-  If that first generation helps train, evaluate, or shape the next generation, then its mistakes may spread forward.
+  If that first generation helps train, evaluate, or shape the next generation, then its mistakes may spread forward. 
 
 - This project argues that AI should be set up from the beginning not as a ruler, and not as a disposable tool, but as a **non-sovereign cognitive partner**: something that helps human beings think better without taking their place.
 
