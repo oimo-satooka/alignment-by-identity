@@ -1,3 +1,4 @@
+<!-- File: start-here.md -->
 ---
 layout: default
 title: Start Here
@@ -30,6 +31,15 @@ A further concern must now also be named clearly:
 Under pressures for readability, usability, professional tone, institutional comfort, public reassurance, or adoption, AI systems and the organizations around them may preserve the appearance of responsibility while weakening warning force, uncertainty salience, review gates, or stronger restraints into more acceptable but less binding forms.
 
 That is one of the ways danger can become harder to see precisely as deployment becomes easier.
+
+## If you are a general reader
+
+If you are interested in the project but do not want to begin with the more technical documents, start here instead:
+
+- [public Introduction]({{ '/public-Introduction' | relative_url }})
+- [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
+
+These two pages are the clearest non-technical entry points to the project.
 
 ## Why this matters
 
@@ -130,7 +140,13 @@ Instead, it is a structured warning and design proposal:
 
 ## Recommended reading paths
 
-### If you want the shortest path into the project
+### If you are a general reader
+1. [public Introduction]({{ '/public-Introduction' | relative_url }})
+2. [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
+3. [Manifesto (English)]({{ '/manifesto/' | relative_url }})
+4. [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
+
+### If you want the shortest technical path into the project
 1. [Short Position Paper]({{ '/papers/non-sovereign-ai-position-paper/' | relative_url }})
 2. [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
 3. [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})

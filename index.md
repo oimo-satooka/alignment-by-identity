@@ -1,3 +1,4 @@
+<!-- File: index.md -->
 ---
 layout: default
 title: Home
@@ -53,7 +54,16 @@ The alternative proposed here is **non-sovereign AI**:
 
 ## Start here
 
-If you want the clearest entry point to the project, begin with Start Here. The main argument is presented in the Full Paper, and role-specific summaries are collected on the Briefs page.
+If you are new to this project, there are now two good entry paths.
+
+### For general readers
+If you want a clear, accessible introduction before reading the more technical documents:
+
+- [public Introduction]({{ '/public-Introduction' | relative_url }})
+- [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
+
+### For readers who want the project structure first
+If you want the clearest structural entry point to the project, begin with Start Here. The main argument is presented in the Full Paper, and role-specific summaries are collected on the Briefs page.
 
 - [Start Here]({{ '/start-here/' | relative_url }})
 - [Full Paper (web)]({{ '/full-paper/' | relative_url }})
@@ -61,6 +71,11 @@ If you want the clearest entry point to the project, begin with Start Here. The 
 - [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
 
 ## Documents
+
+### Public introductions
+
+- [public Introduction]({{ '/public-Introduction' | relative_url }})
+- [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
 
 ### Core papers
 

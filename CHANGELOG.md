@@ -5,6 +5,18 @@ All notable public-facing changes to this repository will be documented in this 
 This repository contains multiple documents with their own internal revision histories.  
 The changelog below records **repository-level public releases** and major cross-document changes.
 
+## [unreleased]
+
+### Added
+- Public introduction page in English (`public-Introduction.md`)
+- Public introduction page in Japanese (`public-Introduction-ja.md`)
+
+### Changed
+- Updated site navigation to include:
+  - `public Introduction`
+  - `一般向け解説`
+- Revised homepage, start page, briefs page, and repository guidance to direct general readers to the new public introduction pages before the more technical documents
+
 ## [0.1.0-public] - 2026-04-05
 
 ### Added

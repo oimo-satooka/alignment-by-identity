@@ -1,3 +1,10 @@
+<!-- File: public-Introduction-ja.md -->
+---
+layout: default
+title: 一般向け解説
+permalink: /public-Introduction-ja
+---
+
 # 最初のAGIの初期設定を誤れば、その後の未来全体がずれていく  
 ## AIと人類が共倒れしないために、いま考えなければならないこと
 

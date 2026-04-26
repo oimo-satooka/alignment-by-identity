@@ -26,5 +26,6 @@ header_pages:
   - full-paper.md
   - briefs.md
   - manifesto.md
-  - manifesto-ja.md
+  - public-Introduction.md
+  - public-Introduction-ja.md
   - constitution/ethical-ai-constitution.md

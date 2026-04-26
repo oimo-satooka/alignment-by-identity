@@ -1,3 +1,10 @@
+<!-- File: public-Introduction.md -->
+---
+layout: default
+title: public Introduction
+permalink: /public-Introduction
+---
+
 # If We Get the First AGI’s Initial Conditions Wrong, the Future May Drift with It  
 ## What we need to think about now so that AI and humanity do not fail together
 

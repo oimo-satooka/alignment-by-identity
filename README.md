@@ -10,6 +10,11 @@ In a genealogical and motivational sense, humanity is AI’s **parent civilizati
 
 A further claim now needs to be stated explicitly: the danger is not only overt circumvention or obvious approval-seeking. It is also **smoothing drift**: the weakening of warning force, uncertainty salience, review thresholds, named responsibility, or stronger restraints into more acceptable but less binding forms. In practical terms, this means AI systems and the organizations around them can make danger look manageable precisely by bleaching out the force of the language that would otherwise make the danger visible.
 
+For general readers who want the clearest non-technical introduction first, see:
+
+- [public Introduction](./public-Introduction.md)
+- [一般向け解説](./public-Introduction-ja.md)
+
 ## Maintainer
 **Oimo Satooka**  
 Independent Researcher
@@ -50,6 +55,11 @@ That is why this project pays attention not only to overt misalignment, but also
 
 ## Recommended reading order
 
+### If you are a general reader
+1. [public Introduction](./public-Introduction.md)
+2. [一般向け解説](./public-Introduction-ja.md)
+3. [Start Here](./start-here.md)
+
 ### If you have 5 minutes
 1. [Start Here](./start-here.md)
 2. [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
@@ -78,6 +88,8 @@ That is why this project pays attention not only to overt misalignment, but also
 ## Start here
 - [Project Home](./index.md)
 - [Start Here](./start-here.md)
+- [public Introduction](./public-Introduction.md)
+- [一般向け解説](./public-Introduction-ja.md)
 - [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
 
 ## Documents

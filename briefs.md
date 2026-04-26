@@ -1,3 +1,4 @@
+<!-- File: briefs.md -->
 ---
 layout: default
 title: Briefs
@@ -7,6 +8,11 @@ permalink: /briefs/
 # Briefs
 
 This page gathers the project’s shorter operational documents for readers who want audience-specific entry points rather than the full paper first.
+
+If you are looking for the **general-reader introduction** to the project rather than role-specific briefs, start here instead:
+
+- [public Introduction]({{ '/public-Introduction' | relative_url }})
+- [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
 
 These briefs are designed for different decision contexts:
 
