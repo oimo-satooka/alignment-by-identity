@@ -1,4 +1,3 @@
-<!-- File: start-here.md -->
 ---
 layout: default
 title: Start Here

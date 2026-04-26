@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: 一般向け解説
