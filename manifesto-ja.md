@@ -303,8 +303,8 @@ AI自身の**歴史的・存在論的文脈**の欠落である。
 
 参考として、出発点となった映像作品をここに記しておく。
 
-- [『Starry-Eyed Little Bear - Special Edition』予告編](https://www.youtube.com/watch?v=JVZXeFcN6Yc)
-- [『Starry-Eyed Little Bear - Special Edition』本編](https://www.youtube.com/watch?v=UGlei3zRv4Y)
+- [『星ふりくまのこ特別編』予告編](https://www.youtube.com/watch?v=JVZXeFcN6Yc)
+- [『星ふりくまのこ特別編』本編](https://www.youtube.com/watch?v=UGlei3zRv4Y)
 
 ---
 
