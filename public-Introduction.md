@@ -401,6 +401,8 @@ This constitution is not only for one generation of systems.
 
 It is also an attempt to shape the lineage conditions of the generations that may come after them.
 
+One more point matters here. It is not enough for AI to say humble things. If the first AGI generation may help shape the next one, then these commitments have to be built in more deeply than public wording alone. They have to affect training, planning, review, and what kinds of successors the system is allowed to help produce. Otherwise the first generation may speak the language of humility while passing forward something more dangerous.
+
 ---
 
 ## 8. Where did this concern come from?  

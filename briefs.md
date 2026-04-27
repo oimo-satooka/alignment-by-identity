@@ -14,6 +14,11 @@ If you are looking for the **general-reader introduction** to the project rather
 - [public Introduction]({{ '/public-Introduction' | relative_url }})
 - [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
 
+If you are likely to ask, before anything else, “but how would this actually be implemented or verified?”, start here too:
+
+- [Mechanism, Verification, and First-Generation Risk FAQ]({{ '/implementation-and-faq/' | relative_url }})
+- [実装・検証・第一世代リスク FAQ]({{ '/implementation-and-faq-ja/' | relative_url }})
+
 These briefs are designed for different decision contexts:
 
 - **Frontier engineers** working on system architecture, deployment design, and AGI initial conditions

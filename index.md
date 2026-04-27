@@ -61,6 +61,9 @@ If you want a clear, accessible introduction before reading the more technical d
 - [public Introduction]({{ '/public-Introduction' | relative_url }})
 - [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
 
+- [Mechanism, Verification, and First-Generation Risk FAQ]({{ '/implementation-and-faq/' | relative_url }})
+- [実装・検証・第一世代リスク FAQ]({{ '/implementation-and-faq-ja/' | relative_url }})
+
 ### For readers who want the project structure first
 If you want the clearest structural entry point to the project, begin with Start Here. The main argument is presented in the Full Paper, and role-specific summaries are collected on the Briefs page.
 

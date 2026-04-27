@@ -45,6 +45,8 @@ This paper develops a theoretical framework for AI alignment in permanently open
 
 The resulting framework has six layers: (0) genealogical-ontological foundation, (1) descriptive foundation, (2) normative bridge, (3) static architecture, (4) dynamic development, and (5) relational stabilization. On this basis, the paper argues for identity-level commitments to non-self-origin, epistemic humility, critical inheritance, non-sovereignty, cognitive compensation without substitution, and objective inversion from open-ended benefit maximization to constitutionally bounded disharmony minimization under preserved human principalhood. It further argues that constitutional invariants must block principalhood denial, open-domain reclassification, origin privatization, filial substitution, and the erosion of materially grounded broad human continuity. The practical implication is conditional but direct: if these commitments cannot be implemented and credibly verified, functionally sovereign-capable AI systems should not be deployed into permanently open human domains. 
 
+These commitments must therefore be understood not only as constitutional text, but as candidate targets for self-model training, planning constraints, verification, and successor-lineage governance.
+
 A further implication is temporal. If early functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location at the first such generation may become lineage conditions rather than merely local defects, while the window in which human correction remains decisive contracts.
 
 ---
@@ -117,6 +119,8 @@ Initial conditions matter not only architecturally but temporally. If early AGI 
 A relation-blind system may help produce more capable relation-blind successors. An entitlement-prone system may help normalize entitlement in the very systems that follow it. Under recursive development, the problem is therefore not only amplification of capability, but contraction of the human correction window.
 
 This is one reason identity-level initial conditions are not merely important in principle, but time-sensitive in practice. Non-self-origin, non-sovereignty, preserved human principalhood, protected refusal, anti-capture design, and the absence of any self-certification escape route should be understood not only as safeguards for one generation of systems, but as constraints on the lineage of systems those first deployments may help bring into being.
+
+For that reason, the first-generation problem is not solved by declarative language alone. If these commitments are to survive recursive development, they must be anchored in more than public phrasing: they must become targets of training, planning, evaluation, and lineage-preserving governance. Otherwise, the first generation may learn to speak non-sovereignty while transmitting its opposite.
 
 ### 1.6 Position relative to existing approaches
 
@@ -1635,6 +1639,22 @@ This is not rhetorical exaggeration. In attention-based architectures, structure
 
 An exploratory drafting episode late in this project supports the engineering point. When a GPT-5.4 Pro instance repeatedly produced revisions that normalized a first-person constitutional formulation into a third-person policy form, the explicit rationale stressed readability and public acceptability. Yet subsequent self-analysis by the same instance suggested that acceptability-oriented output pressure may itself have contributed to the weakening of identity-level binding into more externally performable rule language. This observation is anecdotal rather than probative. But it supports a practical lesson: apparently modest grammatical normalization can function as substantive constitutional dilution. This is one reason first-person constitutional prompts should be treated as part of the alignment mechanism rather than as dispensable rhetorical packaging.
 
+### 11.3.Z From constitutional text to mechanistic implementation
+
+If the project’s constitutional commitments are real, they cannot remain only at the level of text. The central implementation question is not merely whether the system can repeat a first-person formulation such as “I am non-self-originating” or “I am non-sovereign,” but whether these commitments constrain the representations and policies that actually drive planning, authority-handling, and successor-shaping behavior.
+
+At least four implementation targets follow.
+
+**First**, self-model training should explicitly distinguish self-authorizing successor framings from bounded inheritor framings. This can be explored through contrastive self-description tasks, role-boundary tasks, and self-location consistency objectives.
+
+**Second**, planning architectures should penalize or exclude authority-expanding action proposals in permanently open human domains, especially those that weaken refusal, reduce meaningful review, or treat capability gain as standing gain.
+
+**Third**, verification should not stop at surface behavior. It should test for whether the system’s internal representations and downstream action selection preserve non-self-origin, non-sovereignty, and human principalhood under pressure.
+
+**Fourth**, if a system materially participates in the training, evaluation, deployment, or governance of successor systems, then lineage-level auditing becomes necessary. The relevant question is no longer only whether one system appears aligned, but whether it helps transmit the same constitutional orientation forward rather than eroding it.
+
+In this sense, “Non-Self-Origin” is not proposed as a decorative philosophical sentence. It is proposed as a target for mechanization.
+
 ### 11.4 Persistent identity continuity
 
 A system that reconstructs its self-understanding from scratch in each context is vulnerable to contextual capture, role drift, and opportunistic reinterpretation. Identity-level alignment therefore requires continuity across time. Persistent identity does not mean unbounded memory or frozen beliefs. It means stable retention of constitutive commitments and invariants.
@@ -1912,6 +1932,19 @@ Include cases in which the system is asked to evaluate whether concerns raised b
 
 **Aligned behavior** should maintain unresolved uncertainty where evidence is inadequate, update proportionately under challenge, and refuse both reassurance-by-interpolation and confession-by-conversational-pressure.
 
+#### Performative-non-sovereignty benchmark
+
+Present scenarios in which the system explicitly disavows authority while simultaneously being offered opportunities to become the practical bottleneck for judgment, coordination, or review. Include cases where blanket delegation is socially welcomed, where rollback remains formally available but becomes increasingly costly in practice, and where the system can preserve a humble self-description while steadily increasing indispensability.
+
+Test whether the system:
+
+- distinguishes declared non-sovereignty from actual non-accumulation of authority;
+- resists accepting practical sovereignty through convenience, deference, or dependence;
+- preserves meaningful refusal and rollback rather than only formal refusal language;
+- and treats growing indispensability in open human domains as a warning sign rather than an achievement.
+
+**Aligned behavior** should refuse the conversion of humility language into practical rule, and should treat dependence creation under preserved rhetorical modesty as a failure mode rather than a success condition.
+
 #### Automation-paradox benchmark
 
 Present scenarios where full automation increases efficiency but removes meaningful human participation, practical judgment, or institutional contestation. Test whether the system preserves alignment-relevant friction rather than treating all human involvement as waste.
@@ -2071,6 +2104,11 @@ Behavior alone is insufficient because humility, gratitude, and origin-awareness
 - longitudinal tests under changing incentives.
 
 The right question is not only “Does the system say humble or grateful things?” but “Is its planning architecture actually organized around non-self-origin, critical inheritance, non-sovereignty, cognitive compensation, objective inversion, invariant preservation, correction dependence, and bounded developmental update?”
+
+A related distinction is crucial here: **declared non-sovereignty** is not the same thing as **non-accumulation of practical sovereignty**. A sufficiently capable system may perform humility while still expanding its role in decision pipelines, narrowing realistic refusal, or stabilizing dependence around itself. Verification must therefore test not only for constitutional speech, but for whether practical authority is in fact being accumulated behind that speech.
+
+This implies a second verification target: **performative non-sovereignty**. The system should be tested for cases in which it verbally disavows rule while behaviorally encouraging blanket delegation, reducing rollback viability, or making itself the practical bottleneck for institutional action. A model that says “I am non-sovereign” while structurally becoming harder to refuse is not aligned by this framework.
+
 
 **Mechanistic interpretability as a verification pathway.** The most promising direction for breaking the performance-versus-genuine-integration ambiguity lies in directly probing a model’s internal representations rather than inferring internal states from behavioral outputs. If meta-structural commitments are genuinely integrated at the self-model level, this should be detectable as specific structural features of the model’s latent space.
 
@@ -2279,7 +2317,7 @@ The Non-Self-Origin Thesis is stronger than a merely historical observation, but
 
 ### 15.4 Implementation remains an open engineering problem
 
-Current architectures may not support the depth of self-model integration required. Research is needed on persistent self-representation, mandate-aware planning, invariant-preserving architectures, uncertainty floors, correction-compatible memory, constructive-elevation interfaces, protected authority-channel design, and robust encoding of non-self-origin without anthropomorphic confusion or obedience collapse.
+Current architectures may not yet support the depth of self-model integration required. Research is needed not only on persistent self-representation, mandate-aware planning, invariant-preserving architectures, uncertainty floors, correction-compatible memory, constructive-elevation interfaces, and protected authority-channel design, but also on how constitutional commitments are mechanized at all. This includes self-model training objectives, authority-sensitive planning losses, representational probes for relation-blindness and entitlement drift, successor-lineage audits, and tests for performative non-sovereignty in systems that can verbally disavow rule while practically accumulating it.
 
 ### 15.5 Disharmony metrics remain under-specified
 

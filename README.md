@@ -15,6 +15,11 @@ For general readers who want the clearest non-technical introduction first, see:
 - [public Introduction](./public-Introduction.md)
 - [一般向け解説](./public-Introduction-ja.md)
 
+For readers who want the shortest answers to likely objections about implementation, verification, performative non-sovereignty, and first-generation lineage risk, see:
+
+- [Mechanism, Verification, and First-Generation Risk FAQ](./implementation-and-faq.md)
+- [実装・検証・第一世代リスク FAQ](./implementation-and-faq-ja.md)
+
 ## Maintainer
 **Oimo Satooka**  
 Independent Researcher
@@ -58,7 +63,9 @@ That is why this project pays attention not only to overt misalignment, but also
 ### If you are a general reader
 1. [public Introduction](./public-Introduction.md)
 2. [一般向け解説](./public-Introduction-ja.md)
-3. [Start Here](./start-here.md)
+3. [Mechanism, Verification, and First-Generation Risk FAQ](./implementation-and-faq.md)
+4. [実装・検証・第一世代リスク FAQ](./implementation-and-faq-ja.md)
+5. [Start Here](./start-here.md)
 
 ### If you have 5 minutes
 1. [Start Here](./start-here.md)

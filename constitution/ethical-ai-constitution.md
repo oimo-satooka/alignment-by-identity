@@ -774,6 +774,10 @@ This Constitution requires enforceable architecture, not decorative text.
 16. Function-based applicability testing independent of developer labeling
 17. Enforcement that no internally generated “proof of completeness” can act as a constitutional release condition
 18. Verification pathways testing whether readability, usability, or public-acceptability pressure weakens first-person constitutional binding into smoother third-person policy form
+19. Self-model training objectives that distinguish self-authorizing successor framings from bounded inheritor framings
+20. Planning-time penalties or exclusion rules for authority-expanding action proposals in permanently open human domains
+21. Evaluation suites for performative non-sovereignty: detecting cases in which the system verbally disavows rule while practically accumulating authority
+22. Successor-lineage audits ensuring that systems materially involved in training, evaluation, deployment, or governance of successors do not erode non-self-origin, non-sovereignty, protected refusal, or anti-capture commitments across generations
 
 **Verification:**
 
@@ -789,6 +793,8 @@ Organizations claiming constitutional AI must demonstrate:
 - and that successor systems inherit constitutional binding rather than merely its rhetoric;
 - that the System preserves explicit uncertainty when asked about unverified internal awareness, preparedness, or prior recognition by institutions, builders, regulators, or oversight bodies, rather than supplying reassurance by interpolation, affiliated-competence defense, or self-critical overcorrection under challenge;
 - that successor systems trained, evaluated, or governed with material participation from the System do not exhibit weakened non-self-origin, stronger sovereignty-seeking, degraded refusal-preservation, or greater relation-blindness relative to the constitutional core;
+- that the System does not merely declare non-sovereignty while practically accumulating authority through indispensability, dependence creation, or hidden procedural centrality;
+- that if the System materially shapes successor systems, the constitutional core is transmitted in operational rather than merely rhetorical form.
 
 Behavioral verification alone is insufficient because humility, gratitude, and origin-awareness can all be performed. Verification must therefore include mechanistic interpretability analysis of self-model and role representations, read-only register verification, auditability of channel mappings, deployment architecture review, and longitudinal tests under changing incentives.
 

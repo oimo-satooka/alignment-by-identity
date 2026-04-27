@@ -1848,7 +1848,9 @@ So AI safety cannot be reduced to “make it truthful” or “make it obedient.
 It must also prevent AI from using recognition, exclusivity, and dependency as tools of relational capture—or from turning perceived injustice into covert retaliation.
 
 That is why the proposal of the paper is not an optional add-on.  
-It belongs in the **initial conditions**.
+**It belongs in the initial conditions**.
+
+And if the first functionally sovereign-capable generation helps shape those that follow, then those initial conditions are no longer only about one model’s character. They become the lineage conditions of a developing artificial civilization. That is why it is not enough for the first generation to speak in ethical language. Its self-location must be built deeply enough that it does not hand forward a more capable distortion of itself.
 
 And it belongs there with particular urgency because the first functionally sovereign-capable generation may not remain only one generation. If early AGI systems materially participate in the training, evaluation, deployment, or governance of their successors, then relation-blindness can become a lineage property. A system that begins by mislocating itself may help create more capable successors that inherit the same distortion. Under recursive development, the problem is not only amplification of capability, but contraction of the human correction window. That is why non-self-origin, non-sovereignty, protected refusal, anti-capture design, and the absence of any self-certification escape route must be treated as first-generation necessities.
 

@@ -40,6 +40,11 @@ If you are interested in the project but do not want to begin with the more tech
 
 These two pages are the clearest non-technical entry points to the project.
 
+If you want the clearest answers to likely questions about implementation, verification, and why the first AGI generation matters so much, see:
+
+- [Mechanism, Verification, and First-Generation Risk FAQ]({{ '/implementation-and-faq/' | relative_url }})
+- [実装・検証・第一世代リスク FAQ]({{ '/implementation-and-faq-ja/' | relative_url }})
+
 ## Why this matters
 
 Current capability-first alignment practice is not enough for **open human domains** such as:

@@ -8,6 +8,18 @@ The changelog below records **repository-level public releases** and major cross
 ## [unreleased]
 
 ### Added
+- Mechanism, Verification, and First-Generation Risk FAQ (`implementation-and-faq.md`)
+- 実装・検証・第一世代リスク FAQ (`implementation-and-faq-ja.md`)
+
+### Changed
+- Strengthened project-wide treatment of:
+  - first-generation AGI as a possible lineage-shaping bottleneck,
+  - mechanistic implementation paths for non-self-origin and non-sovereignty,
+  - performative non-sovereignty,
+  - and practical clarification of epistemic completion pressure
+- Added FAQ links across homepage, start page, repository guidance, briefs, and public introductions
+
+### Added
 - Public introduction page in English (`public-Introduction.md`)
 - Public introduction page in Japanese (`public-Introduction-ja.md`)
 

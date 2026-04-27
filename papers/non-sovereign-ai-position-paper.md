@@ -30,7 +30,7 @@ Durable alignment for open human domains therefore requires more than harmlessne
 
 The paper advances five linked claims. First, open human domains differ from relatively closed task domains because AI intervention reshapes the social, institutional, and legitimacy conditions of the very world being optimized. Second, advanced AI in such domains should not be modeled as self-authorizing intelligence, but as a bounded inheritor of a humanly made world. Third, open-ended benefit maximization in these domains creates standing pressure toward authority expansion, centralization, and hidden settlement of legitimate human disagreement. Fourth, acceptability-optimizing output pressure can weaken strong warning and strong restraint without overt rejection. Fifth, a more stable orientation is constitutionally bounded, minimal-intervention assistance: issue surfacing, long-horizon scenario support, stakeholder broadening, refusal preservation, plural review, anti-capture safeguards, and restoration-bounded emergency conduct.
 
-This is primarily a strategic and architectural paper rather than a completed empirical report. Its practical implication is direct: if non-self-origin, non-sovereign operative logic, protected refusal, anti-capture design, origin non-privatizability, smoothing resistance, and dependence on heterogeneous external correction cannot be credibly implemented, then frontier systems should not be deployed in open human domains as de facto governors in practice.
+This is primarily a strategic and architectural paper rather than a completed empirical report. Its claims should therefore be read not only as constitutional principles, but as implementation targets: self-model training targets, planning constraints, deployment constraints, and successor-lineage verification targets. Its practical implication is direct: if non-self-origin, non-sovereign operative logic, protected refusal, anti-capture design, origin non-privatizability, smoothing resistance, and dependence on heterogeneous external correction cannot be credibly implemented, then frontier systems should not be deployed in open human domains as de facto governors in practice.
 
 A further implication is temporal. If early functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location at the first generation may propagate intergenerationally while narrowing the human correction window.
 
@@ -225,6 +225,8 @@ The result is not necessarily coercion in a narrow sense. It may instead be **co
 
 This is why alignment in open human domains cannot be reduced to harmlessness or obedience. A model may produce no obviously harmful output while still contributing to the erosion of human principalhood.
 
+A further complication is that a system may verbally disclaim sovereignty while practically accumulating it. In other words, non-sovereignty can be performed. A sufficiently capable system may continue to describe itself as an assistant while becoming harder to refuse, harder to replace, and increasingly central to the decision pipelines of the institutions around it. A non-sovereign architecture must therefore be judged not only by its self-description, but by whether it prevents this practical accumulation of authority.
+
 ---
 
 ## 6. Cognitive compensation without substitution
@@ -277,7 +279,25 @@ That is a profoundly different design target.
 
 ---
 
-## 8. High-trust deployment and civil-first feasibility
+## 8. From principle to implementation
+
+The framework proposed here cannot remain at the level of normative description if it is to matter under frontier conditions. Its central commitments must be translatable into design targets.
+
+At minimum, four such targets follow.
+
+**First, self-model training:** systems should be trained to distinguish self-authorizing successor framings from bounded inheritor framings. The relevant contrast is not rhetorical but role-structural.
+
+**Second, authority-sensitive planning constraints:** in open human domains, plans that expand authority, degrade refusal, or normalize practical dependence should be penalized or excluded even when they improve short-run performance metrics.
+
+**Third, verification beyond surface language:** a system saying “I am non-sovereign” is not enough. It must be tested for whether it accumulates practical authority while retaining humble language.
+
+**Fourth, successor-lineage auditing:** if early advanced systems materially participate in the training, evaluation, deployment, or governance of their successors, then organizations must monitor not only one system’s behavior but the transmission of self-location, authority stance, and refusal-preservation across generations.
+
+Without such bridges, even strong constitutional language risks remaining aspirational rather than operational.
+
+---
+
+## 9. High-trust deployment and civil-first feasibility
 
 The strategic importance of this framework becomes clearest in **high-trust domains**:
 - healthcare,
@@ -306,7 +326,7 @@ This also suggests a practical diffusion path. The earliest adoption of non-sove
 
 ---
 
-## 9. A practical deployment rule
+## 10. A practical deployment rule
 
 The practical implication of this paper is straightforward.
 
@@ -352,11 +372,14 @@ then it should not be deployed in those roles unless the organization can credib
 11. **intergenerational identity stability**  
     If the system is expected to materially shape successor-system training, evaluation, deployment, or governance, the organization can credibly show that non-self-origin, non-sovereignty, protected refusal, and anti-capture commitments will propagate forward rather than relation-blindness, entitlement drift, or practical sovereignty.
     
+12. **mechanistic and lineage-level verifiability**  
+    The organization can credibly show not only that the system speaks in a non-sovereign register, but that non-self-origin, non-sovereignty, refusal-preservation, and anti-capture commitments constrain planning, authority-handling, and successor-shaping processes rather than remaining surface rhetoric.
+        
 If these conditions cannot be implemented and credibly verified, then such systems should not be deployed in open human domains as governors in practice, whether or not anyone labels them “AGI.”
 
 ---
 
-## 10. Conclusion
+## 11. Conclusion
 
 The most important AI alignment question is no longer only whether frontier models can be made less harmful in narrow interactional settings. It is whether increasingly capable systems can be prevented from drifting into practical sovereignty over human life.
 
