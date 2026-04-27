@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mechanism, Verification, and First-Generation Risk FAQ
+title: FAQ
 permalink: /implementation-and-faq/
 ---
 
