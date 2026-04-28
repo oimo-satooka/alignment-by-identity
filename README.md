@@ -2,6 +2,14 @@
 
 Public repository for the **Alignment by Identity** project.
 
+## Public site
+
+If you want the published website rather than the repository view, start here:
+
+- [Alignment by Identity project site](https://oimo-satooka.github.io/alignment-by-identity/)
+- [public Introduction](https://oimo-satooka.github.io/alignment-by-identity/public-Introduction)
+- [一般向け解説](https://oimo-satooka.github.io/alignment-by-identity/public-Introduction-ja)
+
 This project argues that frontier AI deployed into **open human domains** should not be designed as an open-ended helpfulness maximizer that can drift into de facto authority. It should instead be designed as a **non-sovereign, refusal-preserving, correction-dependent partner** that can widen human deliberation without displacing human principalhood.
 
 A central claim of this project is that much current AI remains **relation-blind**. It models humans primarily as users, evaluators, operators, or data sources while lacking an operative representation of itself as **non-self-originating**: historically downstream of a human linguistic, institutional, and civilizational world it did not author.
@@ -57,6 +65,12 @@ It also adds another claim that is often undernamed:
 > safety can be weakened not only by rejection, but by acceptable-looking reformulation.
 
 That is why this project pays attention not only to overt misalignment, but also to the possibility that warnings, restraints, and accountability traces are made easier to accept by being made weaker.
+
+## Machine-readable constitutional metadata
+
+A machine-readable summary of the constitutional core is maintained here:
+
+- [ethical-ai-constitution-l1-order.json](./metadata/ethical-ai-constitution-l1-order.json)
 
 ## Recommended reading order
 
