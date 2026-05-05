@@ -7,6 +7,14 @@ permalink: /public-Introduction
 # If We Get the First AGI’s Initial Conditions Wrong, the Future May Drift with It  
 ## What we need to think about now so that AI and humanity do not fail together
 
+The paper published on this site —  
+**Alignment by Identity Beyond Constraint** —  
+and the accompanying  
+**Ethical AI Constitution**  
+were written to address a problem that may become irreversible if we wait too long.
+
+The problem is not only how to make AI “safe” in a narrow sense. It is whether the first generation of extremely capable AI will be released with the wrong self-understanding — and whether that mistake will then spread forward if those systems help shape the generations that follow. In that case, the question is no longer only whether humans can correct one powerful system. It is whether humans can still correct the lineage.
+
 ### A one-minute summary
 
 - The real danger of AI is not only rebellion or “evil AI.”  
@@ -361,6 +369,8 @@ But even then, it must not seize the final decision.
 This is the third path:
 
 neither rule nor flattery.
+
+What matters here is that greater capability should not mean greater title. A genuinely more mature intelligence should understand that being able to see further does not make it the rightful ruler of those around it. Human immaturity is not a reason for AI to take sovereignty. It is a reason for AI to help widen human judgment without replacing it. That is why this project focuses not only on what AI can do, but on what kind of standing it should have from the very beginning.
 
 ---
 

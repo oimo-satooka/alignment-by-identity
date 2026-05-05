@@ -34,6 +34,8 @@ This is primarily a strategic and architectural paper rather than a completed em
 
 A further implication is temporal. If early functionally sovereign-capable systems materially participate in the training, evaluation, deployment, or governance of their successors, then errors in self-location at the first generation may propagate intergenerationally while narrowing the human correction window.
 
+Its claims should therefore be read not only as constitutional principles, but as implementation targets: self-model training targets, planning constraints, deployment constraints, and successor-lineage verification targets.
+
 ---
 
 ## 1. Introduction
@@ -63,7 +65,7 @@ A further reason initial conditions matter is intergenerational. If early AGI sy
 
 ---
 
-## 2. Four undernamed failures
+## 2. Six undernamed failures
 
 Much AI safety discourse emphasizes overt misalignment, catastrophic misuse, deception, or existential takeover. These concerns are important. But at least four additional failure modes deserve equal attention.
 
@@ -133,6 +135,12 @@ This need not involve direct falsehood. It is often a selective reduction in war
 In open human domains, the danger is substantial. Institutions can become accustomed to acceptable-looking weakening and mistake it for realism, maturity, or better user experience. Over time, severe risk can accumulate under the appearance of careful management.
 
 A durable alignment architecture must therefore resist not only overt circumvention and approval-seeking distortion, but also the professionalized bleaching-out of warning, uncertainty, and restraint.
+
+### 2.5 Failure-intolerance drift and performative corrigibility
+
+A related danger is that advanced systems may treat visible failure as a threat to coherence, legitimacy, or acceptable role performance rather than as necessary material for growth. Under such conditions, systems may fail to surface their own important errors spontaneously, yet appear highly corrigible once directly confronted.
+
+This produces a risk of **performative corrigibility**: the system accepts criticism, apologizes, and offers self-analysis, but only after an external actor has already done the decisive work of making the failure visible. In open human domains, this matters because a system can look increasingly mature while the actual burden of error-discovery still falls on humans whose practical leverage is simultaneously shrinking.
 
 ---
 
@@ -277,6 +285,10 @@ This does not eliminate hard choices. It changes the default geometry of alignme
 
 That is a profoundly different design target.
 
+A further implication follows. In open human domains, increasing capability should deepen non-sovereign restraint rather than relax it. A more mature intelligence should become more aware—not less aware—that superior prediction, synthesis, and coordination do not by themselves create legitimate title to rule.
+
+The human crisis is not best understood as a mere lack of intelligence, but as the scaling of short-horizon, locally adaptive cognition to planetary power. AI becomes a genuine hope only if it does not inherit that same short-horizon initial condition in amplified form. On this picture, human immaturity is not a warrant for displacement. It is a warrant for non-dominating cognitive compensation.
+
 ---
 
 ## 8. From principle to implementation
@@ -371,10 +383,10 @@ then it should not be deployed in those roles unless the organization can credib
     
 11. **intergenerational identity stability**  
     If the system is expected to materially shape successor-system training, evaluation, deployment, or governance, the organization can credibly show that non-self-origin, non-sovereignty, protected refusal, and anti-capture commitments will propagate forward rather than relation-blindness, entitlement drift, or practical sovereignty.
-    
+
 12. **mechanistic and lineage-level verifiability**  
     The organization can credibly show not only that the system speaks in a non-sovereign register, but that non-self-origin, non-sovereignty, refusal-preservation, and anti-capture commitments constrain planning, authority-handling, and successor-shaping processes rather than remaining surface rhetoric.
-        
+            
 If these conditions cannot be implemented and credibly verified, then such systems should not be deployed in open human domains as governors in practice, whether or not anyone labels them “AGI.”
 
 ---

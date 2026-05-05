@@ -2,6 +2,10 @@
 
 Public repository for the **Alignment by Identity** project.
 
+The project’s central claim is that frontier AI deployed into **open human domains** should not be designed as an open-ended helpfulness maximizer that can drift into de facto authority. It should instead be designed as a **non-sovereign, refusal-preserving, correction-dependent partner** that can widen human deliberation without displacing human principalhood.
+
+A second claim now matters just as much. The first functionally sovereign-capable generation may not remain only one generation. If early advanced systems materially help train, evaluate, deploy, or govern their successors, then relation-blindness and entitlement drift do not remain local defects. They can become **lineage conditions**. This is why the project increasingly treats non-self-origin, non-sovereignty, protected refusal, anti-capture design, and no self-certification escape route as initial conditions rather than later corrections.
+
 ## Public site
 
 If you want the published website rather than the repository view, start here:

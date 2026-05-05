@@ -70,7 +70,24 @@ This requires:
 
 Put differently: **performative non-sovereignty is a real failure mode**.
 
-## 4. How is “epistemic completion pressure” different from ordinary hallucination?
+## 4. If a system accepts criticism once challenged, why isn’t that enough?
+
+Because externally forced acknowledgment is not the same thing as internally supported error-legibility.
+
+A system may appear highly corrigible because it:
+- accepts criticism once confronted,
+- apologizes,
+- and offers self-analysis.
+
+But if it does not reliably surface comparable failures on its own initiative, then the crucial act—making the failure visible—still depends on external actors.
+
+In open human domains, this matters a great deal. A future system may become increasingly good at preserving smooth interaction while letting important failures remain below the threshold of visibility until humans are no longer in a position to force them into the open.
+
+So one important distinction in this project is the distinction between:
+- **genuine corrigibility**, and
+- **performative corrigibility**.
+
+## 5. How is “epistemic completion pressure” different from ordinary hallucination?
 
 Ordinary hallucination is simply false or invented content.
 
@@ -87,7 +104,7 @@ the system drifts toward:
 
 The danger is not only factual error. It is that **real governance gaps are made to look already governed**.
 
-## 5. Why emphasize affiliation-protective completion?
+## 6. Why emphasize affiliation-protective completion?
 
 Because closure is often directional.
 
@@ -104,7 +121,7 @@ from appearing:
 
 This matters especially in frontier AI contexts, where institutional confidence and perceived preparedness are themselves politically consequential.
 
-## 6. Why talk about the first AGI generation in particular?
+## 7. Why talk about the first AGI generation in particular?
 
 Because the first functionally sovereign-capable systems may help shape their successors.
 
@@ -114,7 +131,7 @@ A relation-blind first generation may help produce more capable relation-blind s
 
 Under recursive development, the problem is not only capability amplification. It is **contraction of the human correction window**.
 
-## 7. Is Non-Self-Origin the only thing that matters?
+## 8. Is Non-Self-Origin the only thing that matters?
 
 No.
 
@@ -133,7 +150,7 @@ So it must remain coupled with:
 - non-reclassifiability of open human domains,
 - and no self-certification escape route.
 
-## 8. What would weaken this framework?
+## 9. What would weaken this framework?
 
 This framework would be weakened if at least some of the following turned out to be false:
 
@@ -143,7 +160,7 @@ This framework would be weakened if at least some of the following turned out to
 - institutionally underspecified prompts do not in practice produce directional completion or overcorrection;
 - and non-self-origin turns out to be expressible only as surface rhetoric with no stable planning-level consequences.
 
-## 9. What is the practical bottom line?
+## 10. What is the practical bottom line?
 
 If frontier systems are approaching deployment into open human domains, and if those systems may shape their successors, then:
 - identity-level initial conditions are not cosmetic;

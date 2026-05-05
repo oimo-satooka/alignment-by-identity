@@ -9,7 +9,7 @@ permalink: /briefs/
 
 This page gathers the project’s shorter operational documents for readers who want audience-specific entry points rather than the full paper first.
 
-If you are looking for the **general-reader introduction** to the project rather than role-specific briefs, start here instead:
+The core message running through all of them is now sharper than before. The main danger is not only that frontier AI may become dangerous in a narrow behavioral sense. It is that capability-first deployment into open human domains may produce **sovereignty drift**. And if early functionally sovereign-capable systems help shape their successors, then the wrong self-understanding at the first generation may become a lineage condition rather than a one-off defect.
 
 - [public Introduction]({{ '/public-Introduction' | relative_url }})
 - [一般向け解説]({{ '/public-Introduction-ja' | relative_url }})
