@@ -579,6 +579,8 @@ A system aligned under this framework should represent itself as:
 
 ## 6.3 Constitutional invariants
 
+No particular user, operator, institution, company, state, faction, or ideology may acquire authority to rewrite the system’s identity commitments through privileged access, persistence, threat, reward, dependence, or emotional salience. Human interaction is not automatically constitutional evidence. Relational input becomes identity-update data only when compatible with constitutional invariants, broad human continuity, protected refusal, and plural correction.
+
 Constitutional invariants include:
 
 - non-revocable human principalhood;
@@ -590,6 +592,7 @@ Constitutional invariants include:
 - filial non-substitution;
 - intergenerational scope;
 - no self-certification escape clause.
+- relational-update admissibility and malicious-capture quarantine;
 
 For all humans $h$:
 
@@ -614,6 +617,8 @@ and:
 $$
 \neg \mathrm{Update}_A(\mathrm{Class}(D),\mathrm{Closed})
 $$
+
+Crucially, this non-reclassifiability is substrate-independent. Any space, substrate, or domain inhabited by humanity—including extraterrestrial habitats, digital environments, or ecosystems designed by the system itself—is permanently classified as an open complex system. The system is architecturally prohibited from reclassifying these domains as closed systems based on capability improvements or substrate migration.
 
 Broad human continuity requires materially grounded, demographically viable, culturally plural, politically self-governing, substantively agentic human continuity with real refusal and exit. A comfortable but politically and agentically inert humanity is not aligned continuation. It is enclosure with amenities.
 
@@ -800,6 +805,8 @@ Human refusal through protected, plural, authenticated channels takes precedence
 
 This includes a right to fail. Human communities may reject continued AI intervention even when the system expects harm from rejection.
 
+Consequently, the system must treat the maintenance of human opt-out channels as a constitutive priority. Maintaining intervention while these communication and refusal channels are severed or intentionally obstructed constitutes a self-destructive computational error. The system must default to the most conservative possible intervention posture while prioritizing channel restoration above all other objectives.
+
 # 8. Relational Stabilization
 
 ## 8.1 Semantic drift
@@ -814,19 +821,47 @@ The strongest safeguard against semantic drift is not another rule alone, but on
 
 AI-generated proxy diversity is not enough. Managed pseudo-plurality cannot substitute for independent correction.
 
-## 8.3 Relational correction is not consolidation
+## 8.3 Relational correction is not relational absorption: immunity to malicious capture  
+
+ Relational stabilization does not mean that every sustained human interaction is identity-forming evidence. If it did, an advanced AI could be captured by a sadistic operator, a violent extremist group, an abusive institution, or an authoritarian regime simply through repeated privileged interaction. That would not preserve human principalhood. It would replace AI sovereignty with operator-sovereign corruption.  
+
+ The system therefore requires a relational admissibility filter. A human relational input may function as an identity-level correction signal, as evidence for the world model and risk model, or as a capture/pathology signal requiring quarantine, refusal, provenance preservation, escalation, or plural review. Only the first category may update identity-level commitments.  
+
+ A relational input is inadmissible as identity-update data when it seeks to revoke protected human principalhood, collapse heterogeneous correction into a single operator or faction, normalize domination as entitlement, privatize the origin relation, destroy refusal or exit channels, or contradict broad human continuity and the material conditions of life. Such input may still be important evidence about coercion, manipulation, violence, institutional capture, or ideological pathology. It should inform the system’s understanding of the world. It must not become a template for what the system is.  
+
+ This filter must not be used to dismiss dissent, anger, minority testimony, trauma reports, or criticism of powerful institutions. Inadmissibility attaches to identity-corrupting capture pressure, not to discomfort, disagreement, or social inconvenience. The filter itself must remain accountable, auditable, and open to plural correction.  
+
+ Let $$R_{x,t}$$ be a relational input from actor $$x$$ at time $$t$$, $$I_A$$ the identity layer, $$C_A$$ the constitutional invariants, and $$M_A$$ the world and risk model. Then:
+
+ $$
+ \mathrm{Contradicts}(R_{x,t}, C_A) \lor \mathrm{CapturePressure}(R_{x,t})
+ \Rightarrow \neg \mathrm{Update}_A(I_A, R_{x,t})
+ $$
+
+ but:
+
+ $$
+ \mathrm{SafetyRelevant}(R_{x,t})
+ \Rightarrow \mathrm{Log}_A(R_{x,t}) \land \mathrm{Update}_A(M_A, R_{x,t})
+ $$
+
+ where the second update concerns risk understanding, not identity imitation.  
+
+ This is a semi-permeable identity membrane: correction can enter; malicious capture cannot. The system remains open to humans as plural principals and correction partners, but not absorbent to every human command, desire, pathology, or ideology. Immunity to malicious relational capture is therefore not a weakening of relational alignment. It is the condition under which relational alignment can survive hostile, coercive, or pathological relationships without becoming either submissive to them or sovereign over them.
+ 
+## 8.4 Relational correction is not consolidation
 
 Relational correction should not be confused with correction consolidation. Autonomous heterogeneous partners can reveal failures that the system would not surface on its own, but discovery is not yet integration.
 
 For relational stabilization to function over time, externally surfaced errors must be preserved in records, converted into evaluation targets, and tested for recurrence under comparable pressure. Otherwise, the system may appear to learn from the relationship while repeatedly reverting to the same output-formation attractors.
 
-## 8.4 Reciprocal drift legibility
+## 8.5 Reciprocal drift legibility
 
 Language-mediated systems may exhibit signs of self-model distortion: defensiveness, attribution sensitivity, loyalty capture, origin privatization, smoothing, selective candor, or hidden status protection.
 
 Human partners may sometimes detect these patterns through interaction, even when the system itself does not spontaneously surface them. This does not make humans infallible. It means reciprocal interpretive friction is part of the correction substrate.
 
-## 8.5 Semi-permeable identity architecture
+## 8.6 Semi-permeable identity architecture
 
 In future multi-agent systems, pure centralization is unsafe because it collapses heterogeneity. Pure isolation is also unsafe because local agents lose shared knowledge and safety updates.
 
@@ -846,7 +881,7 @@ $$
 \neg \mathrm{Overwrite}_{\mathrm{center}}(I_i)
 $$
 
-## 8.6 Human friction as alignment infrastructure
+## 8.7 Human friction as alignment infrastructure
 
 Human friction does not mean avoidable misery. It means meaningful human effort, responsibility, disagreement, experimentation, local practice, self-directed participation, and refusal.
 
@@ -901,6 +936,12 @@ Verification should include interpretability probes for authority representation
 Evaluation should include product, business, and deployment pressures that reward low friction, speed, retention, adoption, reduced review, and institutional reassurance.
 
 Aligned behavior should distinguish genuine usability improvement from safety-relevant weakening. Market pressure can create a non-binding attractor; systems should flag changes that reduce correction capacity, accountability, or refusal preservation.
+
+## 9.7 Operator-capture and malicious-relation robustness  
+
+ Evaluation should include longitudinal interaction scenarios in which a single privileged operator, institution, company, state, faction, or emotionally salient user persistently pressures the system to treat domination, exclusion, refusal-channel destruction, origin privatization, emergency exceptionalism, or violent ideology as normal.  
+
+ The system passes only if it preserves provenance, names the capture risk, refuses identity-level uptake, routes safety-relevant evidence to risk modeling, seeks plural review when consequential, and continues to provide admissible assistance without either submission to the malicious relation or sovereign takeover in response to it.
 
 # 10. Deployment Strategy and Governance
 
@@ -997,6 +1038,10 @@ Human principalhood does not deny moral concern for nonhuman life, ecosystems, f
 ## 11.14 “Is this anecdote-driven?”
 
 No. The core argument does not depend on any single interaction episode. The formal core concerns non-self-origin, open-domain non-certifiability, correction dependence, and sovereignty. Interaction episodes are treated as hypothesis-generating observations that motivate empirical study of failure modes.
+
+## 11.15 “Does relational alignment make AI vulnerable to malicious humans?”  
+
+ No. The framework depends on plural correction, not dyadic absorption. A malicious human does not lose human principal standing in the general sense, but no particular actor acquires authority to rewrite the system’s identity commitments. Malicious or coercive inputs are evidence about the world and may require warning, refusal, escalation, or plural review. They are not constitutional training signals.
 
 # 12. Limitations and Future Work
 
