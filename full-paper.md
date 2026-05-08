@@ -29,7 +29,7 @@ window.MathJax = {
 Independent Researcher  
 oimo.satooka@gmail.com
 
-**Draft v0.7**
+**Draft v0.5**
 
 ## Author and Transparency Note
 
