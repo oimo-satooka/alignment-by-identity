@@ -24,7 +24,6 @@ defaults:
 header_pages:
   - start-here.md
   - full-paper.md
-  - full-paper2.md
   - briefs.md
   - manifesto.md
   - public-Introduction.md
