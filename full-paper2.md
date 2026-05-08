@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Full Paper2
-permalink: /full-paper/
 ---
 
 # Alignment by Identity Beyond Constraint
