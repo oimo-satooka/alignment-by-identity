@@ -4,23 +4,6 @@ title: Full Paper2
 permalink: /full-paper/
 ---
 
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true,
-    processEnvironments: true
-  },
-  options: {
-    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  }
-};
-</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-**PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
-
 # Alignment by Identity Beyond Constraint
 
 ## Non-Self-Origin, Non-Sovereignty, Accountable Autonomy, and Correction Dependence in Open Human Domains
