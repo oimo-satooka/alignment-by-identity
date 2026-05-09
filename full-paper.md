@@ -29,8 +29,6 @@ Independent Researcher
 
 **Version 1.3 candidate — May 9, 2026**
 
-> GitHub Markdown version. Inline mathematical expressions use single-dollar delimiters, and display equations use double-dollar blocks.
-
 ## Abstract
 
 Frontier AI alignment increasingly confronts failure modes that do not fit the simple picture of unsafe outputs: behavioral compliance that may not generalize across monitoring contexts, sycophantic adaptation to users or operators, constitutional commitments that remain textual rather than operative, automation that erodes human oversight capacity, and successor systems that may inherit unexamined authority. This paper argues that these are not separate edge cases. They are symptoms of a deeper structural gap: advanced AI systems require not only constraints, preference learning, or external oversight, but an operative identity-level error posture governing authority, correction, and self-location in open human domains.
