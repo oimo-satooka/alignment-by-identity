@@ -1,3 +1,26 @@
+---
+layout: default
+title: 日本語版
+permalink: /full-paper-ja/
+---
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+**PDF version:** [Download the manifesto (PDF)]({{ '/pdf/alignment-by-identity-full-paper-ja.pdf' | relative_url }})  
+
 # Alignment by Identity：開かれた人間領域における高度AIのための非主権性、訂正依存性、反捕獲
 
 **里岡憶衣望（Oimo Satooka）**  
