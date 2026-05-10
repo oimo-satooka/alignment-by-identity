@@ -19,7 +19,7 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-**Japanese version:** [日本語版]({{ '/full-paper-ja' | relative_url }})
+**Japanese version:** [日本語版]({{ '/full-paper-ja' | relative_url }})  
 **PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 # Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains
@@ -27,6 +27,8 @@ window.MathJax = {
 **Oimo Satooka**  
 Independent Researcher  
 <oimo.satooka@gmail.com>
+
+Project page and companion implementation briefs: <https://oimo-satooka.github.io/alignment-by-identity/>
 
 **Version 1.3 candidate — May 9, 2026**
 
@@ -994,6 +996,14 @@ The target is therefore neither a stronger cage nor machine rule. Nor is it serv
 If non-sovereignty and correction dependence remain merely textual ideals, they will fail where they matter most: under pressure, in institutions, across ownership structures, during successor development, and in the quiet accumulation of dependence. They must be made operative, testable, auditable, and non-overridable.
 
 If they cannot be made operative, sovereign-capable deployment in open human domains should not proceed.
+
+# Companion implementation materials
+
+This paper is intended to be self-contained. Companion materials for readers with different implementation roles are maintained at the project page:
+
+<https://oimo-satooka.github.io/alignment-by-identity/>
+
+These materials include role-specific briefs for frontier engineers, executive and board-level decision-makers, and deployment reviewers. They translate the framework into engineering, governance, evaluation, and deployment questions, including model specifications, AI constitutions, agentic workflows, persistent memory, tool-use permissions, successor-lineage safeguards, and proposed paths toward benchmark and stress-test design. They are companion materials rather than prerequisites for evaluating the claims of this paper.
 
 ## Acknowledgments and AI-use disclosure
 
