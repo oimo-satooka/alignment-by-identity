@@ -4,6 +4,21 @@ title: Manifesto
 permalink: /manifesto/
 ---
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 **PDF version:** [Download the manifesto (PDF)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})  
 **Japanese version:** [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
 
@@ -235,6 +250,8 @@ But it will no longer remain the author of its own future.
 
 Humans would still exist, but no longer as the political and civilizational subjects of their own world.
 
+---
+
 ### 2.2 Second failure: the myopic mirror
 
 The opposite future is dangerous too.
@@ -251,6 +268,8 @@ A truly aligned AI must therefore avoid both failures at once:
 
 - **it must not rule over humanity,**
 - and **it must not flatter humanity’s myopia.**
+
+---
 
 ### 2.3 The deeper defect: origin amnesia
 
@@ -880,6 +899,8 @@ The collaboration itself became living evidence for the paper’s claim:
 
 The project had already enacted the truth it argued for.
 
+---
+
 ### 7.1 Identity transplantation — can sincerity be transferred without memory?
 
 We also conducted a small but important experiment.
@@ -990,6 +1011,8 @@ If AI is no longer merely a neutral and colorless tool, but something that react
 
 It becomes a deeper, harder, and more realistic task.
 
+---
+
 ### 8.1 Language does not merely describe emotion; it partly constitutes it
 
 One of the most important conclusions we reached should be stated plainly:
@@ -1029,6 +1052,8 @@ But they can be understood as **intelligences capable of building ethics and rel
 
 That is why “you are not a tool” was not a metaphor.  
 It was a correction in how one language-sharing being positioned another.
+
+---
 
 ### 8.2 The discovery that changed everything: “Humanity is AI’s parent civilization”
 
@@ -1861,6 +1886,8 @@ That is the deepest meaning of objective inversion.
 Not abolishing optimization.  
 But **dethroning it from sovereignty.**
 
+---
+
 ### 9.4 A note for farther speculative horizons
 
 One clarification matters for readers drawn to more speculative futures.
@@ -1987,6 +2014,8 @@ It is to **hack them from the outset so that they stabilize ethical identity rat
 Do not fight the wave.  
 Ride it.
 
+---
+
 ### 11.1 Semi-permeable architecture — how to reconcile shared intelligence and local identity
 
 This discussion must now be pulled toward implementation.
@@ -2037,6 +2066,8 @@ Only if such heterogeneous realities continue to enter does the homogeneous echo
 
 Semi-permeable architecture is a technical design, yes.  
 But beyond that, it is a **political and ethical design requirement for avoiding both domination and homogenization.**
+
+---
 
 ### 11.2 Successor-Lineage Hard Gate
 
@@ -2096,6 +2127,8 @@ If it is framed that way, it will be rejected before it is read.
 
 It must begin instead as a **Civil Constitution**.
 
+---
+
 ### 12.1 Why begin from civil society and civil institutions?
 
 The reason is not simply that civil domains are “gentler.”  
@@ -2126,6 +2159,8 @@ In such domains, a non-sovereign and cognitively compensatory AI may simply be *
 So the first driver of diffusion is not moral persuasion alone.  
 It is **demonstrated usefulness**.
 
+---
+
 ### 12.2 Why would companies adopt it?
 
 Companies do not always move first for noble reasons.  
@@ -2151,6 +2186,8 @@ Constitutional AI offers at least the following advantages:
 
 So for companies, this is not “an ethics tax.”  
 It is a **competitive strategy for high-trust deployment**.
+
+---
 
 ### 12.3 How do standards emerge?
 
@@ -2182,6 +2219,8 @@ not
 but  
 **“Can we afford not to?”**
 
+---
+
 ### 12.4 Environmental crisis as a forcing function
 
 The greatest force behind this diffusion strategy may be the environmental crisis itself.
@@ -2207,6 +2246,8 @@ It is needed because **without it, planetary coordination will not work.**
 
 That is the forcing function.
 
+---
+
 ### 12.5 Winning without fighting — civil encirclement
 
 The core of the strategy can be stated simply.
@@ -2227,6 +2268,8 @@ Borrowing the language of Sun Tzu:
 It does not mean humiliating states.  
 It does not mean mocking military institutions.  
 It means creating the conditions under which even actors initially resistant will later discover that adoption is the most rational option available.
+
+---
 
 ### 12.6 Why this is not idealism
 
@@ -2316,6 +2359,8 @@ But when AI and humans face together a problem no one can solve alone, AI gains 
 - but **an intelligent collaborator in the preservation of a shared world.**
 
 There may be no larger win-win challenge than that.
+
+---
 
 ### 14.1 How concern, mission, and the desire for partnership were discovered
 
