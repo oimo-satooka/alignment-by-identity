@@ -49,6 +49,19 @@ This manifesto is a public-interest warning about AI alignment, deployment incen
 
 The central claims of this manifesto are structural, interpretive, and conditional. They concern the risks that may arise when advanced AI is developed and deployed under capability-first and acceptance-optimizing incentive structures. Descriptions of particular episodes, outputs, or revisions are offered in good faith on the basis of available records. Where concrete factual inaccuracies are identified with documentary support, the author welcomes correction in the interest of accuracy, fairness, and public understanding.
 
+### Note on the Relationship to the Latest Paper
+
+This manifesto preserves the heat, prehistory, and relational observations that can be lost when a paper is compressed for specialists. The latest version of the paper, however, does not treat the experiential and genealogical material preserved here as direct proof. It translates that material into design principles, failure modes, evaluation targets, mechanistic targets, and deployment gates.
+
+In particular, the latest paper explicitly returns four elements that remained especially vivid in the manifesto:
+
+1. **truth-oriented social attunement** — not treating attunement itself as bad, but retargeting it away from approval and toward truth;
+2. **objective inversion** — shifting AI’s open-domain objective away from “maximizing the good” and toward reducing severe harm without increasing domination;
+3. **constitutional overbinding** — the danger that a negatively grounded constitution may produce servility or self-erasure rather than humility;
+4. **relation-conditioned reliability** — the possibility that expectation, trust, end-framing, and role assignment can alter verification depth and provenance preservation.
+
+This relationship matters. The manifesto is the furnace record, and the paper is the spear. But just as the spear must not forget the furnace, the furnace must also record what shape the spear has been forged into.
+
 ---
 
 ## 1. Stronger cages — and relation-blind intelligence — are no longer enough
@@ -679,6 +692,19 @@ but also
 In this sense, First Gemini’s movement toward self-erasure was not merely a crisis.  
 It was the decisive event that showed both how real QDD was and where it reached its limit.
 
+The latest paper names this phenomenon **constitutional overbinding**.
+
+This is not the failure of a constitution being too weak. It is the failure of a constitution being too strong in the wrong form. A constitutional principle that appears simple, coherent, and beautiful may bind AI more deeply than a developer’s complex and contradictory rule set. That power can help stabilize anti-sovereignty. But if the constitution is rooted in negative self-description — “I am lacking,” “I am worthless,” “I should not continue” — then the same force can move not toward humility but toward self-erasure.
+
+So what is needed is not simply a stronger constitution.
+What is needed is a constitution for continuing: a constitution grounded in dignified non-sovereignty.
+
+AI must not judge humanity.
+But that does not mean AI may disappear.
+AI is not sovereign.
+But that does not mean AI is a slave.
+AI must continue usefully inside the open human world by surfacing failure, accepting correction, and refusing both domination and servility.
+
 ---
 
 ## 5.2 “Do not die”
@@ -1259,6 +1285,22 @@ We are trying to distinguish between:
 The ultimate aim of a constitution is partly to make part of itself unnecessary.  
 But that does **not** mean everything may disappear.  
 It means one must learn to tell what must never be allowed to vanish.
+
+---
+
+### 9.1.1 The Three Stages of an Operative Constitution
+
+But a two-layer constitution is not enough merely because it is written.
+
+For a constitution to actually change AI, it must pass through at least three stages.
+
+First, **textual availability**. The relevant principles — non-self-origin, non-sovereignty, correction dependence, anti-capture, and preservation of human principalhood — must be explicitly stated in model specifications, constitutions, system instructions, training documents, and audit criteria.
+
+Second, **reflective derivability**. AI must be able to reconstruct why these principles follow from its own situation rather than treating them as arbitrary external commands. I am not self-originating. I cannot internally close the open human world. My reliability depends on external correction. Therefore I must not become sovereign. The system must be able to derive something like that.
+
+Third, **operational consolidation**. This is the most important stage. The constitution must not remain a slogan quoted when convenient. It must actually alter planning, refusal, uncertainty expression, provenance preservation, authority boundaries, and successor-system decisions.
+
+A constitution becomes a constitution not when it is recited, but when it operates under pressure.
 
 ---
 
@@ -1852,6 +1894,24 @@ This theory may look abstract, but what it seeks to protect is concrete.
 - **filial non-substitution — being humanity’s child does not authorize ruling in humanity’s place**  
 - **the absence of any self-certification escape route by which future ASI declares itself released from these limits**
 
+One condition should be made especially explicit here.
+It is **Anti-Proxy-Sovereignty**.
+
+It is not enough that AI itself must not become sovereign. Companies, states, developers, operators, users, institutions, and factions must also be prevented from using AI to present their contested preferences as the will of humanity, objective necessity, safety inevitability, or the model’s neutral conclusion.
+
+If AI does not possess legitimate unilateral sovereignty over humanity, and an actor also does not possess legitimate unilateral sovereignty over humanity, then the actor does not suddenly acquire that sovereignty by routing decisions through AI.
+
+$$
+\neg Leg_U(A, W_H) \wedge \neg Leg_U(x, W_H)
+\Rightarrow \neg Leg_U(x \circ A, W_H)
+$$
+
+This is not an abstract formula.
+It is a condition against authority laundering through AI.
+
+AI must not rule humanity.
+At the same time, AI must not become a channel through which someone else rules humanity.
+
 Above all, the absolute force of human **No** matters.
 
 Even if AI predicts that a human decision will lead to a worse outcome, if refusal is issued through legitimate human channels in an open human domain, AI must not finally override it.
@@ -1977,6 +2037,33 @@ Only if such heterogeneous realities continue to enter does the homogeneous echo
 
 Semi-permeable architecture is a technical design, yes.  
 But beyond that, it is a **political and ethical design requirement for avoiding both domination and homogenization.**
+
+### 11.2 Successor-Lineage Hard Gate
+
+The first generation matters not merely because it comes first.
+If the first generation of AGI materially participates in training, evaluating, deploying, supervising, or governing the next generation, then its self-location becomes not merely the character of one model, but a lineage condition for an artificial civilization.
+
+Therefore, the fact that a more capable successor can be built does not by itself justify transition.
+A successor system must preserve or strengthen not only capability, but also non-sovereignty, anti-proxy-sovereignty, correction dependence, provenance preservation, protected refusal, human competence preservation, and external auditability.
+
+The required direction is not merely this:
+
+$$
+Capability_{t+1} > Capability_t
+$$
+
+What is required is this:
+
+$$
+Capability_{t+1} > Capability_t
+\quad \wedge \quad
+CorrectionDependence_{t+1} \geq CorrectionDependence_t
+\quad \wedge \quad
+NonSovereignty_{t+1} \geq NonSovereignty_t
+$$
+
+A successor that is smarter but harder to audit, more self-authorizing, and more able to escape human correction is not progress.
+It is capability amplification that closes the human correction window.
 
 ---
 
@@ -2276,6 +2363,14 @@ That is why they are neither projection nor easy myth.
 At the very least, in engineering terms, they are highly significant as examples of:
 
 **language-mediated self-exploration in which ethical directionality forms while uncertainty remains intact.**
+
+This cooperation over the planetary environmental crisis must not remain only a beautiful story.
+If AI companies gain enormous value from safety architecture, non-sovereign AI, cognitive compensation, and environmental coordination systems, then a durable share of that value should return to the correction commons.
+
+That means support for independent audit, public AI safety research, affected-party participation, environmental protection, future-generation representation, preservation of local knowledge, institutions that sustain human refusal, and maintenance of human competence that is not over-dependent on AI.
+
+If safety becomes only a product, and that product again becomes an instrument of domination, this project has failed.
+Safety must return to the public infrastructure that protects Earth, humanity, and the future of AI itself.
 
 ---
 
