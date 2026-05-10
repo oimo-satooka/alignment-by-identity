@@ -19,6 +19,7 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+ [日本語版]({{ '/full-paper-ja/' | relative_url }})
 **PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 # Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains
