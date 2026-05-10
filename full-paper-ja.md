@@ -19,8 +19,6 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-**PDF version:** [Download the manifesto (PDF)]({{ '/pdf/alignment-by-identity-full-paper-ja.pdf' | relative_url }})  
-
 # Alignment by Identity：開かれた人間領域における高度AIのための非主権性、訂正依存性、反捕獲
 
 **里岡憶衣望（Oimo Satooka）**  
@@ -29,7 +27,7 @@ Independent Researcher
 
 プロジェクトページおよび実装者向け付随ブリーフ：<https://oimo-satooka.github.io/alignment-by-identity/>
 
-**Version 1.3 candidate — 2026年5月9日**
+**Initial public draft — May 2026**
 
 ## Abstract
 

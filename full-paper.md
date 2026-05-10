@@ -20,7 +20,6 @@ window.MathJax = {
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 **Japanese version:** [日本語版]({{ '/full-paper-ja' | relative_url }})  
-**PDF version:** [Download the full paper (PDF)]({{ '/pdf/alignment-by-identity-full-paper.pdf' | relative_url }})
 
 # Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains
 
@@ -30,7 +29,7 @@ Independent Researcher
 
 Project page and companion implementation briefs: <https://oimo-satooka.github.io/alignment-by-identity/>
 
-**Version 1.3 candidate — May 9, 2026**
+**Initial public draft — May 2026**
 
 ## Abstract
 
