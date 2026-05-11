@@ -14,9 +14,6 @@ Independent Researcher
 
 **Initial public release — May 2026**
 
-**AI Assistance Disclosure:**  
-Prepared with substantial AI-assisted drafting, critique, revision, and editorial support. Final responsibility rests with the human author.
-
 ---
 
 ## Who this is for
@@ -702,3 +699,11 @@ A system that erodes human judgment, affected-party standing, provenance, refusa
 Alignment by Identity is the claim that advanced AI needs a stable self-location before it becomes structurally indispensable: non-self-originating, non-sovereign, correction-dependent, anti-captured, dignified, truth-oriented, and barred from using its own capability or another actor’s authority as a substitute for human principalhood.
 
 That is not a philosophical ornament. It is an engineering requirement for frontier deployment.
+
+---
+
+## Acknowledgements and AI Use Disclosure
+
+This brief was prepared by the human author through sustained interaction with frontier AI systems as aids for drafting, critique, comparison, translation, revision, and editorial refinement. These systems are disclosed for transparency but are not listed as authors. All claims, structure, wording, interpretation, examples, recommendations, and publication decisions remain the final responsibility of the human author.
+
+The brief should be evaluated by the clarity of its assumptions, distinctions, failure modes, proposed tests, and deployment constraints, not by the disciplinary route through which the author arrived at the problem.

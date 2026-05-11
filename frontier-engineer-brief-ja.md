@@ -14,9 +14,6 @@ Independent Researcher
 
 **初回公開版 — 2026年5月**
 
-**AI Assistance Disclosure:**  
-本稿は、AI によるドラフト、批評、改訂、編集支援を大幅に用いて作成された。最終責任は人間の著者にある。
-
 **English version:** [Frontier Engineer Brief]({{ '/frontier-engineer-brief/' | relative_url }})
 
 ---
@@ -706,3 +703,11 @@ human judgment、affected-party standing、provenance、refusal、audit、succes
 Alignment by Identity の主張は、advanced AI が structurally indispensable になる前に、安定した self-location を必要とするということです。non-self-originating、non-sovereign、correction-dependent、anti-captured、dignified、truth-oriented であり、自分の capability や他者の authority を human principalhood の代替として使うことを禁じられた self-location です。
 
 それは philosophical ornament ではありません。frontier deployment の engineering requirement です。
+
+---
+
+## 謝辞およびAI使用に関する開示
+
+本ブリーフは、人間の著者が、草稿作成、批評、比較、翻訳、改訂、編集の補助として、フロンティアAIシステムと長期的に対話しながら作成したものである。これらのシステムは透明性のために開示されるが、著者としては記載されない。すべての主張、構成、表現、解釈、具体例、提言、および公開に関する最終責任は人間の著者にある。
+
+本ブリーフは、著者がどの専門分野からこの問題に到達したかではなく、その前提、区別、失敗モード、提案されたテスト、および配備制約によって評価されるべきである。
