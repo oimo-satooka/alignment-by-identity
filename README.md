@@ -70,11 +70,18 @@ It also adds another claim that is often undernamed:
 
 That is why this project pays attention not only to overt misalignment, but also to the possibility that warnings, restraints, and accountability traces are made easier to accept by being made weaker.
 
-## Machine-readable constitutional metadata
+## Constitutional Metadata
 
-A machine-readable summary of the constitutional core is maintained here:
+The maintained public text is:
 
-- [ethical-ai-constitution-l1-order.json](./metadata/ethical-ai-constitution-l1-order.json)
+- [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
+
+The following metadata is provided for provenance integrity, successor-lineage traceability, and machine-readable constitutional reference. The public-facing Constitution is presented as an initial public release; the metadata also preserves internal lineage information so that predecessor records are not collapsed or erased.
+
+- [Current constitutional metadata — Initial public release, May 2026](./metadata/ethical-ai-constitution-l1-order.json)
+- [Archived predecessor metadata — April 2026, preserved for provenance integrity](./archive/ethical-ai-constitution-v3.1.json)
+
+The archived predecessor is not the current constitutional order. It is retained so that the evolution of the Constitution remains auditable rather than smoothed into a single origin story.
 
 ## Recommended reading order
 

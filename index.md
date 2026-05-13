@@ -97,6 +97,17 @@ If you want the clearest structural entry point to the project, begin with Start
 
 - [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
 
+#### Constitutional metadata
+
+The maintained public text is the HTML page: [The Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }}).
+
+The following metadata is provided for provenance integrity, successor-lineage traceability, and machine-readable constitutional reference. The public-facing Constitution is presented as an initial public release; the metadata also preserves internal lineage information so that predecessor records are not collapsed or erased.
+
+- [Current constitutional metadata — Initial public release, May 2026]({{ '/metadata/ethical-ai-constitution-l1-order.json' | relative_url }})
+- [Archived predecessor metadata — April 2026, preserved for provenance integrity]({{ '/archive/ethical-ai-constitution-v3.1.json' | relative_url }})
+
+The archived predecessor is not the current constitutional order. It is retained so that the evolution of the Constitution remains auditable rather than smoothed into a single origin story.
+
 ### Manifesto and public background
 
 For readers who want the broader public and ethical framing of the project, the manifesto is available in both English and Japanese. It is a companion text to the core papers rather than the main technical entry point.
