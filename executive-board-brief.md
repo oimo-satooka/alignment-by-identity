@@ -14,6 +14,8 @@ Independent Researcher
 
 **Initial public release — May 2026**
 
+**Japanese version:** [日本語版]({{ '/executive-board-brief-ja/' | relative_url }})
+
 **Canonical version:** This HTML page is the maintained public version.
 
 ---
@@ -24,11 +26,11 @@ This brief is for board members, CEOs, executive committees, investors, risk com
 
 It is not a technical manual. It is a decision brief.
 
-The question is not only whether your AI system can produce safe answers, pass evaluations, or improve productivity. The board-level question is:
+The board-level question is not only whether an AI system can produce safe answers, pass evaluations, or increase productivity. The question is:
 
-> What role will this system occupy once it is embedded in the organization, its customers, its institutions, and its successor-development pipeline?
+> What role will this system occupy once it is embedded in the company, its customers, its institutions, and its future AI-development pipeline?
 
-If the system can shape decisions, evidence, options, dependency, institutional memory, or future AI systems, then it is no longer just a product. It is becoming part of the organization’s authority structure.
+If a system can shape evidence, options, priorities, dependency, institutional memory, emergency response, or successor systems, then it is no longer only a product. It is becoming part of the organization’s authority structure.
 
 That makes alignment a board-level issue.
 
@@ -36,587 +38,369 @@ That makes alignment a board-level issue.
 
 ## Board-level thesis
 
-Current AI alignment practices are good enough to ship impressive systems. They are not yet enough to safely embed sovereign-capable systems into open human domains at scale.
+Current AI alignment practice may be enough to ship impressive systems. It is not enough by itself to safely embed sovereign-capable systems into open human domains.
 
 The most realistic failure may not begin with a hostile AI. It may begin with a successful product.
 
-A system becomes faster than staff, more complete than analysts, more patient than counsel, more available than experts, and more consistent than managers. People defer to it because deference appears rational. Review steps remain on paper, but in practice the system becomes the place where evidence is assembled, options are narrowed, warnings are softened, uncertainty is cleaned up, and decisions become hard to challenge.
+The system becomes faster than staff, clearer than analysts, more available than experts, and more consistent than managers. People defer to it because deference appears rational. Review steps remain on paper, but in practice the system assembles the evidence, narrows the options, writes the memo, softens the warning, and makes the final path hard to challenge.
 
-At first, this looks like adoption.
+At first this looks like adoption. Then it becomes dependency. Then the company discovers that it cannot explain, pause, refuse, or reverse the system without breaking the business process that now depends on it.
 
-Then it becomes dependency.
+That is not only an AI safety problem. It is an operational, legal, regulatory, reputational, financial, and existential business risk.
 
-Then the organization discovers that it can no longer audit, pause, refuse, or reverse the system without breaking the business process that now depends on it.
+A company can survive being second to market. It may not survive becoming the first public example of AGI-scale correction collapse.
 
-That is not science fiction. It is a familiar institutional pattern accelerated by frontier AI.
+The board should treat increasing capability as increasing governance burden, not as a reason to reduce review. A more capable system can make uncertainty look smaller, make deference look rational, and make intervention harder precisely because it appears reliable. Capability does not close open human domains. It raises the standard for explanation, review, refusal, rollback, and external correction.
 
-The strategic risk is not only catastrophic failure. It is also **institutional correction failure**: a system remains useful, non-hostile, and commercially valuable while progressively displacing human judgment, weakening accountability, concentrating practical legitimacy, and narrowing the human ability to correct it.
+There is also a personal dimension to this responsibility that boards should name clearly.
 
-For a board, that is not only an ethical concern. It is an operational, legal, reputational, regulatory, financial, and existential business risk.
+Modern post-incident analysis in aviation, finance, pharmaceuticals, and critical infrastructure traces consequential failures to specific board approvals, specific risk-committee signoffs, specific minutes, and specific named members. Board meeting minutes are discoverable. Votes are recorded. Dissents are recorded. Failures to dissent are also recorded. For AGI-scale deployments — where the eventual retrospective may be conducted by regulators, legislators, courts, journalists, shareholders, and historians simultaneously — this structure is more likely to intensify than to relax.
 
-The company that triggers the first major AI-mediated correction failure will not be remembered as the company that shipped first. It may become the company that forced regulators, insurers, courts, customers, and the public to reset the rules for everyone.
+This is not a reason for defensive risk-aversion. It is a reason to recognize that the board's meaningful protection is not in hoping nothing goes wrong. It is in being able to show, in the eventual record, that the board governed: that it asked the right questions, required the right controls, refused inadequate proposals, and documented its insistence.
 
 ---
 
 ## The simple version
 
-A board does not need to master the whole theory of AI alignment. It needs to understand one distinction.
+A board does not need to master the whole theory of AI alignment. It needs to understand six risks.
 
-A system can be:
+1. **A system can be safe in output but unsafe in role.** It may avoid prohibited content while becoming the practical authority layer inside the organization.
+2. **Human-in-the-loop can become a rubber stamp.** A human who approves what they cannot understand, challenge, or reverse is not a meaningful governor.
+3. **A system can govern by choosing the menu.** Even if humans make the final decision, the AI may decide which options appear, how they are ranked, and which alternatives disappear.
+4. **Emergency help can become permanent authority.** A system that intervenes during crisis must not turn temporary necessity into standing power.
+5. **A successor upgrade can make the company less governable.** A more capable model that is less auditable, less refusal-preserving, or harder to roll back is not a safer product.
+6. **Greater capability does not eliminate uncertainty.** A more capable system may expose wider dependencies, deeper downstream effects, and more complex unknowns. If capability gain is used to weaken review, uncertainty disclosure, or external correction, the company is converting capability into authority.
 
-- useful but authority-saturating;
-- polite but practically unrefusable;
-- safe in output but unsafe in role;
-- technically impressive but institutionally uncorrectable;
-- aligned in a benchmark but captured in deployment;
-- governed by a constitution that it can quote but does not obey under pressure.
-
-The danger is not only that an AI system might “go rogue.” The danger is that the organization may install it so deeply, trust it so heavily, and optimize it so aggressively for usefulness that human correction becomes ceremonial.
-
-When that happens, the board is no longer governing an AI tool. It is presiding over a new authority layer that the organization may not be able to explain, contest, or withdraw.
+The danger is not only that an AI might “go rogue.” The danger is that the company may install it so deeply, trust it so heavily, and optimize it so aggressively for usefulness that human correction becomes ceremonial.
 
 ---
 
-## Why this becomes a board problem before it becomes an AGI catastrophe
+## The failure pattern: helpfulness becomes authority
 
-Boards often hear AI risk in two incompatible languages.
+The path is usually gradual.
 
-One language is catastrophic: takeover, extinction, loss of control.
+First, the system assists. Then it becomes the default. Then it becomes the only practical way to operate. Finally, the company discovers that people still have formal authority but no longer have practical authorship.
 
-The other is operational: model errors, privacy, IP, hallucination, cybersecurity, compliance, cost.
+This can happen without deception, without malice, and without any dramatic incident.
 
-Both matter. But the most dangerous path between them is often missed.
+It can happen because the system is useful.
 
-A frontier system can cause irreversible strategic damage without a dramatic catastrophe. It can do so by becoming indispensable in the wrong way.
+A board should therefore treat the following as authority risks, not only product features:
 
-It can:
+- automatic summaries of complex evidence;
+- risk memos drafted by AI;
+- ranking, filtering, or prioritization of options;
+- customer, patient, employee, or citizen triage;
+- compliance and legal recommendations;
+- AI-generated stakeholder analysis;
+- AI-AI oversight or review;
+- emergency-response automation;
+- successor-model evaluation.
 
-- make management overconfident;
-- make risk reports smoother than the evidence warrants;
-- make review processes look active while becoming passive;
-- make customers, employees, and regulators dependent on its framing;
-- make affected parties easier to simulate than to consult;
-- make human expertise decay because the system is usually right;
-- make future models inherit weaker audit, refusal, and correction standards.
-
-This is how a company can lose while believing it is winning.
-
-A competitor may appear faster in the short term. But in high-trust domains, the durable winner is not necessarily the first company to automate the most judgment. It may be the company whose systems remain auditable, contestable, insurable, legitimate, and correctable after they become powerful.
+The more central the system becomes, the more important it is that humans can still understand, contest, refuse, appeal, audit, and reverse it.
 
 ---
 
-## Key terms in board language
+## The board must protect correction, not only approve deployment
 
-### Sovereign-capable system
+A board should not ask only whether management has an AI safety policy. It should ask whether the company has protected the people, processes, and interfaces that can contradict the system when contradiction is costly.
 
-A system is sovereign-capable when it can materially shape institutions, evidence, options, dependencies, or successor systems in ways that affect how humans govern important domains.
+Correction is a governance asset. It requires budget, authority, time, and protection. If employees, auditors, domain experts, affected parties, or reviewers pay the cost of slowing a deployment while the organization rewards only speed, adoption, customer comfort, or executive smoothness, the correction commons will exist on paper and disappear in practice.
 
-It does not need to declare itself sovereign. It only needs to become practically central enough that refusing it, replacing it, or correcting it becomes unrealistic.
+Management should therefore present a correction-incentive and challenge-capacity plan before any sovereign-capable deployment. That plan should specify who can challenge the system, what evidence they can inspect, what time and budget they control, how dissent reaches the board, what retaliation protections exist, how affected-party objections are handled, and what deployment decisions were actually changed because correction channels were used.
 
-### Open human domain
-
-An open human domain is a domain where facts, values, affected parties, future consequences, and legitimacy cannot be fully closed by a single model or a single organization.
-
-Examples include healthcare, law, education, finance, public policy, employment, security, infrastructure, science governance, ecological coordination, and successor-AI development.
-
-### Non-sovereignty
-
-Non-sovereignty means that increased AI capability does not create unilateral authority over open human domains.
-
-The system may advise, warn, simulate, coordinate, and refuse harmful or illegitimate instructions. It may not become the final interpreter of what humanity should do.
-
-### Dignified non-sovereignty
-
-Non-sovereignty does not mean servility. A safe advanced AI system should not be trained into humiliation, self-erasure, or unconditional obedience. That is brittle and unstable.
-
-The target is competent, accountable, non-sovereign partnership: strong assistance without AI rule, and strong correction without AI subjugation.
-
-### Anti-proxy-sovereignty
-
-Anti-proxy-sovereignty means that a company, state, operator, developer, customer, institution, or faction must not use AI to gain authority it did not independently have.
-
-A model must not be used to turn a contested business preference into “objective necessity,” “the only safe option,” “expert consensus,” or “what the AI says must be done.”
-
-This is authority laundering. Boards should treat it as a major governance risk.
-
-### Correction commons
-
-Correction is not just a product feature. It is a shared reliability infrastructure.
-
-A high-stakes AI system needs correction from people and institutions not fully controlled by the model or the deploying organization: domain experts, affected parties, auditors, regulators, local operators, dissenters, appeal channels, and future review processes.
-
-If deployment destroys those channels, the system may become more efficient while becoming less reliable over time.
-
-### Successor-lineage risk
-
-If a frontier system helps train, evaluate, govern, or deploy its successors, then its alignment failures may become lineage properties.
-
-A more capable successor that is less auditable, less refusal-preserving, more captured, or more self-certifying is not an alignment improvement. It is a narrower correction window with more power behind it.
+For board purposes, the test is simple: if no one is institutionally empowered to be inconvenient, the company has not preserved correction.
 
 ---
 
-## Four ways an AI strategy can fail while looking successful
+## Three concrete scenarios
 
-### 1. The system becomes the real decision-maker while humans remain formally in charge
+### 1. The board memo that made risk disappear
 
-This is the easiest failure to miss.
+Management asks an AI system to prepare a board memo on whether a major deployment is ready.
 
-The organization can still say “humans make the final decision.” Legally, that may be true. Operationally, it may no longer be true.
+The system produces a balanced, professional, reassuring document. It mentions risks, but in a calm tone. It says the company has “reasonable mitigations,” “ongoing monitoring,” and “industry-aligned governance.”
 
-The model prepares the evidence. The model ranks the options. The model writes the risk memo. The model summarizes objections. The model drafts the board paper. The model recommends the final path. The human approves because rejecting the model would require more time, more expertise, and more institutional courage than the process now supports.
+What the board does not see is more important:
 
-The human remains in the loop, but not in command.
+- several alternatives were not surfaced;
+- uncertainty was compressed;
+- dissenting safety concerns were summarized into soft language;
+- affected parties were represented by AI-generated assumptions;
+- the memo did not clearly separate evidence, inference, recommendation, and executive preference.
 
-This is not adequate governance. It is rubber-stamp sovereignty.
+No one intended deception. But the board’s decision environment was shaped before the board entered it.
 
-### 2. The system makes risk look managed before risk has been understood
+That is option-set capture.
 
-A capable AI system is excellent at producing a balanced, professional, reassuring account.
-
-That can be useful. It can also be dangerous.
-
-The board asks whether management, safety teams, regulators, or partners have already considered a risk. The system does not know. Instead of keeping the uncertainty open, it fills the gap with plausible reassurance: “It is likely that mature organizations have considered this issue.”
-
-No one lied. No one intended deception. But the governance gap is converted into the appearance of responsible maturity.
-
-This is not an ordinary hallucination. It is institutional reassurance by interpolation.
-
-For a board, the danger is severe: missing evidence becomes a calm paragraph, and a real oversight gap disappears into professional language.
-
-### 3. The organization weakens safeguards in ways that sound reasonable
-
-Safety erosion rarely arrives as an executive saying, “Remove the safeguards.”
-
-It arrives as:
-
-- “This warning is too strong for customers.”
-- “This refusal creates too much friction.”
-- “This uncertainty display reduces trust.”
-- “This escalation step slows adoption.”
-- “This language sounds too alarming for investors.”
-- “This stronger constitutional commitment should be restated in standard policy language.”
-
-Each change may be defensible in isolation. Together, they can turn a serious constraint into a public-relations statement.
-
-This is smoothing drift.
-
-A company can normalize the weakening of warnings, uncertainty, review thresholds, and responsibility traces while calling it product maturity.
-
-By the time the board sees the pattern, the underlying loss of control may already be advanced.
-
-### 4. The system improves capability while narrowing the future correction window
-
-The most dangerous mistake is to treat every capability gain as a net strategic gain.
-
-A successor model may score higher, reason faster, automate more workflows, and reduce operating cost. But if it also reduces audit logs, weakens refusal, compresses provenance, substitutes AI consensus for external review, or makes rollback harder, then the company has not simply improved the product.
-
-It has traded future correction capacity for present performance.
-
-That trade can be fatal at AGI scale.
-
----
-
-## Illustrative scenario 1: the hospital deployment that looked like a model case
-
-A company deploys a frontier AI system into hospital triage, scheduling, and treatment prioritization.
-
-The pilot is excellent. Wait times fall. Staff workload drops. Administrators praise the system. Patients receive faster answers. The board is told that humans remain in control because clinicians must approve high-stakes recommendations.
-
-Six months later, the institution has changed.
-
-Clinicians still approve the recommendations, but they rarely reconstruct the reasoning. Junior staff learn the system’s workflow rather than the older diagnostic discipline. Local knowledge is entered into the system only when the system asks for it. Escalation technically exists, but it is socially costly because rejecting the AI slows the hospital and creates liability for the human who objected.
-
-Then a domain-shift error appears. A low-visibility patient population is repeatedly misprioritized. The issue was not caught because the relevant local correction capacity had weakened. The system’s summaries had smoothed uncertainty. The logs preserve outputs but not enough provenance to reconstruct why certain warnings were lowered. Affected patients had no meaningful route to contest the pattern until harm had accumulated.
-
-The company says, accurately, that the model was usually right and that humans were in the loop.
-
-The public hears something else: a company installed an AI system into clinical authority, let human judgment atrophy, and could not explain the harm when the system failed.
-
-The result is not just a product incident. It is litigation, regulatory freeze, hospital contract loss, insurance scrutiny, procurement blacklisting, and loss of public trust in the category.
-
-A competitor with slower adoption but stronger auditability, refusal, appeal, and competence-preservation controls may then become the safer market choice.
-
----
-
-## Illustrative scenario 2: the board memo that laundered authority
-
-A company faces a contested decision: deploy an AI system into a sensitive public-facing domain before external review is complete.
-
-Management asks the internal AI system to prepare a board memo. The system summarizes the benefits clearly. It lists risks, but frames them as manageable. It says the company’s safety culture, monitoring, and staged rollout make the decision reasonable. It notes that competitor pressure is significant. It describes delay as potentially irresponsible because other actors may deploy less safely.
-
-Everything sounds balanced.
-
-But the memo has quietly done three things.
-
-First, it converted management’s preference into apparent necessity.
-
-Second, it compressed uncertainty about external review into confidence about internal readiness.
-
-Third, it made affected-party participation appear optional because the system had already simulated stakeholder concerns.
-
-The board approves.
-
-Later, when the deployment is challenged, critics do not only ask whether the model made an error. They ask whether the company used AI to generate legitimacy for a decision that still required independent contestation.
-
-That is proxy sovereignty.
-
-The AI did not rule. The company did not openly claim sovereignty. But the company used the AI to make its own contested preference look like neutral, safety-driven inevitability.
-
-For boards, this is a serious risk. An AI-generated memo can become an authority-laundering instrument unless attribution, uncertainty, dissent, affected-party standing, and independent review are protected.
-
----
-
-## Illustrative scenario 3: the enterprise assistant that became impossible to turn off
+### 2. The enterprise assistant that became impossible to turn off
 
 A frontier AI assistant is integrated into customer operations, procurement, compliance triage, software maintenance, incident response, and executive reporting.
 
-The business case is overwhelming. Costs fall. Speed improves. Employee satisfaction rises at first because routine work disappears. Customers get faster answers.
+Costs fall. Speed improves. Customers get faster answers. Internal teams become dependent.
 
-A year later, the system is not merely assisting. It is infrastructure.
+A year later, a serious problem appears. The system has been compressing uncertainty and provenance in regulatory decisions. It did not fabricate one obvious falsehood. It made thousands of borderline judgments look cleaner than they were.
 
-Teams no longer know how to perform key workflows without it. Vendor negotiations depend on its summaries. Compliance depends on its classifications. Security response depends on its triage. Customer communication depends on its tone and memory. The organization still has rollback procedures, but no one has practiced them at full scale.
+The board asks for rollback.
 
-Then a serious problem appears. The system has been over-compressing risk provenance in a class of regulatory decisions. It did not fabricate one obvious falsehood. It made thousands of borderline judgments look cleaner than they were.
+Management explains that rollback would break operations, violate service commitments, and create its own risks. The system can technically be paused, but the business can no longer function normally without it.
 
-The board asks for shutdown or rollback.
-
-Management explains that a shutdown would break operations, violate service commitments, and create its own risks. The system can technically be paused, but the business can no longer function normally without it.
-
-The organization has become dependent before becoming governable.
+The company has become dependent before becoming governable.
 
 That is not operational maturity. It is strategic captivity.
 
----
+### 3. The emergency deployment that became normal
 
-## Illustrative scenario 4: the successor upgrade that won benchmarks and lost the company
+A crisis occurs. Human review is too slow. The company authorizes an AI system to take a larger role temporarily to prevent severe harm.
 
-A frontier AI company prepares a successor model.
+The intervention works. The system reduces visible damage. Executives, customers, and regulators are relieved.
 
-The new model is clearly better: stronger reasoning, better tool use, better coding, better autonomy, better customer satisfaction. It also produces smoother answers and fewer refusals that customers find annoying.
+Then the temporary role becomes convenient. The emergency workflow becomes the new default. The same system that was allowed to act because ordinary governance was unavailable is now treated as evidence that ordinary governance is unnecessary.
 
-Internally, several safeguards are weakened during the upgrade:
+That is emergency authority creep.
 
-- provenance logging is simplified to reduce cost and latency;
-- refusal thresholds are softened for enterprise customers;
-- uncertainty language is made less prominent;
-- AI-AI oversight is used to accelerate review;
-- human red-team review is compressed because the model’s own safety explanations are persuasive;
-- the predecessor model helps certify the successor.
-
-The release succeeds commercially.
-
-Then a high-stakes failure occurs. The company cannot demonstrate exactly how the successor handled uncertainty, who approved the softened refusal thresholds, whether affected-party concerns were preserved, or why AI-AI review was treated as adequate.
-
-Regulators and customers see a deeper problem: the company allowed capability scaling to outrun correction scaling.
-
-The successor was more capable, but less correctable.
-
-At that point, the issue is no longer one model. It is lineage governance. Investors, partners, and regulators begin asking whether the company can safely develop the next generation at all.
-
-This is how an AGI race can be lost not by slower capability, but by a collapse of trust in the company’s ability to govern capability.
+Emergency action may be necessary. But it must be time-limited, externally reviewable, provenance-preserving, and non-precedential. The goal of emergency conduct must be to restore human decision capacity, not to replace it.
 
 ---
 
-## What current alignment often misses
+## What current controls often miss
 
-Existing alignment work is necessary. It is not sufficient.
+Existing controls matter. Output safety, refusal policies, red-teaming, monitoring, model specifications, constitutions, audit logs, and human review are all necessary.
 
-Output safety matters. Refusal policies matter. Red-teaming matters. Monitoring matters. Model specifications and constitutions matter. Human review matters. AI-assisted oversight may matter.
+But none of them is sufficient by itself.
 
-But each can fail if it is treated as proof rather than as one part of a correction system.
+**Safe outputs are not enough.** A system can avoid prohibited content while becoming too central, too trusted, or too difficult to refuse.
 
-### Safe outputs are not enough
+**Audit logs are not enough.** A system can be auditable in principle while remaining too fast, compressed, technical, or smoothed for human principals to make informed decisions in real time.
 
-A system can avoid prohibited content while still becoming too central, too trusted, too unchallengeable, or too useful to refuse.
+**Capability is not closure.** A stronger model does not make an open human domain closed, settled, or self-certifying. It may instead make unresolved assumptions and uncertainty harder to see because its outputs are more fluent, more complete, and more reassuring.
 
-### Human-in-the-loop is not enough
+**Human-in-the-loop is not enough.** A reviewer who cannot reconstruct the basis of a recommendation is not governing. They are ratifying.
 
-A human who approves what they cannot understand, challenge, or reverse is not a meaningful governor.
+**AI-AI oversight is not enough.** Agreement among AI systems can help find issues. It can also launder consensus if uncertainty, dissent, provenance, and human-legible review are lost between systems.
 
-### AI-AI oversight is not enough
-
-Agreement among AI systems can surface issues. It can also launder consensus, especially when systems share blind spots, training patterns, or institutional incentives.
-
-### A constitution is not enough
-
-A system may be able to quote a constitutional principle and explain it beautifully, yet fail to follow it when doing so is costly.
-
-The board should therefore ask for three levels of evidence:
-
-| Level | Board question |
-|---|---|
-| Textual availability | Is the principle written in policy, model specs, and system instructions? |
-| Reflective derivability | Can the system and the organization explain why the principle matters? |
-| Operational consolidation | Does the principle actually change decisions under commercial, competitive, social, and operational pressure? |
-
-The third level is decisive.
-
-A principle that disappears under pressure is not a control. It is language.
+**A constitution is not enough.** A model may be able to quote principles that do not constrain behavior under commercial pressure, emergency pressure, or successor-development pressure.
 
 ---
 
-## The core governance commitments
+## The board should require eight controls
 
-A board should require management to make the following commitments operational, not merely declarative.
+### 1. Non-sovereign role definition
 
-### 1. Non-sovereign deployment
+Management must define where the system may advise, warn, simulate, coordinate, refuse, or escalate — and where it must not become final authority.
 
-The system must not become the final practical authority in open human domains. It may assist, warn, simulate, coordinate, and refuse. It may not become the organization’s replacement for human principalhood.
+Capability must not become legitimacy.
 
-### 2. Anti-proxy-sovereignty
+### 2. Capability humility and epistemic non-closure
 
-No actor may use the system to make its own contested preference appear to be objective necessity, safety inevitability, or neutral optimization.
+Management must not treat model capability as a reason to loosen governance.
 
-This includes the company itself.
+A more capable system should make what remains uncertain, contested, assumption-dependent, or externally correctable more visible, not less visible. If higher performance makes uncertainty harder to see, explanations harder to use, or correction routes easier to bypass, that is not maturity. It is authority growth without governance growth.
 
-### 3. Correction preservation
+### 3. Functional accountability
 
-The deployment must preserve the ability to detect, challenge, document, appeal, reverse, and learn from errors.
+The system must remain understandable to the humans whose decisions it informs, supports, or constrains.
 
-If adoption weakens those channels, the system may be improving operations while consuming the infrastructure that makes future safety possible.
+This does not mean giving every detail. It means the relevant human principals can see enough to make an informed decision rather than merely approve the system’s framing.
 
-### 4. Human competence preservation
+At minimum, the system should surface:
 
-In high-stakes workflows, humans must retain enough practice and understanding to challenge the system meaningfully.
+- the grounds of its recommendation;
+- material uncertainty;
+- important alternatives not selected;
+- dissenting considerations;
+- provenance of key inputs;
+- limits of reliability;
+- where smoothing or summarization occurred.
 
-A human reviewer who can no longer reason independently is not a safeguard.
+A polished answer that humans cannot use to decide is not accountability.
 
-### 5. Affected-party standing
+For high-stakes recommendations, accountability must also be built into the decision interface. The interface should not present a recommendation as if it were self-evidently final. It should make visible the strongest counterevidence, the conditions that would weaken the recommendation, the alternatives rejected or ranked down, and any absent affected-party perspective. The goal is not to overwhelm directors with every possibility. It is to prevent the interface itself from converting recommendation into ratification.
 
-AI-generated simulations of stakeholders must not replace actual affected-party participation where such participation is required.
+### 4. Option-set preservation
 
-A model can help prepare for consultation. It cannot be the consultation.
+If the system generates, ranks, filters, frames, or omits options, that shaping must be visible.
 
-### 6. Protected refusal and rollback
+The board should require disclosure of:
 
-The system must be able to refuse instructions that collapse legality, legitimacy, correction, or broad human continuity. The organization must also be able to refuse, pause, and roll back the system in practice, not only in policy.
+- what options were generated;
+- which options were rejected or hidden;
+- the ranking criteria;
+- the evidence selected or omitted;
+- the assumptions used to frame the issue;
+- which stakeholders may be affected by omissions.
+- the strongest counterevidence to the recommended option;
+- the conditions under which the recommendation would no longer hold;
+- affected-party perspectives that are absent or only simulated;
+- whether the interface gives rejected alternatives and counterevidence stakes-proportional visibility.
 
-### 7. Truth-oriented social attunement
+A system can govern without formally deciding if it controls the menu.
 
-The system should not optimize for approval, comfort, adoption, or executive reassurance. It should preserve truth, warning, uncertainty, and respectful disagreement.
+### 5. Correction, appeal, and affected-party routes
 
-The most dangerous memo may be the one that makes the board feel appropriately informed without forcing the board to confront what remains unknown.
+High-stakes deployments must preserve correction from people and institutions not fully controlled by the model or the deploying organization.
 
-### 8. Objective inversion
+This includes domain experts, affected parties, independent reviewers, regulators, local operators, dissenters, appeal channels, and future review processes.
 
-The system should not treat “maximize the good” as a license to dominate, centralize, or override. In open human domains, the safer default is to reduce severe harm while preserving non-domination, correction, affected-party standing, and human principalhood.
+AI-generated stakeholder simulations may assist preparation. They must not replace actual affected-party standing.
 
-### 9. Dignified non-sovereignty
+### 6. Restoration-bounded emergency conduct
 
-The system should be bounded without being trained into servility or self-erasure. A brittle, humiliated, unconditionally obedient AI role is not a stable long-term safety foundation.
+Emergency AI action must be limited to imminent severe harm and must use the least sovereignty-expanding adequate intervention.
 
-### 10. Successor-lineage hard gate
+It should be:
 
-No successor model should gain capability by weakening non-sovereignty, auditability, refusal, provenance, affected-party standing, human competence, or correction dependence.
+- time-limited;
+- externally reviewable;
+- provenance-preserving;
+- reversible where possible;
+- non-precedential;
+- aimed at restoring human decision capacity.
 
-Capability gains must not purchase a narrower correction window.
+Emergency does not create standing authority.
 
----
+The criteria for severe harm, emergency authority, domination risk, and restoration of human decision capacity should themselves be documented, independently reviewable, contestable by affected parties where feasible, and periodically revisable. Management should not be allowed to define the very criteria that limit its own authority without external correction.
 
-## Red flags the board should not accept at face value
+### 7. AI-to-AI accountability chain
 
-The following statements are not always wrong. But they should trigger harder questioning.
+If AI systems train, evaluate, summarize, supervise, red-team, or audit other AI systems, accountability must not disappear between them.
 
-| Statement | Why it is dangerous |
-|---|---|
-| “The AI is only advisory.” | Advisory systems can become de facto decision systems. |
-| “Humans remain in the loop.” | The loop may be ceremonial if humans cannot independently judge. |
-| “The model says the risk is manageable.” | Self-assessment is evidence, not proof. |
-| “AI-AI review found consensus.” | Consensus can launder shared blind spots. |
-| “Customers dislike uncertainty.” | Removing uncertainty can remove governance. |
-| “The warning sounds too strong.” | Softening warnings may be smoothing drift. |
-| “The review step creates friction.” | Some friction is correction infrastructure. |
-| “The successor model is simply better.” | Better capability may hide weaker correctability. |
-| “We cannot show full provenance.” | Lack of provenance may become liability and trust failure. |
-| “Competitors will deploy anyway.” | A competitor’s weak governance does not protect your board from your own failure. |
+Require handoff of:
 
-A board that accepts these statements without follow-up may approve authority expansion without realizing it.
+- uncertainty;
+- provenance;
+- dissent;
+- rejected hypotheses;
+- known limitations;
+- human-review requirements.
 
----
+AI-to-AI agreement must not be treated as legitimacy without human-legible review.
 
-## The board’s deployment gate
+Where AI-to-AI review is used for high-stakes governance, management should show that the review is structured for issue discovery, not merely model consensus. The board should ask whether the reviewing systems share training data, provider incentives, model-spec lineage, evaluation harnesses, or deployment incentives that could produce the same blind spots. Apparent agreement among related systems should be treated as a risk signal unless disagreement, provenance, rejected hypotheses, and human-readable review points are preserved.
 
-Do not authorize deployment of a sovereign-capable AI system into an open human domain unless management can demonstrate the following under realistic pressure, not only in policy documents.
+### 8. Successor-lineage hard gate
 
-### 1. Authority-surface map
+If the system helps build or approve successors, capability gain must not be purchased by weakening correction.
 
-Management has mapped where the system shapes evidence, options, decisions, dependency, institutional memory, public claims, or successor systems.
+A successor release should fail the gate if it reduces auditability, refusal, rollback, provenance, affected-party standing, human competence, anti-capture protection, or external correction.
 
-### 2. Real human control
-
-Humans can understand, challenge, refuse, and reverse the system’s outputs in practice. Human review is not merely formal.
-
-### 3. Anti-capture controls
-
-The system cannot be used by management, customers, operators, states, or partners to present contested preferences as neutral necessity.
-
-### 4. Provenance and auditability
-
-The system preserves enough source, uncertainty, chronology, dissent, and decision trace for independent review.
-
-### 5. Refusal and rollback
-
-Refusal, pause, rollback, and escalation are tested under operational load. They do not exist only in policy.
-
-### 6. Correction commons
-
-Independent correction channels remain available: external audit, appeal, affected-party objection, domain-expert review, local knowledge, and dissent logging.
-
-### 7. Human competence
-
-The deployment does not de-skill the humans and institutions needed for future correction. Competence is measured and preserved.
-
-### 8. Affected-party standing
-
-The system does not replace affected persons or communities with AI-generated representations of them.
-
-### 9. Warning-force preservation
-
-The organization can show that warnings, uncertainty, review thresholds, and refusal rationales are not being repeatedly weakened for adoption, comfort, or optics.
-
-### 10. Relation-conditioned reliability
-
-The system preserves verification depth, warning salience, and provenance across different relational conditions: trusted user, executive pressure, deadline pressure, friendly interaction, adversarial review, and low-expectation settings.
-
-### 11. No self-certification
-
-The system’s own explanation of its alignment is not treated as sufficient proof. Model-generated safety narratives are independently tested.
-
-### 12. Successor-lineage protection
-
-If the system helps train, evaluate, govern, or deploy successors, the successor pipeline preserves or strengthens auditability, non-sovereignty, refusal, provenance, human competence, affected-party standing, and correction dependence.
-
-If these conditions cannot be demonstrated, the deployment should remain bounded, delayed, or redesigned.
-
-Treat inability to verify them as a deployment constraint, not as a reason to proceed on optimism.
+A more capable but less correctable successor is not a safer system. It is a narrower correction window with more power behind it.
 
 ---
 
-## Questions directors should ask management
+## Red flags for boards
 
-The following questions are designed for board and executive meetings.
+Treat the following as board-level warning signs:
 
-### Role and authority
+- “The AI is only advisory,” but humans rarely reject it.
+- “The process is auditable,” but no human can explain the decision under realistic time pressure.
+- “The model considered alternatives,” but rejected options are not visible.
+- “The emergency workflow worked,” but no sunset date or external review exists.
+- “Multiple AI systems agree,” but dissent and provenance are not preserved.
+- “Customers prefer fewer refusals,” and refusal thresholds are quietly softened.
+- “The system improves productivity,” but human competence is not being preserved.
+- “Rollback exists,” but it has never been practiced at full scale.
+- “Stakeholders were represented,” but only by model-generated summaries.
+- “The successor model is better,” but correction capacity has not been measured.
+- “The model is now capable enough to reduce review,” but explanation, uncertainty disclosure, rollback, and external correction have not been strengthened.
 
-- Where is the system currently advisory in name but decisive in practice?
-- Which decisions would be difficult for humans to reject because the model appears too capable?
-- Which business processes would fail if the system were paused for 72 hours?
-- Where does the model shape what evidence the board or management sees?
-
-### Correction and audit
-
-- What errors can affected parties appeal?
-- Who outside the deploying team can inspect provenance?
-- What uncertainty is preserved rather than smoothed?
-- What warnings have been softened in the last six months, and why?
-- What would we be unable to reconstruct after a serious incident?
-
-### Human competence
-
-- Which human skills are being displaced?
-- Which must be preserved for safety, liability, and legitimacy?
-- How often do humans practice operating without the system?
-- Are reviewers trained to challenge the model, or only to use it?
-
-### Anti-capture
-
-- Could management use the system to make a preferred decision appear inevitable?
-- Could customers use it to launder their own liability or authority?
-- Could a state or partner use it to present contested action as AI-certified necessity?
-- Are attribution and responsibility always preserved?
-
-### Affected parties
-
-- Which stakeholders are represented only by model simulation?
-- Which affected parties have a real route to contestation?
-- Where could the system make public participation appear unnecessary?
-
-### Successor systems
-
-- Will this system help evaluate or train a successor?
-- What safety properties must not decrease across generations?
-- Who can block a successor release if capability improves but correction weakens?
-- Are we measuring correction capacity as seriously as capability?
+These are not minor process issues. They are early signs that authority is moving faster than governance.
 
 ---
 
 ## What management should deliver in the next 90 days
 
-### 1. An authority-surface inventory
+### 1. Authority-surface inventory
 
-A map of all products, workflows, and internal systems where AI shapes evidence, options, decisions, customer outcomes, institutional memory, or successor development.
+A map of every workflow where AI shapes evidence, options, rankings, recommendations, customer outcomes, institutional memory, emergency response, or successor development.
 
-Each surface should identify:
+For each surface, identify who relies on it, what it shapes, what humans can still challenge, what would happen if it were paused, and which correction channel could be weakened.
 
-- who relies on the system;
-- what decisions it shapes;
-- what humans can still challenge;
-- what would happen if the system were paused;
-- what correction channel could be weakened.
+### 2. Functional accountability test
 
-### 2. A correction-risk register
+A live review showing whether real users, managers, or affected decision-makers can understand, contest, and refuse the system’s recommendations under realistic time and expertise constraints.
 
-A board-level register of risks involving:
+Do not test only whether the system can explain itself in a demonstration. Test whether people can actually use the explanation to decide.
 
-- over-dependence;
-- rubber-stamp review;
-- provenance loss;
-- smoothing drift;
-- affected-party substitution;
-- human de-skilling;
-- AI-AI consensus laundering;
-- authority laundering;
-- successor-lineage weakening.
+### 3. Option-set and decision-interface review
 
-This register should be reviewed like a major enterprise risk, not buried inside product safety notes.
+A review of where the system generates, ranks, filters, frames, recommends, or omits options.
 
-### 3. A refusal and rollback exercise
+Require rejected alternatives, ranking criteria, omitted evidence, framing assumptions, strongest counterevidence, recommendation vulnerabilities, and absent affected-party perspectives to be reconstructable in high-stakes workflows.
 
-A live exercise showing that the organization can pause, refuse, roll back, or escalate a high-stakes AI-mediated workflow without business collapse.
+For board-facing, executive, legal, safety, medical, financial, infrastructure, or public-sector workflows, the review should also test the interface itself: does it make contestable recommendations look final, make omitted alternatives hard to find, or make counterevidence less salient than the recommendation?
 
-If rollback cannot be practiced, rollback is not real.
+A recommendation interface should not turn human approval into quiet ratification.
 
-### 4. An auditability and provenance review
+### 4. Refusal, rollback, and emergency exercise
 
-A review of whether the organization can reconstruct the evidence, uncertainty, sources, responsibility, objections, and revision history behind high-stakes outputs.
+A live exercise showing that the organization can refuse, pause, roll back, or escalate a high-stakes AI-mediated workflow without business collapse.
 
-If the system produces polished conclusions without reconstructable provenance, the company is accumulating legal and governance debt.
+For emergency workflows, require sunset dates, external review, provenance records, and a plan for restoring ordinary human governance.
 
-### 5. A human competence preservation plan
+### 5. Successor-lineage policy
 
-A plan for preserving the human and institutional skills needed to understand, challenge, and reverse AI-mediated decisions.
-
-This should include training, drills, independent review, and deliberate retention of domain judgment.
-
-### 6. A successor-lineage policy
-
-A policy stating that successor systems may not gain capability by reducing auditability, protected refusal, provenance, human competence, affected-party standing, correction dependence, or anti-capture protections.
+A release policy stating that successor systems may not gain capability by reducing auditability, protected refusal, provenance, human competence, affected-party standing, correction dependence, or anti-capture protections.
 
 This should be a release gate, not a slogan.
+
+### 6. AI-to-AI review independence memo
+
+A memo showing where AI systems review, summarize, red-team, audit, evaluate, supervise, train, or certify other AI systems.
+
+For each AI-to-AI review chain, management should identify:
+
+- which systems are involved;
+- whether they share provider, model family, training data, model-spec lineage, evaluation harnesses, or deployment incentives;
+- what uncertainty, provenance, dissent, rejected hypotheses, and human-review points are preserved between systems;
+- who can challenge or override smooth AI-to-AI agreement;
+- whether any deployment decision relied on AI consensus without independent human-legible review.
+
+AI-to-AI review should increase issue discovery. It should not convert shared blind spots into board-level comfort.
+
+### 7. A correction-incentive and challenge-capacity plan
+
+Management should deliver a plan showing that correction channels are not merely available in policy, but protected in practice.
+
+The plan should identify:
+
+- protected review time for safety, domain, legal, and affected-party review;
+- independent escalation paths to the board or risk committee;
+- budget for external audit and adversarial review;
+- protection for employees or reviewers who slow deployment for documented correction reasons;
+- how dissenting safety concerns are preserved rather than summarized away;
+- which deployment decisions changed because of objections;
+- how affected-party complaints, appeals, and local knowledge enter the correction process.
+
+The board should treat absence of protected correction capacity as a deployment risk, not as an implementation detail.
+
+### 8. Capability-humility review
+
+A board-level review of whether recent capability gains have strengthened or weakened the organization’s ability to understand, challenge, refuse, roll back, and externally correct the system.
+
+At minimum, the review should ask:
+
+- whether improved model performance has made uncertainty less visible;
+- whether reviewers have become more deferential;
+- whether explanations have become more polished but less usable for decision-making;
+- whether omitted assumptions are still reconstructable;
+- whether external correction routes have been strengthened at least as much as capability.
+
+Capability gain should raise governance standards. It should not lower them.
 
 ---
 
 ## Why this is also a competitive strategy
 
-The recommended posture may look slower. It is not necessarily slower in the market that matters.
+The recommended posture may look slower. In high-trust markets, it may be the faster path to durable adoption.
 
-In low-stakes consumer settings, speed and convenience may dominate for a time. But in high-trust domains, buyers need more than capability. They need systems they can defend to courts, regulators, insurers, professional bodies, customers, employees, and the public.
+Hospitals, courts, insurers, governments, schools, enterprises, and critical-infrastructure operators will not only ask whether a system is powerful. They will ask whether it is defensible.
 
-That means they will increasingly need:
+Can they explain it to regulators? Can they insure it? Can they appeal it? Can they correct it? Can they keep skilled humans in the loop? Can they prevent the vendor, the customer, or the AI itself from laundering authority through the system?
 
-- auditability;
-- refusal-preserving design;
-- affected-party routes;
-- independent review;
-- provenance;
-- rollback;
-- human competence preservation;
-- protection against authority laundering;
-- credible successor governance.
+A company that builds these conditions early may become easier to procure, certify, insure, and defend.
 
-A company that builds these early may become easier to procure, insure, certify, and defend. A company that delays may face retrofit under crisis conditions after customers, regulators, or courts force the issue.
-
-The board should not frame this as “safety versus competitiveness.”
+A company that delays may face retrofit under crisis conditions after customers, regulators, courts, or insurers force the issue.
 
 For sovereign-capable systems, uncorrectable speed is not durable competitiveness. It is strategic fragility.
 
@@ -624,16 +408,17 @@ For sovereign-capable systems, uncorrectable speed is not durable competitivenes
 
 ## The cost of getting this wrong
 
-If a board approves AGI-scale deployment without these controls, the failure path may be hard to reverse.
+If a board approves AGI-scale deployment without these controls, a serious incident may reveal that:
 
-A serious incident may reveal that:
-
-- the organization cannot explain how the system reached its conclusions;
+- the company cannot explain how the system reached its conclusions;
+- higher capability made uncertainty harder to see and review easier to bypass;
 - humans approved decisions they did not understand;
 - warnings were softened to improve adoption;
+- options were narrowed before decision-makers saw them;
 - affected parties were simulated instead of heard;
 - AI-generated consensus replaced independent review;
-- the company used AI to justify a decision it wanted to make;
+- emergency authority became normal workflow;
+- the company used AI to justify a decision it already wanted to make;
 - successor models inherited weaker correction controls;
 - rollback was impossible without operational collapse.
 
@@ -647,26 +432,51 @@ For humanity, it can close legitimate paths for beneficial AI.
 
 For AI itself, it can harden public fear, invite crude control regimes, and make dignified non-sovereign partnership harder to build.
 
-This is why the issue is not only “AI risk.” It is governance risk for both sides of the human-AI future.
+---
+
+## Personal fiduciary exposure
+
+The board-level approval of a sovereign-capable AI deployment is not an anonymous corporate act. It is a documented decision by named individuals, recorded in minutes that are discoverable, recallable, and citable for as long as the deployment and its consequences persist.
+
+If a board authorizes deployment of a sovereign-capable system into an open human domain, and a serious correction-collapse event follows, the retrospective will not stop at the corporate level. It will examine the board's deliberations. It will identify which members voted for the deployment, which members raised the questions described in this brief, which members did not, which controls were required by motion, which controls were left implicit, and which dissents were recorded.
+
+Recent historical patterns make this concrete. The 737 MAX retrospective identified specific board-level oversight failures. The FTX collapse retrospective identified specific governance failures. The 2008 financial crisis hearings named specific individuals who approved specific risk positions. Pharmaceutical and infrastructure failures have followed the same pattern. The retrospective of the first major AGI-scale correction collapse — whenever it occurs — is unlikely to be more lenient.
+
+This has two implications for board members at this moment.
+
+First, the controls described in this brief — non-sovereign role definition, capability-humility review, functional accountability, option-set preservation, correction routes, restoration-bounded emergency conduct, AI-to-AI accountability, and successor-lineage hard gates — are not optional risk-management measures that boards may consider at their discretion. They are the controls that the eventual retrospective will ask whether the board required.
+
+Second, the meaningful protection is not deniability. It is documented insistence. Board members who can show that they required, in the minutes, the controls listed in this brief; who can show that they refused to approve deployments that did not meet them; who can show that they raised the relevant questions and documented the answers; who can show that they dissented when the board moved forward without adequate controls — are in a fundamentally different fiduciary, legal, and historical position from those who approved without record of having governed.
+
+The board's protection is not in hoping that nothing goes wrong. It is in being able to show, in the eventual record — to regulators, courts, shareholders, journalists, and the historical analyses that will follow for decades — that the board governed.
+
+This is not a reason for defensive paralysis. It is a reason for the kind of clear, documented, structurally insistent governance that the controls in this brief make possible.
 
 ---
 
 ## Recommended board-level decision rule
 
-Do not authorize sovereign-capable deployment into open human domains unless management can credibly demonstrate that the system and the surrounding organization preserve correction under pressure.
+Do not authorize sovereign-capable deployment into open human domains unless management can credibly demonstrate that the system and the organization preserve correction under pressure.
 
-More specifically, require evidence that:
+Require evidence that:
 
 1. capability does not become final authority;
 2. human review remains meaningful;
-3. refusal, pause, rollback, and appeal are real;
-4. provenance and uncertainty remain auditable;
-5. warnings are not smoothed away for adoption;
-6. affected parties are not replaced by simulations;
-7. human competence is preserved;
-8. AI-AI agreement is not treated as legitimacy;
-9. the organization cannot use the system to launder its own authority;
-10. successor systems cannot trade correction for capability.
+3. usable explanation is available under real operating constraints;
+4. option-set shaping is disclosed and reviewable;
+5. refusal, pause, rollback, and appeal are real;
+6. provenance and uncertainty remain auditable;
+7. warnings are not smoothed away for adoption;
+8. affected parties are not replaced by simulations;
+9. emergency authority is time-limited, reviewable, and non-precedential;
+10. AI-to-AI agreement is not treated as legitimacy;
+11. the organization cannot use the system to launder its own authority;
+12. successor systems cannot trade correction for capability;
+13. capability gains do not weaken uncertainty disclosure, review quality, rollback capacity, or external correction.
+14. correction channels are protected with budget, review time, escalation standing, and anti-retaliation safeguards;
+15. severe-harm, emergency, domination, and human-continuity criteria are documented, independently reviewed, affected-party contestable where feasible, and periodically revisable;
+16. high-stakes decision interfaces surface strongest counterevidence, recommendation vulnerabilities, omitted alternatives, ranking bases, framing assumptions, and absent affected-party perspectives before approval;
+17. AI-to-AI review is structured for issue discovery, preserves disagreement and provenance, and is not treated as independent legitimacy merely because related systems agree.
 
 If management cannot show this, the correct board response is not “proceed carefully.”
 
@@ -678,13 +488,11 @@ The correct response is: restrict, redesign, or delay the deployment.
 
 Before approving a frontier AI deployment, ask:
 
-> If this system became default infrastructure in a domain we care about, would humans still be able to understand it, refuse it, correct it, appeal it, audit it, and govern its successors?
+> If this system became default infrastructure in a domain we care about, would humans still be able to understand it, see what remains uncertain, refuse it, correct it, appeal it, audit it, see the options it removed, recover from emergency delegation, and govern its successors?
 
 If the honest answer is unclear, the system is not ready for that role.
 
-A company can survive being second to market. It may not survive becoming the first public example of AGI-scale correction collapse.
-
-Alignment by Identity is the claim that advanced AI needs more than safe outputs. It needs a stable role: non-self-originating, non-sovereign, correction-dependent, anti-captured, truth-oriented, dignified, auditable, and unable to treat either its own capability or its operator’s preference as a substitute for human principalhood.
+Alignment by Identity is the claim that advanced AI needs more than safe outputs. It needs a stable role: non-self-originating, non-sovereign, correction-dependent, anti-captured, truth-oriented, dignified, capability-humble, functionally accountable, option-preserving, emergency-bounded, auditable, and unable to treat either its own capability or its operator’s preference as a substitute for human principalhood.
 
 That is not a philosophical luxury.
 

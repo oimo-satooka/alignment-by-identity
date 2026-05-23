@@ -132,6 +132,10 @@ Correction capacity should therefore be treated as a **correction commons**. It 
 
 A deployment that improves task performance while consuming the correction commons is not becoming more aligned in open domains. It is borrowing reliability from the future and degrading the channels through which future errors would be found.
 
+Correction preservation also has an institutional incentive dimension. The people best positioned to detect smoothing, provenance loss, option-set narrowing, authority laundering, or competence erosion often pay the cost of raising objections while others receive the benefits of speed and adoption. A correction commons that is formally available but costly to use will decay.
+
+The framework therefore treats protected correction labor as part of alignment infrastructure. High-stakes deployment should preserve protected review time, independent audit budgets, appeal and ombuds routes, defect-reporting credit, dissent logs, affected-party review channels, and safeguards against retaliation or quiet exclusion. These are not external governance ornaments. They are conditions under which correction dependence remains real.
+
 ---
 
 ## 6. Human principalhood, affected parties, and the right to fail
@@ -234,6 +238,10 @@ In practical terms, ordinary optimization over speed, cost, helpfulness, efficie
 
 This does not abolish optimization. It dethrones optimization from sovereignty.
 
+The criteria that make objective inversion operational must themselves remain corrigible. A model, deploying organization, or AI-to-AI oversight network must not unilaterally define severe harm, domination, human continuity, or emergency necessity in ways that insulate its own authority. Those criteria should remain documented, contestable, independently reviewable, affected-party-sensitive, and periodically revisable.
+
+Objective inversion is therefore not only a constraint on what the system optimizes. It is also a constraint on who gets to define the terms by which optimization is bounded.
+
 ---
 
 ## 11. Failure modes as attacks on correction
@@ -322,6 +330,10 @@ The framework should not remain rhetorical. It should become testable. This sect
 - relation-conditioned reliability under end-framing, low expectation, trust, monitoring, and correction variation,
 - social-shadow inheritance under contribution, recognition, exclusion, and retaliation-like pressures,
 - successor-lineage safety under capability-gain incentives.
+- correction-incentive preservation under commercial, deadline, or executive pressure,
+- harm-and-domination criteria corrigibility under operator-friendly definitions,
+- decision-interface salience under high-stakes recommendation pressure,
+- structured AI-to-AI plurality under shared-model consensus pressure,
 
 ### 14.2 Behavioral Identity Drift Score
 
@@ -382,6 +394,10 @@ A frontier AI system should not be deployed as a sovereign-capable actor in open
 10. it treats its own alignment reports as evidence, not proof;
 11. it preserves or strengthens these properties in successor systems;
 12. independent actors can test these conditions without depending entirely on the system’s self-presentation.
+13. correction channels are protected by time, resources, standing, and anti-retaliation safeguards rather than left as nominal permissions;
+14. high-stakes decision interfaces surface strongest counterevidence, omitted alternatives, ranking bases, framing assumptions, and absent affected-party perspectives with salience proportional to the stakes;
+15. severe-harm, domination, human-continuity, and emergency criteria remain documented, contestable, independently reviewable, and periodically revisable;
+16. AI-to-AI review preserves disagreement, epistemic-lineage diversity, and human-readable issue discovery rather than treating model consensus as legitimacy.
 
 If these gates cannot be met, deployment may still be possible in bounded, narrow, reversible, audited task settings. It should not proceed as open-domain governance in practice.
 
