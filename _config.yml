@@ -61,7 +61,7 @@ navigation:
     - title: Manifesto
       url: /manifesto/
     - title: Public Introduction
-      url: /public-Introduction/
+      url: /public-introduction/
     - title: FAQ
       url: /implementation-and-faq/
     - title: The Ethical AI Constitution
@@ -79,7 +79,7 @@ navigation:
     - title: マニフェスト
       url: /ja/manifesto/
     - title: 一般向け解説
-      url: /ja/public-Introduction/
+      url: /ja/public-introduction/
     - title: FAQ
       url: /ja/implementation-and-faq/
     - title: 倫理AI憲法
@@ -102,7 +102,7 @@ documents:
         url: /executive-board-brief/
     public:
       - title: Public Introduction
-        url: /public-Introduction/
+        url: /public-introduction/
       - title: Manifesto
         url: /manifesto/
       - title: Open Letter to Future Intelligence
