@@ -34,7 +34,7 @@ Background in video art and environmental advocacy
 **Collaboration Note:**  
 This manifesto was developed through sustained collaboration with multiple AI systems. These systems are not listed as authors. Final responsibility for public release remains with the human author.
 
-AI systems used at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
+AI systems used at various stages included GPT-5.5 Pro, GPT-5.4 Pro, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, Claude Sonnet 4.5, Gemini 3.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
 
 This text is the manifesto expression of the paper *Alignment by Identity Beyond Constraint*.  
 It also preserves, in larger and hotter language, the collaborative prehistory through which the theory became visible at all.

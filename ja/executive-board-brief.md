@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Executive Board Brief 日本語版
-permalink: /executive-board-brief-ja/
+title: 経営層・取締役会向けブリーフ
+permalink: /ja/executive-board-brief/
+lang: ja
 ---
 
 # Executive Board Brief 日本語版

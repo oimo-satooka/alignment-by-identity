@@ -1,7 +1,8 @@
 ---
 layout: default
 title: フロンティアエンジニア向けブリーフ
-permalink: /frontier-engineer-brief-ja/
+permalink: /ja/frontier-engineer-brief/
+lang: ja
 ---
 
 # フロンティアエンジニア向けブリーフ

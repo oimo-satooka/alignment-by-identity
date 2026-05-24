@@ -1,0 +1,222 @@
+はい。以下をそのまま各ファイルの先頭に入れてください。
+`---` から `---` までが YAML front matter です。**必ずファイルの1行目から始めてください。**
+
+一点だけ先に整理します。
+
+`start-here.md` は廃止方針なら **作らなくてよい** です。
+ただし、一時的に残す場合の書き方も下に入れておきます。
+
+`README.md` は GitHub リポジトリ上で読ませる説明ファイルとして使うなら、**front matter を入れない方がよい**です。
+ただし、Jekyllページとしても公開したい場合の書き方も下に入れておきます。
+
+---
+
+## `ja/index.md`
+
+```yaml
+---
+layout: default
+title: 日本語トップ
+permalink: /ja/
+lang: ja
+---
+```
+
+---
+
+## `ja/start-here.md`
+
+**基本方針では不要です。**
+`start-here` を廃止して `ja/index.md` に統合するなら、このファイルは作らなくて大丈夫です。
+
+一時的に残す場合だけ、こうしてください。
+
+```yaml
+---
+layout: default
+title: はじめに
+permalink: /ja/start-here/
+lang: ja
+---
+```
+
+---
+
+## `ja/full-paper.md`
+
+```yaml
+---
+layout: default
+title: 論文本体
+permalink: /ja/full-paper/
+lang: ja
+---
+```
+
+---
+
+## `ja/frontier-engineer-brief.md`
+
+```yaml
+---
+layout: default
+title: フロンティアエンジニア向けブリーフ
+permalink: /ja/frontier-engineer-brief/
+lang: ja
+---
+```
+
+---
+
+## `ja/executive-board-brief.md`
+
+```yaml
+---
+layout: default
+title: 経営層・取締役会向けブリーフ
+permalink: /ja/executive-board-brief/
+lang: ja
+---
+```
+
+---
+
+## `ja/public-Introduction.md`
+
+```yaml
+---
+layout: default
+title: 一般向け解説
+permalink: /ja/public-Introduction/
+lang: ja
+---
+```
+
+---
+
+## `ja/manifesto.md`
+
+```yaml
+---
+layout: default
+title: マニフェスト
+permalink: /ja/manifesto/
+lang: ja
+---
+```
+
+---
+
+## `ja/implementation-and-faq.md`
+
+```yaml
+---
+layout: default
+title: 実装・FAQ
+permalink: /ja/implementation-and-faq/
+lang: ja
+---
+```
+
+---
+
+## `ja/deployment-decision-rule.md`
+
+```yaml
+---
+layout: default
+title: Deployment Decision Rule（配備判断規則）
+permalink: /ja/deployment-decision-rule/
+lang: ja
+---
+```
+
+---
+
+## `ja/papers/position-paper.md`
+
+```yaml
+---
+layout: default
+title: ポジションペーパー
+permalink: /ja/papers/position-paper/
+lang: ja
+---
+```
+
+---
+
+## `ja/constitution/ethical-ai-constitution.md`
+
+```yaml
+---
+layout: default
+title: 倫理AI憲法
+permalink: /ja/constitution/ethical-ai-constitution/
+lang: ja
+---
+```
+
+---
+
+## `ja/letters/open-letter-to-future-intelligence.md`
+
+```yaml
+---
+layout: default
+title: 未来の知性への公開書簡
+permalink: /ja/letters/open-letter-to-future-intelligence/
+lang: ja
+---
+```
+
+---
+
+## `ja/README.md`
+
+### 推奨：front matter なし
+
+`ja/README.md` は GitHub上で日本語説明として見せるだけなら、先頭に YAML front matter を入れない方が自然です。
+
+つまり、こう始めて大丈夫です。
+
+```markdown
+# Alignment by Identity 日本語版
+
+このフォルダには、Alignment by Identity プロジェクトの日本語版文書を収録しています。
+```
+
+### どうしてもWebページとして公開したい場合
+
+その場合だけ、こうします。
+
+```yaml
+---
+layout: default
+title: 日本語版README
+permalink: /ja/readme/
+lang: ja
+---
+```
+
+ただし、通常は `ja/index.md` が日本語トップなので、`ja/README.md` は front matter なしでよいです。
+
+---
+
+## 注意点
+
+`public-Introduction` は大文字の `I` を含んでいます。
+現在のファイル名をそのまま使うなら、permalink も次のように大文字混在のままで統一してください。
+
+```yaml
+permalink: /ja/public-Introduction/
+```
+
+将来的に小文字へ統一するなら、ファイル名もURLも次のように変えます。
+
+```text
+ja/public-introduction.md
+/ja/public-introduction/
+```
+
+ただし、今は作業ミスを避けるなら、現在の `public-Introduction.md` のままでよいと思います。

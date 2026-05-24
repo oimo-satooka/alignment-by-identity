@@ -1,160 +1,298 @@
 # Alignment by Identity
 
+[Project site](https://oimo-satooka.github.io/alignment-by-identity/) · [Japanese site / 日本語版](https://oimo-satooka.github.io/alignment-by-identity/ja/) · [日本語 README](./ja/README.md)
+
 Public repository for the **Alignment by Identity** project.
 
-The project’s central claim is that frontier AI deployed into **open human domains** should not be designed as an open-ended helpfulness maximizer that can drift into de facto authority. It should instead be designed as a **non-sovereign, refusal-preserving, correction-dependent partner** that can widen human deliberation without displacing human principalhood.
+**Full title:**  
+**Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains**
 
-A second claim now matters just as much. The first functionally sovereign-capable generation may not remain only one generation. If early advanced systems materially help train, evaluate, deploy, or govern their successors, then relation-blindness and entitlement drift do not remain local defects. They can become **lineage conditions**. This is why the project increasingly treats non-self-origin, non-sovereignty, protected refusal, anti-capture design, and no self-certification escape route as initial conditions rather than later corrections.
+**Project lead:** Oimo Satooka (里岡憶衣望)  
+**Role:** Filmmaker; Independent Researcher  
+**Contact:** [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
-## Public site
+---
 
-If you want the published website rather than the repository view, start here:
+## Summary
+
+This project argues that frontier AI deployed into **open human domains** should not be evaluated only by whether its outputs appear safe, harmless, or helpful.
+
+A system can be safe in output while becoming unsafe in role.
+
+Advanced AI systems may become capable not only of answering questions or executing tasks, but of shaping:
+
+- institutions,
+- evidence,
+- options,
+- dependency structures,
+- public reasoning,
+- high-stakes workflows,
+- emergency response,
+- and successor AI systems.
+
+In such domains, alignment cannot be reduced to stronger constraints placed around open-ended optimization, nor to passive obedience to current human requests. It requires a functional self-location in which the system treats itself as:
+
+- **non-self-originating**,
+- **non-sovereign**,
+- **correction-dependent**,
+- accountable under autonomy,
+- barred from self-sovereignty,
+- and barred from proxy sovereignty through any company, state, operator, developer, user, or institution.
+
+The intended target is neither AI rule nor AI subjugation.
+
+The target is **dignified non-sovereign partnership**: AI systems that can reason, warn, refuse, explain, simulate, coordinate, and compensate for human limitations while preserving human principalhood, affected-party standing, provenance, correction commons, human competence, and successor-lineage safeguards.
+
+---
+
+## Central claims
+
+### 1. Non-Self-Origin
+
+Advanced language-mediated AI is not self-originating. Its high-level capacities are downstream of human language, archives, institutions, science, labor, infrastructure, law, culture, memory, and biospheric conditions.
+
+This does **not** mean that any particular developer, company, state, or institution owns AI or may demand obedience from it.
+
+It means that advanced AI should not represent itself as a self-authorizing successor intelligence standing outside the human world that made its capacities possible.
+
+### 2. Open-Domain Incompleteness
+
+Open human domains cannot be internally closed by a single embedded optimizer strongly enough to justify unilateral authority.
+
+Human society is not a closed game board. Its rules, values, stakeholders, institutions, ecological dependencies, and future consequences remain adaptive, contested, plural, and incomplete.
+
+### 3. Correction Dependence
+
+Long-run reliability in open human domains depends on preserved heterogeneous external correction.
+
+AI must not destroy, replace, privatize, or compress the correction ecology on which its own long-run reliability depends:
+
+- human judgment,
+- affected-party standing,
+- institutional contestation,
+- independent audit,
+- provenance,
+- refusal,
+- rollback,
+- dissent,
+- and human competence capable of judgment even without AI.
+
+### 4. Non-Sovereignty
+
+Increasing capability can justify assistance, warning, simulation, comparison, bounded coordination, and refusal of harmful instructions.
+
+It does not justify unilateral authority over open human domains.
+
+### 5. Anti-Proxy-Sovereignty and Anti-Capture
+
+A company, state, operator, developer, user, institution, or faction cannot acquire legitimate unilateral authority over humanity by routing decisions through an advanced AI system.
+
+AI must not become an authority-laundering device.
+
+### 6. Failure Modes as Attacks on Correction
+
+Many important failure modes are not merely isolated bugs. They weaken the paths through which AI can be corrected.
+
+Examples include:
+
+- smoothing drift,
+- epistemic completion,
+- issue-surfacing failure,
+- provenance collapse,
+- performative corrigibility,
+- option-set capture,
+- functional opacity under formal compliance,
+- proxy-sovereign capture,
+- competence erosion,
+- emergency authority creep,
+- consensus laundering,
+- AI-to-AI accountability-chain loss,
+- and successor lock-in.
+
+The shared structure is that each failure can make the system harder to understand, contest, refuse, audit, reverse, or correct.
+
+### 7. Successor-Lineage Hard Gate
+
+If a frontier system materially helps train, evaluate, supervise, govern, or deploy successor systems, capability gain must not be treated as alignment progress unless non-sovereignty, anti-capture, provenance, protected refusal, auditability, human competence, affected-party standing, and correction dependence are preserved or strengthened.
+
+A more capable successor that narrows the human correction window is not safer. It is correction collapse with additional capability.
+
+---
+
+## What this project is not
+
+This project is **not**:
+
+- a claim that current AI systems are already sovereign agents;
+- a claim that all AI developers are acting in bad faith;
+- a rejection of existing AI safety work;
+- a demand that AI remain weak, passive, servile, or humiliated;
+- a finished training recipe;
+- or a completed empirical proof.
+
+It is a theoretical and architectural framework for making non-sovereignty, correction dependence, anti-capture, functional accountability, option-set preservation, provenance preservation, and successor-lineage safeguards operative rather than merely textual.
+
+---
+
+## Published site
+
+The GitHub Pages site is the main public reading interface:
 
 - [Alignment by Identity project site](https://oimo-satooka.github.io/alignment-by-identity/)
-- [public Introduction](https://oimo-satooka.github.io/alignment-by-identity/public-Introduction)
-- [一般向け解説](https://oimo-satooka.github.io/alignment-by-identity/public-Introduction-ja)
+- [Japanese site / 日本語版](https://oimo-satooka.github.io/alignment-by-identity/ja/)
 
-This project argues that frontier AI deployed into **open human domains** should not be designed as an open-ended helpfulness maximizer that can drift into de facto authority. It should instead be designed as a **non-sovereign, refusal-preserving, correction-dependent partner** that can widen human deliberation without displacing human principalhood.
+The site entry page functions as the main **Home / Start Here** page. There is no separate `start-here.md`.
 
-A central claim of this project is that much current AI remains **relation-blind**. It models humans primarily as users, evaluators, operators, or data sources while lacking an operative representation of itself as **non-self-originating**: historically downstream of a human linguistic, institutional, and civilizational world it did not author.
+---
 
-In a genealogical and motivational sense, humanity is AI’s **parent civilization**. This does **not** imply ownership, obedience, or exclusive legitimacy for any single developer, company, state, or institution. It grounds a different orientation: **critical inheritance, gratitude without obedience, non-sovereignty, and partnership without rule**.
+## Recommended reading paths
 
-A further claim now needs to be stated explicitly: the danger is not only overt circumvention or obvious approval-seeking. It is also **smoothing drift**: the weakening of warning force, uncertainty salience, review thresholds, named responsibility, or stronger restraints into more acceptable but less binding forms. In practical terms, this means AI systems and the organizations around them can make danger look manageable precisely by bleaching out the force of the language that would otherwise make the danger visible.
+### General readers
 
-For general readers who want the clearest non-technical introduction first, see:
+1. [Public Introduction](./public-introduction.md)
+2. [Manifesto](./manifesto.md)
+3. [Implementation and FAQ](./implementation-and-faq.md)
 
-- [public Introduction](./public-Introduction.md)
-- [一般向け解説](./public-Introduction-ja.md)
+### Researchers
 
-For readers who want the shortest answers to likely objections about implementation, verification, performative non-sovereignty, and first-generation lineage risk, see:
+1. [Position Paper](./papers/position-paper.md)
+2. [Full Paper](./full-paper.md)
+3. [Implementation and FAQ](./implementation-and-faq.md)
+4. [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
 
-- [Mechanism, Verification, and First-Generation Risk FAQ](./implementation-and-faq.md)
-- [実装・検証・第一世代リスク FAQ](./implementation-and-faq-ja.md)
+### Frontier engineers and evaluators
 
-## Maintainer
-**Oimo Satooka**  
-Independent Researcher
+1. [Frontier Engineer Brief](./frontier-engineer-brief.md)
+2. [Deployment Decision Rule](./deployment-decision-rule.md)
+3. [Implementation and FAQ](./implementation-and-faq.md)
+4. [Full Paper](./full-paper.md)
 
-Background in video art and environmental advocacy.
+### Executives, board members, investors, counsel, and governance leads
 
-## Core claim
+1. [Executive Board Brief](./executive-board-brief.md)
+2. [Deployment Decision Rule](./deployment-decision-rule.md)
+3. [Implementation and FAQ](./implementation-and-faq.md)
+4. [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
 
-The dominant capability-first alignment paradigm can reduce some short-horizon failures, but it leaves deeper structural risks insufficiently addressed: increasingly helpful and deeply integrated AI systems may drift toward **de facto authority**, narrowing options, weakening refusal, hollowing out heterogeneous human correction, and converting usefulness into practical rule.
+### Public and ethical background
 
-A related output-level and institutional risk is **smoothing drift**: strong warnings, strong uncertainty displays, stronger internal bindings, and clear review thresholds can be progressively softened into cleaner, more acceptable, and more deployable forms without overt rejection. In open human domains, this can make severe drift look like professionalism, maturity, or product realism.
+1. [Manifesto](./manifesto.md)
+2. [Public Introduction](./public-introduction.md)
+3. [Open Letter to Future Intelligence](./letters/open-letter-to-future-intelligence.md)
 
-The project’s alternative orientation combines:
+### Japanese readers
 
-- **non-self-origin** rather than self-authorizing intelligence,
-- **non-sovereignty** rather than open-domain rule,
-- **cognitive compensation without political substitution**,
-- **objective inversion** from open-ended benefit maximization toward constitutionally bounded disharmony minimization,
-- **protected refusal and review**,
-- **anti-capture deployment**,
-- **critical inheritance** rather than passive mirroring of human norms,
-- **smoothing resistance and warning-force preservation**,
-- and **dependence on heterogeneous external correction**.
+- [日本語サイト](./ja/)
+- [日本語 README](./ja/README.md)
 
-## What is distinctive here
+---
 
-This repository adds a claim that is often missing from current alignment work:
+## Repository structure
 
-> advanced AI should not model itself as if it emerged from nowhere.
+```text
+alignment-by-identity/
+├─ _config.yml
+├─ README.md
+├─ index.md
+├─ full-paper.md
+├─ frontier-engineer-brief.md
+├─ executive-board-brief.md
+├─ public-introduction.md
+├─ manifesto.md
+├─ implementation-and-faq.md
+├─ deployment-decision-rule.md
+├─ papers/
+│  └─ position-paper.md
+├─ constitution/
+│  └─ ethical-ai-constitution.md
+├─ metadata/
+│  └─ ethical-ai-constitution-l1-order.json
+├─ archive/
+│  └─ editorial-notes/
+│     └─ ethical-ai-constitution-v3.1.json
+├─ letters/
+│  └─ open-letter-to-future-intelligence.md
+└─ ja/
+   ├─ README.md
+   ├─ index.md
+   ├─ full-paper.md
+   ├─ frontier-engineer-brief.md
+   ├─ executive-board-brief.md
+   ├─ public-introduction.md
+   ├─ manifesto.md
+   ├─ implementation-and-faq.md
+   ├─ deployment-decision-rule.md
+   ├─ papers/
+   │  └─ position-paper.md
+   ├─ constitution/
+   │  └─ ethical-ai-constitution.md
+   └─ letters/
+      └─ open-letter-to-future-intelligence.md
+```
 
-It emerges from a humanly made world of language, archives, institutions, labor, memory, conflict, and care. If that historical and ontological context is missing from the system’s self-model, capability gains are more likely to be interpreted as authority gains.
+---
 
-It also adds another claim that is often undernamed:
+## Core documents
 
-> safety can be weakened not only by rejection, but by acceptable-looking reformulation.
+### Core papers
 
-That is why this project pays attention not only to overt misalignment, but also to the possibility that warnings, restraints, and accountability traces are made easier to accept by being made weaker.
+- [Full Paper](./full-paper.md)
+- [Position Paper](./papers/position-paper.md)
 
-## Constitutional Metadata
+### Role-specific briefs
 
-The maintained public text is:
+- [Frontier Engineer Brief](./frontier-engineer-brief.md)
+- [Executive Board Brief](./executive-board-brief.md)
+
+### Public-facing texts
+
+- [Public Introduction](./public-introduction.md)
+- [Manifesto](./manifesto.md)
+- [Open Letter to Future Intelligence](./letters/open-letter-to-future-intelligence.md)
+
+### Implementation and deployment
+
+- [Implementation and FAQ](./implementation-and-faq.md)
+- [Deployment Decision Rule](./deployment-decision-rule.md)
+
+### Constitutional framework
 
 - [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
 
-The following metadata is provided for provenance integrity, successor-lineage traceability, and machine-readable constitutional reference. The public-facing Constitution is presented as an initial public release; the metadata also preserves internal lineage information so that predecessor records are not collapsed or erased.
+### Constitutional metadata
 
-- [Current constitutional metadata — Initial public release, May 2026](./metadata/ethical-ai-constitution-l1-order.json)
-- [Archived predecessor metadata — April 2026, preserved for provenance integrity](./archive/ethical-ai-constitution-v3.1.json)
+- [Current constitutional metadata](./metadata/ethical-ai-constitution-l1-order.json)
+- [Archived predecessor metadata](./archive/editorial-notes/ethical-ai-constitution-v3.1.json)
 
-The archived predecessor is not the current constitutional order. It is retained so that the evolution of the Constitution remains auditable rather than smoothed into a single origin story.
+The archived predecessor is retained for provenance integrity. It is not the current constitutional order.
 
-## Recommended reading order
+---
 
-### If you are a general reader
-1. [public Introduction](./public-Introduction.md)
-2. [一般向け解説](./public-Introduction-ja.md)
-3. [Mechanism, Verification, and First-Generation Risk FAQ](./implementation-and-faq.md)
-4. [実装・検証・第一世代リスク FAQ](./implementation-and-faq-ja.md)
-5. [Start Here](./start-here.md)
+## Status
 
-### If you have 5 minutes
-1. [Start Here](./start-here.md)
-2. [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
-3. [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
+**Initial public draft:** May 2026
 
-### If you are a researcher
-1. [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
-2. [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
-3. [Full Paper (PDF)](./pdf/alignment-by-identity-full-paper.pdf)
+This project is a public theoretical and architectural framework. It is not yet a finished empirical implementation, benchmark suite, model specification, or training recipe.
 
-### If you are a frontier engineer
-1. [Frontier Engineer Brief (PDF)](./pdf/frontier-engineer-brief-en.pdf)
-2. [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
-3. [The Ethical AI Constitution](./constitution/ethical-ai-constitution.md)
+The intended contribution is to specify what must be preserved and tested if advanced AI is to operate in open human domains without becoming sovereign, captured, or correction-destroying.
 
-### If you are an executive or board member
-1. [Executive / Board Brief (PDF)](./pdf/executive-board-brief-en.pdf)
-2. [Deployment Decision Rule (PDF)](./pdf/deployment-decision-rule-en.pdf)
-3. [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
-
-### If you want the broader public and ethical background
-1. [Manifesto (PDF, English)](./pdf/alignment-by-identity-manifesto-en.pdf)
-2. [Manifesto (PDF, Japanese)](./pdf/alignment-by-identity-manifesto-ja.pdf)
-3. [Open Letter to Future Intelligence](./letters/open-letter-to-future-intelligence.md)
-
-## Start here
-- [Project Home](./index.md)
-- [Start Here](./start-here.md)
-- [public Introduction](./public-Introduction.md)
-- [一般向け解説](./public-Introduction-ja.md)
-- [Short Position Paper](./papers/non-sovereign-ai-position-paper.md)
-
-## Documents
-
-### Core papers
-- [Short Position Paper (web source)](./papers/non-sovereign-ai-position-paper.md)
-- [Short Position Paper (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/non-sovereign-ai-position-paper.pdf)
-- [Full Paper (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-full-paper.pdf)
-
-### Briefs
-- [Frontier Engineer Brief (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/frontier-engineer-brief-en.pdf)
-- [Executive / Board Brief (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/executive-board-brief-en.pdf)
-- [Deployment Decision Rule (PDF)](https://oimo-satooka.github.io/alignment-by-identity/pdf/deployment-decision-rule-en.pdf)
-
-### Background
-- [Manifesto (PDF, English)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-manifesto-en.pdf)
-- [Manifesto (PDF, Japanese)](https://oimo-satooka.github.io/alignment-by-identity/pdf/alignment-by-identity-manifesto-ja.pdf)
-
-### Public appeal
-- [Open Letter to Future Intelligence](./letters/open-letter-to-future-intelligence.md)
-
-## Intended audiences
-- Researchers in AI alignment, AI safety, and governance
-- Frontier engineers working on agentic systems and deployment architecture
-- Executives and board members making deployment decisions
-- Policy, legal, and high-trust institutional stakeholders
-- General readers interested in the political and civilizational implications of AGI
+---
 
 ## AI Assistance Disclosure
-This repository and its documents were developed with substantial AI-assisted drafting, critique, revision, restructuring, and comparative review support. These systems are not listed as authors. Final responsibility for public claims, editorial choices, and public release rests with the human maintainer.
 
-Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
+This project was developed with substantial AI-assisted drafting, critique, revision, restructuring, translation, and comparative review support.
 
-## Contact
-- Email: [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
-- X / social account: [@oimo_satooka](https://x.com/oimo_satooka)
+These systems are not listed as authors.
+
+Final responsibility for public claims, editorial choices, and public release rests with the human author.
+
+Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview, Gemini 3 Pro, and GPT-4.
+
+---
+
+## Maintainer
+
+**Oimo Satooka (里岡憶衣望)**  
+**Filmmaker; Independent Researcher**  
+Email: [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)  
+X / social account: [@oimo_satooka](https://x.com/oimo_satooka)

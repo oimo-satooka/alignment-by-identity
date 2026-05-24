@@ -1,32 +1,161 @@
+# Site settings
 title: Alignment by Identity
-description: Non-sovereign AI for open human domains
-theme: minima
-markdown: kramdown
-show_excerpts: false
+description: >-
+  Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI
+  in Open Human Domains.
 
+author:
+  name: Oimo Satooka
+  email: oimo.satooka@gmail.com
+
+# GitHub Pages project site settings.
+# If the site is published at:
+# https://oimo-satooka.github.io/alignment-by-identity/
+# keep this setting.
+#
+# If the site is later moved to a custom domain root, change:
+# baseurl: ""
 url: "https://oimo-satooka.github.io"
 baseurl: "/alignment-by-identity"
 
-plugins:
-  - jekyll-seo-tag
+timezone: Asia/Tokyo
+lang: en
+
+# Build settings
+markdown: kramdown
+theme: minima
 
 kramdown:
   input: GFM
-  math_engine: mathjax
-  syntax_highlighter: rouge
+  hard_wrap: false
 
+# Prevent Minima's default automatic page listing from mixing English and Japanese pages.
+# Use the custom navigation data below from _includes/header.html or _layouts/default.html.
+header_pages: []
+
+# Default front matter values
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+      lang: en
 
-header_pages:
-  - start-here.md
-  - full-paper.md
-  - papers/position-paper.md
-  - manifesto.md
-  - public-Introduction.md
-  - public-Introduction-ja.md
-  - implementation-and-faq.md
-  - constitution/ethical-ai-constitution.md
+  - scope:
+      path: "ja"
+    values:
+      layout: default
+      lang: ja
+
+# Language-aware navigation.
+# This requires a custom header include or layout that reads:
+# site.navigation[page.lang]
+navigation:
+  en:
+    - title: Home
+      url: /
+    - title: Full Paper
+      url: /full-paper/
+    - title: Position Paper
+      url: /papers/position-paper/
+    - title: Manifesto
+      url: /manifesto/
+    - title: Public Introduction
+      url: /public-Introduction/
+    - title: FAQ
+      url: /implementation-and-faq/
+    - title: The Ethical AI Constitution
+      url: /constitution/ethical-ai-constitution/
+    - title: 日本語版
+      url: /ja/
+
+  ja:
+    - title: 日本語トップ
+      url: /ja/
+    - title: 論文本体
+      url: /ja/full-paper/
+    - title: ポジションペーパー
+      url: /ja/papers/position-paper/
+    - title: マニフェスト
+      url: /ja/manifesto/
+    - title: 一般向け解説
+      url: /ja/public-Introduction/
+    - title: FAQ
+      url: /ja/implementation-and-faq/
+    - title: 倫理AI憲法
+      url: /ja/constitution/ethical-ai-constitution/
+    - title: English version
+      url: /
+
+# Optional document registry for templates, README generation, or future site navigation.
+documents:
+  en:
+    core:
+      - title: Full Paper
+        url: /full-paper/
+      - title: Position Paper
+        url: /papers/position-paper/
+    briefs:
+      - title: Frontier Engineer Brief
+        url: /frontier-engineer-brief/
+      - title: Executive Board Brief
+        url: /executive-board-brief/
+    public:
+      - title: Public Introduction
+        url: /public-Introduction/
+      - title: Manifesto
+        url: /manifesto/
+      - title: Open Letter to Future Intelligence
+        url: /letters/open-letter-to-future-intelligence/
+    implementation:
+      - title: Implementation and FAQ
+        url: /implementation-and-faq/
+      - title: Deployment Decision Rule
+        url: /deployment-decision-rule/
+    constitution:
+      - title: The Ethical AI Constitution
+        url: /constitution/ethical-ai-constitution/
+
+  ja:
+    core:
+      - title: 論文本体
+        url: /ja/full-paper/
+      - title: ポジションペーパー
+        url: /ja/papers/position-paper/
+    briefs:
+      - title: Frontier Engineer Brief
+        url: /ja/frontier-engineer-brief/
+      - title: Executive Board Brief
+        url: /ja/executive-board-brief/
+    public:
+      - title: 一般向け解説
+        url: /ja/public-Introduction/
+      - title: マニフェスト
+        url: /ja/manifesto/
+      - title: 未来の知性への公開書簡
+        url: /ja/letters/open-letter-to-future-intelligence/
+    implementation:
+      - title: 実装・FAQ
+        url: /ja/implementation-and-faq/
+      - title: Deployment Decision Rule
+        url: /ja/deployment-decision-rule/
+    constitution:
+      - title: 倫理AI憲法
+        url: /ja/constitution/ethical-ai-constitution/
+
+# Optional plugin settings.
+# These plugins are commonly available on GitHub Pages,
+# but remove them if your Pages build reports plugin errors.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Files and folders excluded from the generated site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README-drafts
+  - drafts
+  - .DS_Store

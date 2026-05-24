@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 一般向け解説
-permalink: /public-Introduction-ja
+permalink: /ja/public-introduction/
+lang: ja
 ---
 
 # AIが賢くなるほど、なぜ「任せればよい」ではなくなるのか  

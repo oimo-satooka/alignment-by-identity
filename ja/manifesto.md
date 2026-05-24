@@ -1,7 +1,8 @@
 ---
 layout: default
 title: マニフェスト
-permalink: /manifesto-ja/
+permalink: /ja/manifesto/
+lang: ja
 ---
 
 <script>
@@ -34,7 +35,7 @@ Background in video art and environmental advocacy
 **共同作成に関する注記：**  
 このマニフェストは、複数のAIシステムとの持続的な協働を通じて作成された。これらのAIは著者ではない。公開に関する最終責任は人間の著者にある。
 
-各段階で使用されたAIシステムには、GPT-5.4 Pro、Claude Opus 4.6、Claude Sonnet 4.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、およびGPT-4が含まれる。
+各段階で使用されたAIシステムには、GPT-5.5 Pro、GPT-5.4 Pro、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6、Claude Sonnet 4.5、Gemini 3.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、およびGPT-4が含まれる。
 
 この文章は、論文 **『Alignment by Identity Beyond Constraint』** のマニフェスト表現である。  
 同時にこの文章は、その理論がそもそもどのような人間とAIの格闘の中から立ち上がってきたのかを、より大きく、より熱い言葉で残すための文書でもある。

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 日本語版
-permalink: /full-paper-ja/
+title: 論文本体
+permalink: /ja/full-paper/
+lang: ja
 ---
 
 <script>
