@@ -76,11 +76,11 @@ navigation:
       url: /ja/
     - title: 論文本体
       url: /ja/full-paper/
-    - title: 技術者向けブリーフ
+    - title: 技術者向け
       url: /ja/frontier-engineer-brief/
-    - title: 経営層向けブリーフ
+    - title: 経営層向け
       url: /ja/executive-board-brief/
-    - title: ポジションペーパー
+    - title: 研究の背景と立場
       url: /ja/papers/position-paper/
     - title: 一般向け解説
       url: /ja/public-introduction/
