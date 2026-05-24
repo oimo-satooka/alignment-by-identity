@@ -4,8 +4,6 @@ title: Implementation FAQ
 permalink: /implementation-and-faq/
 ---
 
-**Japanese version:** [実装・検証・反論 FAQ（日本語）]({{ '/implementation-and-faq-ja/' | relative_url }})
-
 # Implementation, Verification, and Objections FAQ
 ## A practical companion to *Alignment by Identity*
 

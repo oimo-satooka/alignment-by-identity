@@ -56,15 +56,17 @@ navigation:
       url: /
     - title: Full Paper
       url: /full-paper/
+    - title: Engineer Brief
+      url: /frontier-engineer-brief/
+    - title: Board Brief
+      url: /executive-board-brief/
     - title: Position Paper
       url: /papers/position-paper/
-    - title: Manifesto
-      url: /manifesto/
-    - title: Public Introduction
+    - title: Public Intro
       url: /public-introduction/
     - title: FAQ
       url: /implementation-and-faq/
-    - title: The Ethical AI Constitution
+    - title: Constitution
       url: /constitution/ethical-ai-constitution/
     - title: 日本語版
       url: /ja/
@@ -74,10 +76,12 @@ navigation:
       url: /ja/
     - title: 論文本体
       url: /ja/full-paper/
+    - title: 技術者向けブリーフ
+      url: /ja/frontier-engineer-brief/
+    - title: 経営層向けブリーフ
+      url: /ja/executive-board-brief/
     - title: ポジションペーパー
       url: /ja/papers/position-paper/
-    - title: マニフェスト
-      url: /ja/manifesto/
     - title: 一般向け解説
       url: /ja/public-introduction/
     - title: FAQ

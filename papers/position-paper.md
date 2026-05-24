@@ -4,9 +4,6 @@ title: Position Paper
 permalink: /papers/position-paper/
 ---
 
-**Japanese version:** [日本語版]({{ '/papers/position-paper-ja/' | relative_url }})  
-**Full paper:** [Alignment by Identity]({{ '/full-paper/' | relative_url }})
-
 # Beyond Alignment Faking
 ## Non-Sovereign AI for Open Human Domains: Why Constitutional Text Is Not Enough
 
@@ -15,8 +12,6 @@ permalink: /papers/position-paper/
 **Oimo Satooka**  
 Independent Researcher  
 <oimo.satooka@gmail.com>
-
-Project page and companion briefs: <https://oimo-satooka.github.io/alignment-by-identity/>
 
 **Initial public release — May 2026**
 
