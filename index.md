@@ -219,7 +219,7 @@ Instead, it is a structured warning and design proposal:
 
 Start with the clearest non-technical entry points.
 
-1. [Public Introduction]({{ '/public-Introduction/' | relative_url }})
+1. [Public Introduction]({{ '/public-introduction/' | relative_url }})
 2. [Manifesto]({{ '/manifesto/' | relative_url }})
 3. [Implementation and FAQ]({{ '/implementation-and-faq/' | relative_url }})
 
@@ -254,7 +254,7 @@ Start with the clearest non-technical entry points.
 ### If you want the broader public and ethical background
 
 1. [Manifesto]({{ '/manifesto/' | relative_url }})
-2. [Public Introduction]({{ '/public-Introduction/' | relative_url }})
+2. [Public Introduction]({{ '/public-introduction/' | relative_url }})
 3. [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})
 
 ---
@@ -273,7 +273,7 @@ Start with the clearest non-technical entry points.
 
 ### Public-facing texts
 
-- [Public Introduction]({{ '/public-Introduction/' | relative_url }})
+- [Public Introduction]({{ '/public-introduction/' | relative_url }})
 - [Manifesto]({{ '/manifesto/' | relative_url }})
 - [Open Letter to Future Intelligence]({{ '/letters/open-letter-to-future-intelligence/' | relative_url }})
 

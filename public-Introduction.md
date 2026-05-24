@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Public introduction
-permalink: /public-Introduction/
+permalink: /public-introduction/
 ---
 
 # The More Capable AI Becomes, the Less “Just Let It Decide” Is Enough  
