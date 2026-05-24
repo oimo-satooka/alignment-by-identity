@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Public Introduction
+title: Public introduction
 permalink: /public-Introduction/
 ---
 
