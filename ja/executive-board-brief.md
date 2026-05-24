@@ -15,8 +15,6 @@ Independent Researcher
 
 **初回公開版 — 2026年5月**
 
-**English version:** [English]({{ '/executive-board-brief/' | relative_url }})
-
 **正本:** このHTMLページを、現在維持されている公開版とします。
 
 ---

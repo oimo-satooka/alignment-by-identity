@@ -5,8 +5,6 @@ permalink: /ja/deployment-decision-rule/
 lang: ja
 ---
 
-**English version:** [English]({{ '/deployment-decision-rule/' | relative_url }})
-
 # 配備判断規則 v1.4
 ## 開かれた人間領域におけるフロンティアAIシステムのために
 ### 主権的役割を持ちうるAIについて、配備・限定・不配備を判断するための規則

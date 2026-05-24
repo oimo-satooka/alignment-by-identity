@@ -26,8 +26,6 @@ window.MathJax = {
 Independent Researcher  
 <oimo.satooka@gmail.com>
 
-プロジェクトページおよび実装者向け付随ブリーフ：<https://oimo-satooka.github.io/alignment-by-identity/>
-
 **Initial public draft — May 2026**
 
 ## Abstract

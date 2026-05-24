@@ -4,8 +4,6 @@ title: Deployment Decision Rule
 permalink: /deployment-decision-rule/
 ---
 
-**Japanese version:** [日本語版]({{ '/deployment-decision-rule-ja/' | relative_url }})
-
 # Deployment Decision Rule v1.4
 ## For Frontier AI Systems in Open Human Domains
 ### A go / restrict / do-not-deploy rule for sovereign-capable deployment

@@ -5,7 +5,6 @@ permalink: /ja/papers/position-paper/
 lang: ja
 ---
 
-**English version:** [English version]({{ '/papers/position-paper/' | relative_url }})  
 **Full paper:** [Alignment by Identity]({{ '/full-paper/' | relative_url }})
 
 # アラインメント・フェイキングを越えて：開かれた人間領域のための非主権AI
@@ -14,8 +13,6 @@ lang: ja
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher  
 <oimo.satooka@gmail.com>
-
-Project page and companion briefs: <https://oimo-satooka.github.io/alignment-by-identity/>
 
 **Initial public release — May 2026**
 

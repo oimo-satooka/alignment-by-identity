@@ -5,8 +5,6 @@ permalink: /ja/implementation-and-faq/
 lang: ja
 ---
 
-**English version:** [Implementation, Verification, and Objections FAQ]({{ '/implementation-and-faq/' | relative_url }})
-
 # 実装・検証・反論 FAQ
 ## 『Alignment by Identity』のための実務的補助文書
 

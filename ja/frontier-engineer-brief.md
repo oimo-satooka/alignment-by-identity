@@ -15,8 +15,6 @@ lang: ja
 
 **初回公開版 — 2026年5月**
 
-**英語版:** [Frontier Engineer Brief]({{ '/frontier-engineer-brief/' | relative_url }})
-
 **正本:** このHTMLページを、現在維持されている公開版とします。
 
 ---

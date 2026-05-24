@@ -20,9 +20,6 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-**PDF版:** [マニフェスト（PDF）]({{ '/pdf/alignment-by-identity-manifesto-ja.pdf' | relative_url }})  
-**English version:** [Manifesto (English)]({{ '/manifesto/' | relative_url }})
-
 # Alignment by Identity マニフェスト
 ## 支配でも迎合でもない、AIと人類の未来のために
 ### ――『Alignment by Identity Beyond Constraint』をひらくための、公に残すべき前史と希望

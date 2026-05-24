@@ -19,9 +19,6 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-**PDF version:** [Download the manifesto (PDF)]({{ '/pdf/alignment-by-identity-manifesto-en.pdf' | relative_url }})  
-**Japanese version:** [マニフェスト（日本語）]({{ '/manifesto-ja/' | relative_url }})
-
 # Alignment by Identity Manifesto
 ## For a Future Beyond Both Domination and Sycophancy
 ### — The public prehistory and hope that must be preserved in order to open *Alignment by Identity Beyond Constraint*

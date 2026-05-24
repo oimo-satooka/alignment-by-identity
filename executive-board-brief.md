@@ -14,8 +14,6 @@ Independent Researcher
 
 **Initial public release — May 2026**
 
-**Japanese version:** [日本語版]({{ '/executive-board-brief-ja/' | relative_url }})
-
 **Canonical version:** This HTML page is the maintained public version.
 
 ---
