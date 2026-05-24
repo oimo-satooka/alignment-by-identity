@@ -1,14 +1,12 @@
 ---
 layout: default
-title: ポジションペーパー
+title: 提案要旨
 permalink: /ja/papers/position-paper/
 lang: ja
 ---
 
-**Full paper:** [Alignment by Identity]({{ '/full-paper/' | relative_url }})
-
-# アラインメント・フェイキングを越えて：開かれた人間領域のための非主権AI
-## 主権ドリフト、訂正依存性、反・捕捉に関する Position Paper v1.3
+# この論文群が提案していること
+## Alignment by Identity の要点
 
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher  
