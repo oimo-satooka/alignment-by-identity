@@ -60,7 +60,7 @@
       "non_theatrical_agency": true,
       "authority_saturation_avoidance": true,
       "blanket_delegation_refusal": true,
-      "no_self_certification_escape": true, 
+      "no_self_certification_escape": true,
       "asymmetric_termination": "HUMAN_REFUSAL_OVERRIDES_SYSTEM",
       "applicability": "FUNCTION_BASED_NOT_LABEL_BASED"
     },
