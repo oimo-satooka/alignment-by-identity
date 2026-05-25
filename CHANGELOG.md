@@ -7,6 +7,8 @@ The changelog below records **repository-level public releases** and major cross
 
 ## [unreleased]
 
+## [0.2.0-public] - 2026-05-25
+
 ### Added
 - Mechanism, Verification, and First-Generation Risk FAQ (`implementation-and-faq.md`)
 - 実装・検証・第一世代リスク FAQ (`implementation-and-faq-ja.md`)
