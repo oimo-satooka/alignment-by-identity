@@ -9,7 +9,6 @@ Public repository for the **Alignment by Identity** project.
 
 **Project lead:** Oimo Satooka (里岡憶衣望)  
 **Role:** Filmmaker; Independent Researcher  
-**Contact:** [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 ---
 
@@ -290,9 +289,17 @@ Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude
 
 ---
 
+## Correspondence Policy
+
+This repository is published as a public research contribution.
+
+The author may not be able to provide private technical correspondence or individual expert Q&A. The intended path is public reading, citation, critique, discussion, forking, and extension by interested researchers and communities.
+
+For substantive objections, please cite the relevant document and passage so that others can evaluate the issue publicly.
+
+---
+
 ## Maintainer
 
 **Oimo Satooka (里岡憶衣望)**  
 **Filmmaker; Independent Researcher**  
-Email: [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)  
-X / social account: [@oimo_satooka](https://x.com/oimo_satooka)

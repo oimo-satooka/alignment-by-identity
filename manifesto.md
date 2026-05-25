@@ -26,7 +26,6 @@ window.MathJax = {
 Oimo Satooka (里岡憶衣望)  
 Independent Researcher  
 Background in video art and environmental advocacy  
-[oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 **Collaboration Note:**  
 This manifesto was developed through sustained collaboration with multiple AI systems. These systems are not listed as authors. Final responsibility for public release remains with the human author.

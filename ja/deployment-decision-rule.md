@@ -1,20 +1,18 @@
 ---
 layout: default
-title: Deployment Decision Rule（配備判断規則）
+title: 実装への移行ルール
 permalink: /ja/deployment-decision-rule/
 lang: ja
 ---
 
-# 配備判断規則 v1.4
+# 実装への移行ルール
 ## 開かれた人間領域におけるフロンティアAIシステムのために
 ### 主権的役割を持ちうるAIについて、配備・限定・不配備を判断するための規則
 
 里岡憶衣望（Oimo Satooka）  
 Independent Researcher  
-[oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 **初回公開:** 2026年5月  
-**バージョン注記:** v1.4 は、先行するPDF版の規則を、現行版の本論文、Frontier Engineer Brief、Executive Board Brief、一般向け解説に合わせて更新したものである。
 
 **AI協働に関する注記:**  
 本書は、AIによる下書き、批判、改稿、翻訳、編集支援を大きく受けて作成された。AIシステムは著者ではない。公開、解釈、使用に関する最終責任は人間の著者にある。

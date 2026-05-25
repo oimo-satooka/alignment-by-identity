@@ -11,7 +11,6 @@ permalink: /papers/position-paper/
 
 **Oimo Satooka**  
 Independent Researcher  
-<oimo.satooka@gmail.com>
 
 **Initial public release — May 2026**
 

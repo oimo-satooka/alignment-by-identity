@@ -11,7 +11,6 @@ lang: ja
 
 作成者: Oimo Satooka（里岡憶衣望）  
 独立研究者  
-[oimo.satooka@gmail.com]
 
 **初回公開版 — 2026年5月**
 

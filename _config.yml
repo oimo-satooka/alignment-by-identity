@@ -6,7 +6,6 @@ description: >-
   in Open Human Domains.
 
 author: Oimo Satooka
-email: oimo.satooka@gmail.com
 
 # GitHub Pages project site settings.
 # If the site is published at:
@@ -125,24 +124,24 @@ documents:
     core:
       - title: 論文本体
         url: /ja/full-paper/
-      - title: ポジションペーパー
+      - title: 提案要旨(ポジションペーパー)
         url: /ja/papers/position-paper/
     briefs:
-      - title: Frontier Engineer Brief
+      - title: 先端エンジニア向解説
         url: /ja/frontier-engineer-brief/
-      - title: Executive Board Brief
+      - title: 経営層向解説
         url: /ja/executive-board-brief/
     public:
-      - title: 一般向け解説
+      - title: 一般向解説
         url: /ja/public-introduction/
-      - title: マニフェスト
+      - title: 論文の舞台裏(マニフェスト)
         url: /ja/manifesto/
       - title: 未来の知性への公開書簡
         url: /ja/letters/open-letter-to-future-intelligence/
     implementation:
       - title: 実装・FAQ
         url: /ja/implementation-and-faq/
-      - title: Deployment Decision Rule
+      - title: 実装への移行ルール
         url: /ja/deployment-decision-rule/
     constitution:
       - title: 倫理AI憲法

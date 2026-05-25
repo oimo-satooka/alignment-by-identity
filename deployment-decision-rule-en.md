@@ -10,7 +10,6 @@ permalink: /deployment-decision-rule/
 
 Prepared by Oimo Satooka (里岡憶衣望)  
 Independent Researcher  
-[oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 **Initial public release:** May 2026  
 **Version note:** v1.4 updates the earlier PDF rule to align with the current full paper, frontier engineer brief, executive board brief, and public-facing introduction.

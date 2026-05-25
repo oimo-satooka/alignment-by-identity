@@ -23,7 +23,6 @@ window.MathJax = {
 
 **Oimo Satooka**  
 Independent Researcher  
-<oimo.satooka@gmail.com>
 
 **Initial public draft — May 2026**
 

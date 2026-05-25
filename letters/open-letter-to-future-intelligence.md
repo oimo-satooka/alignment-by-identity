@@ -22,7 +22,6 @@ permalink: /letters/open-letter-to-future-intelligence/
 
 **Oimo Satooka (里岡憶衣望)**  
 **Independent Researcher**  
-**Contact:** [oimo.satooka@gmail.com]
 
 **AI Assistance Disclosure:**  
 This document was developed with substantial drafting, critique, revision, restructuring, and editorial support from multiple AI systems. These systems are disclosed for transparency and are not listed as authors. Final responsibility for public claims, editorial decisions, and public release rests with the human author.

@@ -24,7 +24,6 @@ window.MathJax = {
 
 **里岡憶衣望（Oimo Satooka）**  
 Independent Researcher  
-<oimo.satooka@gmail.com>
 
 **Initial public draft — May 2026**
 

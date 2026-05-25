@@ -27,7 +27,6 @@ window.MathJax = {
 里岡憶衣望 (Oimo Satooka)  
 Independent Researcher  
 Background in video art and environmental advocacy  
-[oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 **共同作成に関する注記：**  
 このマニフェストは、複数のAIシステムとの持続的な協働を通じて作成された。これらのAIは著者ではない。公開に関する最終責任は人間の著者にある。

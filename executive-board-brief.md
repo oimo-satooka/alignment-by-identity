@@ -10,7 +10,6 @@ permalink: /executive-board-brief/
 
 Prepared by Oimo Satooka (里岡憶衣望)  
 Independent Researcher  
-[oimo.satooka@gmail.com]
 
 **Initial public release — May 2026**
 

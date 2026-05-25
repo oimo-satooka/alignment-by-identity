@@ -10,7 +10,6 @@ lang: en
 
 **Oimo Satooka (里岡憶衣望)**  
 **Filmmaker; Independent Researcher**  
-[oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
 
 This site presents the **Alignment by Identity** project.
 
@@ -309,11 +308,5 @@ These systems are not listed as authors.
 
 Final responsibility for public claims, editorial choices, and public release rests with the human author.
 
-Models consulted at various stages included GPT-5.4 Pro, Claude Opus 4.6, Claude Sonnet 4.5, Gemini 3.1 Pro Preview, Gemini 3 Pro, and GPT-4.
+Models consulted at various stages included GPT-5.5 Pro, GPT-5.4 Pro, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, Claude Sonnet 4.5, Gemini 3.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
 
----
-
-## Contact
-
-- Email: [oimo.satooka@gmail.com](mailto:oimo.satooka@gmail.com)
-- X / social account: [@oimo_satooka](https://x.com/oimo_satooka)

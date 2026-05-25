@@ -11,7 +11,6 @@ lang: ja
 
 Prepared by Oimo Satooka（里岡憶衣望）  
 Independent Researcher  
-[oimo.satooka@gmail.com]
 
 **初回公開版 — 2026年5月**
 

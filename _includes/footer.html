@@ -1,0 +1,60 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    {% assign current_lang = page.lang | default: "en" %}
+
+    <h2 class="footer-heading">
+      {% if current_lang == "ja" %}
+        {{ site.title_ja | default: site.title | escape }}
+      {% else %}
+        {{ site.title | escape }}
+      {% endif %}
+    </h2>
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Oimo Satooka</li>
+          <li>
+            {% if current_lang == "ja" %}
+              映像作家・Independent Researcher
+            {% else %}
+              Filmmaker; Independent Researcher
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {% if current_lang == "ja" %}
+          <p>
+            このプロジェクトは、個別相談ではなく、公開された問題提起として発表されています。
+          </p>
+        {% else %}
+          <p>
+            This project is published as a public research intervention, not as a private advisory channel.
+          </p>
+        {% endif %}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        {% if current_lang == "ja" %}
+          <p>
+            著者は、個別の専門的質疑応答や私信での技術的討論には原則として対応できません。
+            実質的な反論、批判、検討、拡張は、該当箇所を引用したうえで、他の研究者・技術者・読者も評価できる公開の場で行われることを望みます。
+          </p>
+        {% else %}
+          <p>
+            The author may not be able to provide private technical correspondence or individual expert Q&amp;A.
+            Substantive objections, critiques, corrections, or extensions should cite the relevant passages and be raised in public venues where other researchers, engineers, and readers can evaluate the issue.
+          </p>
+        {% endif %}
+      </div>
+
+    </div>
+
+  </div>
+</footer>
