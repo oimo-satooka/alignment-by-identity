@@ -1,4 +1,3 @@
-<!-- File: ja/index.md -->
 ---
 layout: default
 title: 日本語トップ
