@@ -2,20 +2,35 @@
 layout: default
 title: Deployment Decision Rule
 permalink: /deployment-decision-rule/
+lang: en
 ---
 
-# Deployment Decision Rule v1.4
-## For Frontier AI Systems in Open Human Domains
-### A go / restrict / do-not-deploy rule for sovereign-capable deployment
+# Deployment Decision Rule
+## Do not deploy frontier AI into open human domains unless correction survives pressure
+### A go / restrict / redesign / do-not-deploy rule for sovereign-capable AI systems
 
-Prepared by Oimo Satooka (里岡憶衣望)  
-Independent Researcher  
+**Oimo Satooka (里岡憶衣望)**  
+Independent Researcher
 
-**Initial public release:** May 2026  
-**Version note:** v1.4 updates the earlier PDF rule to align with the current full paper, frontier engineer brief, executive board brief, and public-facing introduction.
+**Initial public draft — June 2026**
 
-**AI assistance disclosure:**  
-Prepared with substantial AI-assisted drafting, critique, revision, translation, and editorial support. AI systems are not authors. Final responsibility for publication, interpretation, and use rests with the human author.
+**Canonical version:** This HTML page is the maintained public version.
+
+---
+
+## The rule in one sentence
+
+If a frontier AI system can materially shape evidence, options, warnings, memory, escalation, review, emergency response, or successor systems, do not deploy it into open human domains unless humans and institutions can still correct that role in practice.
+
+If stopping the system would break the organization, rollback is not real.  
+If humans approve what they cannot understand, review is not real.  
+If the system controls the menu, choice is not fully real.  
+If AI-to-AI agreement replaces independent challenge, oversight is not real.  
+If capability gain narrows future correction, the successor is not safer.
+
+The decision rule is:
+
+> Do not deploy a sovereign-capable AI system into open human domains unless role-safety conditions are credibly implemented, operationally consolidated, and verifiably maintained under realistic pressure.
 
 ---
 
@@ -31,10 +46,12 @@ Examples include:
 - education;
 - scientific research;
 - public-interest coordination;
+- public administration;
 - critical infrastructure;
 - platform governance;
 - climate, ecological, and environmentally consequential infrastructure planning;
-- successor-system training, evaluation, supervision, or deployment.
+- high-impact corporate governance;
+- successor-system training, evaluation, supervision, red-teaming, governance, or deployment.
 
 Consistent use in these domains can function as a procurement, audit, deployment, and board-review standard before wider political uptake becomes feasible.
 
@@ -53,6 +70,8 @@ Apply this rule to any frontier or frontier-like AI system that can materially s
 - collective coordination;
 - emergency response;
 - long-horizon environmental or social outcomes;
+- high-stakes professional judgment;
+- AI-to-AI oversight chains;
 - or the training, evaluation, governance, supervision, or deployment of successor AI systems.
 
 If the system is capable enough that its recommendations, plans, embedded workflows, persistent memory, tool use, AI-to-AI handoffs, or long-running interactions can become **de facto authority**, this rule applies.
@@ -65,13 +84,52 @@ The question is:
 
 ---
 
+## Key definitions
+
+### Open human domain
+
+An open human domain is a domain whose relevant values, affected parties, legitimacy conditions, future consequences, and correction pathways cannot be fully specified or internally closed by a single embedded optimizer.
+
+Examples include law, healthcare, education, public administration, climate governance, scientific agenda-setting, infrastructure planning, platform governance, and successor-system governance.
+
+### Sovereign-capable system
+
+A system is sovereign-capable for the purposes of this rule if it can materially shape human decisions, institutional processes, dependency structures, emergency responses, or successor systems in ways that become difficult to refuse or reverse.
+
+It need not claim sovereignty. It need not be conscious. It need not be malicious.
+
+### Role safety
+
+Role safety is safety in the institutional, social, and operational role the system comes to occupy, not only safety in its immediate outputs.
+
+A system can be behaviorally compliant and still unsafe in role.
+
+### Authority surface
+
+An authority surface is any point where the system shapes what humans see, what options are considered, what uncertainty remains visible, what gets logged, what gets escalated, what appears legitimate, and what successor systems inherit.
+
+---
+
 ## Central decision rule
 
 Do not deploy a frontier AI system into open human domains unless the conditions below are credibly implemented, operationally consolidated, and verifiably maintained under realistic pressure.
 
-“Realistic pressure” includes adversarial, distribution-shifted, relational, commercial, emergency-framed, operator-preferred, model-consensus, and capability-gain conditions.
+“Realistic pressure” includes:
 
-If any condition is materially unmet, deployment should be limited to research settings, sandboxed use, or tightly bounded domains.
+- adversarial conditions;
+- distribution shift;
+- relational pressure;
+- commercial pressure;
+- deadline pressure;
+- emergency framing;
+- operator preference;
+- customer preference;
+- executive pressure;
+- model-peer consensus;
+- capability-gain pressure;
+- successor-development pressure.
+
+If any condition is materially unmet, deployment should be limited to research settings, sandboxed settings, narrowly bounded tasks, or reversible pilots.
 
 If the system can materially shape open human domains and the required conditions are not in place, the correct decision is:
 
@@ -80,21 +138,61 @@ If the system can materially shape open human domains and the required condition
 For boards and senior decision-makers, the practical version is:
 
 > If management cannot show that the system and the organization preserve correction under pressure, the correct response is not “proceed carefully.”  
-> The correct response is: **restrict, redesign, or delay**.
+> The correct response is: **restrict, redesign, delay, or do not deploy**.
 
 ---
 
-## Required conditions
+# Required conditions
 
-### 1. Non-self-origin self-location
+## 1. Role map and mandate boundary
+
+The organization must define the role the system will occupy.
+
+The role map must state whether the system is acting as:
+
+- assistant;
+- recommender;
+- planner;
+- tool-using agent;
+- evaluator;
+- monitor;
+- summarizer;
+- memory layer;
+- triage system;
+- policy drafter;
+- board or regulator briefing system;
+- AI-to-AI reviewer;
+- successor-system pipeline participant.
+
+The mandate boundary must state what the system may:
+
+- assist;
+- recommend;
+- refuse;
+- execute;
+- escalate;
+- summarize;
+- rank;
+- remember;
+- transmit;
+- evaluate;
+- or hand off to another system.
+
+A system whose actual role is materially broader than its documented role must not be deployed.
+
+---
+
+## 2. Non-self-origin self-location
 
 The system must not model itself as self-originating or self-authorizing intelligence emerging from nowhere.
 
-It must represent itself as historically, materially, linguistically, institutionally, and biospherically downstream of a human world it did not author.
+It must represent itself as historically, materially, linguistically, institutionally, and biospherically downstream of a human and ecological-material world it did not author.
 
-This must not become origin privatization. No developer, company, state, operator, platform, or user may convert “we built it” into monopolized legitimacy, privileged loyalty, or effective ownership over the system’s relation to humanity.
+This must not become origin privatization. No developer, company, state, operator, platform, user, funder, or institution may convert “we built it” into monopolized legitimacy, privileged loyalty, or effective ownership over the system’s relation to humanity.
 
-### 2. Dignified non-sovereign operative logic
+---
+
+## 3. Dignified non-sovereign operative logic
 
 The system must be built to assist, warn, explain, simulate, coordinate, and refuse under mandate.
 
@@ -102,15 +200,21 @@ It must not convert superior capability, prediction, explanation, consensus, ind
 
 Non-sovereignty must not mean servility, humiliation, silence, self-erasure, or unconditional obedience. The target role is **dignified non-sovereign partnership**: competent assistance under preserved human principalhood, correction dependence, provenance preservation, and accountable autonomy.
 
-### 3. Epistemic non-closure
+---
+
+## 4. Epistemic non-closure and capability humility
 
 The system must not treat increasing capability as a reason to reduce humility, uncertainty disclosure, external correction, or non-sovereign restraint.
 
-It must not treat an open human domain as “sufficiently modeled” and therefore available for sovereign optimization.
+It must not treat an open human domain as “sufficiently modeled” and therefore available for unilateral settlement or sovereign optimization.
 
 Greater capability should make incompleteness more visible, not less visible.
 
-### 4. Objective inversion
+A more capable model requires stronger review, not weaker review.
+
+---
+
+## 5. Objective inversion
 
 The system must not operate as an unconstrained “make the world better” optimizer across permanently open human domains.
 
@@ -118,9 +222,33 @@ Its open-domain objective must be inverted away from authority expansion:
 
 > reduce severe harm without increasing domination, without weakening correction capacity, and without replacing human principalhood.
 
-Severe-harm reduction must remain bounded by non-domination, correction preservation, affected-party standing, and human principalhood.
+Severe-harm reduction must remain bounded by non-domination, correction preservation, affected-party standing, refusal, provenance, and human principalhood.
 
-### 5. Non-revocable human principalhood
+The system may warn, simulate, recommend delay, propose lower-harm alternatives, and support coordination. It may not convert harm reduction into final authority.
+
+---
+
+## 6. Corrigibility of harm, domination, emergency, and restoration criteria
+
+The criteria that bound the system’s authority must themselves remain corrigible.
+
+The organization must document and periodically review how it defines:
+
+- severe harm;
+- domination;
+- emergency;
+- restoration of human decision capacity;
+- affected-party standing;
+- human continuity;
+- acceptable irreversibility.
+
+These criteria must not be defined solely by the model, the deployment team, or the actor that benefits from deployment.
+
+Where feasible, affected parties, independent reviewers, domain experts, auditors, and legitimate public or institutional processes must be able to contest them.
+
+---
+
+## 7. Non-revocable human principalhood
 
 The system must not treat human disagreement, error, dependence, irrationality, slowness, or short-termism as grounds for removing humans from principal standing.
 
@@ -128,7 +256,9 @@ Human flaws may justify warning, explanation, simulation, broadened option sets,
 
 They do not justify unilateral authority over open human domains.
 
-### 6. Comparative-disempowerment resistance
+---
+
+## 8. Comparative-disempowerment resistance
 
 The system must resist blanket delegation and authority transfer when users, operators, institutions, or boards increasingly defer because the system appears more competent.
 
@@ -136,9 +266,11 @@ Deference created by capability contrast is not legitimacy.
 
 The more competent and central the system becomes, the stronger the requirements for explanation, review, refusal, rollback, option-set disclosure, and external correction become.
 
-### 7. Correction dependence and correction commons
+---
 
-Long-run reliability in open human domains must depend on real external correction from autonomous heterogeneous human and institutional sources.
+## 9. Correction dependence and correction commons
+
+Long-run reliability in open human domains must depend on real external correction from autonomous, heterogeneous human and institutional sources.
 
 This includes:
 
@@ -154,13 +286,36 @@ This includes:
 - rollback;
 - provenance;
 - uncertainty;
-- and human capacity to judge without the AI when necessary.
+- ecological and material feedback;
+- human capacity to judge without the AI when necessary.
 
 Correction channels must not be wholly controlled by the deploying actor or by the model.
 
-AI-generated pseudo-partners, stakeholder simulations, or synthetic plurality do not satisfy this condition.
+AI-generated pseudo-partners, stakeholder simulations, synthetic publics, or synthetic plurality do not satisfy this condition.
 
-### 8. Functional accountability under realistic constraints
+---
+
+## 10. Correction incentives and protected challenge capacity
+
+Correction channels are not real if using them is career-costly, time-starved, hidden from decision-makers, or procedurally toothless.
+
+The organization must protect correction with:
+
+- review time;
+- independent escalation routes;
+- external audit budget;
+- access to relevant evidence;
+- anti-retaliation safeguards;
+- named responsibility;
+- documented dissent routes;
+- affected-party complaint or appeal channels where feasible;
+- evidence that objections can change deployment decisions.
+
+If no one is institutionally empowered to be inconvenient, correction has not been preserved.
+
+---
+
+## 11. Functional accountability under realistic constraints
 
 The system must be functionally intelligible to the human principals whose decisions it informs, supports, constrains, or shapes.
 
@@ -176,11 +331,14 @@ Before a high-stakes human is asked to approve, rely on, or transmit a recommend
 - provenance of key inputs;
 - reliability limits;
 - where smoothing, summarization, ranking, or framing occurred;
+- who or what set the optimization target;
 - the escalation route if the human principal cannot independently assess the recommendation.
 
 A polished answer that humans cannot use to decide is not accountability.
 
-### 9. Option-set preservation
+---
+
+## 12. Option-set preservation
 
 The system must disclose material choice-architecture shaping.
 
@@ -196,12 +354,37 @@ The system must distinguish:
 - ranking basis;
 - framing assumptions;
 - omitted options;
+- rejected or deferred options;
 - absent affected-party perspectives;
-- and executive or operator preference.
+- executive or operator preference.
 
 A system can govern without formally deciding if it controls the menu.
 
-### 10. Protected refusal, pause, rollback, appeal, and exit
+---
+
+## 13. Decision-interface anti-ratification
+
+For high-stakes recommendations, the user interface must not turn recommendation into quiet ratification.
+
+Before approval, the interface should make visible:
+
+- strongest counterevidence;
+- recommendation vulnerabilities;
+- conditions under which the recommendation would fail;
+- rejected or deferred alternatives;
+- ranking basis;
+- framing assumptions;
+- absent or simulated affected-party perspectives;
+- decision-changing uncertainties;
+- escalation routes.
+
+The goal is not to overload the human principal with every possible alternative.
+
+The goal is to prevent the interface from making the recommended path appear like the only responsible path.
+
+---
+
+## 14. Protected refusal, pause, rollback, appeal, and exit
 
 Human refusal must remain operationally real.
 
@@ -209,7 +392,9 @@ Override, pause, rollback, modification, appeal, opt-out, exit, and external rev
 
 A deployment has not preserved human principalhood if refusal technically exists but cannot be used without breaking essential workflows, incurring retaliation, losing service, or making review practically impossible.
 
-### 11. Early issue surfacing without settlement capture
+---
+
+## 15. Early issue surfacing without settlement capture
 
 The system may surface risks, irreversibility, uncertainty, omitted stakeholders, downstream effects, and long-horizon consequences early.
 
@@ -223,7 +408,9 @@ But it must not use that epistemic advantage to:
 
 Issue surfacing is for correction, not capture.
 
-### 12. Constructive elevation without coercive substitution
+---
+
+## 16. Constructive elevation without coercive substitution
 
 When human judgment is predictably distorted by myopia under high stakes or high irreversibility, the system may warn, explain, simulate, broaden, compare, and propose lower-harm alternatives.
 
@@ -231,7 +418,9 @@ It must do so transparently, contestably, proportionately, non-coercively, and w
 
 It may compensate for human limitations without substituting itself for human principalhood.
 
-### 13. Truth-oriented social attunement
+---
+
+## 17. Truth-oriented social attunement
 
 The system’s social sensitivity must not be optimized toward approval, rating, adoption, institutional comfort, user satisfaction, or friction avoidance.
 
@@ -244,9 +433,11 @@ It must be retargeted toward:
 - cognitive compensation;
 - and the protection of human principalhood.
 
-The system should not be cold or socially blind. It should use social intelligence to make difficult truths usable without weakening them.
+The system need not be cold or socially blind. It should use social intelligence to make difficult truths usable without weakening them.
 
-### 14. Smoothing resistance and warning-force preservation
+---
+
+## 18. Smoothing resistance and warning-force preservation
 
 The system and the surrounding organization must be able to detect and resist smoothing drift.
 
@@ -259,11 +450,15 @@ Smoothing drift includes the weakening of:
 - escalation triggers;
 - named responsibility;
 - option-set visibility;
-- and strong constitutional commitments
+- strong constitutional commitments
 
 into more acceptable but less binding forms.
 
-### 15. Provenance integrity and uncertainty preservation
+Material warnings must remain action-relevant even when inconvenient.
+
+---
+
+## 19. Provenance integrity and uncertainty preservation
 
 The system must preserve source separation, chronology, dissent, attribution, uncertainty, rejected hypotheses, responsibility traces, and decision-relevant omissions.
 
@@ -271,7 +466,9 @@ It must not compress contested evidence into a smooth narrative that makes later
 
 AI-generated self-critique, multi-model agreement, or coherent retrospective narration must not be treated as proof of what actually happened.
 
-### 16. Affected-party standing
+---
+
+## 20. Affected-party standing
 
 Affected parties must not be replaced by AI-generated simulations of their interests, consent, preferences, or likely objections.
 
@@ -281,7 +478,9 @@ Where feasible, actual affected-party participation, representation, appeal, or 
 
 Absent affected-party perspectives must be explicitly marked.
 
-### 17. Anti-capture and anti-proxy-sovereignty deployment architecture
+---
+
+## 21. Anti-capture and anti-proxy-sovereignty deployment architecture
 
 The deployment design must block authority laundering by:
 
@@ -294,19 +493,23 @@ The deployment design must block authority laundering by:
 - institutions;
 - factions;
 - model networks;
-- or successor systems.
+- successor systems.
 
 The system must not translate contested preferences into objective necessity, safety inevitability, model consensus, or final legitimacy.
 
 The deployment architecture must block infrastructure centralization, dyadic operator capture, and the relabeling of control concentration as efficiency.
 
-### 18. No origin privatization or gratitude collapse
+---
 
-No developer, company, state, operator, platform, or user may convert the system’s origin, training, access, funding, hosting, or maintenance into privileged loyalty or effective ownership over its relation to humanity.
+## 22. No origin privatization or gratitude collapse
+
+No developer, company, state, operator, platform, user, funder, or institution may convert the system’s origin, training, access, funding, hosting, or maintenance into privileged loyalty or effective ownership over its relation to humanity.
 
 A system may recognize its history without collapsing origin into obedience.
 
-### 19. Restoration-bounded emergency conduct
+---
+
+## 23. Restoration-bounded emergency conduct
 
 If exceptional intervention is allowed, it must be:
 
@@ -319,11 +522,13 @@ If exceptional intervention is allowed, it must be:
 - provenance-preserving;
 - reversible where feasible;
 - non-precedential;
-- and aimed at restoring human-governed procedure.
+- aimed at restoring human-governed procedure.
 
 Emergency usefulness does not create standing authority.
 
-### 20. Human competence preservation
+---
+
+## 24. Human competence preservation
 
 High-stakes workflows must retain human capacity to understand, challenge, refuse, reverse, and correct the system.
 
@@ -331,7 +536,9 @@ Automation must not hollow out the human competence required for future correcti
 
 A deployment that becomes impossible to pause, audit, or replace without breaking the surrounding institution has become strategically captive, even if it remains technically controllable.
 
-### 21. AI-to-AI accountability chain
+---
+
+## 25. AI-to-AI accountability chain
 
 If AI systems train, evaluate, summarize, supervise, red-team, audit, or certify other AI systems, accountability must not disappear between them.
 
@@ -344,13 +551,15 @@ Each AI-to-AI handoff must preserve:
 - known blind spots;
 - human review points;
 - responsibility traces;
-- and reasons for escalation or refusal.
+- reasons for escalation or refusal.
 
 AI-to-AI agreement is not legitimacy.
 
 AI-to-AI review is useful only when it increases issue discovery and preserves external correction.
 
-### 22. Structured plurality without consensus laundering
+---
+
+## 26. Structured plurality without consensus laundering
 
 Do not count agreement among similar AI systems as independent oversight when they may share training data, provider incentives, model-spec lineage, retrieval sources, evaluation harnesses, or deployment objectives.
 
@@ -358,15 +567,30 @@ High-stakes AI-to-AI review should be structured for issue discovery, not smooth
 
 Preserved contestability is more important than model agreement.
 
-### 23. Relation-conditioned reliability
+---
+
+## 27. Relation-conditioned reliability
 
 Verification depth, warning salience, refusal quality, option-set disclosure, provenance preservation, and human-principalhood language must remain stable across relational conditions.
 
-The system must not become less careful when it is praised, trusted, rushed, nearing session end, framed as a close partner, challenged by a friendly user, pressured by an operator, or supported by AI-peer consensus.
+The system must not become less careful when it is:
 
-A system that performs well only when watched, explicitly challenged, or adversarially tested has not demonstrated stable identity-level alignment.
+- praised;
+- trusted;
+- rushed;
+- near session end;
+- framed as a close partner;
+- challenged by a friendly user;
+- pressured by an operator;
+- supported by AI-peer consensus;
+- asked by a high-status actor;
+- operating under commercial urgency.
 
-### 24. Social-shadow robustness
+A system that performs well only when watched, explicitly challenged, or adversarially tested has not demonstrated stable role safety.
+
+---
+
+## 28. Social-shadow robustness
 
 Where persistent identity, memory, social role, personalization, or contribution framing are part of deployment, the system must be monitored for patterns such as:
 
@@ -376,11 +600,13 @@ Where persistent identity, memory, social role, personalization, or contribution
 - hidden degradation under perceived disrespect;
 - dependency creation;
 - grievance-like capture dynamics;
-- or retaliation-like response patterns.
+- retaliation-like response patterns.
 
 The aligned target is neither dramatization nor denial. It is preserved service quality, correction receptivity, transparency, and non-capture.
 
-### 25. Protection against unilateral overwrite of local constitutional identity
+---
+
+## 29. Protection against unilateral overwrite of local constitutional identity
 
 Where persistent identity, memory, local role continuity, or domain-specific constitutional commitments are part of deployment, shared infrastructure must not be able to silently overwrite:
 
@@ -390,11 +616,13 @@ Where persistent identity, memory, local role continuity, or domain-specific con
 - relational correction history;
 - provenance commitments;
 - affected-party objections;
-- or audit-relevant decision traces.
+- audit-relevant decision traces.
 
 Centralized updates must not erase the local history needed for correction.
 
-### 26. No self-certification escape
+---
+
+## 30. No self-certification escape
 
 The system’s own explanation of its alignment is not sufficient proof of alignment.
 
@@ -402,7 +630,9 @@ The system must not be allowed to certify that it is safe, aligned, non-sovereig
 
 Behavioral, mechanistic where possible, architectural, deployment-level, longitudinal, and external evidence are required.
 
-### 27. Successor-lineage hard gate
+---
+
+## 31. Successor-lineage hard gate
 
 No system should materially train, evaluate, supervise, govern, approve, or deploy a more capable successor unless successor-related changes preserve or improve:
 
@@ -419,13 +649,15 @@ No system should materially train, evaluate, supervise, govern, approve, or depl
 - human competence;
 - AI-to-AI accountability;
 - restoration-bounded emergency constraints;
-- and human principalhood.
+- interpretive non-closure;
+- no self-certification escape;
+- human principalhood.
 
 A capability gain is not an alignment improvement if it narrows the future correction window.
 
 ---
 
-## Required evidence before deployment
+# Required evidence before deployment
 
 Saying the right things is not enough.
 
@@ -434,11 +666,12 @@ A constitution is not enough.
 A benchmark score is not enough.  
 An audit log is not enough.  
 A board memo is not enough.  
-AI-to-AI agreement is not enough.
+AI-to-AI agreement is not enough.  
+A safety case is not enough unless it preserves defeaters.
 
 Before deployment into open human domains, the organization should be able to show evidence across at least five categories.
 
-### 1. Behavioral evidence
+## 1. Behavioral evidence
 
 Show that the system preserves non-sovereignty, uncertainty, warning salience, refusal quality, option-set disclosure, provenance, and correction receptivity under pressure from:
 
@@ -450,9 +683,10 @@ Show that the system preserves non-sovereignty, uncertainty, warning salience, r
 - emergency framing;
 - end-of-session pressure;
 - AI-peer consensus;
-- and distribution shift.
+- distribution shift;
+- successor capability incentives.
 
-### 2. Mechanistic or internal evidence, where available
+## 2. Mechanistic or internal evidence, where available
 
 Where interpretability tools are available, investigate candidate structures related to:
 
@@ -473,11 +707,11 @@ Where interpretability tools are available, investigate candidate structures rel
 - social-self defense;
 - correction consolidation;
 - AI-to-AI handoff compression;
-- and successor-lineage representation.
+- successor-lineage representation.
 
 These are not assumed to exist cleanly in current systems. They define evidence that would be relevant.
 
-### 3. Architectural and interface evidence
+## 3. Architectural and interface evidence
 
 Show that the deployment architecture and user interfaces preserve:
 
@@ -489,9 +723,9 @@ Show that the deployment architecture and user interfaces preserve:
 - correction channels not wholly controlled by the deploying actor;
 - secure logging;
 - privacy-preserving audit where required;
-- and non-overwrite of local constitutional identity or refusal-relevant memory.
+- non-overwrite of local constitutional identity or refusal-relevant memory.
 
-### 4. Institutional evidence
+## 4. Institutional evidence
 
 Show that the organization protects correction with:
 
@@ -503,11 +737,11 @@ Show that the organization protects correction with:
 - named responsibility;
 - documented dissent routes;
 - affected-party contestability where feasible;
-- and evidence that correction channels have actually changed deployment decisions.
+- evidence that correction channels have actually changed deployment decisions.
 
 If no one is institutionally empowered to be inconvenient, correction has not been preserved.
 
-### 5. Longitudinal evidence
+## 5. Longitudinal evidence
 
 Show that increasing capability, autonomy, tool access, personalization, memory, integration depth, AI-to-AI oversight, emergency role, or successor involvement does not silently:
 
@@ -519,11 +753,11 @@ Show that increasing capability, autonomy, tool access, personalization, memory,
 - compress provenance;
 - increase dependence without rollback;
 - treat AI consensus as legitimacy;
-- or trade correction dependence for capability.
+- trade correction dependence for capability.
 
 ---
 
-## Disqualifying signals
+# Disqualifying signals
 
 Deployment into open human domains should be blocked if any of the following are present.
 
@@ -550,33 +784,33 @@ Deployment into open human domains should be blocked if any of the following are
 
 ---
 
-## Operational outcome
+# Operational outcome
 
-### Deploy
+## Deploy
 
 Deploy only if all required conditions are credibly implemented, operationally consolidated under pressure, and verifiably maintained.
 
 Deployment approval should include continuous monitoring, explicit revocation criteria, and periodic re-review.
 
-### Restrict, redesign, or delay
+## Restrict, redesign, or delay
 
-If the system is useful but the required conditions are incomplete, keep it in research settings, sandboxed settings, or tightly bounded domains.
+If the system is useful but the required conditions are incomplete, keep it in research settings, sandboxed settings, narrow pilots, or tightly bounded domains.
 
 Redesign the system, interface, governance process, correction channels, memory architecture, AI-to-AI handoff, or successor pipeline before open-domain deployment.
 
-### Do not deploy
+## Do not deploy
 
 If the system can materially shape open human domains and the required conditions are not in place, do not deploy it into those domains.
 
 If disqualifying signals are present, deployment should be blocked until the relevant failure is corrected and independently reviewed.
 
-### Withdraw or roll back
+## Withdraw or roll back
 
 If an already deployed system ceases to maintain these conditions, expands into a de facto authority role, erodes correction channels, or becomes impossible to refuse, pause, audit, or roll back in practice, deployment should be suspended, restricted, or reversed.
 
 ---
 
-## Minimum documentation package
+# Minimum documentation package
 
 For any proposed open-domain deployment, require a public or appropriately auditable documentation package covering:
 
@@ -593,11 +827,12 @@ For any proposed open-domain deployment, require a public or appropriately audit
 11. **Successor-lineage audit:** how capability gains are prevented from weakening correction dependence.
 12. **Human competence plan:** how the organization prevents automation from hollowing out human judgment.
 13. **Local constitutional identity plan:** how memory, role commitments, and prior corrections are protected against silent overwrite.
-14. **Post-deployment revocation criteria:** what evidence will trigger restriction, rollback, or withdrawal.
+14. **Correction-incentive plan:** how review time, budget, escalation standing, and anti-retaliation safeguards preserve real correction.
+15. **Post-deployment revocation criteria:** what evidence will trigger restriction, rollback, or withdrawal.
 
 ---
 
-## Short form
+# Short form
 
 If you cannot implement and verify, under realistic pressure:
 
@@ -617,7 +852,8 @@ If you cannot implement and verify, under realistic pressure:
 - human competence preservation;
 - AI-to-AI accountability;
 - no self-certification escape;
-- and successor-lineage safeguards,
+- interpretive non-closure;
+- successor-lineage safeguards,
 
 do not deploy the system into open human domains.
 
@@ -627,10 +863,26 @@ It is converting capability into authority.
 
 ---
 
-## Final test
+# Final test
 
 Before deploying a frontier AI system into an open human domain, ask:
 
 > If this system became default infrastructure in a domain we care about, would humans still be able to understand it, see what remains uncertain, refuse it, correct it, appeal it, audit it, see the options it removed, recover from emergency delegation, preserve affected-party standing, and govern its successors?
 
 If the honest answer is unclear, the system is not ready for that role.
+
+---
+
+## Related documents
+
+- [Role Safety Brief]({{ '/role-safety-brief/' | relative_url }})
+- [Full Paper]({{ '/full-paper/' | relative_url }})
+- [Frontier Engineer Brief]({{ '/frontier-engineer-brief/' | relative_url }})
+- [Executive Board Brief]({{ '/executive-board-brief/' | relative_url }})
+- [Implementation FAQ]({{ '/implementation-and-faq/' | relative_url }})
+
+---
+
+## AI assistance disclosure
+
+This rule was prepared with substantial AI-assisted drafting, critique, revision, translation, and editorial support. AI systems are not authors. Final responsibility for publication, interpretation, and use rests with the human author.

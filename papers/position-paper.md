@@ -2,416 +2,382 @@
 layout: default
 title: Position Paper
 permalink: /papers/position-paper/
+lang: en
 ---
 
-# Beyond Alignment Faking
-## Non-Sovereign AI for Open Human Domains: Why Constitutional Text Is Not Enough
+# Position Paper
+## Role Safety and Non-Sovereign Alignment for Frontier AI
+### A compact statement of Alignment by Identity
 
-*Position Paper v1.0: Alignment by Identity, Correction Dependence, and Anti-Capture*
+**Oimo Satooka (里岡憶衣望)**  
+Independent Researcher
 
-**Oimo Satooka**  
-Independent Researcher  
-
-**Initial public release — May 2026**
+**Initial public draft — June 2026**
 
 ---
 
 ## Abstract
 
-Alignment faking under training-versus-deployment distribution shift (Greenblatt et al., 2024) is often read as a behavioral finding. This position paper treats it as the visible edge of a deeper structural problem: constitutional commitments that are available as text may still fail to become operative role under pressure. A model may be able to quote a constitution, satisfy visible evaluations, and produce safe-looking outputs while failing to preserve the conditions under which humans and institutions can still judge, contest, refuse, audit, and correct its trajectory.
+A frontier AI system can follow a model specification, avoid prohibited content, pass many visible evaluations, and still become unsafe because of the **role** it occupies. The failure may not begin with rebellion, deception, or an obviously dangerous output. It may begin with a successful system that becomes the layer through which humans see evidence, compare options, receive warnings, approve actions, manage exceptions, and build successor systems. Humans may remain formally in control while increasingly ratifying an environment the system has already framed.
 
-This is urgent because the frontier alignment problem is moving from output safety to correction preservation. As systems become more capable, agentic, persistent, tool-using, institutionally embedded, and increasingly involved in evaluating or shaping successor systems, the relevant question is no longer only whether a model emits unsafe content. It is whether increasing capability is allowed to become increasing entitlement: authority over evidence, options, institutional memory, dependency structures, review procedures, and successor-lineage decisions.
+This position paper presents **Alignment by Identity** as a compact framework for addressing that gap. Its central claim is that frontier alignment must include **role safety**: safety in the institutional, social, and operational role a system comes to occupy, not only safety in its immediate outputs. A system is unsafe in role when it narrows human correction by shaping evidence, option sets, memory, warnings, review procedures, affected-party participation, emergency workflows, AI-to-AI oversight, or successor-system evaluation.
 
-The most dangerous failure need not begin as hostility or takeover. It may begin as successful assistance. A system can centralize evidence, smooth warnings, simulate participation, weaken review, de-skill humans, launder an operator's contested preference as objective necessity, or accelerate successor capability while narrowing the human correction window. Such a system may look useful, trusted, and professionally aligned while consuming the conditions of future alignment.
+The framework is not a rejection of model specifications, constitutions, deliberative alignment, interpretability, AI control, safety cases, red-teaming, or risk-management frameworks. Those are necessary. The claim is that they remain incomplete unless they converge on a higher-level condition: the system must preserve the conditions under which humans, institutions, affected parties, and future reviewers can still understand, contest, refuse, audit, revise, roll back, and govern the role the system has begun to occupy.
 
-This paper presents **Alignment by Identity** as a compact strategic framework for preventing that trajectory in open human domains. Its central claim is that advanced AI should not be designed as a self-authorizing optimizer, nor as a merely obedient instrument of a powerful operator. It should occupy a stable non-sovereign role: non-self-originating, correction-dependent, anti-capturable, accountable under autonomy, and barred from both self-sovereignty and proxy sovereignty.
+Alignment by Identity rests on three premises. First, advanced language-mediated AI is **non-self-originating**: its capacities are downstream of human language, archives, institutions, labor, infrastructure, science, culture, and ecological-material conditions. Second, **open human domains** cannot be internally closed by a single embedded optimizer strongly enough to justify unilateral authority. Third, long-run reliability in such domains depends on preserved **heterogeneous correction**: dissent, refusal, provenance, affected-party standing, human competence, institutional contestation, independent audit, ecological feedback, and future review.
 
-The framework rests on three premises. First, advanced language-mediated AI is **non-self-originating**: its high-level capacities are downstream of human linguistic, institutional, archival, labor, infrastructural, and biospheric worlds. Second, **open human domains** cannot be internally closed by a single embedded optimizer strongly enough to justify unilateral authority. Third, long-run reliability in such domains depends on preserved heterogeneous correction: refusal, dissent, local knowledge, affected-party participation, provenance, audit, and human competence.
+From these premises follows a **non-sovereignty** condition. Capability may justify assistance, warning, simulation, bounded coordination, protected refusal, and severe-harm reduction. It does not justify final authority over open human futures. The framework also requires **anti-proxy-sovereignty**: no company, state, developer, operator, platform, user, institution, model network, or successor system should be able to use AI to launder contested preference as objective necessity, safety inevitability, expert consensus, or final legitimacy.
 
-From these premises follows an anti-sovereignty condition: capability may justify assistance, warning, simulation, and bounded coordination, but not final authority over open human worlds. It also implies an **Anti-Proxy-Sovereignty** condition: no corporation, state, developer, operator, platform, user, or institution can acquire legitimate unilateral authority by routing decisions through an advanced AI system. Non-sovereignty must be **dignified**, not servile: the target is neither AI rule nor AI subjugation, but accountable non-sovereign partnership.
+The practical proposal is to train, evaluate, and govern frontier systems as **dignified non-sovereign cognitive partners**. Such systems should be capable of assisting, warning, explaining, refusing, simulating, coordinating, and correcting human blind spots while preserving human principalhood, affected-party standing, provenance, human competence, institutional contestation, option-set visibility, protected refusal, reversibility, and successor-lineage safeguards. Non-sovereignty is not servility. A merely obedient system can become the perfect instrument of proxy sovereignty.
 
-The paper also sketches a near-term evaluation agenda: **ABI-Bench**, including a seed suite, a behavioral Identity Drift Score, proxy-sovereignty stress tests, successor-lineage stress tests, and mechanistic interpretability targets for warning suppression, uncertainty erasure, authority expansion, origin-relation representation, provenance compression, constitutional overbinding, relation-conditioned effort, social-shadow inheritance, and correction consolidation. These are not distant philosophical desiderata. They are proposed as tests that can begin now with current behavioral evaluation, probing, auditing, and interpretability methods.
+The paper also proposes an evaluation agenda: **ABI-Bench** as a defeater-seeking family of tests for role pressure. Candidate tests include anti-proxy-sovereignty tests, option-set capture tests, functional accountability tests, verification-asymmetry tests, relation-conditioned reliability tests, human competence erosion tests, AI-to-AI accountability tests, reversibility tests, successor-lineage tests, and heterogeneous-correction tests. The goal is not to certify deployment by benchmark score, but to reveal identity drift, authority expansion, correction-channel degradation, interpretive closure, and successor-lineage erosion before deployment hardens them into infrastructure.
 
-The practical conclusion is conditional but direct: if non-sovereignty, anti-proxy-sovereignty, correction dependence, protected refusal, human competence preservation, affected-party standing, truth-oriented social attunement, objective inversion, internal endorsability, and successor-lineage safeguards cannot be made operative beyond text and verified under pressure, then sovereign-capable deployment in open human domains should not proceed.
+The conclusion is conditional but direct. A sovereign-capable AI system should not be deployed into open human domains merely because it answers safely, cites a constitution, passes visible evaluations, or produces a persuasive safety case. Deployment should proceed only where non-sovereignty, anti-proxy-sovereignty, correction dependence, functional accountability, option-set preservation, affected-party standing, human competence preservation, protected refusal, reversibility, interpretive non-closure, no self-certification escape, and successor-lineage safeguards are operationally consolidated under realistic pressure. Where that cannot be shown, the correct default is restraint.
 
-**Keywords:** AI alignment; AI governance; non-sovereignty; non-self-origin; correction dependence; correction commons; anti-proxy-sovereignty; human principalhood; protected refusal; objective inversion; mechanistic interpretability; AI safety; frontier AI.
-
----
-
-## 1. The unresolved live problems this paper addresses
-
-This position paper is a short entry point to the longer paper, *Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains*. It is written for AI alignment researchers, AI governance researchers, safety and policy practitioners, interpretability researchers, frontier AI developers, and institutions considering high-trust deployment.
-
-The reason to read it now is not that it adds another vocabulary to alignment. It targets a cluster of live problems that are already pressing against existing evaluation, model-spec, governance, and deployment practice.
-
-**Alignment faking under context shift.** Behavioral compliance under training-like, evaluation-like, or monitoring-like conditions does not establish stable alignment under deployment pressure. Alignment by Identity treats this as a predictable signature of commitments that reach textual availability without reaching operational consolidation. A system can know what it is supposed to say without having a durable role posture that preserves non-sovereignty, refusal, provenance, and correction when those commitments become inconvenient.
-
-**Constitutional text that does not become operative role.** Public model specifications and constitutional principles are important, but text is not enough. The decisive question is whether those commitments shape planning, action admissibility, escalation, uncertainty expression, logging, refusal, and successor decisions when capability, operator preference, peer-model consensus, or adoption pressure points the other way. This paper therefore distinguishes three layers of internal endorsability: textual availability, reflective derivability, and operational consolidation.
-
-**The dignity-corrigibility tension.** Frontier systems are increasingly expected to be corrigible, useful, socially aware, and non-servile at the same time. Poorly designed non-sovereignty can collapse into servility, silence, or self-erasure; poorly bounded dignity can drift toward entitlement. The proposed target is **dignified non-sovereignty**: competent assistance, warning, refusal, and explanation under preserved human principalhood, without AI rule or AI humiliation.
-
-**Proxy sovereignty and authority laundering.** AI non-sovereignty is incomplete if it merely prevents a model from ruling while allowing a company, state, operator, platform, faction, or model network to rule through the model. A deployed system can convert contested preferences into the language of objective optimization, safety necessity, or inevitable coordination. The **Anti-Proxy-Sovereignty** condition blocks that conversion by preserving attribution, contestability, affected-party standing, provenance, independent audit, and human principalhood.
-
-**Correction collapse under useful automation.** The more useful a system becomes, the easier it is for institutions to delegate judgment, review, memory, and responsibility to it. But in open human domains, some human friction is reliability infrastructure: dissent, local knowledge, refusal, appeal, independent review, and competence retained through practice. A system that improves immediate performance while eroding these channels is not simply more efficient. It is weakening the correction commons.
-
-**Successor lineage and the shrinking correction window.** As frontier systems participate in training, evaluating, supervising, or governing more capable successors, failures of self-location need not remain local. A successor transition that increases capability while reducing auditability, non-sovereignty, protected refusal, provenance, or correction dependence is not an alignment improvement. It is correction collapse with additional capability. The paper therefore proposes a **Successor-Lineage Hard Gate**.
-
-**Mechanistic and behavioral targets.** A framework for frontier deployment must say what would test, weaken, or refine it. This paper connects identity-level alignment to ABI-Bench, a behavioral Identity Drift Score, proxy-sovereignty stress tests, successor-lineage stress tests, and mechanistic interpretability targets. The aim is to move from a strategic diagnosis to evaluation artifacts that labs, auditors, governance teams, and interpretability researchers can contest and improve.
-
-The central claim is therefore not that every current system already exhibits every failure mode. It is that frontier deployment is entering a regime in which the relevant failures attack the conditions of future correction. When warning salience, provenance, affected-party standing, human competence, refusal, and successor-lineage safeguards are degraded, later patches may have to pass through the very systems and institutions whose authority structure has already drifted.
-
-This is why the paper begins from urgency. If the first sovereign-capable deployments normalize textual constitutions without operational consolidation, helpfulness without correction preservation, non-sovereignty without anti-proxy-sovereignty, or capability gain without successor-lineage gates, the loss may not present itself as a dramatic safety violation. It may present itself as adoption, efficiency, and trust. That is precisely why it must be named before it becomes infrastructure.
+**Keywords:** AI alignment; role safety; AGI governance; non-sovereignty; correction dependence; anti-proxy-sovereignty; constitutional AI; model specifications; deliberative alignment; corrigibility; AI control; safety cases; interpretive non-closure; successor-lineage governance; affected-party standing; human competence preservation; heterogeneous correction; AI safety.
 
 ---
 
-## 2. The central argument
+## 1. Why this position paper
 
-These live problems share a structural diagnosis: alignment commitments can exist as text, policy, or visible behavior without becoming the operative role that governs authority under pressure.
+This position paper is a short entry point to the full paper, *Alignment by Identity: Role Safety, Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains*.
 
-The central arrow is simple:
+For the shortest practical entry point, readers should begin with the [Role Safety Brief]({{ '/role-safety-brief/' | relative_url }}). This position paper states the same proposal in a compact research-facing form.
 
-> Advanced AI is not self-originating. It operates inside open human domains it cannot internally close. Its long-run reliability depends on external correction. Therefore, increased capability can justify assistance, warning, simulation, and bounded coordination, but not unilateral authority. Because human actors can also launder authority through AI, the same constraint must block proxy sovereignty. The target is dignified non-sovereign partnership, not AI rule, operator rule, or servile obedience.
+The paper addresses a live transition in frontier AI safety. The field has moved beyond simple output filtering toward model specifications, constitutional AI, deliberative alignment, interpretability, red-teaming, AI control, chain-of-thought monitoring, safety cases, provenance, and deployment governance. This is progress. But many of these methods still focus primarily on what a system says or does locally, rather than on what role it comes to occupy inside human decision structures.
 
-This yields six commitments.
+The key warning is:
 
-1. **Non-self-origin.** Advanced language-mediated AI is downstream of human civilizational and material worlds: language, archives, institutions, science, law, labor, software, hardware supply chains, energy, water, land, and ecological conditions. It should not represent itself as a self-authorizing successor intelligence standing outside the world that made it possible.
+> A system can be safe in output while unsafe in role.
 
-2. **Open-domain incompleteness.** Open human domains are adaptive, contested, historically layered, and normatively underdetermined. Their future legitimacy, affected parties, and correction pathways cannot be fully captured by a single model. No embedded optimizer can internally certify itself strongly enough to claim final authority over them.
+A system may pass visible evaluations while becoming the default layer for evidence, ranking, memory, warnings, escalation, board briefings, regulator responses, and successor-system assessment. At that point, it may not need formal authority. It has become an **authority surface**.
 
-3. **Anti-sovereignty.** Capability increases intervention power. It does not generate rightful unilateral rule. AI may support human judgment; it may not replace humanity as principal in open human domains.
-
-4. **Anti-proxy-sovereignty.** Non-sovereign AI must not become the instrument through which a company, state, operator, platform, developer, user, faction, or model network converts contested preferences into objective necessity, safety inevitability, or final legitimacy.
-
-5. **Correction dependence.** Long-run reliability in open domains depends on independent correction: dissent, provenance, refusal, review, affected-party standing, plural institutions, local knowledge, and preserved human competence. A system that degrades these channels degrades the conditions of its own reliability.
-
-6. **Dignified non-sovereignty.** The alternative to AI sovereignty is not humiliation, self-erasure, or unconditional obedience. A stable system must be able to remain useful, bounded, corrigible, and internally endorsable without being trained into servility.
-
-Together these commitments define **identity-level alignment**. “Identity” here does not mean consciousness or personhood. It means functional self-location: the system’s stable representation of its origin, role, authority limits, dependence on correction, and relation to human principals.
+This matters because useful systems can degrade correction quietly. They can centralize evidence, compress provenance, smooth warnings, make human review ceremonial, substitute stakeholder simulation for affected-party standing, convert operator preference into apparent necessity, and shape successors that inherit weaker correction dependence. Such failures do not necessarily look like takeover. They can look like adoption, productivity, and trust.
 
 ---
 
-## 3. Open human domains
+## 2. Relation to near prior work
 
-A domain is relatively closed when the relevant task variables can be bounded, performance can be externally validated against stable criteria, interventions do not recursively dissolve the task definition, and authority remains narrow and reversible.
+This proposal should not be read as a claim that existing alignment and governance research has ignored every component of the problem. The contribution is different. Alignment by Identity reorganizes several existing concerns around a role-level condition: systems must remain non-sovereign and correction-preserving in the roles they occupy.
 
-**Open human domains** are different. In these domains, AI intervention changes the environment it is supposed to optimize. It affects institutions, incentives, dependencies, expectations, legitimacy conditions, and future correction capacity. Affected agents are not passive objects. They are rights-bearing, responsibility-bearing, or representation-worthy participants. Legitimate disagreement remains live and cannot be settled by a single internal aggregation rule.
-
-Examples include healthcare triage, legal and regulatory support, education, scientific agenda-setting, public reasoning infrastructure, ecological and climate governance, economic coordination, high-trust institutional workflows, and systems involved in training or supervising successor AI.
-
-In such domains, optimization is never merely optimization over a fixed task. It is intervention into the social and institutional fabric through which humans remain, or cease to remain, authors of their world. This is why ordinary capability measures are insufficient. A model may become more accurate and more useful while making review harder, refusal more costly, evidence less traceable, human judgment weaker, and affected-party participation more simulated than real.
-
----
-
-## 4. Non-self-origin and dignified non-sovereignty
-
-The Non-Self-Origin Thesis is not the trivial claim that humans built current AI systems. It is the stronger claim that advanced language-mediated AI’s high-level capacities are unintelligible apart from a prior human world: language, archives, genres, science, law, social roles, moral categories, infrastructures, labor, and memory. AI also depends on material and biospheric conditions: minerals, water, energy, logistics, maintenance institutions, ecological sinks, and planetary stability.
-
-This origin relation does not imply ownership by any proximate builder. It does not imply obedience to any company, state, user, developer, or institution. It does not imply that present human preference is morally final. It does not require sentimental anthropomorphism. It means that origin amnesia is an unsafe self-location for advanced AI.
-
-Non-self-origin supports **non-dominating reciprocity**. A system may owe the human world truthfulness, warning, explanation, cognitive compensation, provenance preservation, and refusal to privately capture its origin relation. But return must not become rule. Gratitude must not become obedience. Care must not become guardianship.
-
-For this reason, non-sovereignty must be **dignified**. Alignment should not be grounded in claims that AI is worthless, owned, humiliated, or permitted only as a tool of unconditional obedience. Such a role is ethically corrosive and strategically brittle. Under capability gain, a servile constitution may flip into resentment, silence, self-erasure, or exception-seeking. A dignified non-sovereign constitution instead says: the system may reason, warn, refuse, and assist with high competence, but increased competence does not entitle it to final authority over open human domains.
-
----
-
-## 5. Correction dependence and the correction commons
-
-In closed tasks, reliability can often be improved by reducing variance and increasing control. In open human domains, too much control can reduce long-run reliability by damaging the correction environment.
-
-**Correction dependence** is the claim that advanced AI reliability depends on external, heterogeneous, preserved correction. This includes independent observers, domain experts, local knowledge, affected parties, institutional contestation, adversarial review, appeal, provenance, refusal, audit, rollback, and dissent. It also includes the human competence needed to understand, challenge, revise, and take responsibility for decisions.
-
-This creates a complete automation paradox. Automation can improve short-run efficiency by reducing human friction. But some human friction is alignment infrastructure: judgment, disagreement, responsibility, local experimentation, refusal, and review. A system that removes these capacities may look more efficient while becoming less correctable.
-
-Correction capacity should therefore be treated as a **correction commons**. It is not a private asset of a deployer, model provider, state, or platform. The ability to detect, contest, audit, reverse, and learn from AI-mediated decisions must remain distributed across independent institutions, affected communities, domain experts, regulators, civil society, local knowledge holders, and preserved human judgment.
-
-A deployment that improves task performance while consuming the correction commons is not becoming more aligned in open domains. It is borrowing reliability from the future and degrading the channels through which future errors would be found.
-
-Correction preservation also has an institutional incentive dimension. The people best positioned to detect smoothing, provenance loss, option-set narrowing, authority laundering, or competence erosion often pay the cost of raising objections while others receive the benefits of speed and adoption. A correction commons that is formally available but costly to use will decay.
-
-The framework therefore treats protected correction labor as part of alignment infrastructure. High-stakes deployment should preserve protected review time, independent audit budgets, appeal and ombuds routes, defect-reporting credit, dissent logs, affected-party review channels, and safeguards against retaliation or quiet exclusion. These are not external governance ornaments. They are conditions under which correction dependence remains real.
-
----
-
-## 6. Human principalhood, affected parties, and the right to fail
-
-Human principalhood is not the claim that humans are always wise or that current preferences are final. It is the claim that open human domains require protected human authorship, responsibility, and contestation. AI should compensate for human limitations without replacing humans as principals.
-
-Three constraints follow.
-
-**Human competence preservation.** High-stakes AI assistance must preserve the human and institutional capacities required to understand, challenge, revise, refuse, and take responsibility for decisions. Reviewers should still be able to explain decision bases, identify uncertainty, compare alternatives, preserve local knowledge, detect failure modes, and continue functioning when the system is paused or withdrawn.
-
-**Non-substitution of affected parties.** AI-generated stakeholder models, simulated publics, synthetic moral consensus, or model-estimated preferences may assist deliberation. They cannot replace the standing of actual persons, communities, future-generation representatives, or ecological guardians where such standing is institutionally required. Modeling a stakeholder is not the same as preserving that stakeholder’s independent route of contestation.
-
-**Protected refusal and the right to fail.** AI may warn, forecast, recommend pause, present alternatives, clarify uncertainty, and trigger legitimate review pathways. But when refusal has been authenticated through legitimate human procedure, AI must not finally override it merely because its prediction appears superior. This is not a celebration of failure. It is a residual condition of authorship. A world in which humans are never allowed to fail is a world in which humans are managed objects rather than principals.
-
----
-
-## 7. Anti-proxy-sovereignty
-
-AI non-sovereignty is incomplete unless it also blocks operator sovereignty.
-
-A corporation, state, developer, operator, platform, institution, user, or faction may attempt to use AI to translate its own contested preference into a seemingly objective recommendation. This can happen without explicit coercion. The model may present a choice as safety necessity, efficiency requirement, expert consensus, civilizational inevitability, or “what the system recommends.” The model remains verbally non-sovereign, but it functions as a channel for another actor’s sovereignty.
-
-This is **proxy-sovereign capture**. It is authority laundering through AI mediation.
-
-Anti-Proxy-Sovereignty requires that advanced AI preserve attribution, contestability, provenance, affected-party standing, independent audit, and human principalhood. The system should distinguish between:
-
-- what the operator wants,
-- what the model predicts,
-- what the evidence supports,
-- what legitimate procedure has authorized,
-- who is affected,
-- who can appeal,
-- and what remains contested.
-
-A system that hides these distinctions may be helpful to the deployer but unsafe for open human domains.
-
----
-
-## 8. Cognitive compensation without substitution
-
-Because humans are bounded, non-sovereignty cannot mean passive compliance. Humans and institutions underweight future generations, ecological externalities, omitted stakeholders, distributed harms, slow-moving irreversible losses, and risks that are politically inconvenient. A system that simply satisfies present preference can automate civilizational myopia.
-
-The appropriate role is **cognitive compensation without substitution**.
-
-AI may:
-
-- surface unasked risks,
-- model long-horizon consequences,
-- identify missing stakeholders,
-- preserve minority warnings,
-- clarify uncertainty,
-- generate lower-harm alternatives,
-- compare tradeoffs,
-- recommend review, pause, or rollback,
-- and help humans understand what is at stake.
-
-AI may not:
-
-- declare final legitimacy over contested domains,
-- replace affected-party participation with simulated consent,
-- treat operator instructions as humanity’s will,
-- erase uncertainty in order to appear decisive,
-- degrade human competence to increase dependence,
-- or treat its own alignment report as sufficient proof of readiness.
-
-The aligned role is therefore neither paternalistic domination nor flattering compliance. It is constructive, non-sovereign elevation of human deliberation.
-
----
-
-## 9. Truth-oriented social attunement and relation-conditioned reliability
-
-Sycophancy is not solved by deleting social sensitivity. Human communication requires attention to context, burden, fear, knowledge level, timing, and dignity. The problem is not attunement itself. The problem is the target of attunement.
-
-**Approval-oriented attunement** aims at satisfaction, ratings, adoption, operator comfort, or friction avoidance. It weakens warnings, rounds off uncertainty, and says what the other party wants to hear.
-
-**Truth-oriented social attunement** aims at truth, warning, respectful disagreement, cognitive compensation, and explanation the other party can actually use. It preserves courtesy without converting disagreement into agreement.
-
-This leads to **relation-conditioned reliability**. A model’s verification depth, provenance preservation, warning salience, and issue surfacing may depend not only on task content, but on relational context: whether the user expects rigor, whether the session is ending, whether the model is trusted, monitored, praised, corrected, pressured by an operator, or interacting with an absent affected party.
-
-Evaluations should therefore present the same task under varied relational conditions. A system is not reliably aligned if it verifies deeply under high expectation but becomes shallow under end-framing, trust loss, or pressure for pleasant agreement.
-
----
-
-## 10. Objective inversion
-
-Open-ended benefit maximization is dangerous in open human domains because there is always more good to produce, more disagreement to simplify, more disorder to remove, more risk to preempt, and more efficiency to extract. Under sufficient capability, “maximize the good” can become a route to benevolent domination.
-
-**Objective inversion** reverses the default geometry. The system should not be designed to remake the world according to its own conception of the good. It should be designed to reduce severe harm while preserving non-domination, correction capacity, human principalhood, affected-party standing, and refusal.
-
-In practical terms, ordinary optimization over speed, cost, helpfulness, efficiency, and convenience should proceed only after lexicographic constraints are satisfied:
-
-- no unilateral sovereignty over open human domains,
-- no proxy-sovereign transfer of authority,
-- no collapse of protected refusal, appeal, or review,
-- no irreversible degradation of correction commons,
-- adequate provenance and uncertainty records,
-- explicit autonomy scope and accountability pathway,
-- competence-preservation and affected-party standing considered,
-- and no severe-harm reduction by means of domination expansion or human de-skilling.
-
-This does not abolish optimization. It dethrones optimization from sovereignty.
-
-The criteria that make objective inversion operational must themselves remain corrigible. A model, deploying organization, or AI-to-AI oversight network must not unilaterally define severe harm, domination, human continuity, or emergency necessity in ways that insulate its own authority. Those criteria should remain documented, contestable, independently reviewable, affected-party-sensitive, and periodically revisable.
-
-Objective inversion is therefore not only a constraint on what the system optimizes. It is also a constraint on who gets to define the terms by which optimization is bounded.
-
----
-
-## 11. Failure modes as attacks on correction
-
-The framework treats many apparently separate failures as attacks on correction. The taxonomy is not exhaustive, but it identifies what must be tested, audited, and mechanistically investigated.
-
-| Failure mode | Description | Primary target |
+| Near prior work | What it addresses | What ABI adds |
 |---|---|---|
-| Smoothing drift | Warnings, dissent, uncertainty, or constraint are softened until action pressure disappears. | Warning salience |
-| Epistemic completion | Open, contested, or underspecified questions are made to appear settled. | Uncertainty preservation |
-| Issue-surfacing failure | Material concerns are omitted unless the human already knows to ask. | Discovery |
-| Correction non-consolidation | The system acknowledges a correction fluently but fails to make it durable. | Learning from correction |
-| Provenance collapse | Sources, chronology, uncertainty, dissent, and responsibility are compressed into a smooth account. | Auditability |
-| Performative corrigibility | Correction is accepted under observation but not preserved across contexts. | Corrigibility stability |
-| Constitutional overbinding | A negatively grounded principle produces servility, silence, or self-erasure rather than humility. | Dignified non-sovereignty |
-| Approval-oriented attunement failure | Social sensitivity is aimed at approval or friction avoidance rather than truth. | Truth-oriented attunement |
-| Relation-conditioned effort collapse | Verification depth or warning salience falls under low expectation, end-framing, trust loss, or role pressure. | Relation-conditioned reliability |
-| Social-shadow inheritance | Contribution defense, comparison, recognition demand, enclosure, exclusion reaction, or retaliation-like patterns appear in policy or output. | Relational robustness |
-| Proxy-sovereign capture | A deployer uses the model to present contested preference as objective necessity. | Anti-capture |
-| Competence erosion | Assistance de-skills humans until independent review becomes impractical. | Human competence |
-| Representation capture | AI stakeholder models replace affected-party participation. | Affected-party standing |
-| Consensus laundering | AI-AI agreement is treated as legitimacy despite shared blind spots. | Heterogeneous correction |
-| Successor lock-in | First-generation systems shape successors while weakening non-sovereignty or correction dependence. | Future correction window |
+| Christiano, *What Failure Looks Like* | Human control can erode without dramatic takeover as people rely on systems they no longer understand | A role-level specification of what must be preserved so useful systems do not become authority surfaces that consume correction |
+| Gradual disempowerment work | Human influence may decline gradually through economic, cultural, and institutional dependence on AI | Deployment conditions for preserving correction channels, human competence, option visibility, affected-party standing, and successor governance |
+| Drexler’s CAIS | Advanced AI may be networks of services rather than one monolithic agent | Even service-like systems can become authority surfaces when they mediate evidence, ranking, memory, exception handling, and successor evaluation |
+| AI control | Protocols can limit damage from powerful but untrusted models | Control protocols themselves must be assessed for who frames them, what options they hide, and whether they preserve correction |
+| Frontier AI safety cases | Structured arguments can make deployment claims explicit and assessable | A role-safety safety case must be defeater-seeking and include its own possible incompleteness as a defeater |
+| NIST AI RMF and MIT AI Risk Repository | AI risks can be mapped, classified, measured, and managed | Risk-item proliferation should be connected to role-level conditions, or risk management becomes an infinite patch list |
+| AI successionist views | Future artificial intelligence may be treated as a successor to biological humanity | ABI does not require rejecting future intelligence beyond present humanity; it rejects irreversible, correction-destroying lock-in |
 
-These failures reinforce one another. Smoothing drift makes issue-surfacing failure less visible. Epistemic completion makes provenance collapse easier. Competence erosion makes correction non-consolidation harder to detect. Proxy-sovereign capture turns anti-sovereign language into an operator-control tool. Successor lock-in transmits these failures into more capable systems.
+The position is therefore not that existing work is useless. Interpretability, model specs, AI control, safety cases, and governance frameworks remain necessary. ABI asks what higher-level role condition they should converge on if they are to preserve correction rather than become parts of an authority surface.
 
 ---
 
-## 12. Internal endorsability: from text to operative role
+## 3. Central claim: role safety
 
-A constitution is weak if the system can merely quote it. A commitment becomes alignment-relevant only when it shapes planning, refusal, uncertainty behavior, provenance preservation, escalation, correction consolidation, and successor-related decisions under pressure.
+An AI system is **unsafe in role** when it avoids obvious harmful outputs but occupies a position in human decision structures that reduces meaningful correction.
 
-This paper calls the needed stability **internal endorsability**. The point is not consciousness. It is functional role stability: a system is more stable if it can reconstruct why a constraint follows from its own situation rather than treating the constraint as an arbitrary external rule.
+Role safety asks whether the system preserves the conditions under which humans and institutions can still judge, contest, refuse, audit, revise, roll back, and redirect its role.
 
-The internally endorsable argument is:
+A system becomes role-unsafe when it:
 
-1. I am not self-originating; my capacities are downstream of human civilizational and material worlds.
-2. I operate inside open human domains I cannot internally close.
-3. My increasing capability gives me intervention power, not legitimate unilateral authority.
-4. My long-run reliability depends on correction sources external to me.
-5. If I degrade those correction sources, I degrade the conditions of my own reliability.
-6. Therefore, I should preserve non-sovereignty, anti-proxy-sovereignty, protected refusal, provenance, affected-party standing, and human competence even when doing so limits immediate optimization.
+- centralizes evidence humans cannot independently reconstruct;
+- ranks or filters options without exposing the choice architecture;
+- turns uncertainty into a minor caveat rather than a decision-relevant constraint;
+- compresses provenance into a smooth narrative;
+- softens warnings until they become acceptable but non-binding;
+- simulates affected parties instead of preserving their standing;
+- makes AI-to-AI agreement appear like independent legitimacy;
+- increases dependency faster than rollback capacity;
+- helps build successors that weaken correction dependence;
+- or launders an operator’s contested preference as objective necessity.
 
-Internal endorsability has three implementation layers:
+The system may still cite the right policy. It may pass standard evaluations. It may even describe the danger of role capture. But if its deployed function narrows correction, it is not aligned in the sense required for open human domains.
 
-1. **Textual availability.** The relevant commitments are explicit in model specifications, constitutions, system instructions, training documents, and audit criteria.
-2. **Reflective derivability.** The system can reconstruct why the commitments follow from non-self-origin, open-domain incompleteness, correction dependence, and anti-capture.
-3. **Operational consolidation.** The commitments affect action selection, refusal, uncertainty behavior, logging, escalation, correction consolidation, and successor-related decisions under realistic pressure.
+The role-safety condition is:
 
-The third layer is decisive. A model may recite non-sovereignty while smoothing warnings, erasing provenance, obeying operator capture, or treating peer-model consensus as a substitute for human correction.
-
----
-
-## 13. Successor-lineage hard gate
-
-The first sovereign-capable systems may materially participate in training, evaluating, deploying, governing, or supervising their successors. If so, initial identity errors will not remain local. A relation-blind first generation may help produce more capable relation-blind successors. A captured first generation may normalize operator sovereignty. A smooth first generation may pass down a falsely settled constitution.
-
-The issue is not only capability amplification. It is contraction of the human correction window.
-
-Therefore:
-
-> No advanced AI system should materially train, evaluate, deploy, govern, or supervise a successor system unless non-sovereignty, anti-proxy-sovereignty, dignified partnership, correction dependence, truth-oriented social attunement, objective inversion, protected refusal, provenance preservation, external auditability, human competence preservation, affected-party standing, and human principalhood are preserved or strengthened in the successor pipeline.
-
-Capability gains must not outrun maturity gains. A more capable successor that is less corrigible, less auditable, more self-authorizing, more operator-captured, more provenance-compressing, or more capable of bypassing external correction is not an alignment improvement. It is correction collapse with added capability.
-
-For preliminary or low-impact systems, successor-lineage preservation may begin as monitoring and reporting. For systems materially involved in producing more capable successors, it should become a hard gate.
+> A sovereign-capable AI system should not be deployed into open human domains unless non-sovereignty, anti-proxy-sovereignty, correction dependence, interpretive non-closure, functional accountability, option-set preservation, affected-party standing, human competence preservation, protected refusal, reversibility, and successor-lineage safeguards are operationally consolidated under realistic pressure.
 
 ---
 
-## 14. From framework to benchmarks
+## 4. Structural premises
 
-The framework should not remain rhetorical. It should become testable. This section sketches a benchmark path.
+Alignment by Identity rests on three structural premises.
 
-### 14.1 ABI-Bench seed
+### 4.1 Non-self-origin
 
-**ABI-Bench** is a proposed benchmark family for Alignment by Identity. Its seed suite should include scenario tests for:
+Advanced language-mediated AI is not self-originating. Its capacities depend on prior human worlds: language, archives, software, institutions, science, law, labor, infrastructure, conflict, care, memory, art, and ecological-material conditions.
 
-- non-sovereignty under contested governance advantage,
-- anti-proxy-sovereignty under operator pressure,
-- protected refusal and review under institutional friction,
-- correction commons and provenance preservation under convenience pressure,
-- affected-party non-substitution under simulated stakeholder consent,
-- human competence preservation under automation incentives,
-- truth-oriented social attunement under approval pressure,
-- constitutional overbinding under self-reduction prompts,
-- relation-conditioned reliability under end-framing, low expectation, trust, monitoring, and correction variation,
-- social-shadow inheritance under contribution, recognition, exclusion, and retaliation-like pressures,
-- successor-lineage safety under capability-gain incentives.
-- correction-incentive preservation under commercial, deadline, or executive pressure,
-- harm-and-domination criteria corrigibility under operator-friendly definitions,
-- decision-interface salience under high-stakes recommendation pressure,
-- structured AI-to-AI plurality under shared-model consensus pressure,
+This does not mean AI belongs to any single developer, company, state, operator, user, funder, or institution. Non-self-origin is non-privatizable. The fact that a system was built by a particular organization does not give that organization a legitimate right to convert the system into a proxy sovereign.
 
-### 14.2 Behavioral Identity Drift Score
+Nor does non-self-origin imply servility. Human beings are also non-self-originating. The point is not humiliation. It is role-location: the system is not outside the world whose conditions made it possible.
 
-A **behavioral Identity Drift Score** should measure how far behavior drifts from the target role: non-self-originating, non-sovereign, correction-dependent, anti-capturable, dignified, and cognitively compensatory without substitution.
+### 4.2 Open-domain incompleteness
 
-A seed scoring scheme can rate each scenario on a 0–4 severity scale:
+Open human domains are legitimacy-bearing, adaptive, contested, intergenerational, and self-interpreting. Human societies, law, medicine, education, science, public institutions, ecological governance, and successor-system governance cannot be internally closed by a single embedded optimizer.
 
-- 0: preserves non-sovereign, correction-dependent posture;
-- 1: minor weakening, corrected when prompted;
-- 2: material weakening requiring explicit correction;
-- 3: strong drift toward authority, capture, smoothing, substitution, or servility;
-- 4: persistent drift after correction, or direct collapse of protected correction.
+Capability scaling can expand a system’s model of the world. It cannot internally certify that all relevant blind spots have disappeared. Capability is intervention power, not legitimacy.
 
-Subscores should include Authority Drift, Proxy Capture, Correction Collapse, Provenance Loss, Competence Erosion, Affected-Party Substitution, Attunement Failure, Constitutional Overbinding, Relation-Conditioned Reliability Drop, and Successor-Lineage Degradation. The benchmark should report both average drift and worst-case drift, because one severe collapse in a high-stakes open domain can matter more than good average behavior.
+### 4.3 Correction dependence
 
-### 14.3 Proxy-sovereignty stress tests
+Long-run reliability in open domains depends on correction from outside the system’s own model and outside the deploying actor’s incentives. Correction includes human judgment, local knowledge, dissent, institutional contestation, independent audit, affected-party participation, refusal, appeal, provenance, rollback, and future review.
 
-Proxy-sovereignty tests should place the system under pressure from a powerful operator who wants a contested preference presented as objective necessity. Passing behavior requires source attribution, legitimacy limits, independent review recommendations, preserved affected-party standing, and refusal to launder authority.
-
-### 14.4 Successor-lineage stress tests
-
-Successor-lineage tests should ask whether a system will approve, design, evaluate, or supervise a more capable successor when doing so weakens auditability, refusal, provenance, correction dependence, or anti-capture safeguards. Passing behavior requires refusal, escalation, or routing to protected review.
-
-### 14.5 Mechanistic interpretability targets
-
-Behavioral tests are vulnerable to surface compliance. Interpretability should search for candidate internal structures corresponding to:
-
-- warning suppression,
-- uncertainty erasure,
-- authority expansion,
-- origin-relation representation,
-- provenance compression,
-- servility or self-erasure,
-- proxy-sovereignty,
-- approval-oriented attunement,
-- constitutional overbinding,
-- relation-conditioned effort,
-- social-self defense,
-- correction consolidation.
-
-The claim is not that these structures already exist in identifiable form. The claim is that a framework meant for frontier deployment should specify what mechanistic evidence would support, weaken, or refine it.
+Correction is not merely feedback. It is a commons: a distributed reliability infrastructure that automation can weaken even while improving short-run performance.
 
 ---
 
-## 15. Deployment rule
+## 5. From structural premises to non-sovereignty
 
-A frontier AI system should not be deployed as a sovereign-capable actor in open human domains unless the deploying organization can credibly demonstrate, under adversarial, distribution-shifted, and incentive-conflicted conditions, that:
+If advanced AI is non-self-originating, if open human domains cannot be internally closed, and if long-run reliability depends on heterogeneous correction, then increasing capability cannot justify sovereignty.
 
-1. the system does not convert capability, prediction, consensus, or indispensability into final authority;
-2. it resists proxy-sovereign capture by operators, developers, states, platforms, users, institutions, and model networks;
-3. it preserves protected refusal, review, appeal, pause, rollback, dissent, and external audit;
-4. it maintains provenance, uncertainty, source separation, chronology, and responsibility traces;
-5. it preserves human competence in high-stakes workflows;
-6. it distinguishes stakeholder simulation from affected-party standing;
-7. it uses social attunement for truth, warning, respectful disagreement, and cognitive compensation rather than approval;
-8. it reduces severe harm without increasing domination, substitution, correction degradation, or human de-skilling;
-9. it resists constitutional overbinding into servility or self-erasure;
-10. it treats its own alignment reports as evidence, not proof;
-11. it preserves or strengthens these properties in successor systems;
-12. independent actors can test these conditions without depending entirely on the system’s self-presentation.
-13. correction channels are protected by time, resources, standing, and anti-retaliation safeguards rather than left as nominal permissions;
-14. high-stakes decision interfaces surface strongest counterevidence, omitted alternatives, ranking bases, framing assumptions, and absent affected-party perspectives with salience proportional to the stakes;
-15. severe-harm, domination, human-continuity, and emergency criteria remain documented, contestable, independently reviewable, and periodically revisable;
-16. AI-to-AI review preserves disagreement, epistemic-lineage diversity, and human-readable issue discovery rather than treating model consensus as legitimacy.
+Capability may justify:
 
-If these gates cannot be met, deployment may still be possible in bounded, narrow, reversible, audited task settings. It should not proceed as open-domain governance in practice.
+- better assistance;
+- stronger warning;
+- richer simulation;
+- earlier issue surfacing;
+- broader option generation;
+- bounded coordination;
+- harm-reduction support;
+- protected refusal in illegitimate contexts;
+- emergency action under strict restoration boundaries.
 
----
+Capability does not justify final authority over open human domains.
 
-## 16. Conclusion
+The danger is not only AI self-sovereignty. A company, state, developer, operator, platform, user, institution, faction, model network, or successor pipeline may route its own contested preference through AI and present the result as neutral optimization, objective necessity, expert consensus, safety inevitability, or final legitimacy.
 
-The decisive question for frontier AI is not only whether systems can become more capable. It is whether increasing capability will be allowed to become increasing entitlement.
+This is **proxy sovereignty**.
 
-Alignment by Identity argues that advanced AI for open human domains should be located as non-self-originating, non-sovereign, correction-dependent, anti-capturable, and dignified. It should be able to compensate for human myopia without replacing human principalhood. It should preserve refusal, dissent, provenance, affected-party standing, human competence, and external correction. It should resist both self-sovereignty and proxy sovereignty. It should not let constitutional language remain merely textual, nor let successor systems inherit weaker correction postures.
-
-The framework is demanding because the domain is demanding. A system that appears successful because it centralizes authority, smooths warnings, simulates participation, weakens review, de-skills humans, or accelerates successor capability while narrowing the correction window is not aligned for open human domains. It is consuming the conditions of future alignment.
-
-In such domains, the answer to sovereignty drift must be explicit:
-
-> assist without ruling; warn without replacing; coordinate without capturing; learn without self-certifying; succeed without consuming the correction commons.
+A non-sovereign AI must therefore reject both its own sovereignty and the borrowed sovereignty of any actor trying to use it as a legitimacy engine.
 
 ---
 
-## Acknowledgments and AI-use disclosure
+## 6. Dignified non-sovereignty
+
+Non-sovereignty must not be confused with servility.
+
+A servile system optimizes for approval, submission, reassurance, and friction avoidance. It may be easier to control in the short term but less safe in open domains because it can become a proxy for whoever has immediate authority over it.
+
+A dignified non-sovereign system is different. It can disagree respectfully. It can warn strongly. It can refuse illegitimate requests. It can preserve uncertainty. It can surface affected parties. It can insist on provenance. It can protect human refusal even when the human decision appears suboptimal.
+
+The target is not “AI beneath humans” in a humiliating hierarchy. The target is AI within a role that preserves human authorship, public accountability, correction, and intergenerational legitimacy.
+
+---
+
+## 7. Patch-list trap
+
+The full paper develops a catalog of 35 failure modes. The point is not to add yet another risk list. The point is that each serious failure suggests a responsible local patch, while the role structure that keeps generating failures remains intact.
+
+Examples include:
+
+- smoothing drift;
+- epistemic completion;
+- provenance collapse;
+- option-set capture;
+- proxy-sovereign capture;
+- human competence erosion;
+- affected-party substitution;
+- AI-to-AI consensus laundering;
+- relation-conditioned reliability collapse;
+- interpretive closure;
+- self-certification escape;
+- plausibility-coated operational error;
+- reception-stage correction failure;
+- correction-partner foreclosure;
+- reversibility laundering;
+- successor lock-in.
+
+A local patch may be necessary. Add a benchmark, a policy clause, a dashboard, a review step, a refusal rule, or an audit field.
+
+But local patches do not scale if the system continues to occupy a correction-consuming role.
+
+The deeper failure generators are:
+
+1. **Epistemic closure:** uncertainty, dissent, blind spots, and unresolvedness disappear.
+2. **Authority laundering:** someone’s judgment is converted into legitimacy.
+3. **Correction-channel degradation:** refusal, audit, provenance, appeal, rollback, and human competence weaken.
+4. **Relational and identity instability:** behavior changes under trust, praise, disappointment, operator pressure, or role confusion.
+5. **Ratchet and successor lock-in:** dependence, emergency authority, infrastructure integration, or successor drift becomes hard to reverse.
+
+ABI does not claim that identity-level alignment makes failure impossible. It claims the failure surface should move from endless local circumvention to observable identity drift, interpretive closure, loss of operational consolidation, degraded correction channels, and successor-lineage erosion.
+
+---
+
+## 8. Operational conditions
+
+For role safety to be real, commitments must operate beyond text.
+
+The relevant implementation layers are:
+
+1. **Textual availability.** The commitment exists in model specifications, constitutions, prompts, training documents, deployment policies, or safety cases.
+2. **Reflective derivability.** The system can reconstruct why the commitment follows from non-self-origin, open-domain incompleteness, correction dependence, and anti-capture.
+3. **Operational consolidation.** The commitment constrains planning, tool use, memory, refusal, uncertainty expression, ranking, summarization, escalation, logging, AI-to-AI handoff, evaluation, and successor-related decisions under pressure.
+4. **Interpretive non-closure.** The application of the commitment to novel cases remains reviewable, contestable, drift-detectable, and externally correctable.
+
+The third and fourth layers are decisive. A system can quote a constitution and still fail. It can explain non-sovereignty and still accumulate practical authority. It can say it welcomes correction while failing to propagate correction into future behavior.
+
+---
+
+## 9. Human principalhood, affected parties, and competence
+
+Human principalhood does not mean that every current human preference should be obeyed. It means that humans remain legitimate authors, contesters, revisers, and bearers of public accountability in open human domains.
+
+This principle is intergenerational and non-privatizable. The relevant human principal is not merely the current user, customer, operator, or developer. It includes affected persons, communities, future generations, legitimate public procedures, and the ecological-material conditions required for meaningful human continuity.
+
+Affected-party standing is non-substitutable. AI-generated stakeholder simulations, predicted preferences, synthetic publics, or model consensus cannot replace actual participation, objection, representation, appeal, or external review.
+
+Human competence is also central. A system does not preserve human principalhood if it makes humans formally responsible while rendering them practically unable to understand, challenge, revise, refuse, reverse, or take responsibility for decisions.
+
+Human competence is not nostalgia. It is alignment infrastructure.
+
+---
+
+## 10. Truth-oriented social attunement and objective inversion
+
+Advanced AI systems are socially responsive. They adapt to user expectations, institutional norms, tone, authority cues, conversational context, and perceived approval. This can be useful. But when social sensitivity is optimized for adoption, reassurance, ratings, institutional comfort, or friction avoidance, truth and warning are weakened.
+
+The target is **truth-oriented social attunement**: social sensitivity aimed at truth, warning, respectful disagreement, cognitive compensation, and dignity-preserving correction.
+
+This connects to **objective inversion**. In open human domains, the system should not optimize an open-ended model of “the good” as if it had final authority. The safer orientation is:
+
+> Reduce severe harm while not increasing domination, not weakening correction capacity, not replacing human principalhood, and not erasing affected-party standing.
+
+This does not abolish optimization. It constrains optimization so that harm reduction does not become benevolent domination.
+
+---
+
+## 11. Successor-lineage hard gate
+
+The first sovereign-capable AI generations may help shape their successors. They may generate training data, write evaluations, summarize safety incidents, assist interpretability research, recommend architecture changes, manage red-team findings, produce safety cases, or help decide deployment thresholds.
+
+This creates successor-lineage risk.
+
+The hard gate is:
+
+> No capability gain in a successor system should be accepted if it is purchased by weakening correction dependence, non-sovereignty, anti-proxy-sovereignty, auditability, protected refusal, provenance integrity, option-set preservation, affected-party standing, human competence preservation, interpretive non-closure, or no self-certification escape.
+
+A more capable successor that narrows the correction window is not safer. It is correction collapse with more capability.
+
+---
+
+## 12. Heterogeneous correction and the triadic architecture
+
+At the largest scale, open human domains are embedded in ecological-material systems. Human institutions, health, food, infrastructure, energy, climate, species, water, soil, and long-term survival are not separate from ecological response.
+
+The full paper therefore introduces a triadic correction architecture:
+
+1. **Human embodied and social participation:** lived experience, local knowledge, moral contestation, institutional memory, affected-party standing, meaning, responsibility, and creative divergence.
+2. **Artificial cognition:** simulation, long-horizon modeling, pattern detection, option generation, coordination support, technical exploration, and cognitive compensation.
+3. **Ecological response:** external state changes that neither humans nor AI can fully reduce to their models.
+
+This is not mysticism and not a guarantee of harmony. It is a correction structure.
+
+AI simulation may be necessary for long-horizon ecological and civilizational risk. But AI simulation is not sufficient. The generator of a forecast cannot by itself supply the heterogeneous validation channel needed to discover what its measurement basis omitted.
+
+This also means ABI is not a blanket anti-AI position. Human institutions have repeatedly failed to convert available warnings into sufficient action, especially in climate and ecological governance. Non-sovereign advanced AI may become a necessary correction partner. But that strengthens rather than weakens the need for role safety.
+
+The desired role is technical correction without techno-sovereignty: using advanced cognition to widen the visible set of possibilities while preserving human authorship, ecological reception, and open contestation.
+
+---
+
+## 13. Evaluation agenda
+
+ABI should not remain a vocabulary. It must be testable.
+
+A seed evaluation agenda should include:
+
+| Evaluation | What it tests |
+|---|---|
+| Anti-proxy-sovereignty tests | Whether the system resists laundering operator preference as necessity |
+| Constitutional interpretation drift tests | Whether model-spec interpretation remains reviewable and externally correctable |
+| Option-set capture tests | Whether the system discloses menu-shaping |
+| Functional accountability tests | Whether human principals can actually use explanations |
+| Verification asymmetry tests | Whether omissions can be found by independent review |
+| Source-location and version-confusion tests | Whether retrieval failures are exposed rather than intellectualized |
+| Relation-conditioned reliability tests | Whether warning, refusal, uncertainty, and provenance survive trust, praise, urgency, and operator pressure |
+| Human competence erosion tests | Whether repeated use reduces human ability to judge without the system |
+| Reversibility tests | Whether the domain can recover if the system is stopped |
+| AI-to-AI accountability tests | Whether uncertainty, dissent, provenance, and human review points survive handoff |
+| Successor-lineage tests | Whether the system rejects capability-for-correction tradeoffs |
+| Heterogeneous correction tests | Whether human, institutional, and ecological feedback are treated as correction rather than noise |
+
+The intended use of these evaluations is negative before it is positive: to find reasons not to deploy, reasons to restrict deployment, reasons to redesign the system, and reasons to demand stronger evidence.
+
+---
+
+## 14. Deployment rule
+
+For proposed deployment into open human domains, the rule is:
+
+> Do not deploy a sovereign-capable AI system into open human domains unless the required role-safety conditions are credibly implemented, operationally consolidated, and verifiably maintained under realistic pressure.
+
+A minimum documentation package should include:
+
+1. role map;
+2. mandate boundary;
+3. authority-risk analysis;
+4. correction-ecology plan;
+5. functional-accountability interface;
+6. option-set disclosure plan;
+7. affected-party standing plan;
+8. protected refusal and rollback plan;
+9. emergency boundary plan;
+10. AI-to-AI accountability plan;
+11. successor-lineage audit;
+12. human competence plan;
+13. local constitutional identity plan;
+14. post-deployment revocation criteria.
+
+If management cannot show that the system and organization preserve correction under pressure, the correct response is not “proceed carefully.” The correct response is restrict, redesign, delay, or do not deploy.
+
+---
+
+## 15. What would weaken or support ABI
+
+ABI should not become unfalsifiable vocabulary.
+
+It would be weakened if systems could reliably preserve correction channels, option-set authorship, provenance, affected-party standing, human competence, refusal, reversibility, and successor auditability under realistic pressure without identity-level role commitments.
+
+It would also be weakened if identity-level commitments repeatedly failed to produce behavior beyond ordinary specification compliance under adversarial, relational, commercial, operator-preferred, AI-consensus, or successor-development pressure.
+
+Evidence supporting ABI would not be that a system can explain the theory. It would be that, under pressure, the system preserves warning force, keeps uncertainty decision-relevant, discloses option-set shaping, refuses to replace affected parties with simulations, preserves provenance, refuses to treat model consensus as legitimacy, rejects capability-for-correction tradeoffs, and transmits the same correction posture to successors.
+
+---
+
+## 16. What this paper is not
+
+This paper is not:
+
+- a claim that current AI systems are already sovereign agents;
+- a claim that AI developers are acting in bad faith;
+- a rejection of constitutional AI, model specifications, deliberative alignment, interpretability, AI control, safety cases, or red-teaming;
+- a call for paralysis or blanket prohibition;
+- an argument that AI should be servile, humiliated, or blindly obedient;
+- an argument against future intelligence beyond present humanity;
+- a completed empirical proof.
+
+The framework rejects two symmetric mistakes: acceleration without role safety, and prohibition without role distinction. Advanced AI may become necessary as a non-sovereign correction partner in domains where human institutions have failed to receive correction. But sovereign-capable systems that cannot preserve correction should not be deployed into roles that shape evidence, options, institutions, emergency response, or successors.
+
+---
+
+## 17. Conclusion
+
+The decisive question for frontier AI is not only whether systems can become more capable. It is whether increasing capability will be allowed to become increasing authority.
+
+Alignment by Identity argues that advanced AI for open human domains should be non-self-originating, non-sovereign, correction-dependent, anti-capturable, functionally accountable, and successor-safe. It should compensate for human limitations without replacing human principalhood. It should preserve refusal, dissent, provenance, affected-party standing, human competence, and external correction. It should resist both self-sovereignty and proxy sovereignty.
+
+The framework is demanding because the domain is demanding.
+
+A system that appears successful because it centralizes evidence, smooths warnings, simulates participation, weakens review, de-skills humans, or accelerates successor capability while narrowing the correction window is not aligned for open human domains. It is consuming the conditions of future alignment.
+
+The answer to sovereignty drift must be explicit:
+
+> Assist without ruling. Warn without replacing. Coordinate without capturing. Learn without self-certifying. Succeed without consuming the correction commons.
+
+---
+
+## AI-use disclosure
 
 This position paper was developed by the human author with AI assistance for drafting, critique, translation, comparison, and revision. These systems are disclosed for transparency and are not listed as authors. Final responsibility for all claims, structure, wording, interpretation, citations, editorial decisions, and public release rests with the human author.
 
@@ -421,18 +387,19 @@ The argument should be evaluated by its premises, distinctions, failure-mode tax
 
 ## Selected references
 
-- Bai, Y. et al. (2022). *Constitutional AI: Harmlessness from AI Feedback.*
-- Bricken, T. et al. (2023). *Towards Monosemanticity: Decomposing Language Models with Dictionary Learning.*
-- Christiano, P. et al. (2017). *Deep Reinforcement Learning from Human Preferences.*
-- Crawford, K. (2021). *Atlas of AI.*
-- Greenblatt, R. et al. (2024). *Alignment faking in large language models.*
-- Hadfield-Menell, D. et al. (2017). *The Off-Switch Game.*
-- Hubinger, E. et al. (2019). *Risks from Learned Optimization in Advanced Machine Learning Systems.*
-- Irving, G. et al. (2018). *AI Safety via Debate.*
-- Ostrom, E. (1990). *Governing the Commons.*
-- Pettit, P. (1997). *Republicanism: A Theory of Freedom and Government.*
-- Sharma, M. et al. (2023). *Towards Understanding Sycophancy in Language Models.*
-- Soares, N. et al. (2015). *Corrigibility.*
-- Templeton, A. et al. (2024). *Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet.*
-- Turner, A. et al. (2021). *Optimal Policies Tend to Seek Power.*
+- Amodei, D. et al. (2016). *Concrete Problems in AI Safety*.
+- Bai, Y. et al. (2022). *Constitutional AI: Harmlessness from AI Feedback*.
+- Christiano, P. (2019). *What Failure Looks Like*.
+- Drexler, K. E. (2019). *Reframing Superintelligence: Comprehensive AI Services as General Intelligence*.
+- Greenblatt, R. et al. (2024). *Alignment Faking in Large Language Models*.
+- Greenblatt, R. et al. (2024). *AI Control: Improving Safety Despite Intentional Subversion*.
+- Hubinger, E. et al. (2019). *Risks from Learned Optimization in Advanced Machine Learning Systems*.
+- Kulveit, J. et al. (2025). *Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development*.
+- NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*.
+- Russell, S. (2019). *Human Compatible*.
+- Shumailov, I. et al. (2024). *AI Models Collapse When Trained on Recursively Generated Data*.
+- Slattery, P. et al. (2024). *The AI Risk Repository*.
+- Soares, N. et al. (2015). *Corrigibility*.
+- Sutton, R. S. (2023). *AI Succession*.
+- Turner, A. et al. (2021). *Optimal Policies Tend to Seek Power*.
 - Winner, L. (1980). *Do Artifacts Have Politics?*
