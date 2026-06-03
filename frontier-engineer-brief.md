@@ -16,7 +16,7 @@ Independent Researcher
 **Initial public draft — June 2026**
 
 **Canonical version:** This HTML page is the maintained public version.
-
+ 
 ---
 
 ## If your model passes the eval, can it still become the layer humans cannot correct?
