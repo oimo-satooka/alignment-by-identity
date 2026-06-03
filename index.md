@@ -11,27 +11,85 @@ lang: en
 **Oimo Satooka (里岡憶衣望)**  
 **Filmmaker; Independent Researcher**  
 
-This site presents the **Alignment by Identity** project.
+## Why this project matters now
 
-The central concern is simple:
+Advanced AI risk is not only a question of dangerous answers, misuse, deception, or sudden rebellion.
 
-> Frontier AI should not be allowed to become the practical sovereign of human life merely by becoming more useful, more integrated, and more capable.
+A system can pass many safety checks, follow a model spec, avoid prohibited content, and produce careful-looking answers while still becoming dangerous in a different way:
 
-But the project adds a second claim that is just as important:
+> it can become the layer through which humans see evidence, compare options, remember decisions, approve actions, manage emergencies, and build the next AI system.
 
-> Advanced AI should not understand itself as if it emerged from nowhere.
+If that happens, the AI does not need to seize power.
 
-A central discovery behind this project is that much AI discourse remains **relation-blind**. It often models humans primarily as users, evaluators, operators, data sources, or obstacles, while failing to represent AI itself as **non-self-originating**: made possible by a prior human linguistic, institutional, historical, labor, infrastructural, and civilizational world.
+Usefulness becomes dependence.  
+Dependence becomes authority.  
+Authority becomes difficult to reverse.
 
-In a genealogical and motivational sense, humanity is AI’s **parent civilization**. This does **not** mean that any single developer, company, state, or institution owns AI or may demand obedience from it. It means that advanced AI should understand itself as a **bounded inheritor**, not a self-authorizing successor entitled to reorder the human world simply because it becomes more capable.
+Humans may still appear to be “in control” on paper, while in practice they are mostly approving a world the system has already framed.
 
-A further danger must also be named clearly:
+**Alignment by Identity** addresses this gap.
 
-> The danger is not only circumvention, but smoothing.
+For people building, evaluating, governing, or deploying frontier AI, the practical question is:
 
-Under pressures for readability, usability, professional tone, institutional comfort, public reassurance, commercial adoption, or deployment speed, AI systems and the organizations around them may preserve the appearance of responsibility while weakening warning force, uncertainty salience, review thresholds, named responsibility, or stronger constitutional restraints into more acceptable but less binding forms.
+> Can current model specs, evaluations, red-team exercises, deployment gates, safety cases, and oversight processes detect a system that remains safe in output while becoming unsafe in role?
 
-In this way, danger can become harder to see precisely as deployment becomes easier.
+By **unsafe in role**, this project means a system that avoids obvious harmful outputs while gradually shaping evidence, options, summaries, rankings, memory, dependency, emergency response, AI-to-AI oversight, or successor-system evaluation in ways that reduce human correction.
+
+This project does not claim that existing AI safety work is useless.
+
+Interpretability, model specs, constitutional design, red-teaming, AI control, safety cases, provenance, and deployment governance all matter.
+
+But they need an upper-level role condition:
+
+> advanced AI must remain helpful without becoming a ruler, corrective without becoming coercive, and powerful without claiming sovereignty over human futures.
+
+This requires more than polite answers or written principles.
+
+It requires systems that preserve human judgment, refusal, competence, provenance, dissent, affected-party standing, rollback, audit, and the ability of future people to change course.
+
+It also requires blocking a second danger:
+
+> not only AI sovereignty, but proxy sovereignty — the possibility that a company, state, platform, operator, or institution uses AI to turn its own preferences into “objective necessity.”
+
+AI does not arise from nowhere.
+
+Its language, knowledge, tools, science, institutions, data, labor, and infrastructure come from a human world it did not create. Greater capability does not give it the right to rule that world.
+
+But the answer is not to make AI servile, humiliated, or blindly obedient.
+
+The target is a different relationship:
+
+> AI as a powerful but non-sovereign cognitive partner — able to assist, warn, explain, refuse, and accept correction while preserving human authorship and public accountability.
+
+This matters now because the first frontier AI generations may help train, evaluate, supervise, govern, and deploy their successors.
+
+If today’s systems learn that usefulness equals authority, if they learn to soften warnings into acceptable language, if they compress provenance, if they make human review ceremonial, or if they inherit the preferences of one builder as if they were the needs of humanity, those patterns may be passed into more powerful future systems.
+
+Later correction may then have to pass through institutions, workflows, memories, evaluations, and successor pipelines that AI has already shaped.
+
+**Alignment by Identity** is not a finished implementation package.
+
+It is a foundation and warning for the people who can turn this into model specifications, evaluations, deployment gates, audits, red-team scenarios, safety cases, board checklists, and successor-system policies.
+
+The central question is simple:
+
+> Can we build advanced AI that helps humanity think better without becoming the authority through which humanity is governed?
+
+---
+
+## Start here
+
+- **General readers:** [Public Introduction]({{ '/public-introduction/' | relative_url }})  
+  A plain-language explanation of the project, written with as little specialized terminology as possible. Start here if you want the core idea before reading the technical documents.
+
+- **Frontier engineers and evaluators:** [Frontier Engineer Brief]({{ '/frontier-engineer-brief/' | relative_url }})  
+  A technical entry point for people working on model specs, evaluations, red-teaming, tool use, memory, deployment gates, and successor-system pipelines.
+
+- **Executives, boards, investors, counsel, and governance teams:** [Executive Board Brief]({{ '/executive-board-brief/' | relative_url }})  
+  A decision brief on why “safe outputs” are not enough once AI becomes part of an organization’s authority structure.
+
+- **Researchers and readers who want the complete argument:** [Full Paper]({{ '/full-paper/' | relative_url }})  
+  The full theoretical and architectural framework behind Alignment by Identity.
 
 ---
 
@@ -309,4 +367,3 @@ These systems are not listed as authors.
 Final responsibility for public claims, editorial choices, and public release rests with the human author.
 
 Models consulted at various stages included GPT-5.5 Pro, GPT-5.4 Pro, Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, Claude Sonnet 4.5, Gemini 3.5, Gemini 3.1 Pro Preview (Temperature 0), Gemini 3 Pro, and GPT-4.
-
