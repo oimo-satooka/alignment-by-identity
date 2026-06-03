@@ -1333,13 +1333,15 @@ Human embodied and social participation, artificial cognition, and ecological re
 
 # Appendix C: AI-assisted development and self-application
 
+This paper is an initial public draft and has not been peer-reviewed. It proposes a conceptual framework and measurement agenda for role safety, not a completed training recipe or validated certification method. Citations, dates, source identities, and claims about external literature remain subject to correction.
+
 This paper was developed with substantial AI-assisted drafting, critique, revision, restructuring, translation, and comparative review support. AI systems are not listed as authors. Final responsibility for public claims, editorial decisions, and public release rests with the human author.
 
 This disclosure is not a validation of the paper. It is a methodological vulnerability that must be handled under the same principles the paper proposes.
 
 AI-generated critique, multi-model agreement, elegant self-analysis, or persuasive drafting do not constitute independent verification. They can generate hypotheses, reveal blind spots, strengthen arguments, and identify failure modes. They can also smooth, over-complete, overstate, flatter, converge, or hide omissions.
 
-Because this paper was substantially AI-assisted, citation details, publication dates, source identities, and claims about external literature should not be treated as validated by AI consensus. They require independent human verification against primary sources before public release.
+Because this paper was substantially AI-assisted, citation details, publication dates, source identities, and claims about external literature should not be treated as validated by AI consensus alone. Before public release, AI-assisted source checks and checks of major references were used as a practical screen, and the paper remains open to correction after publication in response to reader or expert feedback. Important references should be checked against primary sources by humans where needed.
 
 The self-application rule is:
 
