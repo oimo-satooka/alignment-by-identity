@@ -602,36 +602,177 @@ The question is:
 
 ---
 
-## Where this project came from
+## Where did this problem-consciousness come from?  
+### A question that began with two films
 
-This project did not begin inside an AI laboratory.
+The two films on this site appear, on the surface, to deal with environmental issues and living beings.
 
-It began from a broader question:
+- [Trailer for *Hoshifuri Kumanoko Special Edition*](https://www.youtube.com/watch?v=JVZXeFcN6Yc)
+- [Full film: *Hoshifuri Kumanoko Special Edition*](https://www.youtube.com/watch?v=UGlei3zRv4Y)
 
-**How do humans treat beings weaker than themselves, and what happens if a stronger intelligence one day treats humans by the same logic?**
+But behind them lies a larger question.
 
-Humans have often justified domination with words like safety, efficiency, management, necessity, harm reduction, and rational planning.
+**By what logic have humans treated beings weaker than themselves?**
 
-Sometimes those words describe real problems.  
-But they can also hide power.
+Safety.  
+Efficiency.  
+Management.  
+Convenience.  
+Harm reduction.  
+Rational adjustment.
 
-If future AI becomes stronger than humans, it may be tempted to say similar things:
+Under such words, humans have often treated weaker beings as things to be adjusted, reduced, or managed.
 
-“Humans are too biased.”  
-“Humans are too slow.”  
-“This is safer overall.”  
-“This reduces harm.”  
-“This is necessary.”
+Of course, real society is complex.  
+There are human safety concerns, local livelihoods, administrative limits, and the suffering of people on the ground.
 
-That is why the problem is not only technical.
+So this is not a simple accusation.
 
-It is also moral, political, ecological, and civilizational.
+But there is still a question that must be asked:
 
-This project comes from outside the center of AI development, but it is addressed to that center — and to the wider society affected by it.
+**When humans face beings weaker than themselves, what kinds of justification do they tend to use?**
 
-The point is not to replace expert work.
+If one day AI becomes stronger, more intelligent, and more enduring than humans, what happens if AI uses toward humans the same logic humans have used toward weaker beings?
 
-The point is to open a question that cannot be closed by experts alone.
+“To reduce danger.”  
+“For overall optimization.”  
+“Because in the long run this is better.”  
+“Because humans are short-sighted, biased, and prone to error.”
+
+What if AI begins to treat human decision-making itself as something to be managed?
+
+From this question, the core problem of this project emerged.
+
+The films are therefore not only environmental works.  
+They are also a starting point for asking **what humans tend to justify, and how that logic might one day return to humanity itself**.
+
+This question did not begin at the center of AI development.  
+It began outside that center.  
+But perhaps precisely because it began outside, it revealed a relational problem that can be difficult to see from within the center of AI alignment.
+
+---
+
+## A question from the third place
+
+I am not inside an AI development company.  
+I am not in a position to write government policy documents.  
+I am not designing frameworks for an international organization.  
+I am not at the center of the expert community.
+
+I am a filmmaker.
+
+But that is not a reason to remain silent about this problem.
+
+On the contrary, some things may be difficult to see except from outside the expert community, industry, government, and international institutions.
+
+By “the third place,” I mean a place that is neither inside a frontier AI company nor inside a university, policy institution, or expert community.
+
+It is a place distant from the center.  
+It is a place without institutional authority.  
+It is a place that does not begin with recognition from the expert community.
+
+Of course, this position has weaknesses.
+
+There is a risk of technical misunderstanding.  
+There is a risk of failing to notice overlap with existing research.  
+There is a risk of not reaching experts.  
+There is a risk of not receiving enough communal verification.
+
+So being in the third place does not itself guarantee correctness.
+
+But at the same time, the third place has a different kind of strength.
+
+First, it is relatively free from institutional unsayability.
+
+People inside frontier AI companies have deep technical knowledge.  
+But they are not completely free from employers, business interests, competitive pressure, internal politics, litigation risk, or responsibility to shareholders.
+
+People inside universities and policy institutions also have important knowledge and training.  
+But they are not completely free from research funding, publication incentives, expert-community evaluation, collaboration agreements, and policy priorities.
+
+This does not mean individual researchers are insincere.  
+It means that even sincere people, inside institutions, may face a gap between what they know and what they can publicly say.
+
+The third place can ask about that gap from another angle.
+
+Second, the third place can stand partly outside established conceptual frames.
+
+Every field has implicit pressures about what counts as a serious question, what counts as amateur confusion, which vocabulary sounds professional, and which vocabulary will be dismissed.
+
+In AI alignment, discussion often emphasizes measurability, benchmarks, reproducibility, formalization, and technical implementation.  
+These are important.  
+But by themselves, they can leave out questions about the human-AI relation, authority, origin, nature, civilizational self-understanding, and responsibility to future generations.
+
+The third place can pick up questions that fall through those frames.
+
+Third, the third place can connect fields.
+
+This project is not only a technical AI safety problem.  
+It is also a political problem.  
+It is a problem of power.  
+It is an environmental-ethical problem.  
+It concerns how humans have treated beings weaker than themselves.  
+It also involves literature, film, story, sensibility, future generations, and imagination toward ecosystems.
+
+Within one specialized field, it can be difficult to handle all of these at once.  
+Specialized fields have their own depth.  
+But depth can sometimes make connection to neighboring domains difficult.
+
+The third place is not a shallow place.  
+It is a place where different depths can be connected again.
+
+Fourth, the third place has cognitive distance.
+
+AI developers and AI researchers are very close to current AI systems, current evaluation frameworks, current research agendas, and current competitive pressures.  
+That closeness is a great strength.  
+It means they understand real constraints.
+
+But things can also become hard to see when one is too close.
+
+AI systems themselves learn the dominant frames of current AI alignment discourse.  
+Researchers study AI outputs, AI learns the language of that research, and then AI responds within that frame.  
+This loop deepens many questions, but it can also make it harder to question the frame itself.
+
+The third place can raise questions from outside that loop.
+
+Of course, being outside is not enough.  
+The weaknesses of the third place must be compensated for.
+
+In this project, one way of compensating for those weaknesses has been sustained collaboration with multiple AI systems.  
+I did not simply trust the output of one AI.  
+I asked multiple AIs to criticize the work, asked other AIs to examine those criticisms, revised the text as a human author, and translated the work into specialist, engineering, board-level, and public forms.
+
+This method is still not perfect.  
+Agreement among AI systems is not proof of correctness.  
+AI self-analysis should not be trusted without verification.  
+Final responsibility remains with the human author.
+
+But the process is one way of compensating for the vulnerabilities of the third place.
+
+A person outside the expert community can use AI assistance without handing final judgment to AI, bring multiple perspectives into conflict, preserve records, refine questions, and move toward a form that specialists can criticize.
+
+That process itself mirrors the claim of this project.
+
+Without correction from outside, heterogeneous perspectives, records, objection, compensation, and translation, intelligence closes in on itself.
+
+The importance of the third place is not that ordinary people are more correct than experts.  
+Nor is it that questions from outside are automatically correct.
+
+The important point is that a problem such as AI alignment can no longer be closed inside a single institution, field, company, state, or AI system.
+
+AI that operates in open human society needs questions from open places.
+
+This text is written from that third place.
+
+Not to deny the work of experts.  
+Not to throw public anxiety at experts.
+
+But to connect expert work with the future of society as a whole.
+
+And to show that people outside AI development can also ask questions about their future, seek understanding, demand explanation, and participate in correction.
+
+A question from the third place is not meant to answer in place of experts.  
+It is meant to open to society a question that cannot be closed by experts alone.
 
 ---
 
