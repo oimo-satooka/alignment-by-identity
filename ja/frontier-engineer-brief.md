@@ -1,4 +1,3 @@
-<!-- File: ja/frontier-engineer-brief.md -->
 ---
 layout: default
 title: フロンティアエンジニア向けブリーフ

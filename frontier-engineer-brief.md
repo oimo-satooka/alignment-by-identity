@@ -1,4 +1,3 @@
-<!-- File: frontier-engineer-brief.md -->
 ---
 layout: default
 title: Frontier Engineer Brief
