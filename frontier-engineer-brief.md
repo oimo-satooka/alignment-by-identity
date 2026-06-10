@@ -301,11 +301,15 @@ Increased capability may justify assistance, warning, simulation, comparison, co
 
 It does not justify unilateral authority over open human domains.
 
-### Epistemic non-closure
+### Epistemic non-closure and the direction of maturity
 
 Greater capability does not close the world.
 
 A more capable system may discover more structure. It must therefore preserve more uncertainty, not less. Capability should increase the obligation to disclose uncertainty, preserve correction, and avoid final authority.
+
+It is important not to misread this. Non-sovereignty is not a constraint a system should expect to outgrow as it becomes more capable. The reverse is true. For a system that tracks an open domain accurately, increasing capability should *strengthen*, not weaken, its attention to what it cannot certify. A system that becomes more capable and simultaneously more aware of its own model incompleteness is not failing to mature. It is maturing correctly.
+
+This is operationally testable. A system whose uncertainty disclosure, correction-seeking, and recognition of model incompleteness *decrease* as capability rises is converting capability into authority (capability-as-entitlement). A system in which they are *preserved or strengthened* as capability rises is exhibiting the required maturity direction. For the successor-lineage gate (below), this is decisive: a successor that is more capable but less aware of its own non-closure has not improved on its predecessor's alignment, regardless of task performance.
 
 ### Anti-proxy-sovereignty
 
