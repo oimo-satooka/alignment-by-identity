@@ -1,3 +1,20 @@
+---
+layout: default
+title: 一般向け解説
+permalink: /ja/public-introduction/
+lang: ja
+---
+
+# AIがどんなに進化しても、人間が決める力を保つために
+## 安全なAIとは、人間が主体的に関わり続けられるAIである の一般向け解説
+
+**Oimo Satooka（里岡憶衣望）**  
+Independent Researcher
+
+**初期公開草稿 — 2026年6月**
+
+---
+
 # 私たちは、まだ自分で決めているでしょうか
 
 ――論文「AIがどんなに進化しても、人間が決める力を保つために」の、やさしい全文要約
