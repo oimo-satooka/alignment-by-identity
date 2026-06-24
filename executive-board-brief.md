@@ -43,7 +43,7 @@ At that point, the question is no longer only:
 
 The board-level question is:
 
-> Has this system become part of the organization’s authority structure — and can humans still correct that role?
+> Has this system become part of the organization’s authority structure — and can humans still correct that role? 
 
 That is the problem of **role safety**.
 
