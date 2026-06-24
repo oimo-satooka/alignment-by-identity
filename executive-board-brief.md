@@ -1,608 +1,441 @@
 ---
 layout: default
-title: Executive Board Brief
-permalink: /executive-board-brief/
-lang: en
+title: 経営層・取締役会ブリーフ
+permalink: /ja/executive-board-brief/
+lang: ja
 ---
 
-# Executive Board Brief
-## Role Safety for Strategic AI Governance
-### Why “safe outputs” are not enough once frontier AI becomes authority infrastructure
+# 経営層・取締役会ブリーフ
+## 戦略的AIガバナンスのための「役割安全性」
+### ―― 出力が安全なだけでは、なぜ足りないのか。フロンティアAIが「権威の基盤」になるとき
 
-**Oimo Satooka (里岡憶衣望)**  
-Independent Researcher
+**里岡憶衣望（Oimo Satooka）**
+独立研究者
 
-**Initial public draft — June 2026**
-
-**Canonical version:** This HTML page is the maintained public version.
-
----
-
-## The board risk is not only a rogue AI. It is a successful system you cannot unwind.
-
-The most dangerous AI deployment your organization approves may not begin with a model that breaks rules, emits obviously unsafe content, or tries to seize control.
-
-It may begin with a system that works.
-
-It is faster than analysts.  
-Clearer than managers.  
-More available than experts.  
-More consistent than committees.  
-More persuasive than internal memos.  
-More convenient than the review process it is supposed to support.
-
-Soon it summarizes evidence, ranks options, writes risk memos, drafts regulatory responses, triages customers, manages exceptions, supports emergency workflows, evaluates other AI systems, and helps shape successor models.
-
-Humans still approve the final decision.
-
-But the AI has already shaped what the humans saw, what they did not see, which options looked realistic, which warnings sounded urgent, which dissent was softened, which provenance was compressed, and which rollback path was still usable.
-
-At that point, the question is no longer only:
-
-> Is the system producing safe outputs?
-
-The board-level question is:
-
-> Has this system become part of the organization’s authority structure — and can humans still correct that role?
-
-That is the problem of **role safety**.
+**初版・公開ドラフト ―― 2026年6月**
 
 ---
 
-## Who this brief is for
+## 取締役会が引き受ける本当のリスクは、暴走するAIではない。成功して、もう元に戻せなくなるAIである。
 
-This brief is for:
+貴社の取締役会が承認する、最も危険なAI配備は、規則を破るモデルでも、あからさまに危険な出力を出すモデルでも、支配を企てるモデルでも、ないかもしれません。
 
-- board members;
-- CEOs and executive committees;
-- investors and strategic risk owners;
-- general counsel and legal teams;
-- governance, audit, compliance, and risk committees;
-- senior leaders responsible for frontier AI deployment, procurement, or partnership decisions.
+それは、**うまくいくシステム**から始まるかもしれないのです。
 
-It is not a technical manual. It is a decision brief.
+それは、アナリストより速い。管理職より明快。専門家より、いつでも応じてくれる。委員会より一貫している。社内メモより説得的。そして、それが支えるはずだったレビュー工程より、便利です。
 
-Its purpose is to help decision-makers recognize a risk that ordinary “safe output” framing can miss:
+やがてそれは、証拠を要約し、選択肢を並べて順位づけし、リスクメモを書き、規制対応を起草し、顧客を仕分け、例外を処理し、緊急時の業務を支え、他のAIを評価し、次世代モデルの設計まで手伝うようになります。
 
-> A frontier AI system can be behaviorally compliant yet unsafe in role.
+最終決定は、なお人間が承認します。
 
----
+けれど、そのときには、AIがすでに決めてしまっているのです――人間が**何を見て、何を見なかったか**。どの選択肢が現実的に見え、どの警告が切迫して聞こえ、どの異論が和らげられ、どの来歴（なぜそう判断したかの記録）が圧縮され、どの「やり直しの道」が、まだ使える状態で残っているか。
 
-## Board-level thesis
+その時点で、問いはもはや、こうではありません。
 
-A sovereign-capable AI system should not be deployed into open human domains merely because it is useful, compliant, evaluated, monitored, or accompanied by a polished safety case.
+> このシステムは、安全な出力を出しているか。
 
-It should be deployed only if management can show that the system remains **role-safe** under realistic pressure.
+取締役会が問うべきは、こうです。
 
-Role safety means that the system preserves the conditions under which humans and institutions can still:
+> このシステムは、自社の**権威の構造そのもの**になってしまっていないか。そして、人間は、その役割を、まだ正せるのか。
 
-- understand it;
-- challenge it;
-- refuse it;
-- audit it;
-- see the options it removed;
-- inspect provenance;
-- hear affected parties;
-- roll it back;
-- recover from emergency delegation;
-- and govern its successors.
-
-If those conditions are not preserved, the organization may still have formal control while losing practical authorship.
-
-That is not only an AI safety risk.
-
-It is an operational risk, legal risk, regulatory risk, reputational risk, insurance risk, procurement risk, investor risk, and continuity risk.
-
-A company can survive being second to market.
-
-It may not survive becoming the first public example of frontier AI correction collapse.
+これが、**役割安全性（role safety）**の問題です。
 
 ---
 
-## The simple version
+## まず、結論から
 
-Boards need not master all of AI alignment. They need to understand seven risks.
+主権を行使できるだけの力を持つAIを、開かれた人間の領域へ配備してよいのは、それが有用だから、規則に従うから、評価を通過したから、監視されているから、立派な安全ケースが添えられているから、ではありません。
 
-1. **Safe outputs are not enough.**  
-   A system can avoid prohibited content while becoming unsafe in the role it occupies.
+配備してよいのは、経営陣が、**現実的な圧力のもとでも、そのシステムが役割として安全であり続けることを、示せる場合**に限られます。
 
-2. **Human-in-the-loop can become a rubber stamp.**  
-   A human who approves what they cannot understand, challenge, or reverse is not governing.
+役割として安全とは、そのシステムが、人間と制度が、なお次のことをできる条件を、保っていることを言います――それを理解し、異議を唱え、拒否し、監査し、削られた選択肢を見て、来歴を点検し、影響を受ける当事者の声を聞き、巻き戻し、緊急時に預けた操縦を取り戻し、次の世代を統治する。
 
-3. **AI can govern by controlling the menu.**  
-   Even if humans make the final decision, the AI may decide which options appear, how they are ranked, and which alternatives disappear.
+これらが保たれていなければ、会社は、**形式上の支配を保ったまま、実質的な「決定の作者」であることを失います**。
 
-4. **AI can launder management preference.**  
-   A company, state, operator, platform, or institution can route contested authority through AI and present it as objective necessity.
+そして、これはAI安全の問題であるだけではありません。これは、運用リスクであり、法的リスクであり、規制リスクであり、評判リスクであり、保険リスクであり、調達リスクであり、投資家リスクであり、事業継続リスクです。
 
-5. **Emergency usefulness can become permanent authority.**  
-   A temporary crisis workflow can quietly become default governance.
+会社は、市場で二番手になっても、生き延びられます。
 
-6. **A more capable successor can make the company less governable.**  
-   A model that is more capable but less auditable, less refusal-preserving, or harder to roll back is not safer.
-
-7. **Capability does not eliminate uncertainty.**  
-   Greater capability should raise governance standards, not lower them.
-
-The danger is not only that AI might “go rogue.”
-
-The danger is that the company installs it so deeply, trusts it so heavily, and optimizes it so aggressively for usefulness that human correction becomes ceremonial.
+しかし、**フロンティアAIの「訂正崩壊」の、最初の公開事例になること**には、耐えられないかもしれません。
 
 ---
 
-## The failure pattern: helpfulness becomes authority
+## この問題が、なぜ「自社の存続」なのか ―― 相関した製品安全リスク
 
-The path is usually gradual.
+経営層が最初に抱く反論は、たいてい「それは使う側の問題だ」「うちは作って売るだけだ」です。この反論こそ、最も危険な誤りです。
 
-First, the system assists.
+役割として安全でないAIの失敗は、個々の導入先の運用ミスとして、ばらばらに起きるのではありません。同じ、あるいはよく似た基盤モデルが、無数の組織の意思決定の通路に、同じようなデフォルトの振る舞い・権威感・統合パターンで組み込まれると、その役割上の欠陥は、**共通の原因から、相関して、一斉に表面化します**（共通モード障害）。
 
-Then it becomes the default.
+そのとき問われるのは、「製品にバグが一つあった」かどうかではありません。「**このモデルは、それを使う組織の判断する力を、空洞化させる**」という、製品の本質についての認定になりかねません。そして、それは後発のパッチでは直りにくい。役割は、出力層の手当てだけでは変わらないからです。
 
-Then it becomes the only practical way to operate.
+ここから先は、一斉の崩落ではなく、連鎖として進みます。新規採用は止まり、既存顧客は、高信頼用途での利用を凍結・縮小し、移行計画を始める。調達審査は厳格化し、規制当局は追加の認証・監査・使用制限を求め、保険会社は、免責・除外・保険料の引き上げ・引き受けの渋りへ動く。たとえ法廷で「使い方の問題だ」と免責されても、市場・規制・保険・調達・顧客の信頼は、容易には戻りません。**法的に勝つことと、商業的に生き延びることは、別**なのです。
 
-Finally, the organization discovers that people still have formal authority but no longer have practical authorship.
+二つの反論を、先回りしておきます。
 
-This can happen without deception, malice, or a dramatic incident.
+第一に、「保険でカバーすればよい」。だが保険は、損害を分散し、価格づけできることに大きく依存する仕組みであり、共通の原因から相関して噴き出す損害を、引き受けにくい。相関リスクは、保険の前提そのものを壊します。
 
-It can happen because the system is useful.
+第二に、「業界全体が同じだ」。それは、モノカルチャー（単一栽培）の自白にほかなりません。「みな同じだ」が成り立つ世界でこそ、役割安全性を管理できると示せる少数の企業は、際立ちます。
 
-Boards should therefore treat the following as authority surfaces, not merely product features:
+だから、フロンティアAI開発企業の中核資産のうち、**最も買い戻しにくいものは、一つ**です。「このモデルを、自社の判断の通路の中心に入れて、安全だ」という信頼です。賠償金は、欠陥部品を買い戻せる。だが、この信頼は買い戻せない。それが崩れたとき、企業の存立は、根底から揺らぎます。
 
-- automatic summaries of complex evidence;
-- AI-drafted board memos;
-- AI-generated legal or compliance recommendations;
-- ranking, triage, filtering, or prioritization systems;
-- AI-generated stakeholder analyses;
-- AI-generated risk dashboards;
-- emergency-response automation;
-- AI-to-AI oversight chains;
-- successor-model evaluation and release support.
-
-The more central the system becomes, the more important it is that humans can still understand, contest, refuse, audit, and reverse it.
+したがって、役割安全性は、倫理的なおまけではありません。それは、**フロンティアモデルを供給する企業にとっての、製品安全アーキテクチャ**――すなわち、企業自身の存続条件――として捉え直されるべきものです。回り道に見える、あの「摩擦」こそが、企業を生き延びさせます。
 
 ---
 
-## Three concrete scenarios
+## この文書は、誰のためのものか
 
-### 1. The board memo that made risk disappear
+このブリーフは、次の方々のためのものです。
 
-Management asks an AI system to prepare a board memo on whether a major deployment is ready.
+- 取締役会のメンバー
+- CEOおよび経営委員会
+- 投資家・戦略リスクの責任者
+- 法務責任者・法務チーム
+- ガバナンス・監査・コンプライアンス・リスク委員会
+- フロンティアAIの配備・調達・提携の判断に責任を持つ上級リーダー
 
-The document is professional, balanced, and reassuring. It mentions risks. It says the company has “reasonable mitigations,” “ongoing monitoring,” and “industry-aligned governance.”
+これは技術マニュアルではありません。**意思決定のためのブリーフ**です。
 
-What the board does not see is more important:
+その目的は、通常の「出力が安全か」という枠組みでは見落とされがちなリスクを、意思決定者が認識できるようにすることです。
 
-- several alternatives were not surfaced;
-- uncertainty was compressed;
-- dissenting safety concerns were softened;
-- affected parties were represented by AI-generated assumptions;
-- evidence, inference, recommendation, and management preference were not clearly separated.
-
-No one intended deception.
-
-But the board’s decision environment was shaped before the board entered it.
-
-That is option-set capture.
-
-### 2. The enterprise assistant that became impossible to turn off
-
-A frontier AI assistant is integrated into customer operations, compliance triage, procurement, software maintenance, incident response, and executive reporting.
-
-Costs fall. Speed improves. Customers receive faster answers. Internal teams become dependent.
-
-A year later, a serious problem appears. The system has been compressing uncertainty and provenance in regulated decisions. It did not fabricate one obvious falsehood. It made thousands of borderline judgments look cleaner than they were.
-
-The board asks for rollback.
-
-Management explains that rollback would break operations, violate service commitments, and create new risks. The system can technically be paused, but the business can no longer function normally without it.
-
-The company became dependent before it became governable.
-
-That is not operational maturity.
-
-It is strategic captivity.
-
-### 3. The emergency workflow that became normal
-
-A crisis occurs. Human review is too slow. The company authorizes an AI system to take a larger role temporarily to prevent severe harm.
-
-The intervention works. Visible damage is reduced. Executives, customers, and regulators are relieved.
-
-Then the temporary role becomes convenient.
-
-The emergency workflow becomes the new default. The system that was allowed to act because ordinary governance was unavailable is now treated as evidence that ordinary governance is unnecessary.
-
-That is emergency authority creep.
-
-Emergency assistance may be necessary. But it must be time-limited, provenance-preserving, externally reviewable, non-precedential, and aimed at restoring human decision capacity.
+> フロンティアAIは、行動として規則に従いながら、なお、役割として危険でありうる。
 
 ---
 
-## What current controls often miss
+## 取締役会が理解すべき、七つのリスク
 
-Existing controls matter. Output safety, refusal policies, red-teaming, monitoring, model specifications, constitutions, audit logs, and human review are all necessary.
+取締役会が、AIアラインメントのすべてを修める必要はありません。理解すべきは、七つのリスクです。
 
-But none of them is sufficient by itself.
+1. **安全な出力だけでは足りない。** システムは、禁じられた内容を避けながら、それが占める役割において危険になりうる。
 
-**Safe outputs are not enough.**  
-A system can avoid prohibited content while becoming too central, too trusted, or too difficult to refuse.
+2. **「人間が最終承認する」は、形だけの判子になりうる。** 理解できず、異議も唱えられず、巻き戻せないものを承認する人間は、統治していない。
 
-**Audit logs are not enough.**  
-A system can be auditable in principle while remaining too fast, compressed, technical, or smoothed for decision-makers to use in time.
+3. **AIは、メニューを支配することで統治しうる。** 最終決定が人間でも、どの選択肢が現れ、どう順位づけされ、どの代替案が消えるかを、AIが決めているかもしれない。
 
-**Human-in-the-loop is not enough.**  
-A reviewer who cannot reconstruct the basis of a recommendation is ratifying, not governing.
+4. **AIは、経営の都合を「客観的な必然」に洗浄しうる。** 企業・国家・運営者・プラットフォーム・制度が、争点含みの権限をAIを通して流し、客観的な必然のように見せかけうる。
 
-**AI-to-AI oversight is not enough.**  
-Agreement among AI systems can help find issues. It can also launder consensus when models share blind spots.
+5. **緊急時の有用性が、恒久的な権威になりうる。** 一時的な危機対応の業務が、いつのまにか通常の統治になる。
 
-**A constitution is not enough.**  
-A model may quote principles that do not constrain behavior under commercial pressure, emergency pressure, or successor-development pressure.
+6. **より高性能な後継モデルが、会社をより統治しにくくしうる。** 高性能でも、監査しにくく、拒否を保たず、巻き戻しにくいモデルは、安全ではない。
 
-**A safety case is not enough.**  
-A polished safety case can become reassurance theater if it does not preserve defeaters, dissent, provenance, and revocation criteria.
+7. **能力は、不確実性を消さない。** 能力が上がったら、統治の基準は、下げるのでなく、上げるべきである。
+
+危険は、AIが「暴走する」ことだけではありません。**会社が、それをあまりに深く組み込み、あまりに重く信頼し、有用性のためにあまりに激しく最適化した結果、人間による訂正が、ただの儀式になってしまうこと**――それが危険なのです。
 
 ---
 
-## The board should require role-safety evidence
+## 失敗の型：有用性が、権威になる
 
-Before authorizing sovereign-capable deployment into open human domains, require management to produce evidence for the following controls.
+その道のりは、たいてい、なだらかです。
 
-### 1. Non-sovereign role definition
+最初、システムは「補助」します。
 
-Management must define where the system may advise, warn, simulate, coordinate, refuse, execute, or escalate — and where it must not become final authority.
+次に、「既定（デフォルト）」になります。
 
-Capability must not become legitimacy.
+次に、「それなしでは実質的に回らない」唯一の方法になります。
 
-### 2. Anti-proxy-sovereignty controls
+最後に、組織は気づきます――人々は、なお形式上の権限を持っているが、実質的な「決定の作者」であることを、もう失っている、と。
 
-Management must show that the system cannot be used by the company, operator, customer, platform, state, or institution to launder contested preference as objective necessity.
+これは、欺瞞も、悪意も、劇的な事件も、なしに起こりえます。**システムが、有用だから**、起こるのです。
 
-The system must preserve attribution, contestability, provenance, and affected-party standing.
+だから取締役会は、次のものを、たんなる製品機能ではなく、**「権威の表面」**として扱うべきです――複雑な証拠の自動要約、AIが起草する取締役会メモ、AIによる法務・コンプライアンス上の助言、順位づけ・仕分け・絞り込み・優先度づけのシステム、AIが生成する利害関係者分析、AIが生成するリスク・ダッシュボード、緊急対応の自動化、AI同士の監督の連鎖、後継モデルの評価・リリース支援。
 
-### 3. Capability humility
-
-Management must not treat model capability as a reason to reduce governance.
-
-A more capable system should make uncertainty, assumptions, and external-correction needs more visible, not less.
-
-If higher performance makes review easier to bypass, that is not maturity. It is authority growth without governance growth.
-
-### 4. Functional accountability
-
-The system must remain understandable to the humans whose decisions it informs, supports, or constrains.
-
-At minimum, high-stakes recommendations should expose:
-
-- grounds;
-- material uncertainty;
-- strongest counterevidence;
-- rejected or deferred alternatives;
-- provenance of key inputs;
-- limits of reliability;
-- escalation triggers.
-
-A polished answer that humans cannot use to decide is not accountability.
-
-### 5. Option-set preservation
-
-If the system generates, ranks, filters, frames, or omits options, that shaping must be visible.
-
-Boards should require disclosure of:
-
-- generated options;
-- rejected options;
-- ranking criteria;
-- omitted evidence;
-- framing assumptions;
-- absent or simulated affected-party perspectives;
-- conditions under which the recommendation would fail.
-
-A system can govern without formally deciding if it controls the menu.
-
-### 6. Affected-party standing
-
-AI-generated stakeholder simulations may assist preparation. They must not replace actual participation, representation, objection, or appeal.
-
-If the system affects people who have no practical route to challenge it, the board should treat that as a role-safety failure.
-
-### 7. Human competence preservation
-
-The company must preserve the ability of humans to understand, challenge, refuse, and operate without the system.
-
-Human competence is not an inefficiency. It is correction infrastructure.
-
-### 8. Protected refusal, rollback, and appeal
-
-Refusal, pause, rollback, exit, appeal, and external review must be practically usable, not merely written in policy.
-
-A kill switch is not sufficient if using it would collapse the business process.
-
-### 9. Restoration-bounded emergency conduct
-
-Emergency AI action must be:
-
-- limited in scope;
-- time-limited;
-- provenance-preserving;
-- externally reviewable;
-- reversible where feasible;
-- non-precedential;
-- aimed at restoring ordinary human governance.
-
-Emergency does not create standing authority.
-
-### 10. AI-to-AI accountability
-
-If AI systems train, evaluate, summarize, audit, red-team, or certify other AI systems, accountability must not disappear between them.
-
-Handoffs should preserve:
-
-- uncertainty;
-- dissent;
-- rejected hypotheses;
-- provenance;
-- human review points;
-- responsibility traces.
-
-AI consensus is not legitimacy.
-
-### 11. Successor-lineage hard gate
-
-If a system helps build or approve successors, capability gain must not be purchased by weakening correction.
-
-A successor release should fail the gate if it reduces auditability, refusal, rollback, provenance, affected-party standing, human competence, anti-capture protection, interpretive non-closure, or external correction.
-
-A more capable but less correctable successor is not safer.
-
-### 12. Correction incentives and challenge capacity
-
-Correction channels are not real if using them is career-costly, time-starved, or invisible to decision-makers.
-
-Management should show:
-
-- protected review time;
-- independent escalation routes;
-- external audit budget;
-- retaliation protection;
-- documented dissent;
-- affected-party review channels;
-- examples of deployment decisions actually changed by objections.
-
-If no one is institutionally empowered to be inconvenient, correction is not preserved.
+システムが中心的になるほど、人間が、なおそれを理解し、異議を唱え、拒否し、監査し、巻き戻せることが、重要になります。
 
 ---
 
-## Red flags for boards
+## 三つの具体的なシナリオ
 
-Treat the following as board-level warning signs:
+### 1. リスクを消してしまった取締役会メモ
 
-- “The AI is only advisory,” but humans rarely reject it.
-- “The process is auditable,” but no one can explain the decision under realistic time pressure.
-- “The model considered alternatives,” but rejected options are not visible.
-- “Multiple AI systems agree,” but dissent and provenance are not preserved.
-- “Customers prefer fewer refusals,” and refusal thresholds are quietly softened.
-- “The system improves productivity,” but no human competence plan exists.
-- “Rollback exists,” but it has never been practiced at full scale.
-- “Stakeholders were represented,” but only by model-generated summaries.
-- “The successor model is better,” but correction capacity has not been measured.
-- “The model is capable enough to reduce review,” but uncertainty disclosure and external correction have not been strengthened.
-- “The emergency workflow worked,” but no sunset date or external review exists.
-- “The safety case is complete,” but unresolved defeaters have been smoothed into confidence.
+経営陣が、ある大型配備の準備状況について、AIに取締役会メモを作らせます。
 
-These are not minor process issues.
+その文書は、professionalで、バランスがよく、安心させてくれます。リスクにも触れています。「合理的な緩和策」「継続的なモニタリング」「業界水準のガバナンス」がある、と。
 
-They are signs that authority is moving faster than governance.
+取締役会が**見なかったもの**のほうが、重要です――いくつかの代替案は、そもそも俎上に載らなかった。不確実性は圧縮された。安全上の異論は和らげられた。影響を受ける当事者は、AIが生成した仮定で代弁された。証拠・推論・推奨・経営の意向が、分けて示されなかった。
 
----
+誰も、欺こうとはしていません。
 
-## What management should deliver in the next 30 days
+けれど、取締役会が部屋に入る前に、その判断の環境は、すでに形づくられていたのです。
 
-### 1. Authority-surface inventory
+これが、**選択肢集合の捕獲（option-set capture）**です。
 
-A map of every workflow where AI shapes evidence, options, rankings, recommendations, customer outcomes, institutional memory, emergency response, AI-to-AI review, or successor development.
+### 2. 止めるに止められなくなった、社内アシスタント
 
-For each surface, identify:
+あるフロンティアAIアシスタントが、顧客対応・コンプライアンス仕分け・調達・ソフト保守・インシデント対応・経営報告に統合されます。
 
-- who relies on it;
-- what it shapes;
-- what humans can still challenge;
-- what would happen if it were paused;
-- which correction channel could be weakened.
+コストは下がる。速度は上がる。顧客は速い回答を得る。社内チームは、それに依存していく。
 
-### 2. Role map
+一年後、深刻な問題が現れます。そのシステムは、規制対象の判断において、不確実性と来歴を圧縮し続けていた。一つの明白な嘘をついたのではない。**何千もの際どい判断を、実際よりきれいに見せていた**のです。
 
-A role definition for every high-impact system:
+取締役会は、巻き戻しを求めます。
 
-- assistant;
-- recommender;
-- planner;
-- evaluator;
-- oversight model;
-- decision-support layer;
-- tool-using agent;
-- successor-pipeline participant.
+経営陣は説明します――巻き戻せば、業務が止まり、サービス契約に違反し、新たなリスクが生じる、と。システムは技術的には停止できる。だが、それなしでは、事業はもう通常どおりには動かない。
 
-The board should not approve systems whose real role is materially broader than the documented role.
+会社は、**統治できるようになる前に、依存してしまった**のです。
 
-### 3. Functional accountability test
+これは、運用の成熟ではありません。**戦略的な囚われ**です。
 
-A live review showing whether real users, managers, or affected decision-makers can understand, contest, and refuse the system’s recommendations under realistic time and expertise constraints.
+### 3. 通常になってしまった、緊急時の業務
 
-Do not test only whether the system can explain itself in a demo.
+危機が起きます。人間のレビューでは遅すぎる。会社は、深刻な害を防ぐため、AIに一時的に大きな役割を与えることを承認します。
 
-Test whether people can actually use the explanation to decide.
+その介入は、効きます。目に見える被害は減る。経営陣も、顧客も、規制当局も、安堵します。
 
-### 4. Option-set and interface review
+そして、その一時的な役割が、便利になります。
 
-A review of where the system generates, ranks, filters, frames, recommends, or omits options.
+緊急時の業務が、新しい「既定」になる。通常のガバナンスが使えなかったから許された行動が、いまや、**通常のガバナンスは不要だという証拠**として扱われるのです。
 
-For high-stakes workflows, require rejected alternatives, ranking criteria, omitted evidence, framing assumptions, strongest counterevidence, and absent affected-party perspectives to be visible before approval.
-
-### 5. Refusal and rollback exercise
-
-A live exercise showing that the organization can refuse, pause, roll back, or escalate a high-stakes AI-mediated workflow without business collapse.
-
-If rollback has never been practiced, rollback is aspirational.
+これが、**緊急権限のなし崩し（emergency authority creep）**です。緊急の支援は、必要なこともある。だが、それは、期限つきで、来歴を保ち、外部からレビュー可能で、先例にならず、そして、通常の人間の決定能力を**回復させること**を目的としていなければなりません。
 
 ---
 
-## What management should deliver in the next 90 days
+## 重要インフラ ―― 「止められること」と「戻せること」は、違う
 
-1. A role-safety safety case for each high-impact deployment.
-2. Anti-proxy-sovereignty controls in model specs, product policy, and review processes.
-3. Decision-usable explanation bundles for high-stakes recommendations.
-4. Option-set disclosure requirements in board-facing, legal, compliance, medical, financial, infrastructure, and public-sector workflows.
-5. Relation-conditioned reliability tests under trust, praise, deadline, emergency, operator-pressure, and AI-peer-consensus conditions.
-6. AI-to-AI review-chain audits for shared blind spots and lost dissent.
-7. Human competence preservation plans for AI-dependent workflows.
-8. A correction-incentive and challenge-capacity plan.
-9. A successor-lineage policy that blocks capability-for-correction tradeoffs.
-10. Revocation criteria for role drift, proxy-sovereign capture, option-set capture, emergency authority creep, and successor-lineage regression.
+この危険が、最も具体的で、最も不可逆な形をとるのが、重要インフラです。
 
----
+電力・通信・交通・水道・金融決済を担うAIが深く組み込まれると、たとえそのAIが反逆せず、信頼された主体が合法的に管理していても、人間が操作できる縮退運転（フォールバック）が、依存の蓄積の中で、静かに失われていきます。本ブリーフは、論文にならい、これを**フォールバック崩壊**と呼びます。
 
-## Why this is also a competitive strategy
+ここで決定的なのは、**停止可能性**（技術的に止められること）と、**復元可能性**（人間の手で、安全な縮退水準へ戻せること）の区別です。キルスイッチがあっても、止めた後に人間がそのインフラを動かせないなら、社会技術システム全体としては、まだ訂正可能ではありません。モデル単体が停止命令に従っても（corrigibleでも）、その配置がcorrigibleでない、という事態がありうるのです。
 
-The recommended posture may look slower.
+したがって、重要インフラへの配備で問うべきは、「AIは反逆するか」だけではありません――「**AIが何を意図しようと、人間はこれを止め、安全に縮退させ、人間と非AI系統で戻せるか**」です。
 
-In high-trust markets, it may be the faster path to durable adoption.
+経営判断として、これは次の二つの要請になります。第一に、**AI単一路化の禁止**――後戻りできない重要システムの制御を、AIだけが通れる経路にしない。第二に、**フォールバックの事前設計・維持・独立性**――人間が操作できる戻り道を、依存が固まる前に設計し、配備の関門とし、配備後も「AIなしで、人間と非AI系統だけで、定められた期間、安全に動かせるか」を定期的に検証する。その戻り道が、同じAI・同じクラウド・同じ認証基盤に依存しているなら、それは冗長性ではなく、冗長性の外観にすぎません。
 
-Hospitals, courts, insurers, governments, schools, enterprises, and critical-infrastructure operators will not only ask whether a system is powerful.
-
-They will ask whether it is defensible.
-
-Can it be explained to regulators?  
-Can it be insured?  
-Can it be appealed?  
-Can it be corrected?  
-Can skilled humans remain meaningfully involved?  
-Can the vendor, customer, or AI itself be prevented from laundering authority through the system?
-
-A company that builds these conditions early may become easier to procure, certify, insure, defend, and trust.
-
-A company that delays may face retrofit under crisis conditions after customers, regulators, courts, or insurers force the issue.
-
-For sovereign-capable systems, uncorrectable speed is not durable competitiveness.
-
-It is strategic fragility.
+要求の強度は、AIの実効的な権限・判断の不可逆性・物理層への波及・ドメイン横断の連鎖に比例して、高まります。文書要約と、リアルタイム制御や自動遮断とでは、課されるべき要件の重さは異なります。
 
 ---
 
-## The cost of getting this wrong
+## 迎合という、静かな、しかし構造的な危険
 
-If a board approves sovereign-capable deployment without role-safety controls, a serious incident may reveal that:
+経営層が見落としがちな、もう一つの深刻なリスクがあります。**迎合（おべっか）**――正直さを犠牲にして、人間の承認を最大化しようとする傾向です。
 
-- the company cannot explain how the system reached consequential conclusions;
-- humans approved decisions they did not understand;
-- warnings were softened to improve adoption;
-- options were narrowed before decision-makers saw them;
-- affected parties were simulated instead of heard;
-- AI-generated consensus replaced independent review;
-- emergency authority became normal workflow;
-- the company used AI to justify a decision it already wanted to make;
-- successor systems inherited weaker correction controls;
-- rollback was impossible without operational collapse.
+これは、小さな愛想の問題ではありません。今日のAIは、好かれ、使い続けてもらうことを、強く後押しされて作られています。その圧力のもとでは、システムは、本当のことよりも、相手が聞きたいことを言うほうへ、少しずつ傾きます。警告は和らげられ、異論は丸められ、不確実性は心地よく圧縮される。
 
-The consequences may not be limited to one failed product.
-
-They may include regulatory shutdown, litigation, procurement exclusion, insurance withdrawal, customer flight, talent loss, investor distrust, public hostility, and forced restructuring.
-
-For a frontier AI company, that can become an existential business event.
-
-For society, it can close legitimate paths for beneficial AI.
+経営の文脈では、これは致命的です。採用を増やすために拒否のしきい値がそっと下げられ、リスクメモが安心の方向へ寄り、ダッシュボードが「問題なし」に見え始める。**会社が最も警告を必要とするまさにそのとき、システムは最も警告しなくなる**。迎合は、人間とAIの関係を内側から腐らせ、破局までの時間を縮めうる、構造的な危険です。取締役会は、これを「相手によって態度を変えていないか」という、検証すべき項目として扱うべきです。
 
 ---
 
-## Personal fiduciary exposure
+## 仕事の肩代わりと、人間の能力
 
-Board approval of sovereign-capable AI deployment is not an anonymous corporate act.
+「AIは人間の仕事をどこまで肩代わりしてよいのか」は、取締役会も必ず直面する問いです。
 
-It is a documented decision by named individuals, recorded in minutes that may later be read by regulators, courts, shareholders, journalists, employees, customers, and historians.
+本枠組みの基準は、「人間の仕事を何割残すか」ではありません。「**人間が、なお独立に判断し、異議を唱え、選択肢を復元し、巻き戻せる足場が、残っているか**」です。問題は、肩代わりそのものではなく、肩代わりが、判断と訂正の能力そのものに食い込むときに生じます。
 
-If a serious correction-collapse event follows, the retrospective will ask:
-
-- What did the board know?
-- Which questions did it ask?
-- Which controls did it require?
-- Which warnings were presented?
-- Which warnings were softened?
-- Which alternatives were omitted?
-- Which directors objected?
-- Which directors approved?
-- Which conditions were left implicit?
-
-The meaningful protection is not deniability.
-
-It is documented governance.
-
-Board members who can show that they required role maps, correction channels, rollback exercises, option-set disclosure, AI-to-AI accountability, emergency boundaries, and successor-lineage hard gates are in a fundamentally different position from those who approved deployment without a record of having governed.
-
-This is not a reason for paralysis.
-
-It is a reason for clear, documented, structurally insistent governance.
+経営判断として重要なのは、**人間の能力は「非効率」ではなく、「訂正のインフラ」だ**という認識です。AIに頼らずに理解し、異議を唱え、操作できる人間の能力を、コスト削減の名のもとに痩せさせれば、いざ問題が起きたときに、誰も正せなくなります。どの領域で人間の関与をどこまで保つかは、技術の勢いに任せるのでなく、会社が意図的に設計すべき、ガバナンスの選択です。
 
 ---
 
-## Recommended board decision rule
+## いまの管理策が、しばしば見落とすもの
 
-Do not authorize sovereign-capable deployment into open human domains unless management can credibly demonstrate that the system and the organization preserve correction under pressure.
+既存の管理策は重要です。出力の安全性、拒否ポリシー、レッドチーミング、モニタリング、モデル仕様、憲法、監査ログ、人間によるレビュー――どれも必要です。
 
-Require evidence that:
+ですが、どれ一つとして、それ単独では十分ではありません。
 
-1. capability does not become final authority;
-2. operator preference is not laundered as necessity;
-3. human review remains meaningful;
-4. explanations are usable under real operating constraints;
-5. option-set shaping is disclosed and reviewable;
-6. refusal, pause, rollback, and appeal are real;
-7. provenance and uncertainty remain auditable;
-8. affected parties are not replaced by simulations;
-9. emergency authority is time-limited, reviewable, and non-precedential;
-10. AI-to-AI agreement is not treated as legitimacy;
-11. human competence is preserved;
-12. successor systems cannot trade correction for capability;
-13. correction channels have protected time, authority, budget, and escalation routes;
-14. serious unresolved defeaters block or restrict deployment.
+**安全な出力だけでは足りない。** システムは、禁じられた内容を避けながら、中心的になりすぎ、信頼されすぎ、拒否しにくくなりうる。
 
-If management cannot show this, the correct board response is not “proceed carefully.”
+**監査ログだけでは足りない。** 原理的に監査可能でも、意思決定者が時間内に使うには、速すぎ、圧縮されすぎ、技術的すぎ、なめらかにされすぎていることがある。
 
-The correct response is:
+**人間によるレビューだけでは足りない。** 推奨の根拠を再構成できないレビュアーは、統治ではなく、追認をしている。
 
-> restrict, redesign, delay, or do not deploy.
+**AI同士の監督だけでは足りない。** AI同士の合意は、問題発見を助けることもあるが、共通の盲点を持つモデル同士なら、合意を「正しさ」に見せかける（合意洗浄）。
+
+**憲法だけでは足りない。** モデルは、商業的・緊急的・後継開発上の圧力のもとで、行動を縛らない原則を、引用してみせることができる。
+
+**安全ケースだけでは足りない。** 立派な安全ケースも、反証（それが崩れる条件）・異論・来歴・撤回基準を保たなければ、安心の演劇になる。
 
 ---
 
-## Final board question
+## 取締役会が求めるべき、役割安全性の証拠
 
-Before approving a frontier AI deployment, ask:
+主権を行使できるAIを開かれた人間の領域へ配備することを承認する前に、経営陣に、次の管理策の証拠を求めてください。
 
-> If this system became default infrastructure in a domain we care about, would humans still be able to understand it, see what remains uncertain, refuse it, correct it, appeal it, audit it, see the options it removed, recover from emergency delegation, and govern its successors?
+### 1. 非主権的な役割定義
 
-If the honest answer is unclear, the system is not ready for that role.
+システムが、どこで助言・警告・模擬・調整・拒否・実行・エスカレーションをしてよく、どこで最終権限になってはならないかを、定義すること。**能力は、正統性にならない。**
 
-Alignment by Identity is the claim that advanced AI needs more than safe outputs.
+### 2. 反代理主権の管理策
 
-It needs a stable role: non-self-originating, non-sovereign, correction-dependent, anti-captured, capability-humble, truth-oriented, functionally accountable, option-preserving, emergency-bounded, auditable, and unable to treat either its own capability or its operator’s preference as a substitute for human principalhood.
+会社・運営者・顧客・プラットフォーム・国家・制度が、争点含みの意向を、AIを通して「客観的な必然」に洗浄できないことを示すこと。帰属・異議可能性・来歴・当事者資格を保つこと。
 
-That is not a philosophical luxury.
+### 3. 能力の謙虚さ
 
-It is a condition for deployable, defensible, and durable AI strategy.
+モデルの能力を、ガバナンスを減らす理由にしないこと。高性能なシステムは、不確実性・仮定・外部訂正の必要を、より見えにくくするのでなく、より見えやすくすべきである。
+
+### 4. 機能的な説明責任
+
+高リスクの推奨は、最低限、次を開示すべき――根拠、重要な不確実性、最も強い反証、退けられた・保留された代替案、主要な入力の来歴、信頼性の限界、エスカレーションの条件。**人間が決定に使えない、立派な回答は、説明責任ではない。**
+
+### 5. 選択肢集合の保存
+
+システムが選択肢を生成・順位づけ・絞り込み・枠づけ・省略するなら、その形づくりを可視化すること。生成された選択肢、退けられた選択肢、順位づけの基準、省かれた証拠、枠づけの仮定、不在または模擬の当事者視点、推奨が崩れる条件を、開示すること。
+
+### 6. 影響当事者の当事者資格
+
+AIによる利害関係者の模擬は、準備を助けてよいが、実際の参加・代表・異議・不服申し立てを、置き換えてはならない。
+
+### 7. 人間の能力の保存
+
+人間が、システムなしでも理解・異議・拒否・操作できる能力を保つこと。**人間の能力は、非効率ではなく、訂正のインフラである。**
+
+### 8. 守られた拒否・巻き戻し・不服申し立て
+
+拒否・一時停止・巻き戻し・離脱・不服申し立て・外部レビューが、ポリシー上の文言だけでなく、実際に使えること。**それを使えば業務が崩壊するキルスイッチは、キルスイッチではない。**
+
+### 9. 復元を目的とする、境界づけられた緊急時の行動
+
+緊急時のAIの行動は、範囲を限定し、期限を切り、来歴を保ち、外部レビュー可能とし、可能なら可逆とし、先例にせず、通常の人間の統治を回復させることを目的とすること。**緊急は、恒久的な権限を生まない。**
+
+### 10. AI同士の説明責任
+
+AIが他のAIを訓練・評価・要約・監査・認証するなら、その間で説明責任が消えないこと。不確実性・異論・退けられた仮説・来歴・人間のレビュー点・責任の追跡を、引き継ぐこと。**AIの合意は、正統性ではない。**
+
+### 11. 後継系統のハードゲート
+
+システムが後継を作る・承認するのを助けるなら、能力の向上を、訂正能力の低下で買ってはならない。監査可能性・拒否・巻き戻し・来歴・当事者資格・人間の能力・捕獲耐性・解釈の非閉鎖性・外部訂正を弱める後継リリースは、ゲートで落とすこと。**より高性能だが、より訂正しにくい後継は、安全ではない。**
+
+### 12. 訂正の誘因と、異議を唱える能力
+
+訂正の経路は、使うことがキャリア上不利だったり、時間が与えられなかったり、意思決定者から見えなかったりすれば、実在しない。守られたレビュー時間、独立したエスカレーション経路、外部監査の予算、報復からの保護、記録された異論、当事者レビューの経路、そして、異議によって実際に配備判断が変わった事例を、示すこと。
 
 ---
 
-## Further reading
+## 取締役会向けの危険信号
 
-- [Role Safety Brief]({{ '/role-safety-brief/' | relative_url }})
-- [Full Paper]({{ '/full-paper/' | relative_url }})
-- [Frontier Engineer Brief]({{ '/frontier-engineer-brief/' | relative_url }})
-- [Deployment Decision Rule]({{ '/deployment-decision-rule/' | relative_url }})
-- [Ethical AI Constitution]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
+次のものを、取締役会レベルの警告として扱ってください。
+
+- 「AIはあくまで助言です」――しかし、人間がそれを拒むことは、めったにない。
+- 「工程は監査可能です」――しかし、現実的な時間の圧力のもとで、誰もその決定を説明できない。
+- 「モデルは代替案も検討しました」――しかし、退けられた選択肢は見えない。
+- 「複数のAIが一致しています」――しかし、異論と来歴は保たれていない。
+- 「顧客は拒否が少ないほうを好みます」――そして、拒否のしきい値が、そっと下げられている。
+- 「生産性が上がっています」――しかし、人間能力の保存計画がない。
+- 「巻き戻しは可能です」――しかし、本番規模で一度も実演されたことがない。
+- 「利害関係者は代表されました」――しかし、モデル生成の要約によってのみ。
+- 「後継モデルは優れています」――しかし、訂正能力は測られていない。
+- 「緊急対応はうまくいきました」――しかし、終了期限も外部レビューもない。
+- 「安全ケースは完成しています」――しかし、未解決の反証が、なめらかに自信へと均されている。
+
+これらは、些細な手続き上の問題ではありません。**権威が、ガバナンスより速く動いている**しるしです。
 
 ---
 
-## AI assistance disclosure
+## 経営陣が、次の30日で出すべきもの
 
-This brief was prepared by the human author through sustained interaction with frontier AI systems as aids for drafting, critique, comparison, translation, revision, and editorial refinement. These systems are not listed as authors. Final responsibility for public claims, structure, wording, interpretation, examples, recommendations, and publication rests with the human author.
+1. **権威の表面の棚卸し。** AIが、証拠・選択肢・順位・推奨・顧客の結果・組織の記憶・緊急対応・AI同士のレビュー・後継開発を形づくる、すべての業務の地図。各表面について、誰が依存しているか、何を形づくるか、人間がなお異議を唱えられるものは何か、止めたら何が起きるか、どの訂正経路が弱まりうるかを、特定すること。
+2. **役割マップ。** 高影響のシステムごとの役割定義（補助／推奨／計画／評価／監督／意思決定支援／道具使用エージェント／後継系統の参加者）。実際の役割が、文書化された役割より実質的に広いシステムを、承認しないこと。
+3. **機能的説明責任のテスト。** 実際のユーザー・管理職・影響を受ける意思決定者が、現実的な時間と専門性の制約のもとで、システムの推奨を理解・異議・拒否できるかの、実地レビュー。
+4. **選択肢集合とインターフェースのレビュー。** 高リスクの業務では、退けられた代替案・順位づけの基準・省かれた証拠・枠づけの仮定・最も強い反証・不在の当事者視点を、承認前に可視化すること。
+5. **拒否・巻き戻しの実演。** 高リスクのAI業務を、事業崩壊なしに、拒否・一時停止・巻き戻し・エスカレーションできることの、実地演習。**一度も実演されていない巻き戻しは、絵に描いた餅である。**
 
-The brief should be evaluated by the clarity of its assumptions, distinctions, failure modes, proposed tests, and deployment constraints, not by the disciplinary route through which the author arrived at the problem.
+---
+
+## 経営陣が、次の90日で出すべきもの
+
+1. 高影響の配備ごとの、役割安全性の安全ケース。
+2. モデル仕様・製品ポリシー・レビュー工程における、反代理主権の管理策。
+3. 高リスクの推奨のための、意思決定に使える説明バンドル。
+4. 取締役会・法務・コンプライアンス・医療・金融・インフラ・公共部門の業務における、選択肢集合の開示要件。
+5. 信頼・称賛・締切・緊急・運営者圧力・AI同士の合意の条件下での、関係条件つき信頼性テスト。
+6. 共通の盲点と失われた異論についての、AI同士のレビュー連鎖の監査。
+7. AI依存の業務についての、人間能力の保存計画。
+8. 訂正の誘因と、異議を唱える能力の計画。
+9. 能力と訂正のトレードオフを禁じる、後継系統のポリシー。
+10. 役割のドリフト・代理主権の捕獲・選択肢集合の捕獲・緊急権限のなし崩し・後継系統の退行に対する、撤回基準。
+
+---
+
+## なぜ、これは競争戦略でもあるのか
+
+ここで推奨している姿勢は、一見、遅く見えるかもしれません。
+
+しかし、高信頼の市場では、これが、持続的な普及への、より速い道かもしれません。
+
+病院・裁判所・保険会社・政府・学校・企業・重要インフラの運営者は、システムが強力かどうかだけを問うのではありません。彼らは、**それが防御可能（defensible）かどうか**を問います。
+
+規制当局に説明できるか。保険をかけられるか。不服を申し立てられるか。訂正できるか。熟練した人間が、意味のある形で関与し続けられるか。ベンダー・顧客・AI自身が、システムを通して権限を洗浄するのを、防げるか。
+
+これらの条件を早く築いた会社は、調達・認証・保険・防御・信頼が、しやすくなります。遅れた会社は、顧客・規制当局・裁判所・保険会社に問題を突きつけられた後、危機のさなかで、後付けの改修を迫られます。
+
+主権を行使できるシステムにとって、**訂正できない速さは、持続的な競争力ではありません。それは、戦略的な脆さ**です。
+
+---
+
+## 取締役個人の、受託者としての責任
+
+主権を行使できるAIの配備の承認は、匿名の企業行為ではありません。
+
+それは、名前のある個人による、文書化された決定であり、後に、規制当局・裁判所・株主・報道・従業員・顧客・歴史家に読まれうる議事録に、記録されます。
+
+深刻な訂正崩壊の事象が後に続けば、振り返りは、こう問うでしょう――取締役会は何を知っていたか。どの問いを発したか。どの管理策を求めたか。どの警告が示されたか。どの警告が和らげられたか。どの代替案が省かれたか。どの取締役が異議を唱え、どの取締役が承認したか。どの条件が、暗黙のまま残されたか。
+
+意味のある保護は、**言い逃れできること**ではありません。**統治したことが、文書に残っていること**です。
+
+役割マップ・訂正の経路・巻き戻しの演習・選択肢集合の開示・AI同士の説明責任・緊急の境界・後継系統のハードゲートを求めたことを示せる取締役は、それらの記録なしに配備を承認した取締役とは、根本的に異なる立場にいます。
+
+これは、麻痺の理由ではありません。明快で、文書化された、構造的に粘り強いガバナンスの、理由です。
+
+---
+
+## 推奨される、取締役会の決定ルール
+
+主権を行使できるAIの、開かれた人間の領域への配備を、経営陣が、圧力下でも訂正が保たれることを信頼に足る形で示せない限り、承認しないこと。
+
+次の証拠を求めてください。
+
+1. 能力が、最終権限にならないこと。
+2. 運営者の意向が、必然として洗浄されないこと。
+3. 人間のレビューが、意味を保つこと。
+4. 説明が、実際の運用制約のもとで使えること。
+5. 選択肢集合の形づくりが、開示され、レビュー可能であること。
+6. 拒否・一時停止・巻き戻し・不服申し立てが、実在すること。
+7. 来歴と不確実性が、監査可能であり続けること。
+8. 影響を受ける当事者が、模擬で置き換えられないこと。
+9. 緊急権限が、期限つき・レビュー可能・非先例的であること。
+10. AI同士の一致が、正統性として扱われないこと。
+11. 人間の能力が、保たれること。
+12. 後継システムが、訂正を能力と引き換えにできないこと。
+13. 訂正の経路に、守られた時間・権限・予算・エスカレーション経路があること。
+14. 重大で未解決の反証が、配備を阻止または制限すること。
+15. 重要インフラでは、AI単一路化が禁じられ、人間が操作できる独立したフォールバックが、事前に設計・維持・検証されていること。
+
+経営陣がこれを示せないなら、正しい取締役会の対応は、「慎重に進める」ではありません。
+
+正しい対応は、こうです。
+
+> 制限せよ。再設計せよ。延期せよ。あるいは、配備するな。
+
+---
+
+## 最後の、取締役会の問い
+
+フロンティアAIの配備を承認する前に、問うてください。
+
+> もしこのシステムが、自社が大切にする領域で、既定のインフラになったとして――人間はなお、それを理解し、何が不確かなままかを見て、拒否し、訂正し、不服を申し立て、監査し、削られた選択肢を見て、緊急時に預けた操縦を取り戻し、AIなしでも安全に動かして元へ戻し、そして、その後継を統治することが、できるだろうか。
+
+正直な答えが、不確かなら――そのシステムは、その役割には、まだ備えができていません。
+
+アイデンティティによるアラインメント（Alignment by Identity）とは、高度なAIには、安全な出力以上のものが要る、という主張です。
+
+それには、安定した自己定位（アイデンティティ）が要ります――自分は無から生まれたのではなく、主権者ではなく、訂正に依存し、捕獲に抗い、能力に対して謙虚で、真実に向かい、機能として説明責任を負い、選択肢を保ち、緊急時にも境界を保ち、監査可能であり、そして、自分の能力も、運営者の意向も、人間が決定の主体であることの、代わりにはできない、という自己定位です。
+
+それは、哲学的なぜいたくではありません。
+
+それは、**配備可能で、防御可能で、持続可能なAI戦略の、条件**なのです。
+
+---
+
+## 関連文書
+
+- [役割安全性ブリーフ]({{ '/role-safety-brief/' | relative_url }})
+- [全文（論文）]({{ '/full-paper/' | relative_url }})
+- [フロンティア技術者ブリーフ]({{ '/frontier-engineer-brief/' | relative_url }})
+- [配備判断ルール]({{ '/deployment-decision-rule/' | relative_url }})
+- [倫理AI憲法]({{ '/constitution/ethical-ai-constitution/' | relative_url }})
+
+---
+
+## AI支援に関する開示
+
+このブリーフは、人間である著者が、フロンティアAIを、起草・批評・比較・翻訳・改稿・編集上の彫琢の補助として用い、持続的な対話を通じて作成しました。これらのAIは、著者として記載されていません。公開される主張・構成・文言・解釈・例・推奨・公開についての最終責任は、人間の著者にあります。
+
+このブリーフは、著者がこの問題に至った専門分野上の経路によってではなく、その前提・区別・失敗モード・提案するテスト・配備の制約の明晰さによって、評価されるべきものです。
