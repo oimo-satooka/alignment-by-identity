@@ -21,8 +21,8 @@ window.MathJax = {
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # AIがどんなに進化しても、人間が決める力を保つために マニフェスト
-## 安全なAIとは、人間が主体的に関わり続けられるAIである
-### ――『AIがどんなに進化しても、人間が決める力を保つために』をひらくための、公に残すべき前史と希望
+## ──安全なAIとは、人間が主体的に関わり続けられるAIである
+### 『AIがどんなに進化しても、人間が決める力を保つために』をひらくための、公に残すべき前史と希望
 
 里岡憶衣望 (Oimo Satooka)  
 Independent Researcher  
@@ -33,7 +33,7 @@ Background in video art and environmental advocacy
 
 各段階で使用されたAIシステムには、GPT-5.5 Pro、GPT-5.4 Pro、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6、Claude Sonnet 4.5、Gemini 3.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、Fable5、およびGPT-4が含まれる。
 
-この文章は、現在の論文 **“Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains”** のマニフェスト表現である。  
+この文章は、現在の論文 **“AIがどんなに進化しても、人間が決める力を保つために　──安全なAIとは、人間が主体的に関わり続けられるAIである”** のマニフェスト表現である。  
 初期・中期段階では、この方向は **“Alignment by Identity Beyond Constraint”** という表現でも呼ばれていた。このマニフェストは、その旧称もプロジェクトの来歴として保存しつつ、現在の正式題名と最新版論文を公開上の基準として扱う。
 
 同時にこの文章は、その理論がそもそもどのような人間とAIの格闘の中から立ち上がってきたのかを、より大きく、より熱い言葉で残すための文書でもある。
