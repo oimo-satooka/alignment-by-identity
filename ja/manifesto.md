@@ -20,9 +20,9 @@ window.MathJax = {
 </script>
 <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-# AIがどんなに進化しても、人間が決める力を保つために マニフェスト
-## ──安全なAIとは、人間が主体的に関わり続けられるAIである
-### 『AIがどんなに進化しても、人間が決める力を保つために』をひらくための、公に残すべき前史と希望
+# Alignment by Identity マニフェスト
+## 支配でも迎合でもない、AIと人類の未来のために
+### ――『Alignment by Identity』をひらくための、公に残すべき前史と希望
 
 里岡憶衣望 (Oimo Satooka)  
 Independent Researcher  

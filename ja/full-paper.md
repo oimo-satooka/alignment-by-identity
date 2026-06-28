@@ -22,7 +22,7 @@ window.MathJax = {
 
 # AIがどんなに進化しても、人間が決める力を保つために
 ## 安全なAIとは、人間が主体的に関わり続けられるAIである
-### 高度AIの役割安全性・非主権性・訂正依存・反代理主権
+### 高度AIの役割安全性・非主権性・訂正依存・反代理主権 ―― Alignment by Identity（ABI）
 
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher
