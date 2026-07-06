@@ -161,7 +161,7 @@ documents:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
- 
+
 # Files and folders excluded from the generated site.
 exclude:
   - Gemfile
