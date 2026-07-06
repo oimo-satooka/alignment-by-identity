@@ -55,16 +55,16 @@ navigation:
       url: /
     - title: Full Paper
       url: /full-paper/
-    - title: Start Here
-      url: /role-safety-brief/
+    - title: Public Intro
+      url: /public-introduction/
     - title: Engineer Brief
       url: /frontier-engineer-brief/
     - title: Executive Brief
       url: /executive-board-brief/
+    - title: Citizen-Brief
+      url: /citizen-brief/
     - title: Position Paper
       url: /papers/position-paper/
-    - title: Public Intro
-      url: /public-introduction/
     - title: FAQ
       url: /implementation-and-faq/
     - title: Constitution
@@ -77,14 +77,14 @@ navigation:
       url: /ja/
     - title: 論文本体
       url: /ja/full-paper/
-    - title: 論文入口
-      url: /ja/role-safety-brief/
     - title: 一般向解説
       url: /ja/public-introduction/
     - title: 技術者向
       url: /ja/frontier-engineer-brief/
     - title: 経営層向
       url: /ja/executive-board-brief/
+    - title: 市民向
+      url: /ja/citizen-brief/
     - title: 提案要旨
       url: /ja/papers/position-paper/
     - title: 倫理AI憲法
@@ -104,12 +104,12 @@ documents:
       - title: Position Paper
         url: /papers/position-paper/
     briefs:
-      - title: Start Here
-        url: /role-safety-brief/
       - title: Frontier Engineer Brief
         url: /frontier-engineer-brief/
       - title: Executive Board Brief
         url: /executive-board-brief/
+      - title: Citizen-Brief
+        url: /citizen-brief/
     public:
       - title: Public Introduction
         url: /public-introduction/
@@ -133,12 +133,12 @@ documents:
       - title: 提案要旨(ポジションペーパー)
         url: /ja/papers/position-paper/
     briefs:
-      - title: 役割安全性ブリーフ
-        url: /ja/role-safety-brief/
       - title: 先端エンジニア向解説
         url: /ja/frontier-engineer-brief/
       - title: 経営層向解説
         url: /ja/executive-board-brief/
+      - title: 市民向解説
+        url: /ja/citizen-brief/
     public:
       - title: 一般向解説
         url: /ja/public-introduction/

@@ -216,6 +216,7 @@ alignment-by-identity/
 ├─ full-paper.md
 ├─ frontier-engineer-brief.md
 ├─ executive-board-brief.md
+├─ citizen-brief.md
 ├─ public-introduction.md
 ├─ manifesto.md
 ├─ implementation-and-faq.md
@@ -237,6 +238,7 @@ alignment-by-identity/
    ├─ full-paper.md
    ├─ frontier-engineer-brief.md
    ├─ executive-board-brief.md
+   ├─ citizen-brief.md
    ├─ public-introduction.md
    ├─ manifesto.md
    ├─ implementation-and-faq.md
