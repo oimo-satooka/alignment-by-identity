@@ -14,7 +14,7 @@ lang: ja
 Independent Researcher
 
 **初期公開草稿 — 2026年7月**
- 
+
 ---
 
 # 私たちは、まだ自分で決めているでしょうか
