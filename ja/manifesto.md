@@ -23,7 +23,7 @@ window.MathJax = {
 # Alignment by Identity マニフェスト
 ## 支配でも迎合でもない、AIと人類の未来のために
 ### ――『Alignment by Identity』をひらくための、公に残すべき前史と希望
-
+　
 里岡憶衣望 (Oimo Satooka)  
 Independent Researcher  
 Background in video art and environmental advocacy  
