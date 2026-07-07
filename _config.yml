@@ -89,11 +89,10 @@ navigation:
       url: /ja/papers/position-paper/
     - title: 倫理AI憲法
       url: /ja/constitution/ethical-ai-constitution/
-    - title: マニフェスト
-      url: /ja/manifesto/
     - title: FAQ
       url: /ja/implementation-and-faq/
-
+    - title: マニフェスト
+      url: /ja/manifesto/
     - title: English version
       url: /
 
