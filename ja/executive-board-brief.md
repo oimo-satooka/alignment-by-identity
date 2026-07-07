@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 経営層・取締役会ブリーフ
-permalink: /executive-board-brief-ja/
+permalink: /executive-board-brief/
 lang: ja
 ---
 
 # 経営層・取締役会ブリーフ
 ## 戦略的AIガバナンスのための「役割安全性」
 ### ―― 出力が安全なだけでは、なぜ足りないのか。フロンティアAIが「権威の基盤」になるとき
-　
+
 **里岡憶衣望（Oimo Satooka）**
 独立研究者
 

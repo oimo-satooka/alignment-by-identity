@@ -8,7 +8,7 @@ lang: ja
 # 市民向けブリーフ
 ## AIを使っても、人間が弱くならない社会へ
 ### 役割安全性・AI決定レシート・異議申し立て権・人間能力の保存
-　
+
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher
 

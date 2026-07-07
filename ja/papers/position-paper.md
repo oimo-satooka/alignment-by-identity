@@ -8,7 +8,7 @@ lang: ja
 # 提案要旨
 ## フロンティアAIの役割安全性と非主権的アラインメント
 ### Alignment by Identity のコンパクトな声明
-　
+
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher
 
