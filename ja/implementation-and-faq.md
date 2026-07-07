@@ -4,7 +4,7 @@ title: 実装・FAQ
 permalink: /ja/implementation-and-faq/
 lang: ja
 ---
-
+　
 # 実装・検証・反論 FAQ
 ## 『Alignment by Identity』と Role Safety 枠組みのための実務的補助文書
 

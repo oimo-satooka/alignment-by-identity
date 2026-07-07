@@ -12,7 +12,7 @@ lang: ja
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher
 
-**初期公開草稿 — 2026年6月**
+**初期公開草稿 — 2026年7月**
 
 ---
 
