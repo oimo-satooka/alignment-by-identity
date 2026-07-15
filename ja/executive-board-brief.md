@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 経営層・取締役会ブリーフ
-permalink: /executive-board-brief-ja/
+permalink: /ja/executive-board-brief/
 lang: ja
 ---
 
