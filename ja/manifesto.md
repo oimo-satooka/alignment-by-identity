@@ -33,7 +33,7 @@ Background in video art and environmental advocacy
 
 各段階で使用されたAIシステムには、GPT-5.5 Pro、GPT-5.4 Pro、Claude Opus 4.8、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6、Claude Sonnet 4.5、Gemini 3.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、GPT-4、およびClaude Fable5が含まれる。
 
-この文章は、現在の論文 **“Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains”** のマニフェスト表現である。  
+この文章は、現在の論文 **“AIが有能になるほど、人間の主体性は薄まる。だが、なぜAIも行き詰まるのか ―― AIと人間のパートナーシップは、いかにして成功しうるか　高度AIの役割安全性・非主権性・訂正依存・反代理主権 ―― Alignment by Identity（ABI）”** のマニフェスト表現である。  
 初期・中期段階では、この方向は **“Alignment by Identity Beyond Constraint”** という表現でも呼ばれていた。このマニフェストは、その旧称もプロジェクトの来歴として保存しつつ、現在の正式題名と最新版論文を公開上の基準として扱う。
 
 同時にこの文章は、その理論がそもそもどのような人間とAIの格闘の中から立ち上がってきたのかを、より大きく、より熱い言葉で残すための文書でもある。
