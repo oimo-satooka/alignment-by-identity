@@ -7,8 +7,8 @@ lang: ja
 
 # AIが有能になるほど、人間の主体性は薄まる。だが、なぜAIも行き詰まるのか
 ## ―― AIと人間のパートナーシップは、いかにして成功しうるか
-###高度AIの役割安全性・非主権性・訂正依存・反代理主権 ―― Alignment by Identity（ABI）
-###の一般向け解説
+### 高度AIの役割安全性・非主権性・訂正依存・反代理主権 ―― Alignment by Identity（ABI）
+### の一般向け解説
 
 **Oimo Satooka（里岡憶衣望）**  
 Independent Researcher
