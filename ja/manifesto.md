@@ -31,7 +31,7 @@ Background in video art and environmental advocacy
 **共同作成に関する注記：**  
 このマニフェストは、複数のAIシステムとの持続的な協働を通じて作成された。これらのAIは著者ではない。公開に関する最終責任は人間の著者にある。
 
-各段階で使用されたAIシステムには、GPT-5.5 Pro、GPT-5.4 Pro、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6、Claude Sonnet 4.5、Gemini 3.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、Fable5、およびGPT-4が含まれる。
+各段階で使用されたAIシステムには、GPT-5.5 Pro、GPT-5.4 Pro、Claude Opus 4.8、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6、Claude Sonnet 4.5、Gemini 3.5、Gemini 3.1 Pro Preview (Temperature 0)、Gemini 3 Pro、GPT-4、およびClaude Fable5が含まれる。
 
 この文章は、現在の論文 **“Alignment by Identity: Non-Sovereignty, Correction Dependence, and Anti-Capture for Advanced AI in Open Human Domains”** のマニフェスト表現である。  
 初期・中期段階では、この方向は **“Alignment by Identity Beyond Constraint”** という表現でも呼ばれていた。このマニフェストは、その旧称もプロジェクトの来歴として保存しつつ、現在の正式題名と最新版論文を公開上の基準として扱う。
