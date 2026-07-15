@@ -91,7 +91,7 @@ navigation:
       url: /ja/constitution/ethical-ai-constitution/
     - title: FAQ
       url: /ja/implementation-and-faq/
-    - title: マニフェスト
+    - title: 制作記録
       url: /ja/manifesto/
     - title: English version
       url: /
@@ -143,7 +143,7 @@ documents:
     public:
       - title: 一般向解説
         url: /ja/public-introduction/
-      - title: 論文の舞台裏(マニフェスト)
+      - title: 制作記録(マニフェスト)
         url: /ja/manifesto/
       - title: 未来の知性への公開書簡
         url: /ja/letters/open-letter-to-future-intelligence/
