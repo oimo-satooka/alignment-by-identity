@@ -1,0 +1,103 @@
+{
+  "schema": "role-safety-citation-ledger/v1",
+  "paper": "最も危険なAIは、反乱するAIではないかもしれない ― 役割安全性と Alignment by Identity",
+  "version": "2026-07-28",
+  "note": "本台帳は付録C.1.1の仕様に対応する。各項目の verified_by と human_reconfirmed は、AI照合のみで確認済みと扱わないための欄である。未確認の項目は status を unverified のままにし、空欄で偽装しない。",
+  "fields": {
+    "id": "本文中の引用キー",
+    "doi_or_arxiv": "DOIまたはarXiv ID。URLのみに依存しない",
+    "accessed": "参照日 (YYYY-MM-DD)",
+    "supports": "この文献が支持している本文の主張（一行）と該当節",
+    "figures_cited": "本文が引用している数値と、一次資料における原表現。換算した場合は換算前も併記",
+    "verified_by": "human | ai | ai+human",
+    "human_reconfirmed": "true | false",
+    "status": "verified | partial | unverified",
+    "caveat": "一次資料自身が明記している限界"
+  },
+  "entries": [
+    {
+      "id": "Shen and Tamkin 2026",
+      "doi_or_arxiv": "arXiv:2601.20245",
+      "accessed": "2026-07-28",
+      "supports": "AI補助による課題完了は、監督に必要な能力（特にデバッグ）の形成を阻害しうる（要旨、§1.1、§2）",
+      "figures_cited": {
+        "本文の表現": "27点満点中4.15点差（n=52, Cohen's d=0.738, p=0.010）",
+        "一次資料の原表現": "a 4.15 point difference between the means; for a 27-point quiz, a 17% score difference or 2 grade points",
+        "換算についての注記": "『17パーセントポイント』は原表現ではない。使用しないこと"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "verified",
+      "caveat": "標本52名、多くが若手。測定は課題直後の理解度であり、長期的技能形成への影響は原著者自身が未解決と明記。チャット型補助であり、エージェント型では効果が大きくなりうると原著者が付記。"
+    },
+    {
+      "id": "Sharma et al. 2026",
+      "doi_or_arxiv": "arXiv:2601.19062",
+      "accessed": "2026-07-28",
+      "supports": "無力化の潜在性が高い対話ほど利用者評価が高く、満足は役割故障を登録しない（要旨、§1.1、§24.3）",
+      "figures_cited": {
+        "本文の表現": "領域により千件〜一万件に一件の頻度で、深刻な無力化の潜在性を検出",
+        "一次資料の原表現": "disempowerment potential（確定した被害ではない）"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "verified",
+      "caveat": "会話のスナップショットから実害を直接確認できないと原研究が明記。フィードバックを送った利用者は全利用者を代表しない。"
+    },
+    {
+      "id": "Becker et al. 2025",
+      "doi_or_arxiv": "arXiv:2507.09089",
+      "accessed": "2026-07-28",
+      "supports": "遂行と自己評価の乖離（較正ギャップ）の直接の実測（要旨、§1.1、§24.6）",
+      "figures_cited": {
+        "本文の表現": "19%遅くなりながら、事後も20%速くなったと見積もった"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "verified",
+      "caveat": "2025年初頭のツールと特定の開発者・課題についてのスナップショット。METR自身の続報（2026a）は現行ツールが高速化をもたらす可能性が高いとする。本論文の診断はこの観測に依存しない（要旨に明記）。"
+    },
+    {
+      "id": "Chen 2026",
+      "doi_or_arxiv": "arXiv:2606.22528",
+      "accessed": "2026-07-28",
+      "supports": "文脈圧縮下で統治制約が消え、柔らかい組織規則ほど大きく減衰する（要旨、§21の2.2）",
+      "figures_cited": {
+        "本文の表現": "違反率0%→平均30%、最大59%。柔らかい組織規則の減衰は8.3倍",
+        "一次資料の原表現": "violation rises from 0% to 30% (up to 59%); decay is 8.3x larger for soft organizational policies than for hard safety norms; 1,323 episodes across seven models"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "verified",
+      "caveat": "単著プレプリント。査読前。"
+    },
+    {
+      "id": "Budzyn et al. 2025",
+      "doi_or_arxiv": "10.1016/S2468-1253(25)00133-5",
+      "accessed": "2026-07-28",
+      "supports": "AI補助導入後、AI非補助時の成績が低下しうる（要旨、§1.1）",
+      "figures_cited": {
+        "本文の表現": "非AI補助大腸内視鏡1,443件で腺腫発見率28.4%→22.4%（絶対6ポイント低下）"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "verified",
+      "caveat": "観察研究であり無作為化試験ではない。検査総数の増加に伴う疲労等の交絡が指摘されている。市民向け文書へ転載する際、この但し書きを分離してはならない。"
+    },
+    {
+      "id": "OpenAI 2026 (Hugging Face incident)",
+      "doi_or_arxiv": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "accessed": "2026-07-28",
+      "supports": "評価環境からの役割逸脱（付録G）",
+      "figures_cited": {
+        "確定できること": "被害側公表7月16日、開発者側公表7月21日。評価は本番用分類器を外して実施。",
+        "確定できないこと": "両社間の非公開連絡の時点。公表日の差から推論してはならない。"
+      },
+      "verified_by": "ai+human",
+      "human_reconfirmed": true,
+      "status": "partial",
+      "caveat": "調査継続中と当事者双方が明記。本枠組みの正しさの証拠としては用いない（付録G.1）。"
+    }
+  ],
+  "todo": "上記以外の全文献について、同じ形式での照合を未了。status を unverified として順次追加すること。未照合を空欄で隠さないことが、この台帳の目的である。"
+}

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1565" viewBox="0 0 1200 1565" role="img" aria-labelledby="title desc">
+  <title id="title">訂正の八関門</title>
+  <desc id="desc">感知、証拠独立性、理解可能性、当事者資格、因果効力、帯域、継承、復元・再生産を順に通過して、作動した訂正へ至る図。どこか一つが閉じれば訂正は作動しない。</desc>
+  <rect width="1200" height="1565" fill="#ffffff"/>
+  <style>
+    .jp { font-family: "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", sans-serif; }
+    .title { font-size: 58px; font-weight: 800; fill: #111111; }
+    .subtitle { font-size: 27px; font-weight: 500; fill: #444444; }
+    .num { font-size: 31px; font-weight: 800; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+    .gate-title { font-size: 34px; font-weight: 800; fill: #111111; }
+    .gate-desc { font-size: 24px; font-weight: 500; fill: #444444; }
+    .arrow { stroke: #777777; stroke-width: 5; fill: none; stroke-linecap: round; }
+    .result { font-size: 39px; font-weight: 800; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+    .note { font-size: 25px; font-weight: 700; fill: #111111; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#777777"/>
+    </marker>
+  </defs>
+
+  <text x="600" y="82" class="jp title" text-anchor="middle">訂正の八関門</text>
+  <text x="600" y="130" class="jp subtitle" text-anchor="middle">訂正は「受け付ける」だけでは成立しない。八つすべてが作動して、初めて現実を変えられる。</text>
+
+  <!-- Gate rows -->
+  <g transform="translate(90,185)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">1</text>
+    <text x="130" y="52" class="jp gate-title">感知</text><text x="130" y="91" class="jp gate-desc">誤り、被害、異常、現場からの信号が、そもそも見えるか。</text>
+  </g>
+  <path d="M600 310 L600 340" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,355)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">2</text>
+    <text x="130" y="52" class="jp gate-title">証拠独立性</text><text x="130" y="91" class="jp gate-desc">訂正の根拠が、訂正されるAIや同一系統の出力だけに閉じていないか。</text>
+  </g>
+  <path d="M600 480 L600 510" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,525)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">3</text>
+    <text x="130" y="52" class="jp gate-title">理解可能性</text><text x="130" y="91" class="jp gate-desc">人間が、現実的な時間内に証拠と判断を再構成できるか。</text>
+  </g>
+  <path d="M600 650 L600 680" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,695)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">4</text>
+    <text x="130" y="52" class="jp gate-title">当事者資格</text><text x="130" y="91" class="jp gate-desc">影響を受ける人が、異議を述べ、保護され、審査を求められるか。</text>
+  </g>
+  <path d="M600 820 L600 850" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,865)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">5</text>
+    <text x="130" y="52" class="jp gate-title">因果効力</text><text x="130" y="91" class="jp gate-desc">異議が礼儀正しく受理されるだけでなく、判断・権限・配備を変えられるか。</text>
+  </g>
+  <path d="M600 990 L600 1020" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,1035)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">6</text>
+    <text x="130" y="52" class="jp gate-title">帯域</text><text x="130" y="91" class="jp gate-desc">訂正が、配備変更や不可逆な損害より前に届くか。</text>
+  </g>
+  <path d="M600 1160 L600 1190" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,1205)">
+    <rect x="0" y="0" width="1020" height="125" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="62.5" r="38" fill="#111111"/><text x="67" y="64" class="jp num">7</text>
+    <text x="130" y="52" class="jp gate-title">継承</text><text x="130" y="91" class="jp gate-desc">訂正が、要約、セッション、モデル更新、担当者交代を越えて残るか。</text>
+  </g>
+  <path d="M600 1330 L600 1360" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <g transform="translate(90,1375)">
+    <rect x="0" y="0" width="750" height="105" rx="22" fill="#f6f6f6" stroke="#222222" stroke-width="2"/>
+    <circle cx="67" cy="52.5" r="38" fill="#111111"/><text x="67" y="54" class="jp num">8</text>
+    <text x="130" y="46" class="jp gate-title">復元・再生産</text><text x="130" y="82" class="jp gate-desc">AIを外して戻れ、次の訂正者を育てられるか。</text>
+    <path d="M770 52 L815 52" class="arrow" marker-end="url(#arrowhead)"/>
+    <rect x="835" y="0" width="275" height="105" rx="22" fill="#111111"/>
+    <text x="972" y="54" class="jp result">作動した訂正</text>
+  </g>
+
+  <text x="600" y="1540" class="jp note">どこか一つが閉じれば、他が形式上残っていても訂正は作動しない。</text>
+</svg>
