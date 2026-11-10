@@ -230,6 +230,7 @@ alignment-by-identity/
 ├─ constitution/
 │  └─ ethical-ai-constitution.md
 ├─ metadata/
+│  ├─ citation-ledger.json
 │  └─ ethical-ai-constitution-l1-order.json
 ├─ archive/
 │  └─ editorial-notes/

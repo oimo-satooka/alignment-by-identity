@@ -205,9 +205,11 @@ alignment-by-identity/
 ├─ constitution/
 │  └─ ethical-ai-constitution.md
 ├─ metadata/
+│  ├─ citation-ledger.json
 │  └─ ethical-ai-constitution-l1-order.json
 ├─ archive/
 │  └─ editorial-notes/
+│  　├─ opus4.7-metadata-lineage-comment.md
 │     └─ ethical-ai-constitution-v3.1.json
 ├─ letters/
 │  └─ open-letter-to-future-intelligence.md
